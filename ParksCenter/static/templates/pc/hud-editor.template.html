@@ -1,0 +1,43 @@
+<div class="parkscenter-hud">
+	<div class="sidebar">
+		<div class="item-list">
+			<div class="thumbnail">
+				<img ng-src="{{$root.showData[$ctrl.curIndex].thumbnail}}" fallback="{{ $root.STATIC_BASE }}images/wdwntLogo.png"/>
+			</div>
+			<div class="clock">
+				Duration: <input title="Duration" type="number" ng-model="$root.showData[$ctrl.curIndex].duration" style="width: 100px"> sec
+			</div>
+			<div class="header">
+				Show length: {{$ctrl.getShowDuration()}}
+			</div>
+			<div ng-repeat="item in $root.showData" class="short-name" ng-class="$ctrl.getItemState($index)" ng-click="$ctrl.curIndex = $index">
+				<input title="Short name" placeholder="Title {{$index+1}}" type="text" ng-model="item.shortName">
+			</div>
+			<div class="logo">
+				<img src="{{ $root.STATIC_BASE }}images/parksCenter.png"/>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="body"></div>
+		<div class="footer" id="footer">
+			<input title="Long name" type="text" ng-model="$root.showData[$ctrl.curIndex].longName" placeholder="Description {{$ctrl.curIndex+1}}">
+		</div>
+	</div>
+</div>
+<hr>
+<div>
+	<md-button class="md-raised md-primary" ng-click="$ctrl.gotoShow()">Start show</md-button>
+</div>
+<hr>
+<div style="width: 100%; display: flex">
+	<div style="flex: 1">
+		JSON dump:
+		<textarea title="JSON dump" style="width: calc(100% - 10px); height: 600px">{{$root.showData | json}}</textarea>
+	</div>
+	<div style="flex: 1">
+		Load JSON:<br>
+		<textarea placeholder="Paste JSON here to load" ng-model="$ctrl.jsonInput" style="width: calc(100% - 10px); height: 555px"></textarea><br>
+		<md-button class="md-raised md-primary" ng-click="$ctrl.loadJSON()">Load</md-button>
+	</div>
+</div>
