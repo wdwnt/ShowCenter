@@ -1,0 +1,35 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html ng-app="parkscenter" lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{% static 'styles/app.css'%}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<title>ParksCenter</title>
+        <script>
+            STATIC_BASE = "{% static '' %}";
+        </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Below links retrieved from https://cdnjs.com/libraries/angular.js/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-route.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-aria.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-messages.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.js"></script>
+		<script src="{% static 'app.js' %}"></script>
+		<script src="{% static 'directives/arrow-control.directive.js' %}"></script>
+		<script src="{% static 'directives/fallback.directive.js' %}"></script>
+		<script src="{% static 'directives/contenteditable.directive.js' %}"></script>
+		<script src="{% static 'components/pc/hud-main.component.js' %}"></script>
+		<script src="{% static 'components/pc/hud-editor.component.js' %}"></script>
+		<script src="{% static 'components/vs/hud-main.component.js' %}"></script>
+		<script src="{% static 'components/vs/hud-editor.component.js' %}"></script>
+	</head>
+	<body ng-cloak>
+		<div ng-view style="height: 100%"></div>
+	</body>
+</html>

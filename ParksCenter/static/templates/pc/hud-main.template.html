@@ -1,0 +1,48 @@
+<div arrow-control="$ctrl.arrowControl[$dir]()" class="parkscenter-hud">
+	<div class="sidebar">
+		<div class="item-list">
+			<div class="thumbnail">
+				<img ng-src="{{$ctrl.getCurItem().thumbnail}}" fallback="{{ $root.STATIC_BASE }}images/wdwntLogo.png"/>
+			</div>
+			<div class="clock">
+				<span ng-show="$ctrl.clockDate">{{$ctrl.clockDate | date:'m:ss'}}&nbsp;</span>
+			</div>
+			<div class="header" ng-click="$ctrl.curIndex = -1">
+				Times Guide
+			</div>
+			<div ng-repeat="item in $root.showData"
+				class="short-name" ng-class="$ctrl.getItemState($index)"
+				ng-click="$ctrl.curIndex = $index">
+				{{item.shortName}}
+			</div>
+			<div class="logo" ng-click="$ctrl.curIndex = $root.showData.length">
+				<img src="{{ $root.STATIC_BASE }}images/parksCenter.png"/>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="body">
+			&nbsp;
+		</div>
+		<div class="footer" id="footer">
+			<span>{{$ctrl.getCurItem().longName}}</span>
+		</div>
+	</div>
+</div>
+<div style="margin-top: 10px">
+	<md-select ng-model="audioOut"
+			   ng-change="$ctrl.setAllAudioOuts(audioOut)"
+			   placeholder="Select audio output"
+			   style="width: fit-content">
+		<md-option ng-repeat="device in $ctrl.audioOuts" ng-value="device.deviceId">{{device.label}}</md-option>
+	</md-select>
+	<audio controls preload="auto" id="introAudio">
+		<source ng-src="{{ $root.STATIC_BASE }}audio/parksCenterIntro.mp3">
+	</audio>
+	<audio controls preload="auto" id="buzzer">
+		<source ng-src="{{ $root.STATIC_BASE }}audio/buzzer.mp3">
+	</audio>
+</div>
+<div ng-show="false">
+	<img ng-repeat="src in $ctrl.imageList track by $index" ng-src={{src}}>
+</div>

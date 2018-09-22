@@ -1,0 +1,13 @@
+<ul class="round round-{{model.round}} {{model.side}}">
+	<li class="spacer">&nbsp;</li>
+	<li ng-repeat-start="game in model.games track by $index" ng-show="!editable" class="game game-top {{getState(game, 'top')}}">
+		{{game.top.name}}&nbsp;<span>{{game.top.score}}</span>
+	</li>
+	<li ng-show="editable" ng-model="game.top.name" contenteditable="true" class="game game-top"></li>
+	<li class="game game-spacer">&nbsp;</li>
+	<li ng-show="!editable" class="game game-bottom {{getState(game, 'bottom')}}">
+		{{game.bottom.name}}&nbsp;<span>{{game.bottom.score}}</span>
+	</li>
+	<li ng-show="editable" ng-model="game.bottom.name" contenteditable="true" class="game game-bottom"></li>
+	<li ng-repeat-end class="spacer">&nbsp;</li>
+</ul>
