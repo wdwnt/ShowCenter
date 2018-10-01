@@ -1,6 +1,6 @@
-# Python: Getting Started
+# ShowCenter
 
-A barebones Django app, which can easily be deployed to Heroku.
+A central repository for all shows WDWNT runs - along with tools to help facilitate content creation and show promotion.
 
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
@@ -14,15 +14,13 @@ $ cd python-getting-started
 
 $ pipenv install
 
-$ createdb python_getting_started
-
 $ python manage.py migrate
 $ python manage.py collectstatic
 
 $ heroku local
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Your app should now be running on [localhost:8000](http://localhost:8000/).
 
 ## Deploying to Heroku
 
