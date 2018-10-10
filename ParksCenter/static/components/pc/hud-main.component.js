@@ -1,13 +1,15 @@
 angular.module('parkscenter')
 .component('hudMain', {
 	templateUrl: STATIC_BASE+'templates/pc/hud-main.template.html',
-	controller: function($scope, $rootScope, $location, $timeout, $filter){
-		var ctrl = this;
+	controller: function($scope, $rootScope, $location, $timeout, $filter, $q, vMix){
+		let ctrl = this;
+
+		ctrl.DEFAULT_AUDIO = "Line 1";
 		
-		var inc = function(){
+		let inc = function(){
 			ctrl.curIndex++;
 		};
-		var dec = function(){
+		let dec = function(){
 			ctrl.curIndex--;
 		};
 		ctrl.arrowControl={
@@ -18,13 +20,17 @@ angular.module('parkscenter')
 		};
 
 		ctrl.getAudioOutputs = function(){
+			let deferred = $q.defer();
+
 			ctrl.audioOuts = [];
 			navigator.mediaDevices.getUserMedia({audio: true}).then(function(){
 				navigator.mediaDevices.enumerateDevices().then(function(d){
 					ctrl.audioOuts = $filter('filter')(d, {kind: 'audiooutput'});
 					ctrl.audioOuts = $filter('orderBy')(ctrl.audioOuts, "label");
+					deferred.resolve();
 				});
 			});
+			return deferred.promise;
 		};
 		ctrl.setAllAudioOuts = function(deviceId){
 			angular.forEach(document.getElementsByTagName("audio"), function(audio){
@@ -48,7 +54,15 @@ angular.module('parkscenter')
 					ctrl.imageList.push(item.thumbnail);
 				});
 
-				ctrl.getAudioOutputs();
+				ctrl.getAudioOutputs().then(function(){
+					let audioOut = ctrl.audioOuts.find(function(e){
+						return e.label.indexOf(ctrl.DEFAULT_AUDIO)!==-1;
+					});
+					if(audioOut){
+						$scope.audioOut = audioOut.deviceId;
+						ctrl.setAllAudioOuts(audioOut.deviceId);
+					}
+				});
 
 				$scope.$watch(function(){
 					return ctrl.curIndex;
@@ -114,6 +128,25 @@ angular.module('parkscenter')
 			}else{
 				return "present";
 			}
+		};
+
+		ctrl.white = function(){
+			vMix().call("?Function=Cut&Input=3");
+		};
+
+		ctrl.intro = function(){
+			vMix().cut(3)
+				.wait(1000)
+				.cut(4)
+				.wait(11000)
+				.fade(6)
+				.then(function(){
+					document.getElementById("introAudio").play();
+				})
+				.wait(8250)
+				.fade(7, 1000)
+				.wait(8000)
+				.fade(6, 1000);
 		};
 	}
 });

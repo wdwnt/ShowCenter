@@ -1,4 +1,4 @@
-angular.module('parkscenter', ['ngRoute', 'ngMaterial'])
+angular.module('parkscenter', ['ngRoute', 'ngMaterial', 'vMix'])
 .config(function($routeProvider, $mdThemingProvider){
 	$routeProvider
         .when('/pc/edit', {
