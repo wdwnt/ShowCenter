@@ -131,22 +131,22 @@ angular.module('parkscenter')
 		};
 
 		ctrl.white = function(){
-			vMix().call("?Function=Cut&Input=3");
+			vMix().cut("White");
 		};
 
 		ctrl.intro = function(){
-			vMix().cut(3)
+			vMix().cut("White")
 				.wait(1000)
-				.cut(4)
+				.cut("WDWNT Intro Video")
 				.wait(11000)
-				.fade(6)
+				.fade("Virtual - Me")
 				.then(function(){
 					document.getElementById("introAudio").play();
 				})
 				.wait(8250)
-				.fade(7, 1000)
+				.fade("ParksCenter Logo", 1000)
 				.wait(8000)
-				.fade(6, 1000);
+				.fade("Virtual - All the panelists", 1000);
 		};
 	}
 });

@@ -8,11 +8,13 @@ angular.module('vMix', [])
                 VMIX_LOCATION = url;
             }
 
+            let NAME_INPUT_MAP = {};
+
             let call = function(params){
                 let defer = $q.defer();
 
-                $http.get(VMIX_LOCATION+params).then(function(){
-                    defer.resolve();
+                $http.get(VMIX_LOCATION+params).then(function(result){
+                    defer.resolve(result);
                 }, function(){
                     defer.reject();
                 });
@@ -23,8 +25,8 @@ angular.module('vMix', [])
             let wait = function(duration){
                 let defer = $q.defer();
 
-                $timeout(function(){
-                    defer.resolve();
+                $timeout(function(result){
+                    defer.resolve(result);
                 }, duration);
 
                 return wrap(defer.promise);
@@ -58,6 +60,14 @@ angular.module('vMix', [])
                 }
             };
 
-            return wrap($q.resolve(url));
+            return call("").then(function(response){
+                let doc = new DOMParser().parseFromString(response.data, "text/xml");
+                let inputs = doc.children[0].getElementsByTagName("inputs")[0].children;
+                angular.forEach(inputs, function(input){
+                    let title = input.getAttribute("title");
+                    NAME_INPUT_MAP[title] = input.getAttribute("number");
+                });
+                return doc;
+            });
         };
     });
