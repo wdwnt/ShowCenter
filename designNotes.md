@@ -1,7 +1,7 @@
 Workflow Actions
 ================
 * (required) create youtube live event - including tagging and thumbnail
-* (required) embedding in the wdwntunes page in wordpress (and also the wigs-only version) - multiple videos embedded at a time
+* (required) embedding in the wdwntunes page in wordpress (and also the wigs-only version) - multiple videos embedded at a time (see https://github.com/wdwnt/ShowCenter/issues/1)
 * (wanted) making a wordpress post
 * (wanted) make a post in slack
 * (wanted) tweeting
