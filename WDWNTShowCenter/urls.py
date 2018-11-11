@@ -3,10 +3,11 @@ from django.urls import path
 
 from django.contrib import admin
 
-admin.autodiscover()
-
 import ShowCenter.urls
 import ParksCenter.urls
+import FanlyFeud.urls
+
+admin.autodiscover()
 
 # Examples:
 # url(r'^$', 'WDWNTShowCenter.views.home', name='home'),
@@ -15,5 +16,6 @@ import ParksCenter.urls
 urlpatterns = [
     path('', include(ShowCenter.urls)),
     path('parkscenter/', include(ParksCenter.urls)),
+    path('ff/', include(FanlyFeud.urls)),
     path('admin/', admin.site.urls),
 ]
