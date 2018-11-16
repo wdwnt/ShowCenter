@@ -1,11 +1,12 @@
-angular.module('fanlyfeud', ['ngRoute', 'ngMaterial', 'vMix'])
+angular.module('fanlyfeud', ['ngRoute', 'ngMaterial', 'broadcastChannel'])
+.constant('BROADCAST_CHANNEL', 'fanlyfeud')
 .config(function($routeProvider, $mdThemingProvider){
 	$routeProvider
         .when('/cp', {
             template: '<control-panel></control-panel>'
         })
     	.otherwise({
-    		template: '<fanly-feud></fanly-feud>'
+    		template: '<fanly-feud-splash></fanly-feud-splash>'
     	});
 	
 	$mdThemingProvider.theme('default')
