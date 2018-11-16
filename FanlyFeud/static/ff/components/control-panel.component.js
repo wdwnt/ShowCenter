@@ -1,9 +1,10 @@
 angular.module('fanlyfeud')
 .component('controlPanel', {
 	templateUrl: STATIC_BASE+'templates/control-panel.template.html',
-	controller: function(broadcastChannel){
+	controller: function($scope, broadcastBinding){
 		let ctrl = this;
-		ctrl.channel = broadcastChannel();
-		ctrl.channel.send("test", "Test content");
+		ctrl.state = 'preshow';
+		$scope.content = {text: 'hey'};
+		broadcastBinding($scope, undefined, "content");
 	}
 });
