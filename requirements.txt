@@ -1,0 +1,8 @@
+google-api-python-client
+google-auth
+google-auth-httplib2
+Django
+gunicorn
+django-heroku
+whitenoise
+jsonfield
