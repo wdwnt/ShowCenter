@@ -1,6 +1,9 @@
 import argparse
+import functools
 from pprint import pprint
+from datetime import datetime, timedelta, timezone
 
+from dateutil.parser import parse
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
@@ -49,15 +52,46 @@ class YoutubeBroadcasts(object):
                 list_broadcasts_request, list_broadcasts_response)
         return result
 
-    def get_broadcasts(self):
+    @staticmethod
+    def _live_broadcasts(all_broadcasts):
+        return [x for x in all_broadcasts if x['live_status'] in ('live', 'liveStarting')]
+
+    @staticmethod
+    def _next_day_upcoming(all_broadcasts):
+        today = datetime.now(timezone.utc)
+        tomorrow = today + timedelta(days=1)
+        return [x for x in all_broadcasts if x['live_status'] in ('created', 'ready')
+                and parse(x['air_time']) > today and parse(x['air_time']) < tomorrow]
+
+    @staticmethod
+    def _last_completed(all_broadcasts):
+        return max(filter(lambda x: x['live_status'] == 'complete', all_broadcasts),
+                   key=lambda x:parse(x['air_time']))
+
+    def get_broadcasts(self, show_unlisted=False):
         all_broadcasts = []
-        for status in self.valid_statuses:
+        # for status in self.valid_statuses:
+        for status in ('all',):
             try:
                 all_broadcasts.extend(self.list_broadcasts(status))
             except HttpError as e:
                 print('An HTTP error {} occurred:\n{}'.format(e.resp.status, e.content))
-        # Do some formatting stuff
-        return all_broadcasts
+        all_objs = []
+        video_for_id = {}
+        for x in all_broadcasts:
+            if not show_unlisted and x['status']['privacyStatus'] == 'unlisted':
+                continue
+            obj = {'air_time': x['snippet']['scheduledStartTime'],
+                   'live_status': x['status']['lifeCycleStatus'],
+                   'privacy': x['status']['privacyStatus'], 'id': x['id']}
+            video_for_id[x['id']] = x
+            all_objs.append(obj)
+        result = {
+            'live': self._live_broadcasts(all_objs),
+            'upcoming': self._next_day_upcoming(all_objs),
+            'completed': self._last_completed(all_objs)
+        }
+        return result
 
 
 if __name__ == '__main__':
