@@ -1,0 +1,11 @@
+<span ng-show="false">
+    <audio ng-repeat="(key, id) in $ctrl.SOUNDS" preload="auto" id="{{ id }}">
+		<source ng-src="{{ $ctrl.SOUND_URLS[key] }}">
+	</audio>
+</span>
+<div ng-show="$ctrl.showStrikes" class="strikes-holder">
+    <div>
+        <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
+    </div>
+</div>
+<div class="board-points" style="width: fit-content">HELLO FOLKS, THIS IS A WORK IN PROGRESS</div>

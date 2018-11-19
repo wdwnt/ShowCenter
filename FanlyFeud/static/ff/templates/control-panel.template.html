@@ -1,9 +1,98 @@
-<div ng-if="$ctrl.state='preshow'">
-    <input ng-model="content.text">
+<h4>Teams:</h4>
+<div style="display: flex">
+    <div style="margin-right: 10px" ng-repeat="(_, team) in $ctrl.show.teams">
+        <div style="display: flex">Name: <input ng-model="team.name"></div>
+        <div style="display: flex">Points: <input ng-model="team.points"></div>
+        Members:
+        <div ng-repeat="member in team.members track by $index" style="display: flex">
+            <input ng-model="team.members[$index]">
+            <a style="color: red" ng-click="team.members.splice($index, 1)">X</a>
+        </div>
+        <md-button class="md-raised md-primary" ng-click="team.members.push('')">Add member</md-button>
+    </div>
 </div>
-<div ng-if="$ctrl.state='main round'">
-
+<hr>
+<div ng-if="$ctrl.show.state===$root.SHOW_STATES.PRESHOW">
+    <div style="display: flex">
+        <md-button class="md-raised md-primary" ng-click="$ctrl.queue($root.QUEUE.PLAY_OPENING)">Play opening</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.queue($root.QUEUE.START_SHOW)">Start show</md-button>
+    </div>
+    <h4>Survey editor</h4>
+    <div ng-init="curRound=0" style="display: flex">
+        Round:
+        <button ng-click="curRound=curRound-1" ng-disabled="curRound<=0">-</button>
+        {{ curRound+1 }}
+        <button ng-click="curRound=curRound+1" ng-disabled="curRound>=4">+</button>
+    </div>
+    <div style="display: flex">
+        <div ng-if="!$ctrl.show.main.surveyData[curRound]" style="width: 520px">
+            Create new blank survey with <input ng-model="answers" size="1"> answers:
+            <button ng-click="$ctrl.show.main.surveyData[curRound] = $ctrl.createSurveyQuestion(answers)">Go</button>
+        </div>
+        <div ng-if="$ctrl.show.main.surveyData[curRound]" style="width: 520px">
+            <textarea style="width: 500px; height: 2.4em" ng-model="$ctrl.show.main.surveyData[curRound].question"></textarea>
+            <div style="width: 500px; height: 100px; display: flex; flex-wrap: wrap; flex-direction: column">
+                <div ng-repeat="answer in $ctrl.show.main.surveyData[curRound].answers" style="width: 250px; height: 25px">
+                    <input ng-model="answer.answer" style="width: 190px">
+                    <input ng-model="answer.points" style="width: 45px">
+                </div>
+            </div>
+        </div>
+        <div style="width: 520px">
+            Load from text: (CSV; first line is question, rest are answer, points)<br>
+            <textarea ng-model="textDump" style="width: 500px; height: 100px"></textarea><br>
+            <md-button ng-click="$ctrl.loadRoundFromText(curRound, textDump); textDump=''" class="md-raised md-primary">Load</md-button>
+        </div>
+    </div>
 </div>
-<div ng-if="$ctrl.state='fast money'">
-
+<div ng-if="$ctrl.show.state===$root.SHOW_STATES.MAIN_ROUND">
+    <div ng-if="$ctrl.show.main.surveyData[$ctrl.show.main.currentRound]" style="width: 520px">
+        <textarea style="width: 500px; height: 2.4em" ng-model-options="{debounce: 500}" ng-model="$ctrl.show.main.surveyData[$ctrl.show.main.currentRound].question"></textarea>
+        <div style="width: 500px; height: 100px; display: flex; flex-wrap: wrap; flex-direction: column">
+            <div ng-repeat="answer in $ctrl.show.main.surveyData[$ctrl.show.main.currentRound].answers" style="width: 250px; height: 25px">
+                <input ng-model="answer.answer" ng-model-options="{debounce: 500}" style="width: 190px">
+                <input ng-model="answer.points" ng-model-options="{debounce: 500}" style="width: 45px">
+                <button ng-click="$ctrl.toggleAnswerVisible($index)" style="background-color: {{ answer.isAnswerRevealed?'green':'red' }}">&nbsp;</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    Strikes: <input ng-model="$ctrl.show.main.strikes">
+    <div style="display: flex">
+        <md-button ng-click="$ctrl.queue($root.QUEUE.ADD_STRIKE)" class="md-raised md-primary">Add a strike</md-button>
+        <md-button ng-click="$ctrl.queue($root.QUEUE.SHOW_STRIKE)" class="md-raised md-primary">Show strike, but don't add one</md-button>
+    </div>
+    <br>
+    <div style="display: flex">
+        <md-button ng-click="$ctrl.queue($root.QUEUE.AWARD_POINTS, 'left')" class="md-raised md-primary">Award points to {{ $ctrl.show.teams.left.name }}</md-button>
+        <md-button ng-click="$ctrl.queue($root.QUEUE.AWARD_POINTS, 'right')" class="md-raised md-primary">Award points to {{ $ctrl.show.teams.right.name }}</md-button>
+    </div>
+    <br>
+    <div style="display: flex">
+        <md-button ng-click="$ctrl.queue($root.QUEUE.NEXT_ROUND)" class="md-raised md-primary">Start next round</md-button>
+        <md-button ng-click="$ctrl.queue($root.QUEUE.END_GAME)" class="md-raised md-primary">End the game</md-button>
+    </div>
+</div>
+<div ng-if="$ctrl.show.state===$root.SHOW_STATES.FAST_MONEY">
+    <h4>Fast Money isn't currently implemented.</h4>
+</div>
+<hr>
+<span ng-if="$ctrl.show.errorLog.length>0">
+    <h4>ERRORS:</h4>
+    <div ng-repeat="err in $ctrl.show.errorLog track by $index" style="color: red">
+        {{err}} <a ng-click="team.members.splice($index, 1)">X</a>
+    </div>
+    <hr>
+</span>
+<md-button class="md-raised md-primary" ng-click="$ctrl.resetShow()">Reset show</md-button>
+<div style="display: flex">
+    <div style="flex: 1">
+        JSON dump:
+        <textarea title="JSON dump" style="width: calc(100% - 10px); height: 600px">{{$ctrl.show | json}}</textarea>
+    </div>
+    <div style="flex: 1">
+        Load JSON:<br>
+        <textarea placeholder="Paste JSON here to load" ng-model="$ctrl.jsonInput" style="width: calc(100% - 10px); height: 555px"></textarea><br>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.loadJSON()">Load</md-button>
+    </div>
 </div>
