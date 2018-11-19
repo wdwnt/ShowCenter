@@ -4,7 +4,8 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="{% static 'ff/styles/app.css'%}">
+		<link rel="stylesheet" href="{% static 'ff/styles/app.css' %}">
+        <link rel="stylesheet" href="../../static/ff/styles/fonts.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -22,9 +23,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.js"></script>
 		<script src="{% static 'ff/app.js' %}"></script>
         <script src="{% static 'ff/util.module.js' %}"></script>
-		<script src="{% static 'ff/directives/arrow-control.directive.js' %}"></script>
+
+        <script src="{% static 'ff/directives/arrow-control.directive.js' %}"></script>
 		<script src="{% static 'ff/directives/fallback.directive.js' %}"></script>
 		<script src="{% static 'ff/directives/contenteditable.directive.js' %}"></script>
+
 		<script src="{% static 'ff/services/broadcastChannel.service.js' %}"></script>
 		<script src="{% static 'ff/components/fanly-feud-splash.component.js' %}"></script>
 		<script src="{% static 'ff/components/control-panel.component.js' %}"></script>
