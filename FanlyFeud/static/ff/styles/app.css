@@ -1,3 +1,19 @@
+.fanly-feud {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+}
+
+.fanly-feud .shadow{
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+/* Strikes */
+
 .strikes-holder{
     position: absolute;
     width: 100vw;
@@ -21,4 +37,115 @@
     color: yellow;
     padding: 5px;
     letter-spacing: 1px;
+}
+
+/* Teams */
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.team .board-points{
+    width: 70px;
+    white-space: pre;
+    text-align: center;
+}
+
+.team .team-name{
+    font-size: 24pt;
+}
+
+/* Board */
+
+.board{
+    --answer-width: 250px;
+    --answer-height: 60px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(var(--answer-width) * 2);
+    height: calc(var(--answer-height) * 4);
+}
+
+.answer{
+    width: var(--answer-width);
+    height: var(--answer-height);
+    overflow: hidden;
+    border: solid beige 2px;
+    box-sizing: border-box;
+}
+
+.answer div{
+    height: 100%;
+}
+
+.answer-blank{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32pt;
+    color: red;
+    background-color: gold;
+    width: 100%;
+    text-align: center;
+}
+
+.answer-exists{
+    position: relative;
+    font-size: 22pt;
+}
+
+.answer-cover{
+    color: white;
+    background-color: orange;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.answer-cover-buffer{
+    content: "\00a0";
+    display: inline-block;
+    background-color: cornflowerblue;
+    border: solid black 1px;
+    width: 100px;
+    height: calc(var(--answer-height) - 40px) !important;
+    margin-top: 6px;
+}
+
+.answer-cover-visible{
+    top: 0;
+}
+
+.answer-cover-hidden{
+    top: var(--answer-height);
+    transition-property: top;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.answer-body{
+    display: flex;
+    background-color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.answer-body>div{
+    margin-top: 8px;
+}
+
+.answer-text{
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+}
+
+.answer-points{
+    width: 50px;
+    text-align: center;
+    color: gold;
 }

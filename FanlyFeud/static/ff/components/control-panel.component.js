@@ -1,7 +1,7 @@
 angular.module('fanlyfeud')
 .component('controlPanel', {
 	templateUrl: STATIC_BASE+'templates/control-panel.template.html',
-	controller: function($scope, broadcastBinding, times, SHOW_STATES){
+	controller: function($scope, broadcastBinding, times, SHOW_STATES, QUEUE){
 		let ctrl = this;
 
 		const DEFAULT_TEAM_DATA = {
@@ -87,7 +87,7 @@ angular.module('fanlyfeud')
 				answer.revealed = false;
 				ctrl.show.main.pointsOnBoard -= answer.points * ctrl.currentPointMultiplier();
 			}else{
-				ctrl.show.queue.push(QUEUE.SHOW_ANSWER);
+				ctrl.show.queue.push(QUEUE.SHOW_ANSWER, index);
 			}
 		};
 

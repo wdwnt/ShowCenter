@@ -64,8 +64,6 @@ angular.module('fanlyfeud')
 			let main = (ctrl.show && ctrl.show.main) || null;
 			let curSurvey = (main && main.surveyData[main.currentRound]) || null;
 
-			console.log(command);
-			console.log(QUEUE);
 			switch (command) {
 				case QUEUE.PLAY_OPENING:
 					playSound(SOUNDS.OPENING_THEME);
@@ -78,7 +76,10 @@ angular.module('fanlyfeud')
 					let answerToShow = getQueue();
 					playSound(SOUNDS.DING);
 					curSurvey.answers[answerToShow].revealed = true;
-					main.pointsOnBoard += curSurvey.answers[answerToShow].points * ctrl.currentPointMultiplier();
+					if(ctrl.show.main.strikes < 3){
+						//Because if there's 3 strikes, this MUST be the attempt to steal, so don't add the points.
+						main.pointsOnBoard += curSurvey.answers[answerToShow].points * ctrl.currentPointMultiplier();
+					}
 					break;
 				case QUEUE.ADD_STRIKE:
 					main.strikes++;
@@ -108,6 +109,25 @@ angular.module('fanlyfeud')
 		ctrl.currentPointMultiplier = function(){
 			let round = (ctrl.show && ctrl.show.main && ctrl.show.main.currentRound) || 0;
 			return Math.min(1, round - 1); //for first 3 rounds, multipler is 1; 4th is 2; 5th is 3.
+		};
+
+		ctrl.getAnswer = function(index){
+			if(!ctrl.show || !ctrl.show.main){
+				return null;
+			}
+
+			let main = ctrl.show.main;
+			let data = main.surveyData[main.currentRound];
+			if(!data){
+				return null;
+			}
+
+			let answer = data.answers[index];
+			if(!answer){
+				return null;
+			}
+
+			return answer;
 		};
 
 		ctrl.$onInit = function() {

@@ -49,10 +49,10 @@
     <div ng-if="$ctrl.show.main.surveyData[$ctrl.show.main.currentRound]" style="width: 520px">
         <textarea style="width: 500px; height: 2.4em" ng-model-options="{debounce: 500}" ng-model="$ctrl.show.main.surveyData[$ctrl.show.main.currentRound].question"></textarea>
         <div style="width: 500px; height: 100px; display: flex; flex-wrap: wrap; flex-direction: column">
-            <div ng-repeat="answer in $ctrl.show.main.surveyData[$ctrl.show.main.currentRound].answers" style="width: 250px; height: 25px">
+            <div ng-repeat="answer in $ctrl.show.main.surveyData[$ctrl.show.main.currentRound].answers" style="width: 300px; height: 25px">
                 <input ng-model="answer.answer" ng-model-options="{debounce: 500}" style="width: 190px">
                 <input ng-model="answer.points" ng-model-options="{debounce: 500}" style="width: 45px">
-                <button ng-click="$ctrl.toggleAnswerVisible($index)" style="background-color: {{ answer.isAnswerRevealed?'green':'red' }}">&nbsp;</button>
+                <button ng-click="$ctrl.toggleAnswerVisible($index)" style="background-color: {{ answer.revealed?'green':'red' }}">&nbsp;</button>
             </div>
         </div>
     </div>

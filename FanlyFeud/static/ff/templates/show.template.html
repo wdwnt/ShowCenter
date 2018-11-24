@@ -1,11 +1,46 @@
-<span ng-show="false">
-    <audio ng-repeat="(key, id) in $ctrl.SOUNDS" preload="auto" id="{{ id }}">
-		<source ng-src="{{ $ctrl.SOUND_URLS[key] }}">
-	</audio>
-</span>
-<div ng-show="$ctrl.showStrikes" class="strikes-holder">
-    <div>
-        <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
+<div class="fanly-feud">
+    <span ng-show="false">
+        <audio ng-repeat="(key, id) in $ctrl.SOUNDS" preload="auto" id="{{ id }}">
+            <source ng-src="{{ $ctrl.SOUND_URLS[key] }}">
+        </audio>
+    </span>
+    <div ng-show="$ctrl.showStrikes" class="strikes-holder">
+        <div>
+            <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
+        </div>
+    </div>
+    <div ng-show="false" class="board-points" style="width: fit-content">HELLO FOLKS, THIS IS A WORK IN PROGRESS</div>
+
+    <div ng-show="$ctrl.show.state === $root.SHOW_STATES.PRESHOW">
+        TODO: looks like the board view, but logo in the center instead of question
+    </div>
+    <div ng-show="$ctrl.show.state === $root.SHOW_STATES.MAIN_ROUND">
+        <div style="display: flex; align-items: center">
+            <team conf="$ctrl.show.teams.left"></team>
+            <div class="board">
+                <div class="answer" ng-repeat="index in [0,1,2,3,4,5,6,7]">
+                    <div ng-if="!$ctrl.getAnswer(index)"
+                         class="answer-blank">
+                        X X X X X
+                    </div>
+                    <div ng-if="$ctrl.getAnswer(index)"
+                         class="answer-exists">
+                        <div class="shadow answer-cover {{ $ctrl.getAnswer(index).revealed?'answer-cover-hidden':'answer-cover-visible' }}">
+                            <div class="answer-cover-buffer"></div>
+                            <div class="answer-cover-number" ng-bind="index"></div>
+                            <div class="answer-cover-buffer"></div>
+                        </div>
+                        <div class="answer-body">
+                            <div class="answer-text" ng-bind="$ctrl.getAnswer(index).answer"></div>
+                            <div class="answer-points" ng-bind="$ctrl.getAnswer(index).points"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <team conf="$ctrl.show.teams.right"></team>
+        </div>
+    </div>
+    <div ng-show="$ctrl.show.state === $root.SHOW_STATES.END_SCREEN">
+        TODO: looks like preshow screen
     </div>
 </div>
-<div class="board-points" style="width: fit-content">HELLO FOLKS, THIS IS A WORK IN PROGRESS</div>
