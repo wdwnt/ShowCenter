@@ -1,7 +1,7 @@
 .fanly-feud {
     width: 100%;
     height: 100%;
-    background-color: orange;
+    background-color: #ffc106;
 }
 
 .fanly-feud .shadow{
@@ -16,10 +16,9 @@
 
 .strikes-holder{
     position: absolute;
-    width: 100vw;
-    height: 60vh;
     display: flex;
     justify-content: space-around;
+    z-index: 10;
 }
 
 .strikes-holder>div{
@@ -27,16 +26,8 @@
     display: flex;
 }
 .strikes-holder .strike{
-    height: 100%;
-}
-
-.board-points{
-    font-family: 'ferranti88regular', 'Lucida Console', Monaco, monospace;
-    font-size: 28pt;
-    background-color: black;
-    color: yellow;
-    padding: 5px;
-    letter-spacing: 1px;
+    width: 250px;
+    height: inherit;
 }
 
 /* Teams */
@@ -46,16 +37,36 @@
     flex-direction: column;
     align-items: center;
     margin: 0 10px;
-}
-
-.team .board-points{
-    width: 70px;
-    white-space: pre;
-    text-align: center;
+    background-color: #ffd31b;
+    padding: 5px;
+    border: solid black 2px;
 }
 
 .team .team-name{
     font-size: 24pt;
+    color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+/* Main center */
+
+.main-center{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Board placeholders */
+
+.faux-board {
+    width: 584px;
+    height: 264px;
+    border: 2px solid black;
 }
 
 /* Board */
@@ -69,13 +80,56 @@
     flex-wrap: wrap;
     width: calc(var(--answer-width) * 2);
     height: calc(var(--answer-height) * 4);
+
+    border-top: 10px solid #ecc758;
+    border-bottom: 10px solid #ecc758;
 }
+
+.board-points{
+    font-family: 'ferranti88regular', 'Lucida Console', Monaco, monospace;
+    font-size: 28pt;
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    letter-spacing: 1px;
+    width: 70px;
+    white-space: pre;
+    text-align: center;
+}
+
+.main-points{
+    border: 10px solid #ecc758;
+}
+
+.board-points-border-wrap{
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.board-text{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 32pt;
+    color: red;
+    background-color: #ecc758;
+}
+
+.board-with-bumpers{
+    display: flex;
+    border: 2px solid black;
+}
+
+.board-bumper{
+    width: 40px;
+    height: 260px;
+}
+
+/* Answers */
 
 .answer{
     width: var(--answer-width);
     height: var(--answer-height);
     overflow: hidden;
-    border: solid beige 2px;
+    border: solid #9f9279 2px;
     box-sizing: border-box;
 }
 
@@ -84,12 +138,9 @@
 }
 
 .answer-blank{
-    font-family: "Courier New", Courier, monospace;
-    font-size: 32pt;
-    color: red;
-    background-color: gold;
     width: 100%;
     text-align: center;
+    padding-top: 4px;
 }
 
 .answer-exists{
@@ -110,7 +161,7 @@
 .answer-cover-buffer{
     content: "\00a0";
     display: inline-block;
-    background-color: cornflowerblue;
+    background-color: #6bdfff;
     border: solid black 1px;
     width: 100px;
     height: calc(var(--answer-height) - 40px) !important;
@@ -135,7 +186,7 @@
 }
 
 .answer-body>div{
-    margin-top: 8px;
+    padding-top: 8px;
 }
 
 .answer-text{
@@ -148,4 +199,7 @@
     width: 50px;
     text-align: center;
     color: gold;
+    border: solid gold 4px;
+    box-sizing: border-box;
+    padding-top: 4px !important;
 }

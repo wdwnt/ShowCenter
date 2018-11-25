@@ -37,4 +37,26 @@ angular.module('fanlyfeud', ['ngRoute', 'ngMaterial', 'broadcastChannel', 'util'
 	$rootScope.STATIC_BASE = STATIC_BASE;
 	$rootScope.SHOW_STATES = SHOW_STATES;
 	$rootScope.QUEUE = QUEUE;
+}).filter('points', function(){
+	return function(points){
+		if((!points && points !== 0) || points<0){
+			return '   ';
+		}else if(points<10){
+			return ' '+points+' ';
+		}else if(points<100){
+			return ' '+points;
+		}else{
+			return points;
+		}
+	};
+}).filter('multiplier', function(){
+	return function(number){
+		if(number===3){
+			return 'TRIPLE'.split('').join('\n');
+		}else if(number===2){
+			return 'DOUBLE'.split('').join('\n');
+		}else{
+			return '';
+		}
+	};
 });

@@ -108,7 +108,7 @@ angular.module('fanlyfeud')
 
 		ctrl.currentPointMultiplier = function(){
 			let round = (ctrl.show && ctrl.show.main && ctrl.show.main.currentRound) || 0;
-			return Math.min(1, round - 1); //for first 3 rounds, multipler is 1; 4th is 2; 5th is 3.
+			return Math.max(1, round - 1); //for first 3 rounds, multipler is 1; 4th is 2; 5th is 3.
 		};
 
 		ctrl.getAnswer = function(index){
