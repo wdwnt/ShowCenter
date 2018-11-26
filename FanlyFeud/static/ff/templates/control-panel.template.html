@@ -77,6 +77,9 @@
 <div ng-if="$ctrl.show.state===$root.SHOW_STATES.FAST_MONEY">
     <h4>Fast Money isn't currently implemented.</h4>
 </div>
+<div ng-if="$ctrl.show.state===$root.SHOW_STATES.END_SCREEN">
+    <md-button ng-click="$ctrl.queue($root.QUEUE.FADE_END_THEME)" class="md-raised md-primary">Fade out the end theme</md-button>
+</div>
 <hr>
 <span ng-if="$ctrl.show.errorLog.length>0">
     <h4>ERRORS:</h4>

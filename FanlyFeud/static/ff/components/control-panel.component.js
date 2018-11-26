@@ -35,7 +35,7 @@ angular.module('fanlyfeud')
 				main: {
 					currentRound: 0,
 					strikes: 0,
-					pointsOnBoard: 0,
+					pointsOnBoard: null,
 					surveyData: []
 				},
 				/*fastMoney: {
@@ -109,8 +109,6 @@ angular.module('fanlyfeud')
 			});
 
 			broadcastBinding($scope, undefined, "$ctrl.show");
-
-			console.log($scope);
 		};
 	}
 });

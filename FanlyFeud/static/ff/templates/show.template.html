@@ -4,19 +4,26 @@
             <source ng-src="{{ $ctrl.SOUND_URLS[key] }}">
         </audio>
     </span>
-    <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(480px - {{ $ctrl.showStrikes*125 }}px)">
+    <!--
+    <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(240px - {{ $ctrl.showStrikes*125 }}px)">
         <div>
             <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
         </div>
     </div>
-    <div style="display: flex; align-items: center">
+    -->
+    <div style="display: flex; align-items: center; position: relative">
+        <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(480px - {{ $ctrl.showStrikes*125 }}px)">
+            <div>
+                <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
+            </div>
+        </div>
         <team conf="$ctrl.show.teams.left"></team>
         <div class="main-center">
             <div class="board-points-border-wrap">
                 <div class="board-points main-points" ng-bind="$ctrl.show.main.pointsOnBoard | points"></div>
             </div>
             <div class="board-with-bumpers" ng-show="$ctrl.show.state === $root.SHOW_STATES.MAIN_ROUND">
-                <div class="board-bumper board-text" ng-bind="$ctrl.currentPointMultiplier | multiplier"></div>
+                <div class="board-bumper board-text" ng-bind="$ctrl.currentPointMultiplier() | multiplier"></div>
                 <div class="board">
                     <div class="answer" ng-repeat="index in [0,1,2,3,4,5,6,7]">
                         <div ng-if="!$ctrl.getAnswer(index)"
@@ -37,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="board-bumper board-text" ng-bind="$ctrl.currentPointMultiplier | multiplier"></div>
+                <div class="board-bumper board-text" ng-bind="$ctrl.currentPointMultiplier() | multiplier"></div>
             </div>
             <div class="board-with-bumpers" ng-show="$ctrl.show.state === $root.SHOW_STATES.PRESHOW || $ctrl.show.state === $root.SHOW_STATES.END_SCREEN">
                 <img ng-src="{{ $root.STATIC_BASE+'images/feud.png'}}">

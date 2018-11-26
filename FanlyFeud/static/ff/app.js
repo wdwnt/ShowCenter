@@ -14,7 +14,8 @@ angular.module('fanlyfeud', ['ngRoute', 'ngMaterial', 'broadcastChannel', 'util'
 	SHOW_STRIKE: 4,
 	AWARD_POINTS: 5, //arg: which team gets the points
 	NEXT_ROUND: 6,
-	END_GAME: 7
+	END_GAME: 7,
+	FADE_END_THEME: 8
 	//more to come for fast money
 })
 .config(function($routeProvider, $mdThemingProvider){

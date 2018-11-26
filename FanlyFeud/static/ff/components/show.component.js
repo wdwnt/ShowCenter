@@ -4,6 +4,8 @@ angular.module('fanlyfeud')
 	controller: function($scope, broadcastBinding, $timeout, SHOW_STATES, QUEUE){
 		let ctrl = this;
 
+		const MAX_VOLUME = 0.15;
+
 		const SOUNDS = {
 			OPENING_THEME: 'openingTheme',
 			DING: 'dingSound',
@@ -16,13 +18,13 @@ angular.module('fanlyfeud')
 
 		//courtesy http://www.qwizx.com/gssfx/usa/ff.htm
 		const SOUND_URLS = {
-			OPENING_THEME: '',
+			OPENING_THEME: STATIC_BASE+'audio/feudIntro.mp3',
 			DING: STATIC_BASE+'audio/ff-clang.wav',
 			STRIKE: STATIC_BASE+'audio/ff-strike.wav',
 			ROUND_WIN: STATIC_BASE+'audio/ff-dings.wav',
-			SHORT_THEME: '',
+			SHORT_THEME: STATIC_BASE+'audio/feudShortIntro.mp3',
 			BUZZER_SOUND: STATIC_BASE+'audio/ff-ringin.wav',
-			OUT_THEME: ''
+			OUT_THEME: STATIC_BASE+'audio/openingThemeRaw.mp3'
 		};
 
 		ctrl.SOUNDS = SOUNDS;
@@ -33,12 +35,37 @@ angular.module('fanlyfeud')
 		}
 
 		function playSound(id){
-			document.getElementById(id).play();
+			let sound = document.getElementById(id);
+			sound.volume = MAX_VOLUME;
+			sound.play();
 		}
 
 		function stopSound(id){
-			document.getElementById(id).pause();
-			document.getElementById(id).currentTime = 0;
+			let sound = document.getElementById(id);
+			sound.pause();
+			sound.currentTime = 0;
+		}
+
+		function fadeOutSound(id){
+			const STEP = 0.05;
+			const DELAY = 100;
+
+			//this lets us specify STEP above as a percentage of MAX_VOLUME,
+			//without having to think about what it's currently set to
+			let actualStep = MAX_VOLUME * STEP;
+
+			let sound = document.getElementById(id);
+			let curVolume = MAX_VOLUME;
+			let quietDown = function () {
+				curVolume -= actualStep;
+				if(curVolume<=0){
+					curVolume=0;
+				}else{
+					$timeout(quietDown, DELAY);
+				}
+				sound.volume = curVolume;
+			};
+			quietDown();
 		}
 
 		function showStrikes(count){
@@ -50,11 +77,27 @@ angular.module('fanlyfeud')
 		}
 
 		function awardPoints(team){
-			//TODO
+			const DELAY = 250;
+
+			let main = ctrl.show.main;
+			let teams = ctrl.show.teams;
+
+			//calculate the new points and save it locally
+			let points = teams[team].points + main.pointsOnBoard;
+
 			// wipe the points for the round
-			// wipe the points for the team getting the points
-			// add the points to that team
-			// re-display the points for the team
+			main.pointsOnBoard = null;
+			$timeout(function(){
+				// wipe the points for the team getting the points
+				teams[team].points = null;
+				$timeout(function(){
+					// display the points again
+					teams[team].points = points;
+				}, DELAY);
+			}, DELAY);
+
+			// set the strike count to 3 - this covertly stops points from being added when showing answers
+			main.strikes = 3;
 		}
 
 		function processQueue(){
@@ -70,7 +113,11 @@ angular.module('fanlyfeud')
 					break;
 				case QUEUE.START_SHOW:
 					stopSound(SOUNDS.OPENING_THEME);
+					playSound(SOUNDS.SHORT_THEME);
 					ctrl.show.state = SHOW_STATES.MAIN_ROUND;
+					main.currentRound = 0;
+					main.strikes = 0;
+					main.pointsOnBoard = 0;
 					break;
 				case QUEUE.SHOW_ANSWER:
 					let answerToShow = getQueue();
@@ -90,6 +137,7 @@ angular.module('fanlyfeud')
 					break;
 				case QUEUE.AWARD_POINTS:
 					let team = getQueue();
+					playSound(SOUNDS.ROUND_WIN);
 					awardPoints(team);
 					break;
 				case QUEUE.NEXT_ROUND:
@@ -100,6 +148,11 @@ angular.module('fanlyfeud')
 					break;
 				case QUEUE.END_GAME:
 					playSound(SOUNDS.OUT_THEME);
+					ctrl.show.state = SHOW_STATES.END_SCREEN;
+					ctrl.show.main.pointsOnBoard = null;
+					break;
+				case QUEUE.FADE_END_THEME:
+					fadeOutSound(SOUNDS.OUT_THEME);
 					break;
 				default:
 					ctrl.show.errorLog.unshift("Unknown queue command: "+command);

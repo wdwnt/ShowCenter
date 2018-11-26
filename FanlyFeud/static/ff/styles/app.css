@@ -2,6 +2,8 @@
     width: 100%;
     height: 100%;
     background-color: #ffc106;
+    display: flex;
+    justify-content: center;
 }
 
 .fanly-feud .shadow{
@@ -108,9 +110,10 @@
 
 .board-text{
     font-family: "Courier New", Courier, monospace;
-    font-size: 32pt;
+    font-size: 28pt;
     color: red;
     background-color: #ecc758;
+    padding-left: 18px;
 }
 
 .board-with-bumpers{
