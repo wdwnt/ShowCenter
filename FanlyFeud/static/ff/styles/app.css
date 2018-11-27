@@ -54,6 +54,29 @@
 		1px 1px 0 #000;
 }
 
+@keyframes buzzer-flashing {
+    from {background-color: #ffd31b;}
+    to {background-color: yellow;}
+}
+
+.team-buzzed-in{
+    animation-name: buzzer-flashing;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes winner-flashing {
+    0% {background-color: #ffd31b;}
+    50% {background-color: yellow;}
+    100% {background-color: #ffd31b;}
+}
+
+.team-won{
+    animation-name: winner-flashing;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+
 /* Main center */
 
 .main-center{
@@ -124,6 +147,7 @@
 .board-bumper{
     width: 40px;
     height: 260px;
+    font-weight: bold;
 }
 
 /* Answers */
@@ -144,6 +168,7 @@
     width: 100%;
     text-align: center;
     padding-top: 4px;
+    padding-left: 0px;
 }
 
 .answer-exists{

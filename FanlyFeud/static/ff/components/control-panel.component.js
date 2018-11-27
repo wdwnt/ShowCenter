@@ -7,7 +7,9 @@ angular.module('fanlyfeud')
 		const DEFAULT_TEAM_DATA = {
 			name: "",
 			points: 0,
-			members: []
+			members: [],
+			buzzedIn: false,
+			winners: false
 		};
 
 		ctrl.createSurveyQuestion = function(numAnswers){

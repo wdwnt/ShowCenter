@@ -119,6 +119,15 @@ angular.module('fanlyfeud')
 					main.strikes = 0;
 					main.pointsOnBoard = 0;
 					break;
+				case QUEUE.BUZZ_IN:
+					const BUZZ_DURATION = 1000;
+					playSound(SOUNDS.BUZZER_SOUND);
+					let buzzedTeam = getQueue();
+					ctrl.show.teams[buzzedTeam].buzzedIn = true;
+					$timeout(function(){
+						ctrl.show.teams[buzzedTeam].buzzedIn = false;
+					}, BUZZ_DURATION);
+					break;
 				case QUEUE.SHOW_ANSWER:
 					let answerToShow = getQueue();
 					playSound(SOUNDS.DING);
@@ -150,6 +159,11 @@ angular.module('fanlyfeud')
 					playSound(SOUNDS.OUT_THEME);
 					ctrl.show.state = SHOW_STATES.END_SCREEN;
 					ctrl.show.main.pointsOnBoard = null;
+					if(ctrl.show.teams.left.points > ctrl.show.teams.right.points){
+						ctrl.show.teams.left.winners = true;
+					}else if(ctrl.show.teams.left.points < ctrl.show.teams.right.points){
+						ctrl.show.teams.right.winners = true;
+					}//else tie, don't tag winner
 					break;
 				case QUEUE.FADE_END_THEME:
 					fadeOutSound(SOUNDS.OUT_THEME);

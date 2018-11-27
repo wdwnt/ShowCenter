@@ -9,13 +9,14 @@ angular.module('fanlyfeud', ['ngRoute', 'ngMaterial', 'broadcastChannel', 'util'
 .constant('QUEUE',{
 	PLAY_OPENING: 0,
 	START_SHOW: 1,
-	SHOW_ANSWER: 2, //arg: which answer to show
-	ADD_STRIKE: 3,
-	SHOW_STRIKE: 4,
-	AWARD_POINTS: 5, //arg: which team gets the points
-	NEXT_ROUND: 6,
-	END_GAME: 7,
-	FADE_END_THEME: 8
+	BUZZ_IN: 2, //arg: which team buzzed in
+	SHOW_ANSWER: 3, //arg: which answer to show
+	ADD_STRIKE: 4,
+	SHOW_STRIKE: 5,
+	AWARD_POINTS: 6, //arg: which team gets the points
+	NEXT_ROUND: 7,
+	END_GAME: 8,
+	FADE_END_THEME: 9
 	//more to come for fast money
 })
 .config(function($routeProvider, $mdThemingProvider){

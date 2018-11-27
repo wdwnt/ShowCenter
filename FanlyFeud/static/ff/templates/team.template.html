@@ -1,4 +1,4 @@
-<div class="team">
+<div class="team {{ $ctrl.conf.winners?'team-won':'' }} {{ $ctrl.conf.buzzedIn?'team-buzzed-in':'' }}">
     <div class="board-points" ng-bind="$ctrl.conf.points | points"></div>
     <div class="team-name" ng-bind="$ctrl.conf.name"></div>
 </div>

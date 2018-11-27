@@ -46,6 +46,10 @@
     </div>
 </div>
 <div ng-if="$ctrl.show.state===$root.SHOW_STATES.MAIN_ROUND">
+    <div style="display: flex">
+        <md-button ng-click="$ctrl.queue($root.QUEUE.BUZZ_IN, 'left')" class="md-raised md-primary">Buzz in for {{ $ctrl.show.teams.left.name }}</md-button>
+        <md-button ng-click="$ctrl.queue($root.QUEUE.BUZZ_IN, 'right')" class="md-raised md-primary">Buzz in for {{ $ctrl.show.teams.right.name }}</md-button>
+    </div>
     <div ng-if="$ctrl.show.main.surveyData[$ctrl.show.main.currentRound]" style="width: 520px">
         Points: <input type="number" ng-model-options="{debounce: 500}" ng-model="$ctrl.show.main.pointsOnBoard">
         <textarea style="width: 500px; height: 2.4em" ng-model-options="{debounce: 500}" ng-model="$ctrl.show.main.surveyData[$ctrl.show.main.currentRound].question"></textarea>
