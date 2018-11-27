@@ -1,0 +1,20 @@
+<html>
+<head>
+	<script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+	<script type='text/javascript' src='dice-roller/d6.js'></script>
+	<link rel="stylesheet" type="text/css" href="./dice.css" />
+<body>
+            <table id="dice-table">
+                <tr>
+                    <td><script type="text/javascript">
+                        D6.setBaseUrl('dice-roller/');
+                        D6.dice(1);
+                        D6.setButtonLabel('Roll the dice!');
+                        $('.die').css('width', '200px');
+                        D6.roll();
+                    </script></td>
+                </tr>
+            </table>
+
+</body>
+</html>

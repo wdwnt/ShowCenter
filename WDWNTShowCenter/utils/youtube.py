@@ -86,6 +86,7 @@ class YoutubeBroadcasts(object):
                    'privacy': x['status']['privacyStatus'], 'id': x['id']}
             video_for_id[x['id']] = x
             all_objs.append(obj)
+        pass
         result = {
             'live': self._live_broadcasts(all_objs),
             'upcoming': self._next_day_upcoming(all_objs),
@@ -102,4 +103,4 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     yb = YoutubeBroadcasts(args.client_id, args.client_secret, args.refresh_token)
-    pprint(yb.get_broadcasts())
+    pprint(yb.get_broadcasts(show_unlisted=True))
