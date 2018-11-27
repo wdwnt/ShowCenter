@@ -125,7 +125,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'DiceTree'),
+    os.path.join(BASE_DIR, 'MapGame'),
+    os.path.join(BASE_DIR, 'MatchGame'),
+    os.path.join(BASE_DIR, 'ParksPursuit'),
 )
-
 django_heroku.settings(locals())
