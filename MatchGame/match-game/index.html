@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>WDWNT - The Match Game</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./match.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		  <div class="col-sm-6">
+			  <div class="row">
+				  <div class="col-sm-12">
+				  	<div id="panelists"></div>
+				  </div>
+			  </div>
+		  </div>
+		  <div class="col-sm-6 col-centered">
+			  <div id="scores">
+		  	<h4 style="color:green" contenteditable="true">Player 1</h4><div id="triangle-score">0</div>
+		  	<h4 style="color:red" contenteditable="true">Player 2</h4><div id="circle-score">0</div>
+			  </div>
+<!-- 		  	<img id="board" class="noselect" data-draggable="target" src="wdwnewstonight.jpg" alt="" / >-->
+<!--		  	<img id="board" class="noselect" data-draggable="target" src="wigs.png" alt="" /> -->
+			  	<img id="board" class="noselect" data-draggable="target" src="logo-11th.png" alt="" />
+<!-- 			  	<img id="board" class="noselect" data=draggable="target" src="wdwnt_tft_2017.png" alt="" /> -->
+		  </div>
+
+		</div>
+	</div>
+	<script id="panelist-template" type="text/x-handlebars-template">
+		{{#each panelists}}
+		<div class="row">
+			<div class="col-sm-12 panelists">
+				<div class="panelist">
+					<div class="green-light-box light-cell">
+						<img src="wdwnt.png" class="light-box left-off-box"/>
+						<img src="green_triangle.png" class="light-box left-on-box triangle" style="display: none"/>
+					</div>
+					<div class="panelist-name">
+						<p align="center" contenteditable="true">{{name}}</p>
+					</div>
+					<div class="red-light-box light-cell">
+						<img src="wdwnt.png" class="light-box"/>
+						<img src="red_circle.png" class="light-box circle" style="display: none"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+
+		<script>
+		$(".light-cell img").click(function() {
+		    $(this).parent().find('img').toggle();
+		    $('#triangle-score').text($(".triangle:visible").length);
+		    $('#circle-score').text($(".circle:visible").length);
+		});
+		</script>
+
+	</script>
+	<script>
+
+		var panelists = [
+			{ name: "CHRIS"},
+			{ name: "ALISON"},
+			{ name: "NATHAN"},
+			{ name: "BEN"},
+			{ name: "JASON"},
+			{ name: "MATTHEW"},
+			{ name: "TOM"}
+		];
+
+		$(function() {
+			var template = Handlebars.compile($("#panelist-template").html());
+			var html = template({ panelists: panelists });
+        	$("#panelists").html(html);
+		});
+	
+	</script>
+</body>
+</html>

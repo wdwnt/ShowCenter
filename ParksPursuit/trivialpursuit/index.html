@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Disney Parks Pursuit</title>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/gamepieces.css">
+    <link rel="stylesheet" type="text/css" href="css/wedges.css">
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+
+    <script type="text/javascript" src="scripts/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="scripts/gamescripts.js"></script>
+    <script type='text/javascript' src='dice-roller/d6.js'></script>
+</head>
+<body>
+  <div id="window-container">
+    <div id="game-container">
+
+        <div id="board-left">
+            <img id="logo" class="noselect" src="images/dpplogo.png" alt="" />
+
+            <br />
+
+            <table id="score-table">
+                <tr>
+                    <th>Players</th>
+                    <th>
+                        <span id="w0" class="wedge wedge0" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w1" class="wedge wedge1" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w2" class="wedge wedge2" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w3" class="wedge wedge3" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w4" class="wedge wedge4" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                        <span id="w5" class="wedge wedge5" draggable="true" data-draggable="master-wedge">&#9660;</span>
+                    </th>
+                </tr>
+                <tr><td style="color:cornflowerblue" contenteditable="true">Player 1</td>	<td id="t0"></td></tr>
+                <tr><td style="color:darkorange" contenteditable="true">Player 2</td>    	<td id="t1"></td></tr>
+                <tr><td style="color:deeppink" contenteditable="true">Player 3</td>        	<td id="t2"></td></tr>
+                <tr><td style="color:green" contenteditable="true">Player 4</td>          	<td id="t3"></td></tr>
+                <!--
+                <tr><td style="color:gold" contenteditable="true">Player 5</td>          	<td id="t4"></td></tr>
+                <tr><td style="color:red" contenteditable="true">Player 6</td>              <td id="t5"></td></tr>
+                -->
+            </table>
+
+            <br />
+
+            <table id="dice-table">
+                <tr>
+                    <td><script type="text/javascript">
+                        D6.setBaseUrl('dice-roller/');
+                        D6.dice(1);
+                        D6.setButtonLabel('Roll the dice!');
+                        $('.die').css('width', '50px');
+                        D6.roll();
+                    </script></td>
+                </tr>
+            </table>
+
+            <br />
+
+        </div>
+
+        <div id="board-right">
+            <img id="board" class="noselect" data-draggable="target" src="images/game-night-logo_white.png" alt="" />
+
+            <!--
+            <table id="pieces-table">
+                <tr>
+                    <td><div id="p0" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:cornflowerblue"></div></td>
+                    <td><div id="p1" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:darkorange"></div></td>
+                    <td><div id="p2" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:deeppink"></div></td>
+                    <td><div id="p3" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:green"></div></td>
+                    <td><div id="p4" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:gold"></div></td>
+                    <td><div id="p5" class="gamepiece" draggable="true" data-draggable="gamepiece" style="background-color:red"></div></td>
+                </tr>
+            </table>
+            -->
+
+            <!--<img id="p0" class="gamepiece" draggable="true" data-draggable="gp" src="images/p0.png" alt="" />
+            <img id="p1" class="gamepiece" draggable="true" data-draggable="gp" src="images/p1.png" alt="" />
+            <img id="p2" class="gamepiece" draggable="true" data-draggable="gp" src="images/p2.png" alt="" />
+            <img id="p3" class="gamepiece" draggable="true" data-draggable="gp" src="images/p3.png" alt="" />
+            <img id="p4" class="gamepiece" draggable="true" data-draggable="gp" src="images/p4.png" alt="" />
+            <img id="p5" class="gamepiece" draggable="true" data-draggable="gp" src="images/p5.png" alt="" />-->
+            
+            <table id="category-table">
+                <tr>
+	                <td style="color:cornflowerblue" contenteditable="true">Places</td>
+					<td style="color:deeppink" contenteditable="true">Music</td>
+					<td style="color:gold" contenteditable="true">Time</td>
+                </tr>
+                <tr>
+					<td style="color:brown" contenteditable="true">Trivia</td>
+	                <td style="color:green" contenteditable="true">Food</td>
+					<td style="color:darkorange" contenteditable="true">Quotes</td>
+				</tr>
+            </table>
+            
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>
