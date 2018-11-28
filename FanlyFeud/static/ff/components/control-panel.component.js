@@ -63,6 +63,14 @@ angular.module('fanlyfeud')
 			}
 		};
 
+		ctrl.keypress = function(key){
+			if(key==="1"){
+				ctrl.queue(QUEUE.BUZZ_IN, 'left');
+			}else if(key==="2"){
+				ctrl.queue(QUEUE.BUZZ_IN, 'right');
+			}
+		};
+
 		ctrl.loadRoundFromText = function(roundNumber, text){
 			let surveyData = ctrl.show.main.surveyData;
 
