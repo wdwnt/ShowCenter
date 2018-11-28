@@ -25,14 +25,15 @@
         <script src="{% static 'ff/util.module.js' %}"></script>
 
         <script src="{% static 'ff/directives/arrow-control.directive.js' %}"></script>
-		<script src="{% static 'ff/directives/fallback.directive.js' %}"></script>
 		<script src="{% static 'ff/directives/contenteditable.directive.js' %}"></script>
+		<script src="{% static 'ff/directives/fallback.directive.js' %}"></script>
+        <script src="{% static 'ff/directives/keypress.directive.js' %}"></script>
 
 		<script src="{% static 'ff/services/broadcastChannel.service.js' %}"></script>
 
-        <script src="{% static 'ff/components/team.component.js' %}"></script>
-		<script src="{% static 'ff/components/show.component.js' %}"></script>
 		<script src="{% static 'ff/components/control-panel.component.js' %}"></script>
+		<script src="{% static 'ff/components/show.component.js' %}"></script>
+        <script src="{% static 'ff/components/team.component.js' %}"></script>
 	</head>
 	<body ng-cloak>
 		<div ng-view style="height: 100%"></div>
