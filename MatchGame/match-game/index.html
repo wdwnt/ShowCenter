@@ -3,7 +3,7 @@
     <title>WDWNT - The Match Game</title>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -20,7 +20,7 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
+		<div class="row" style="margin-top: 15px">
 		  <div class="col-sm-6">
 			  <div class="row">
 				  <div class="col-sm-12">
@@ -29,13 +29,13 @@
 			  </div>
 		  </div>
 		  <div class="col-sm-6 col-centered">
-			  <div id="scores">
+			  <div id="scores" style="border: 2px solid black;">
 		  	<h4 style="color:green" contenteditable="true">Player 1</h4><div id="triangle-score">0</div>
 		  	<h4 style="color:red" contenteditable="true">Player 2</h4><div id="circle-score">0</div>
 			  </div>
 <!-- 		  	<img id="board" class="noselect" data-draggable="target" src="wdwnewstonight.jpg" alt="" / >-->
 <!--		  	<img id="board" class="noselect" data-draggable="target" src="wigs.png" alt="" /> -->
-			  	<img id="board" class="noselect" data-draggable="target" src="logo-2018.jpg" alt="" />
+			  	<img id="board" class="noselect" data-draggable="target" src="logo-2018.jpg" alt="" style="margin-top: 20px" />
 <!-- 			  	<img id="board" class="noselect" data=draggable="target" src="wdwnt_tft_2017.png" alt="" /> -->
 		  </div>
 
@@ -74,13 +74,14 @@
 	<script>
 
 		var panelists = [
-			{ name: "CHRIS"},
-			{ name: "ALISON"},
+			{ name: "PATRICK"},
+			{ name: "NICK"},
 			{ name: "NATHAN"},
-			{ name: "BEN"},
 			{ name: "JASON"},
-			{ name: "MATTHEW"},
-			{ name: "TOM"}
+			{ name: "TOM"},
+			{ name: "ASHLEY"},
+            { name: "PETE"},
+            { name: "JESSICA"}
 		];
 
 		$(function() {

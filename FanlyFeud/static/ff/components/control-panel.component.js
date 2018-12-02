@@ -75,9 +75,9 @@ angular.module('fanlyfeud')
 			let surveyData = ctrl.show.main.surveyData;
 
 			let lines = text.split(/\n/);
-			let question = lines.splice(0, 1);
+			let question = lines.splice(0, 1)[0].trim();
 			let answers = lines.map(function(line){
-				let parts=line.split(/,/);
+				let parts=line.split(/[,\t]/);
 				return {
 					answer: parts[0],
 					points: parseInt(parts[1]),
