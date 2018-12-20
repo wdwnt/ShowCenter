@@ -49,6 +49,27 @@ angular.module('vMix', [])
                             return call("?Function=Fade&Input="+(input||0)+"&Duration="+(duration||500));
                         }));
                     },
+                    play: function(input){
+                        return wrap(promise.then(function(){
+                            return call("?Function=Play&Input="+(input||0));
+                        }));
+                    },
+                    restart: function(input){
+                        return wrap(promise.then(function(){
+                            return call("?Function=Restart&Input="+(input||0));
+                        }));
+                    },
+                    playFromBeginning: function(input){
+                        return this.restart(input).play(input);
+                    },
+                    overlay: function(input, overlayNumber){
+                        if(!overlayNumber){
+                            overlayNumber = 1;
+                        }
+                        return wrap(promise.then(function(){
+                            return call("?Function=OverlayInput"+overlayNumber+"&Input="+(input||0));
+                        }));
+                    },
                     wait: function(duration){
                         return wrap(promise.then(function(){
                             return wait(duration);

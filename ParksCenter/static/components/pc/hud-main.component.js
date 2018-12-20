@@ -18,25 +18,6 @@ angular.module('parkscenter')
 				up: dec,
 				down: inc
 		};
-
-		ctrl.getAudioOutputs = function(){
-			let deferred = $q.defer();
-
-			ctrl.audioOuts = [];
-			navigator.mediaDevices.getUserMedia({audio: true}).then(function(){
-				navigator.mediaDevices.enumerateDevices().then(function(d){
-					ctrl.audioOuts = $filter('filter')(d, {kind: 'audiooutput'});
-					ctrl.audioOuts = $filter('orderBy')(ctrl.audioOuts, "label");
-					deferred.resolve();
-				});
-			});
-			return deferred.promise;
-		};
-		ctrl.setAllAudioOuts = function(deviceId){
-			angular.forEach(document.getElementsByTagName("audio"), function(audio){
-				audio.setSinkId(deviceId);
-			});
-		};
 		
 		ctrl.$onInit = function(){
 			if(sessionStorage.getItem("loadPCGame")){
@@ -52,16 +33,6 @@ angular.module('parkscenter')
 				ctrl.imageList = [STATIC_BASE+'images/wdwntLogo.png'];
 				angular.forEach($rootScope.showData, function(item){
 					ctrl.imageList.push(item.thumbnail);
-				});
-
-				ctrl.getAudioOutputs().then(function(){
-					let audioOut = ctrl.audioOuts.find(function(e){
-						return e.label.indexOf(ctrl.DEFAULT_AUDIO)!==-1;
-					});
-					if(audioOut){
-						$scope.audioOut = audioOut.deviceId;
-						ctrl.setAllAudioOuts(audioOut.deviceId);
-					}
 				});
 
 				$scope.$watch(function(){
@@ -84,7 +55,7 @@ angular.module('parkscenter')
 				ctrl.timeoutCallback = $timeout(function(){ctrl.tick();}, 1000);
 				ctrl.clockDate = new Date(1970, 0, 1).setSeconds(ctrl.clock);
 				if(ctrl.clock===0){
-					document.getElementById("buzzer").play();
+					vMix().playFromBeginning("buzzer.mp3");
 				}
 			}else if(ctrl.clock<0){
 				ctrl.clockDate = null;
@@ -140,13 +111,15 @@ angular.module('parkscenter')
 				.cut("WDWNT Intro Video")
 				.wait(11000)
 				.fade("Virtual - Me")
-				.then(function(){
-					document.getElementById("introAudio").play();
-				})
+				.playFromBeginning("parksCenterIntro.mp3")
 				.wait(8250)
 				.fade("ParksCenter Logo", 1000)
 				.wait(8000)
 				.fade("Virtual - All the panelists", 1000);
+		};
+
+		ctrl.end = function(){
+			vMix().overlay("End tag");
 		};
 	}
 });

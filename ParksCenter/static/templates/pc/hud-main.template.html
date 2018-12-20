@@ -35,21 +35,11 @@
         vMix Automations:
         <md-button class="md-raised md-primary" ng-click="$ctrl.white()">Cut to white</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.intro()">Start show</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.end()">Show/hide endtag</md-button>
     </div>
 </div>
 <div class="bottom-panel">
-	<md-select ng-model="audioOut"
-			   ng-change="$ctrl.setAllAudioOuts(audioOut)"
-			   placeholder="Select audio output"
-			   style="width: fit-content">
-		<md-option ng-repeat="device in $ctrl.audioOuts" ng-value="device.deviceId">{{device.label}}</md-option>
-	</md-select>
-	<audio controls preload="auto" id="introAudio">
-		<source ng-src="{{ $root.STATIC_BASE }}audio/parksCenterIntro.mp3">
-	</audio>
-	<audio controls preload="auto" id="buzzer">
-		<source ng-src="{{ $root.STATIC_BASE }}audio/buzzer.mp3">
-	</audio>
+
 </div>
 <div ng-show="false">
 	<img ng-repeat="src in $ctrl.imageList track by $index" ng-src={{src}}>
