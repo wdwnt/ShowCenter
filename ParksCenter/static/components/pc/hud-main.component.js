@@ -55,7 +55,7 @@ angular.module('parkscenter')
 				ctrl.timeoutCallback = $timeout(function(){ctrl.tick();}, 1000);
 				ctrl.clockDate = new Date(1970, 0, 1).setSeconds(ctrl.clock);
 				if(ctrl.clock===0){
-					vMix().playFromBeginning("buzzer.mp3");
+					ctrl.buzz();
 				}
 			}else if(ctrl.clock<0){
 				ctrl.clockDate = null;
@@ -120,6 +120,10 @@ angular.module('parkscenter')
 
 		ctrl.end = function(){
 			vMix().overlay("End tag");
+		};
+
+		ctrl.buzz = function(){
+			vMix().playFromBeginning("buzzer.mp3");
 		};
 	}
 });
