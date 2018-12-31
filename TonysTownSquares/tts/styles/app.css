@@ -1,0 +1,114 @@
+.tts-main{
+    --app-height: 720px;
+	--app-width: 1280px;
+    --sidebar-size: 325px;
+    --chroma-key: #00ff00;
+
+    --small-box-size: calc(var(--app-height) / 3);
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tts-board{
+	width: var(--app-width);
+	height: var(--app-height);
+	background-color: var(--chroma-key);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+    border: 1px solid red;
+}
+
+.tts-board .sidebar{
+    width: var(--sidebar-size);
+    max-width: calc(var(--app-width) - var(--app-height));
+    height: 100%;
+    background-color: #082549;
+    color: white;
+}
+
+.tts-board .main{
+    width: calc(var(--app-width) - var(--sidebar-size));
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /*background: linear-gradient(90deg, green 50%, white 50%);*/
+    background-color: white;
+}
+
+.tts-board .grid,
+.tts-board .solo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(var(--small-box-size) * 3);
+    height: calc(var(--small-box-size) * 3);
+}
+
+.tts-board .grid display-square{
+    width: var(--small-box-size);
+    height: var(--small-box-size);
+}
+
+.tts-board .solo display-square{
+    width: calc(var(--small-box-size) * 3);
+    height: calc(var(--small-box-size) * 3);
+}
+
+.tts-side-panel{
+    display: flex;
+    flex-direction: column;
+}
+
+/* display-square specific logic */
+
+display-square{
+    background-color: var(--chroma-key);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+display-square .background{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+display-square .background:focus{
+    outline: unset;
+}
+
+display-square .marker{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+display-square .marker input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+
+display-square .name{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+display-square .name div{
+    min-width: 100px;
+    height: 100%;
+    text-align: center;
+}

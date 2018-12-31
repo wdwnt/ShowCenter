@@ -4,9 +4,11 @@ from django.conf import settings
 # Create your views here.
 def index(request):
     STATIC_URL = settings.STATIC_URL
-    return HttpResponse('<a href="parkscenter/">ParksCenter is over here</a>'
+    return HttpResponse('<a href="parkscenter/">ParksCenter</a>'
                         '<br>'
-                        '<a href="ff/">Fanly Feud is over here</a>'
+                        '<a href="'+STATIC_URL+'tts/index.html">Tony\'s Town Squares</a>'
+                        '<br>'
+                        '<a href="ff/">Fanly Feud</a>'
                         '<br>'
                         '<a href="'+STATIC_URL+'dice/index.html">Tree of Dice</a>'
                         '<br>'
