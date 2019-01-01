@@ -4,6 +4,8 @@ angular.module('tts')
 	controller: function($scope, times, vMix){
 		let ctrl = this;
 
+		ctrl.NUM_PAD_ORDER = ['7','8','9','4','5','6','1','2','3']; //strings, so it'll .indexOf correctly with <input ng-model>
+
 		ctrl.initBoard = function(){
 			ctrl.board = times(9, function(){return {
 				name: '',
@@ -18,9 +20,11 @@ angular.module('tts')
 		};
 
 		ctrl.solo = function(index){
-			ctrl.selectedSquare = ctrl.board[index];
-			vMix().setMultiViewInput("solo", 1, "sq_"+index)
-				.cut("solo");
+			if(index>=0 && index<9){
+				ctrl.selectedSquare = ctrl.board[index];
+				vMix().setMultiViewInput("solo", 1, "sq_"+index)
+					.cut("solo");
+			}
 		};
 
 		ctrl.grid = function(){
@@ -37,6 +41,17 @@ angular.module('tts')
 		ctrl.host = function(){
 			vMix().cut("host")
 				.setMultiViewInput("solo", 1, "blank");
+		};
+
+		ctrl.keypress = function(key){
+			let soloCut = ctrl.NUM_PAD_ORDER.indexOf(key);
+			if(soloCut !== -1){
+				ctrl.solo(soloCut);
+			}else if(key === '0' || key === 'g'){
+				ctrl.grid();
+			}else if(key === '.' || key === 'h'){
+				ctrl.host();
+			}
 		};
 
 		ctrl.$onInit = function(){

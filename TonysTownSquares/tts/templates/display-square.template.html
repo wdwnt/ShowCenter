@@ -1,6 +1,6 @@
 <div class="background" ng-click="$ctrl.backgroundClick()"></div>
 <div class="marker" ng-style="$ctrl.getMarkStyle()" ng-if="!$ctrl.hideMark">
-    <input ng-model="mark" ng-change="$ctrl.updateMark(mark); mark=''">
+    <input ng-model="mark" ng-trim="false" ng-change="$ctrl.updateMark(mark); mark=''">
 </div>
 <div class="name">
     <div resize contenteditable ng-model="$ctrl.square.name"></div>

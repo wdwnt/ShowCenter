@@ -15,7 +15,14 @@
     <div class="tts-side-panel">
         <a href="tonysTownSquares.vmix">Download vMix template</a>
         <md-button class="md-raised md-primary" ng-click="$ctrl.white()">Cut to white</md-button>
-        <md-button class="md-raised md-primary" ng-click="$ctrl.host()">Cut to host</md-button>
-        <md-button class="md-raised md-primary" ng-click="$ctrl.grid()">Cut to grid</md-button>
+        <div>
+            <input ng-model="soloCut" ng-trim="false" ng-change="$ctrl.keypress(soloCut); soloCut=''" placeholder="Click to use hotkeys">
+            Cut to square:
+            <div class="button-grid">
+                <button ng-repeat="i in $ctrl.NUM_PAD_ORDER" ng-click="$ctrl.solo($index)" ng-bind="i"></button>
+                <button class="doublewide" ng-click="$ctrl.grid()">Grid (0, g)</button>
+                <button ng-click="$ctrl.host()">Host (., h)</button>
+            </div>
+        </div>
     </div>
 </div>
