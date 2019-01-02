@@ -16,6 +16,8 @@ angular.module('util')
             element.bind("blur keyup change", function() {
                 scope.$apply(read);
             });
+
+            read();
         }
     };
 });

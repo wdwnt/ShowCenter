@@ -25,8 +25,46 @@
     width: var(--sidebar-size);
     max-width: calc(var(--app-width) - var(--app-height));
     height: 100%;
-    background-color: #082549;
+    background-color: #10bf02;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tts-board .sidebar .player-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tts-board .sidebar .player-container .player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border: 3px solid white;
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+.tts-board .sidebar .player-container .player div:focus{
+    outline: unset;
+}
+
+.tts-board .sidebar .player-container .player .name{
+    color: white;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    width: 100%;
+    text-align: center;
+}
+
+.tts-board .sidebar .player-container .player .points{
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 16pt;
+    width: 100%;
 }
 
 .tts-board .main{
