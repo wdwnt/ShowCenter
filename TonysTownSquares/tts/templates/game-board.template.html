@@ -16,7 +16,9 @@
         <a href="tonysTownSquares.vmix">Download vMix template</a>
         <md-button class="md-raised md-primary" ng-click="$ctrl.white()">Cut to white</md-button>
         <div>
-            <input ng-model="soloCut" ng-trim="false" ng-change="$ctrl.keypress(soloCut); soloCut=''" placeholder="Click to use hotkeys">
+            <div>
+                <input ng-model="soloCut" ng-trim="false" ng-change="$ctrl.keypress(soloCut); soloCut=''" placeholder="Click to use hotkeys">
+            </div>
             Cut to square:
             <div class="button-grid">
                 <button ng-repeat="i in $ctrl.NUM_PAD_ORDER" ng-click="$ctrl.solo($index)" ng-bind="i"></button>
