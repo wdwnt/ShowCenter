@@ -1,7 +1,7 @@
 .tts-main{
-    --app-height: 720px;
-	--app-width: 1280px;
-    --sidebar-size: 325px;
+    --app-height: 1080px;
+	--app-width: 1920px;
+    --sidebar-size: 490px;
     --chroma-key: #00ff00;
 
     --small-box-size: calc(var(--app-height) / 3);
@@ -101,7 +101,7 @@
 }
 
 .tts-side-panel .button-grid{
-    --button-size: 50px;
+    --button-size: 75px;
 
     display: flex;
     flex-direction: row;
