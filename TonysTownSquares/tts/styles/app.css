@@ -147,7 +147,7 @@ display-square .name div:focus{
 display-square .marker{
     width: 30%;
     height: 30%;
-    background-color: black;
+    background-color: gray;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -157,6 +157,7 @@ display-square .marker input{
     height: 100%;
     background: transparent;
     border: none;
+    caret-color: gray;
 }
 
 display-square .name{
