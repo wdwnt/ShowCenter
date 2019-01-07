@@ -25,7 +25,10 @@
     width: var(--sidebar-size);
     max-width: calc(var(--app-width) - var(--app-height));
     height: 100%;
-    background-color: #10bf02;
+    /*background-color: #10bf02;*/
+    background-image: url(../images/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: column;
