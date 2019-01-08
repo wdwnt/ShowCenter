@@ -17,7 +17,7 @@ angular.module('util')
                 scope.$apply(read);
             });
 
-            read();
+            element.html(ngModel.$viewValue || "");
         }
     };
 });
