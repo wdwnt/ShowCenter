@@ -26,7 +26,7 @@ angular.module('tts')
 				if(index===4){
 					square = "Virtual - sq_4";
 				}
-				vMix().setMultiViewInput("solo", 1, )
+				vMix().setMultiViewInput("solo", 1, square)
 					.cut("solo");
 			}
 		};
