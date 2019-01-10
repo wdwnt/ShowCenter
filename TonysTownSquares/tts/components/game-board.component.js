@@ -22,7 +22,11 @@ angular.module('tts')
 		ctrl.solo = function(index){
 			if(index>=0 && index<9){
 				ctrl.selectedSquare = ctrl.board[index];
-				vMix().setMultiViewInput("solo", 1, "sq_"+index)
+				let square = "sq_"+index;
+				if(index===4){
+					square = "Virtual - sq_4";
+				}
+				vMix().setMultiViewInput("solo", 1, )
 					.cut("solo");
 			}
 		};
