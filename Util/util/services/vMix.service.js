@@ -105,9 +105,9 @@ angular.module('vMix', [])
                     let inputs = doc.children[0].getElementsByTagName("inputs")[0].children;
                     angular.forEach(inputs, function(input){
                         let title = input.getAttribute("title");
-                        NAME_INPUT_MAP[title] = input.getAttribute("number");
+                        NAME_INPUT_MAP[title] = parseInt(input.getAttribute("number"));
                     });
-                    return doc;
+                    return NAME_INPUT_MAP;
                 });
         };
     });

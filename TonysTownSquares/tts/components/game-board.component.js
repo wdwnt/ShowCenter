@@ -21,13 +21,15 @@ angular.module('tts')
 
 		ctrl.solo = function(index){
 			if(index>=0 && index<9){
-				ctrl.selectedSquare = ctrl.board[index];
-				let square = "sq_"+index;
-				if(index===4){
-					square = "Virtual - sq_4";
-				}
-				vMix().setMultiViewInput("solo", 1, square)
-					.cut("solo");
+				vMix().then(function(INPUT_MAP){
+					ctrl.selectedSquare = ctrl.board[index];
+					let square = INPUT_MAP["Virtual - sq_"+index];
+					if(!square){
+						square = INPUT_MAP["sq_"+index];
+					}
+					vMix().setMultiViewInput("solo", 1, square)
+						.cut("solo");
+				});
 			}
 		};
 
