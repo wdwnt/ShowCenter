@@ -108,13 +108,15 @@ angular.module('parkscenter')
 		ctrl.intro = function(){
 			vMix().cut("White")
 				.wait(1000)
-				.cut("WDWNT Intro Video")
-				.wait(11000)
-				.fade("Virtual - Me")
-				.playFromBeginning("parksCenterIntro.mp3")
-				.wait(8250)
-				.fade("ParksCenter Logo", 1000)
+				.overlay("WDWNT Intro Video")
+				.wait(3000)
+				.cut("Virtual - Me")
 				.wait(8000)
+				.overlay("WDWNT Intro Video")
+				.playFromBeginning("parksCenterIntro.mp3")
+				.wait(7500)
+				.fade("ParksCenter Logo", 1000)
+				.wait(5500)
 				.fade("Virtual - All the panelists", 1000);
 		};
 
