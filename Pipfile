@@ -10,6 +10,7 @@ whitenoise = "*"
 jsonfield = "*"
 google-api-python-client = "*"
 python-dateutil = "*"
+icalevents = "*"
 
 [requires]
 python_version = "3.6"
