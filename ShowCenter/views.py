@@ -18,4 +18,6 @@ def index(request):
                         '<br>'
                         '<a href="'+STATIC_URL+'trivialpursuit/index.html">Parks Pursuit</a>'
                         '<br>'
+                        '<a href="'+STATIC_URL+'jumblecruise/index.html">Jumble Cruise</a>'
+                        '<br>'
                         '<a href="ff/"></a>')

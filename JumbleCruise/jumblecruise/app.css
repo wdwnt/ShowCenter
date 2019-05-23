@@ -1,0 +1,32 @@
+.main-screen{
+  width: 1920px;
+  height: 1080px;
+  background-color: rgb(124,209,238);
+  background: linear-gradient(180deg, rgb(124,209,238) 0%, rgb(124,209,238) 50%, rgb(169,220,201) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.image{
+  height: 50%;
+}
+
+.image img{
+  height: 100%;
+}
+
+.anagram-holder{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anagram{
+  font-size: 92pt;
+  font-family: 'Stylish', sans-serif;
+
+}
