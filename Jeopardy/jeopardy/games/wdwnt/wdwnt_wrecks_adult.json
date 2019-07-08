@@ -1,0 +1,386 @@
+{
+  "jeopardy": [
+    {
+      "name": "REVIEWS OF FOOD WE DIDN'T EAT",
+      "questions": [
+        {
+          "question": "GREAT SCOTT! THIS IS THE YEAR DISNEYLAND OPENED.",
+          "value": "100",
+          "answer": "What is 1955?"
+        },
+        {
+          "question": "IN 1972, THIS AREA OF DISNEYLAND OPENED AS \"BEAR COUNTRY\". IN 1988, IT WAS RENAMED TO THIS.",
+          "value": "200",
+          "answer": "What is Critter Country?"
+        },
+        {
+          "question": "ONE OF THE MAIN ATTRACTIONS IN MICKEY'S TOONTOWN FAIR IS GADGET'S GO COASTER, NAMED AFTER A CHARACTER FROM THIS DISNEY AFTERNOON TV SHOW.",
+          "value": "300",
+          "answer": "What is Chip and Dale's Rescue Rangers?"
+        },
+        {
+          "question": "THIS FUTURE PRESIDENT WAS AT THE OPENING OF DISNEYLAND.",
+          "value": "400",
+          "answer": "Who is Ronald Reagan?"
+        },
+        {
+          "question": "THIS IS CONSIDERED THE \"LOST LAND\" OF DISNEYLAND OPENING ON JUNE 16, 1957 AND CLOSING IN SEPTEMBER 1961.",
+          "value": "500",
+          "answer": "What is Holidayland?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "PARKS THAT START WITH \"EPCOT\"",
+      "questions": [
+        {
+          "question": "HOLD ON TO YOUR TASSELS! THIS IS THE NEWEST ATTRACTION IN ADVENTURELAND.",
+          "value": "100",
+          "answer": "What is the Magic Carpets of Aladdin?"
+        },
+        {
+          "question": "A REPLICA OF THE HOUSE OF BURGESSES IN LIBERTY SQUARE HAS TWO LANTERNS IN THE WINDOW FOR THIS MAN'S EPIC RIDE.",
+          "value": "200",
+          "answer": "Who is Paul Revere?"
+        },
+        {
+          "question": "THE STATUE OF ROY DISNEY AND MINNIE MOUSE HOLDS THIS TITLE.",
+          "value": "300",
+          "answer": "What is Sharing the Magic?"
+        },
+        {
+          "question": "ON OPENING DAY, THESE WERE THE ONLY TWO OPERATIONAL RIDES IN TOMORROWLAND",
+          "value": "400",
+          "answer": "What are the Skyway and the Speedway?"
+        },
+        {
+          "question": "THE MAYOR OF MAIN STREET USA IS NOT JUSTIN HEYMAN, BUT RATHER THIS PERSON",
+          "value": "500",
+          "answer": "Who is Christopher George Weaver?"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS CHAPEKS",
+      "questions": [
+        {
+          "question": "",
+          "value": "100",
+          "answer": "What is Spaceship Earth?",
+          "image": "./images/wdwnt/spaceship_earth.png"
+        },
+        {
+          "question": "",
+          "value": "200",
+          "answer": "What is World of Motion?",
+          "image": "./images/wdwnt/world_of_motion.png"
+        },
+        {
+          "question": "",
+          "value": "300",
+          "answer": "What is Horizons?",
+          "image": "./images/wdwnt/horizons.png"
+        },
+        {
+          "question": "",
+          "value": "400",
+          "answer": "What is Journey into Imagination?",
+          "image": "./images/wdwnt/journey_into_imagination.png"
+        },
+        {
+          "question": "",
+          "value": "500",
+          "answer": "What is Universe of Energy?",
+          "image": "./images/wdwnt/universe_of_energy.png"
+        }
+      ]
+    },
+    {
+      "name": "BUS LOOPS THAT SERVE PIZZA",
+      "questions": [
+        {
+          "question": "THAT BIG BLUE THING THAT USED TO BE IN THE MIDDLE BLOCKING THE CHINESE THEATER. THAT WAS AN EYESORE.",
+          "value": "100",
+          "answer": "What is the Sorcerer's Hat?"
+        },
+        {
+          "question": "THAT HOST GUY IN THE GREAT MOVIE RIDE",
+          "value": "200",
+          "answer": "Who is Robert Osbourne?"
+        },
+        {
+          "question": "THAT DINOSAUR IN ECHO LAKE THAT SERVES ICE CREAM",
+          "value": "300",
+          "answer": "Who is Gertie?"
+        },
+        {
+          "question": "THAT FAKE RECORD STUDIO NAME IN THE ROCK'N ROLLER COASTER",
+          "value": "400",
+          "answer": "What is G-Force Records?"
+        },
+        {
+          "question": "THAT GREEN SCREEN SHOW THAT USED TO BE IN WHAT IS NOW KNOWN AS THE HYPERION THEATER",
+          "value": "500",
+          "answer": "What is Superstar Television?"
+        }
+      ]
+    },
+    {
+      "name": "PICTURES OF OTHER PEOPLE'S FOOD",
+      "questions": [
+        {
+          "question": "ALTHOUGH THIS ANIMAL DOES NOT RESIDE IN DISNEY'S ANIMAL KINGDOM, IT WILL SOON MAKE ITS APPEARANCE AT DISNEY SPRINGS.",
+          "value": "100",
+          "answer": "What is the paddlefish?",
+          "image": "./images/wdwnt/paddlefish.jpg"
+        },
+        {
+          "question": "THIS ANIMAL IS BETTER KNOWN IN ITS ANIMATED FORM.",
+          "value": "200",
+          "answer": "What is a warthog?",
+          "image": "./images/wdwnt/warthog.jpg"
+        },
+        {
+          "question": "THIS IS TOM CORLESS'S FAVORITE ANIMAL ON KILIMANJARO SAFARIS.",
+          "value": "300",
+          "answer": "What is the Thomson's Gazelle?",
+          "image": "./images/wdwnt/thomsons_gazelle.jpg"
+        },
+        {
+          "question": "ALTHOUGH THIS ANIMAL HAS LEGS THAT LOOK LIKE THAT OF A ZEBRA, IT IS ACTUALLY THE ONLY LIVING RELATIVE OF THE GIRAFFE.",
+          "value": "400",
+          "answer": "What is the okapi?",
+          "image": "./images/wdwnt/okapi.jpg"
+        },
+        {
+          "question": "YOU CAN SEE THIS BUG AROUND DISCOVERY ISLAND IN A PLEXIGLASS BOX. IF YOU HEAR ONE OUT OF THE BOX, YOU MAY WANT TO MOVE IT, MOVE IT!",
+          "value": "500",
+          "answer": "What is the Madagascar Hissing Cockroach?",
+          "image": "./images/wdwnt/madagascar_hissing_cockroach.jpg"
+        }
+      ]
+    },
+    {
+      "name": "FAMOUS MUPPET FROGS",
+      "questions": [
+        {
+          "question": "THE CORN DOG CASTLE REIGNS SUPREME IN THIS AREA OF DISNEY'S CALIFORNIA ADVENTURE.",
+          "value": "100",
+          "answer": "What is Paradise Pier?"
+        },
+        {
+          "question": "MONSTERS INC: MIKE AND SULLY TO THE RESCUE REPLACED THIS OPENING DAY DARK RIDE.",
+          "value": "200",
+          "answer": "What is Superstar Limo?"
+        },
+        {
+          "question": "IT'S NOT IN FANTASYLAND ANYMORE, BUT THIS CHARACTER RESTAURANT HAS ALWAYS BEEN IN CALIFORNIA ADVENTURE WITH THE SAME NAME.",
+          "value": "300",
+          "answer": "What is Ariel's Grotto?"
+        },
+        {
+          "question": "THIS IS THE ORIGINAL NIGHTTIME SHOW HELD AT DISNEY'S CALIFORNIA ADVENTURES.",
+          "value": "400",
+          "answer": "What is LuminAria?"
+        },
+        {
+          "question": "CARS LAND WAS BUILT ON THE AREA OF LAND FORMERLY KNOWN AS THIS.",
+          "value": "500",
+          "answer": "What is the Timon parking lot?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "A NECESSARY EVIL",
+      "questions": [
+        {
+          "question": "BEFORE FASTPASS IN THE 90S, I PARTICIPATED IN A SCAVENGER HUNT AROUND ADVENTURELAND. THE WINNERS WON A CERTIFICATE TO GET TO THE FRONT OF THE LINE IN ANY RIDE. AFTERWARDS, ALL THE PARTICIPANTS GOT TO THE FRONT OF THE LINE AT THIS POPULAR ADVENTURELAND ATTRACTION.",
+          "answer": "What is the Jungle Cruise?",
+          "value": 200
+        },
+        {
+          "question": "WHEN I WAS IN WALT DISNEY WORLD WITH MY HIGH SCHOOL, WE STAYED AT THIS RESORT WITH A GIANT WOODY. THAT WAS FUNNY FOR A CLASS OF ALL TEENAGE GUYS.",
+          "answer": "What is All Star Movies?",
+          "value": 400
+        },
+        {
+          "question": "I LIVE PRETTY CLOSE TO FLUSHING, THE SITE WHERE THIS EVENT HELD EARLY VERSIONS OF IT'S A SMALL WORLD, CAROUSEL OF PROGRESS, AND THE PEOPLEMOVER.",
+          "answer": "What is the 1964 World's Fair?",
+          "value": 600
+        },
+        {
+          "question": "DURING TRIPS WHERE I HAVE TO WORK, I DO WORK IN THE CONTEMPORARY RESORT, USUALLY REFILLING MY DRINK MUG AT THIS QUICK SERVICE LOCATION.",
+          "answer": "What is the Contempo Café?",
+          "value": 800
+        },
+        {
+          "question": "I ONCE HAD LUNCH WITH AN IMAGINEER WITH THIS MAN WHO LED THE TEAM BEHIND THE LEGEND OF CAPTAIN JACK SPARROW.",
+          "answer": "Who is Jason Surrell?",
+          "value": 1000,
+          "daily-double": true,
+          "image": "./images/wdwnt/here_tom/mvb.jpg"
+        }
+      ]
+    },
+    {
+      "name": "WHY NOT BEN?!",
+      "questions": [
+        {
+          "question": "IN A REFERENCE TO M*A*S*H, WHEN I STAYED WITH MICHAEL FOR THE 10TH ANNIVERSARY AT THIS RESORT, WE NICKNAMED IT \"THE SWAMP\".",
+          "value": 200,
+          "answer": "What is Port Orleans: Riverside?"
+        },
+        {
+          "question": "THE PRESHOW AUDIO CUT OUT WHILE I WAS ON THIS EPCOT ATTRACTION, SO WE CAME UP WITH THE LINE, \"IN SPACE, NO ONE CAN HEAR YOU SPIEL.\"",
+          "value": 400,
+          "answer": "What is Mission: Space?"
+        },
+        {
+          "question": "I WAS ONCE STUCK NEAR THE END OF THIS EERIE ATTRACTION WHERE A VENTRILOQUIST DUMMY WAS STARING AT ME THE WHOLE TIME. IT WAS PRETTY CREEPY.",
+          "value": 600,
+          "answer": "What is Twilight Zone: Tower of Terror?"
+        },
+        {
+          "question": "THE FIRST TIME I RODE THE BUS SYSTEM FROM THIS MILITARY RESORT, I WAS SURPRISED TO FIND OUT THEY ACTUALLY RAN ON A SCHEDULE.",
+          "value": 800,
+          "answer": "What is Shades of Green?"
+        },
+        {
+          "question": "KALTXI MA ’EYLAN. DURING THE ORDER OF THE SEVEN GAME, I WAS STATIONED AT THIS VALLEY.",
+          "value": 1000,
+          "answer": "What is Mo'ara?"
+        }
+      ]
+    },
+    {
+      "name": "I LOST ON JEOPARDY",
+      "questions": [
+        {
+          "question": "I GOT THE FIRST EVER WDWNT JEOPARDY QUESTION RIGHT, IDENTIFYING THIS SPINNING ADVENTURELAND ATTRACTION.",
+          "value": "200",
+          "answer": "What is the Magic Carpets of Aladdin?"
+        },
+        {
+          "question": "I COULDN’T GIVE THE NAME OF THIS DINOSAUR IN HOLLYWOOD STUDIOS THAT SERVES ICE CREAM AND INCORRECTLY DESCRIBED IT AS BLOCKING THE CHINESE THEATER.",
+          "value": "400",
+          "answer": "What is Gertie?"
+        },
+        {
+          "question": "I THOUGHT THAT THIS EPCOT ICON WAS FOR THE SEAS. IT'S ACTUALLY FOR THIS ATTRACTION.",
+          "value": "600",
+          "answer": "What is Horizons?",
+          "image": "./images/wdwnt/epcot/horizons.png"
+        },
+        {
+          "question": "I THOUGHT THAT JIMMY CARTER WAS AT THE OPENING OF DISNEYLAND, BUT REALLY, IT WAS THIS FUTURE PRESIDENT.",
+          "value": "800",
+          "answer": "Who is Ronald Reagan?"
+        },
+        {
+          "question": "I CALLED THE MEMORIAL \"SHARING THE MAGIC\" FEATURING THIS PERSON AND MINNIE MOUSE \"ALMOST PARTNERS\".",
+          "value": "1000",
+          "answer": "Who is Roy Disney?"
+        }
+      ]
+    },
+    {
+      "name": "NO, THIS IS PATRICK",
+      "questions": [
+        {
+          "question": "I HAVE A FEAR OF SNAKES. THIS IS THE TECHNOLOGY-RELATED NAME OF THE SNAKE THAT USED TO MAKE ME RIP MY GLASSES OF IN HONEY I SHRUNK THE AUDIENCE.",
+          "answer": "Who is Gigabyte?",
+          "value": 200
+        },
+        {
+          "question": "IN EPCOT, I USED TO BE ABLE TO GET INTO THE DISNEY CHASE VISA LOUNGE, LOCATED ABOVE THE AMERICAN ADVENTURE. NOW THAT IT'S THIS, I CAN'T QUITE GET IN ANY MORE.",
+          "answer": "What is Club 33?",
+          "value": 400
+        },
+        {
+          "question": "MY WIFE ALWAYS INTENTIONALLY GOT THE NAME OF THIS HOLLYWOOD STUDIOS CAFE WRONG - THAT IS, UNTIL IT CLOSED FOLLOWING THE INTRODUCTION OF STARBUCKS ACROSS THE STREET.",
+          "answer": "What is Starring Rolls?",
+          "value": 600
+        },
+        {
+          "question": "I'VE BEEN INSIDE OF THE CINDERELLA CASTLE SUITE - WHICH IS GORGEOUS, BY THE WAY. IT WAS CREATED AS A PART OF THIS DISNEY PROMOTION, WHICH (CONTRARY TO ITS NAME) RAN FOR A LITTLE OVER TWO YEARS.",
+          "answer": "What is the Year of a Million Dreams?",
+          "value": 800
+        },
+        {
+          "question": "WHETHER YOU WANT A WORLD CLASS MEAL OR A FUN CHARACTER BREAKFAST, THIS MONORAIL RESORT WHERE MY WIFE AND I HAVE AS OUR DVC HOME RESORT REALLY DOES DELIVER. YOU CAN EVEN POPPIN FOR A SWIM IF YOU WANT!",
+          "answer": "What is the Grand Floridian?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "DVDDDDDDDS",
+      "questions": [
+        {
+          "question": "WHILE WORKING AT THE MAGIC KINGDOM, I WAS ON THE OPENING TEAM FOR THIS 2001 ATTRACTION.",
+          "answer": "What is The Magic Carpets of Aladdin?",
+          "value": 200
+        },
+        {
+          "question": "I GOT ENGAGED AT THIS ATTRACTION WHERE I PULLED THE BRIDE'S RING OUT OF THE GROUND. ANY VOLUNTEERS?",
+          "answer": "What is the Haunted Mansion?",
+          "value": 400
+        },
+        {
+          "question": "I HAD MY TENTH BIRTHDAY AT THIS RESTAURANT THAT WAS THE PREDECESSOR TO THE CALIFORNIA GRILL?",
+          "answer": "What is Top of the World?",
+          "value": 600
+        },
+        {
+          "question": "I REALLY MISS THURSDAY NIGHT CAST MEMBER NIGHTS AT THIS PLEASURE ISLAND VENUE, THAT, AS TOM WOULD SAY, \"IS STILL CLOSED, KUNGALOOSH!\"",
+          "answer": "What is the Adventurer's Club?",
+          "value": 800
+        },
+        {
+          "question": "THESE TWO BIRDS WHO JOINED JOSE, PIERRE, MICHAEL, AND FRITZ IN 1998 STILL HAUNT MY DREAMS?",
+          "answer": "Who are Iago and Zazu",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "Y'ALL AIN'T RIGHT",
+      "questions": [
+        {
+          "question": "FOR 6 MONTHS IN 2010-2011, I WAS A PART OF THIS DISNEY PROGRAM THAT HIRES YOUNG CAST MEMBERS ON A TEMPORARY BASIS.",
+          "answer": "What is the Disney College Program?",
+          "value": 200
+        },
+        {
+          "question": "MY FIRST TRIP DOWN WAS IN 2006, WHICH WAS ALSO THE YEAR THAT THIS RIDE OPENED - WHICH HAPPENS TO STILL BE MY FAVORITE RIDE IN THE PARKS!",
+          "answer": "What is Expedition Everest?",
+          "value": 400,
+          "daily-double": true
+        },
+        {
+          "question": "ONE OF MY FAVORITE PLACES ON PROPERTY IS THIS PIANO BAR LOCATED IN THE BOARDWALK AREA - I EVEN WENT THERE WEDNESDAY NIGHT WITH TOM!",
+          "answer": "What is Jellyrolls?",
+          "value": 600
+        },
+        {
+          "question": "LAST YEAR, I MADE A SPECIAL TRIP DOWN TO DISNEY TO SEE THIS NIGHTTIME SHOW JUST BEFORE IT CLOSED.",
+          "answer": "What is Wishes?",
+          "value": 800
+        },
+        {
+          "question": "ONE TIME, WHEN I WAS HERE WITH MY FAMILY, THEY HAD DINING RESERVATIONS AT THIS RESORT RESTAURANT AT SWAN & DOLPHIN WHERE THEY MET TIMON AND RAFIKI. WE ALMOST MISSED THE RESERVATION THOUGH - WE WEREN'T EXPECTING TO NEED TO TAKE A BOAT FROM EPCOT!",
+          "answer": "What is Garden Grove?",
+          "value": 1000
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "category": "TOM CORLESS, WHAT ELSE",
+    "question": "TOM MET JASON AT A CJDPT PIN TRADING EVENT IN THIS STATE, AND THE REST IS WDWNT HISTORY.",
+    "answer": "What is New Jersey?"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "jeopardy": [
+    {
+      "name": "...NOW WHERE WERE WE?",
+      "questions": [
+        {
+          "question": "LATER THIS WEEK, THIS DISNEY'S ANIMAL KINGDOM AREA IS EXPECTED TO REOPEN AFTER CLOSING IN OCTOBER 2018 FOR A MASSIVE OVERHAUL.",
+          "answer": "What is Rafiki's Planet Watch?",
+          "value": 100
+        },
+        {
+          "question": "WDWNT ADDED A REDESIGN FROM A GALAXY FAR, FAR AWAY IN MAY 2019 FOR THE OPENING OF THIS HIGHLY ANTICIPATED DISNEYLAND ADDITION.",
+          "answer": "What is Star Wars: Galaxy's Edge?",
+          "value": 200
+        },
+        {
+          "question": "THIS NIGHTTIME SPECTACULAR LOST ITS LIVE PERFORMERS IN SEPTEMBER 2018. EIGHT MONTHS LATER, THE SHOW WAS COMPLETELY REVAMPED TO INCLUDE FOOTAGE FROM DISNEY ANIMATED FILMS.",
+          "answer": "What is Rivers of Light?",
+          "value": 300
+        },
+        {
+          "question": "THIS FUTURE DISNEY'S HOLLYWOOD STUDIOS ATTRACTION WAS ANNOUNCED TO ALSO BE COMING TO DISNEYLAND ON APRIL 19TH, 2019.",
+          "answer": "What is Mickey and Minnie's Runaway Railway?",
+          "value": 400
+        },
+        {
+          "question": "THIS DISNEY'S HOLLYWOOD STUDIOS SHOW WAS ANNOUNCED JUST BEFORE OUR LAST SHOW, AND OPENED TO THE PUBLIC ON MARCH 31ST OF THIS YEAR.",
+          "answer": "What is Lightning McQueen's Racing Academy?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "BACK FOR A LIMITED ENGAGEMENT",
+      "questions": [
+        {
+          "question": "GUESTS CAN ONCE AGAIN FLY OVER THE GOLDEN GATE BRIDGE, REDWOOD CREEK, AND MALIBU BEACH WITH THE LIMITED-TIME RETURN OF THIS OPENING DAY ATTRACTION TO DISNEY CALIFORNIA ADVENTURE.",
+          "answer": "What is Soarin' Over California?",
+          "value": 100
+        },
+        {
+          "question": "AFTER THE UNTIMELY DEATH OF ITS STAR, THIS 3-D ATTRACTION REOPENED AT FOUR DISNEY PARKS WORLDWIDE IN 2010, TWELVE YEARS AFTER ITS LAST SCREENING.",
+          "answer": "What is Captain EO?",
+          "value": 200
+        },
+        {
+          "question": "IN 2011, THE \"NEW\" MANAGEMENT FLEW THE COOP AND THE ORIGINAL SHOW RETURNED TO THIS MAGIC KINGDOM ATTRACTION. THANKS, FIRE!",
+          "answer": "What is Walt Disney's Enchanted Tiki Room?",
+          "value": 300
+        },
+        {
+          "question": "THE 1994 REFURBISHMENT OF WALT DISNEY'S CAROUSEL OF PROGRESS UPDATED THE FINAL SCENE AND RETURNED THIS THEME SONG TO THE ATTRACTION, WHICH WAS PREVIOUSLY REMOVED FOR \"THE BEST TIME OF YOUR LIFE.\"",
+          "answer": "What is \"There's A Great Big Beautiful Tomorrow?\"",
+          "value": 400
+        },
+        {
+          "question": "THE CANCELLATION OF PLANS FOR THE FOURTH DISNEYLAND RESORT HOTEL SPARKED THE RETURN OF THIS EATERY TO DOWNTOWN DISNEY. FULL MONTAGUS FOR EVERYONE!",
+          "answer": "What is Earl of Sandwich?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "HALL OF DISNEY PRESIDENTS",
+      "questions": [
+        {
+          "question": "THIS FORMER PRESIDENT OF DISNEY CONSUMER PRODUCTS IS THE CURRENT CHAIRMAN OF DISNEY PARKS, EXPERIENCES, AND CONSUMER PRODUCTS. IT'S THE PERFECT TITLE FOR SOMEONE WHO MAY OR MAY NOT BE A ROBOT.",
+          "answer": "Who is Bob Chapek?",
+          "value": 100
+        },
+        {
+          "question": "HE WAS PRESIDENT OF WALT DISNEY ATTRACTIONS BEFORE HE BECAME THE CHAIRMAN OF DISNEY PARKS AND RESORTS, WHILE SHE SERVED AS THE PRESIDENT OF THE DISNEYLAND RESORT, UNTIL THEIR DEPARTURES FROM DISNEY IN 2002 AND 2003. BOTH ULTIMATELY FOUND JOBS AT GAP, INC.",
+          "answer": "Who are Paul Pressler and Cynthia Harris?",
+          "value": 200
+        },
+        {
+          "question": "THIS DISNEY LEGEND SERVED AS PRESIDENT OF THE WALT DISNEY COMPANY FROM 1971 TO 1977 BEFORE BECOMING CEO AND CHAIRMAN, WHERE HE OVERSAW THE OPENING OF EPCOT CENTER AND TOKYO DISNEYLAND.",
+          "answer": "Who is Card Walker?",
+          "value": 300,
+          "daily-double": true
+        },
+        {
+          "question": "THIS FORMER PRESIDENT OF WALT DISNEY FEATURE ANIMATION IS CURRENTLY THE PRESIDENT OF DISNEY THEATRICAL GROUP.",
+          "answer": "Who is Thomas Schumacher?",
+          "value": 400
+        },
+        {
+          "question": "THIS HIGH-RANKING DISNEY EXECUTIVE, DESPITE STARRING ALONGSIDE MICKEY MOUSE IN THE 50TH ANNIVERSARY SPECIAL FOR THE DISNEY COMPANY, WAS NEVER ACTUALLY THE PRESIDENT OF ANYTHING IN THE DISNEY COMPANY.",
+          "answer": "Who is Michael Eisner?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "WATER PARKS",
+      "questions": [
+        {
+          "question": "BLIZZARD BEACH IS HOME TO THIS SLIDE, WHERE GUESTS CAN EXPERIENCE SPEEDS UP TO 60 MILES PER HOUR AS THEY MAKE A 12-STORY DROP.",
+          "answer": "What is Summit Plummet?",
+          "value": 100
+        },
+        {
+          "question": "THIS ATTRACTION AT TYPHOON LAGOON BOASTS DISNEY'S FIRST AUDIO-ANIMATRONIC ON A WATER SLIDE, A PARROT NAMED DUNCAN.",
+          "answer": "What is Miss Adventure Falls?",
+          "value": 200
+        },
+        {
+          "question": "GUESTS CAN SLIDE DOWN THE BANANA BLASTER, COCONUT CRUSHER, OR PINEAPPLE PLUNGER AT THIS TYPHOON LAGOON SLIDE.",
+          "answer": "What is Crush 'n Gusher?",
+          "value": 300
+        },
+        {
+          "question": "THE MASCOT OF BLIZZARD BEACH IS THIS CHILLY REPTILE, WHO INSPIRED A SIMILAR MASCOT FOR TYPHOON LAGOON.",
+          "answer": "Who is Ice Gator?",
+          "value": 400
+        },
+        {
+          "question": "THIS FUTURE WALT DISNEY WORLD RESORT HOTEL IS CURRENTLY BEING BUILT OVER THE FORMER SITE OF RIVER COUNTRY.",
+          "answer": "What is Reflections - A Disney Lakeside Resort?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "RESORT POOLS",
+      "questions": [
+        {
+          "question": "AT THE DISNEYLAND HOTEL, GUESTS CAN GO DOWN A WATER SLIDE THEMED TO THIS PARK ATTRACTION WITH AN ENTRANCE NEARBY.",
+          "answer": "What is the Disneyland Monorail?",
+          "value": 100
+        },
+        {
+          "question": "THIS WALT DISNEY WORLD RESORT HOTEL PAYS TRIBUTE TO AN ICONIC CONEY ISLAND ATTRACTION WITH THE LUNA PARK POOL.",
+          "answer": "What is Disney's BoardWalk Resort?",
+          "value": 200
+        },
+        {
+          "question": "YOUNGER GUESTS CAN ENJOY A WATER PLAYGROUND THEMED TO ALICE IN WONDERLAND AT THIS WALT DISNEY WORLD RESORT HOTEL.",
+          "answer": "What is Disney's Grand Floridian Resort and Spa?",
+          "value": 300
+        },
+        {
+          "question": "YOU MAY NOT BE ABLE TO FIND INDIANA JONES HERE, BUT GUESTS CAN SPLASH IN THE LOST CITY OF CIBOLA IN THIS POOL COMPLEX AT DISNEY'S CORONADO SPRINGS RESORT.",
+          "answer": "What is The Dig Site?",
+          "value": 400
+        },
+        {
+          "question": "OF THE FOUR FILMS REPRESENTED AT DISNEY'S ART OF ANIMATION RESORT (FINDING NEMO, CARS, THE LION KING, AND THE LITTLE MERMAID), THIS IS THE ONLY ONE TO NOT HAVE A CORRESPONDING POOL.",
+          "answer": "What is The Lion King?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "ICE CREAM",
+      "questions": [
+        {
+          "question": "THIS ICONIC DISNEY SNACK WAS FINALLY MADE AVAILABLE IN GROCERY STORES TO CELEBRATE MICKEY'S 90TH BIRTHDAY.",
+          "answer": "What is the Mickey Ice Cream Bar?",
+          "value": 100
+        },
+        {
+          "question": "GUESTS CAN SAY YES TO THE \"NO WAY JOSE\" AND THE KITCHEN SINK SUNDAES AT THIS RESORT EATERY.",
+          "answer": "What is Beaches & Cream Soda Shop?",
+          "value": 200
+        },
+        {
+          "question": "AT EPCOT'S ITALY PAVILION, GUESTS CAN ENJOY THIS KIND OF ICE CREAM, WHICH IS MADE WITH LESS AIR AND MORE FLAVORING THAN THE USUAL PRODUCT.",
+          "answer": "What is Gelato?",
+          "value": 300
+        },
+        {
+          "question": "THIS CHOCOLATE STORE AND ICE CREAM SHOP OPENED APPROPRIATELY AT THE THEN-DOWNTOWN DISNEY ON VALENTINE'S DAY 1998.",
+          "answer": "What is Ghirardelli?",
+          "value": 400
+        },
+        {
+          "question": "THIS WALT DISNEY WORLD ICE CREAM SPOT TAKES ITS NAME FROM A POEM BY WALT WHITMAN.",
+          "answer": "What is Ample Hills Creamery?",
+          "value": 500
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "GILL, AGAIN",
+      "questions": [
+        {
+          "question": "TRY TO IMAGINE THIS PREDECESSOR TO THE SEAS WITH NEMO AND FRIENDS.",
+          "answer": "What is The Living Seas?",
+          "value": 200
+        },
+        {
+          "question": "SUSTAINABLE SEAFOOD AND STEAKS ARE ON THE MENU AT THIS SIGNATURE DINING LOCATION AT DISNEY'S BOARDWALK.",
+          "answer": "What is Flying Fish?",
+          "value": 400
+        },
+        {
+          "question": "BEFORE FROZEN AND COCO, SONGWRITERS BOBBY LOPEZ AND KRISTEN ANDERSON-LOPEZ WROTE THE SONGS FOR THIS FISH TALE PERFORMED AT DISNEY'S ANIMAL KINGDOM.",
+          "answer": "What is Finding Nemo: The Musical?",
+          "value": 600
+        },
+        {
+          "question": "IN THE LAND PAVILION AT EPCOT, FISH ARE RAISED WITH THIS FARMING TECHNIQUE.",
+          "answer": "What is aquaculture?",
+          "value": 800
+        },
+        {
+          "question": "THIS ATTRACTION IS THE ONLY ONE IN DISNEY'S HOLLYWOOD STUDIOS TO GIVE A SPEAKING ROLE TO A FISH.",
+          "answer": "What is Voyage of the Little Mermaid?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "THE SKIPPER",
+      "questions": [
+        {
+          "question": "TRAVELLING UNDER SCHWEITZER FALLS PRODUCES THIS RARE SIGHT\u2026 THIS IS A TREAT, FOLKS!",
+          "answer": "What is the backside of water?",
+          "value": 200
+        },
+        {
+          "question": "TRADER SAM HAS THIS SPECIAL OFFER ON YOUR TOUR, AND NO MATTER HOW YOU SLICE OR DICE IT, IT'S A GOOD DEAL!",
+          "answer": "What is two of his heads for one of yours?",
+          "value": 400
+        },
+        {
+          "question": "THE BUTTERFLIES ON THE JUNGLE CRUISE ARE WHOPPERS, WITH WINGSPANS THAT CAN GROW TO THIS LENGTH.",
+          "answer": "What is twelve inches up to one foot?",
+          "value": 600
+        },
+        {
+          "question": "DON'T WORRY, HIPPOS ALWAYS GIVE THIS WARNING SIGN BEFORE THEY CHARGE AT A BOAT.",
+          "answer": "What is wiggling their ears?",
+          "value": 800
+        },
+        {
+          "question": "AS THIS CATEGORY COMES TO AN END, PLEASE WATCH YOUR STEP AND WATCH YOUR HEAD. IF YOU DON'T WATCH YOUR STEP AND YOU DO HIT YOUR HEAD, THEN PLEASE, AT LEAST DO THIS - WE'RE LIVE ON THE AIR!",
+          "answer": "What is watch your language?",
+          "value": 1000,
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "A MILLIONAIRE AND HIS LIFE",
+      "questions": [
+        {
+          "question": "YOU MAY BE ABLE TO AFFORD AN EXTRA NOT SO POISON APPLE CUPCAKE, BUT MONEY CAN'T BUY YOU EVERYTHING AT THIS UPCHARGE MAGIC KINGDOM EVENT\u2026 ESPECIALLY CHARACTER PHOTO OPPORTUNITIES.",
+          "answer": "What is Disney Villains After Hours?",
+          "value": 200
+        },
+        {
+          "question": "GENTLEMEN, BE SURE TO BRING YOUR DINNER JACKET AND LEAVE KIDS UNDER 10 AT HOME FOR DINNER AT THIS AAA FIVE DIAMOND AWARD-WINNING RESTAURANT AT DISNEY'S GRAND FLORIDIAN RESORT AND SPA.",
+          "answer": "What is Victoria and Albert's?",
+          "value": 400
+        },
+        {
+          "question": "THIS WALT DISNEY WORLD TOUR, COSTING $275 FOR ADULTS, TAKES YOU ON A TOUR THROUGH THE UTILIDORS AT THE MAGIC KINGDOM, CREATIVE COSTUMING, AND A BEHIND-THE-SCENES LOOK AT THE AMERICAN ADVENTURE AT EPCOT.",
+          "answer": "What is Backstage Magic?",
+          "value": 600
+        },
+        {
+          "question": "THIS EXPENSIVE SLEEPOVER SPOT IN THE MAGIC KINGDOM WAS OFFERED UP AS A DAILY PRIZE AS PART OF THE YEAR OF A MILLION DREAMS.",
+          "answer": "What is the Cinderella Castle Suite?",
+          "value": 800
+        },
+        {
+          "question": "THIS RESIDENTIAL AREA, QUITE POSSIBLY THE \"BOUGIE-EST\" THING ON PROPERTY, SHARES ITS NAME WITH A CHICKEN NUGGET STAND IN THE MAGIC KINGDOM.",
+          "answer": "What is Golden Oak?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "MOVIE STAR",
+      "questions": [
+        {
+          "question": "BEFORE HE PLAYED AN A CAPELLA COMPETITION COMMENTATOR IN THE PITCH PERFECT FILMS, JOHN MICHAEL HIGGINS WON WDWNT'S HEART AS BILL MCKIM IN THE ORIGINAL INCARNATION OF THIS EPCOT THRILL RIDE.",
+          "answer": "What is Test Track?",
+          "value": 200
+        },
+        {
+          "question": "NOT LONG AFTER THE MAKING OF ME CLOSED, THIS COMEDY ICON MOVED FROM FUTURE WORLD TO WORLD SHOWCASE TO HOST O CANADA! AT EPCOT.",
+          "answer": "Who is Martin Short?",
+          "value": 400
+        },
+        {
+          "question": "IF THIS PICTURE DOESN'T GIVE YOU ENOUGH NIGHTMARES, YOU CAN SEE THIS ACTRESS, WHO PLAYED STUPID JUDY IN ELLEN'S ENERGY ADVENTURE, IN THE HALLOWEEN FILMS.",
+          "answer": "Who is Jamie Lee Curtis?",
+          "value": 600,
+          "image": "./images/wdwnt/ellen.png"
+        },
+        {
+          "question": "THIS LEGENDARY ACTOR/COMEDIAN AND NEWSMAN BOTH STARRED IN \"BACK TO NEVERLAND\" IN THE MAGIC OF DISNEY ANIMATION.",
+          "answer": "Who are Robin Williams and Walter Cronkite?",
+          "value": 800
+        },
+        {
+          "question": "DESPITE BEING A NATIVE NEW YORKER, THIS DISNEY LEGEND PLAYED CALIFIA, THE QUEEN OF CALIFORNIA, IN THE FORMER DISNEY CALIFORNIA ADVENTURE ATTRACTION GOLDEN DREAMS.",
+          "answer": "Who is Whoopi Goldberg?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "THE PROFESSORS",
+      "questions": [
+        {
+          "question": "IN ADDITION TO HIS ROLE IN ELLEN'S ENERGY ADVENTURE AND HIS VOICEOVER IN THE QUEUE OF DINOSAUR, THIS SCIENCE GUY ALSO HAD HIS OWN SHOW AT INNOVENTIONS AT EPCOT FROM 1998 TO 1999.",
+          "answer": "Who is Bill Nye?",
+          "value": 200
+        },
+        {
+          "question": "ALONG WITH HIS ASSISTANT BEAKER, THIS MUPPET LABS SCIENTIST IS RESPONSIBLE FOR THE CREATION OF WALDO, THE SPIRIT OF 3-D.",
+          "answer": "Who is Dr. Bunsen Honeydew?",
+          "value": 400
+        },
+        {
+          "question": "WE'RE IN! THIS PROFESSOR HIJACKS YOUR TIME TRAVEL VOYAGE FOR A TRANS-DIMENSIONAL JOYRIDE TO THE END OF THE CRETACEOUS PERIOD ON DINOSAUR.",
+          "answer": "Who is Dr. Seeker?",
+          "value": 600
+        },
+        {
+          "question": "EVEN THOUGH HONEY, I SHRUNK THE AUDIENCE HAS LONG LEFT EPCOT, YOU CAN STILL SEE THIS SHRINKING MACHINE CREATOR'S PICTURE IN THE QUEUE FOR JOURNEY INTO IMAGINATION WITH FIGMENT",
+          "answer": "Who is Wayne Szalinski?",
+          "value": 800
+        },
+        {
+          "question": "THIS AVATAR: FLIGHT OF PASSAGE CHARACTER TAKES HER NAME FROM WALT DISNEY WORLD'S VICE PRESIDENT OF ANIMALS, SCIENCE, AND ENVIRONMENT.",
+          "answer": "Who is Jackie Ogden?",
+          "value": 1000,
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "MERRY ANNE",
+      "questions": [
+        {
+          "question": "THIS AFTER-HOURS EVENT WILL HAPPEN 23 NIGHTS IN THE MAGIC KINGDOM DURING NOVEMBER AND DECEMBER.",
+          "answer": "What is Mickey's Very Merry Christmas Party?",
+          "value": 200
+        },
+        {
+          "question": "CELEBRITIES JOIN A 50-PIECE ORCHESTRA FOR THIS HOLIDAY PRESENTATION.",
+          "answer": "What is the Candlelight Processional?",
+          "value": 400
+        },
+        {
+          "question": "THIS YEAR, MAGIC KINGDOM WILL PREMIERE THIS HOLIDAY FIREWORKS SHOW.",
+          "answer": "What is Minnie's Wonderful Christmastime Fireworks?",
+          "value": 600
+        },
+        {
+          "question": "BEHOLD THIS CAPTIVATING HOLIDAY PROJECTION SHOW ON THE HOLLYWOOD TOWER HOTEL.",
+          "answer": "What is Sunset Seasons Greetings?",
+          "value": 800
+        },
+        {
+          "question": "STARTING THIS YEAR, HOLIDAY CHEER AND CHRISTMAS DÉCOR AWAIT YOU AT THIS EXPAT-RUN DRINK STAND IN PANDORA - THE WORLD OF AVATAR.",
+          "answer": "What is Pongu Pongu?",
+          "value": 1000
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "category": "2007",
+    "question": "ON JULY 9TH, 2007, THE FIRST ARTICLE EVER POSTED TO WDWNT.COM WAS ABOUT THIS ATTRACTION CLOSING FOR REFURBISHMENT.",
+    "answer": "What is Spaceship Earth?"
+  }
+}

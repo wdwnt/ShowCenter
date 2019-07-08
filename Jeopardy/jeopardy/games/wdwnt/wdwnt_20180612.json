@@ -1,0 +1,376 @@
+{
+  "jeopardy": [
+    {
+      "name": "TOY STORY",
+      "questions": [
+        {
+          "question": "BUZZ LIGHTYEAR’S ENEMY, WHO YOU TRY TO DEFEAT IN SPACE RANGER SPIN.",
+          "value": "100",
+          "answer": "Who is Emperor Zurg?"
+        },
+        {
+          "question": "THIS PENGUIN IS NOW AN ANIMATRONIC AT THE END OF THE SLINKY DOG DASH COASTER IN TOY STORY LAND.",
+          "value": "200",
+          "answer": "Who is Wheezy?"
+        },
+        {
+          "question": "IN TOY STORY 3, ANDY’S TOYS ARE WELCOMED TO SUNNYSIDE DAYCARE BY THIS BEAR.",
+          "value": "300",
+          "answer": "Who is Lotso/Lots-O-Huggin Bear?"
+        },
+        {
+          "question": "THE FIRST DISNEY ANIMATED CHARACTER THIS ACTOR VOICED WAS IN TOY STORY, THOUGH BEFORE THAT HE DID APPEAR IN THE WONDERFUL WORLD OF DISNEY AS HIS FAMOUS CHARACTER, CLIFF CLAVIN.",
+          "value": "400",
+          "answer": "Who is John Ratzenberger?"
+        },
+        {
+          "question": "SARAH MCLACHLAN PROVIDED JESSIE’S SINGING VOICE IN TOY STORY 2, BUT HER SPEAKING VOICE IN 2, 3, AND THE UPCOMING 4 IS PROVIDED BY THIS ACTRESS.",
+          "value": "500",
+          "answer": "Who is Joan Cusack?"
+        }
+      ]
+    },
+    {
+      "name": "LAND",
+      "questions": [
+        {
+          "question": "COUNTRY BEAR JAMBOREE",
+          "value": "100",
+          "answer": "What is Frontierland?"
+        },
+        {
+          "question": "KALI RIVER RAPIDS",
+          "value": "200",
+          "answer": "What is Asia?"
+        },
+        {
+          "question": "STAR TOURS - THE ADVENTURE CONTINUES",
+          "value": "300",
+          "answer": "What is Echo Lake?"
+        },
+        {
+          "question": "GADGET’S GO COASTER",
+          "value": "400",
+          "answer": "What is Mickey’s Toontown?"
+        },
+        {
+          "question": "MONSTERS, INC. MIKE & SULLEY TO THE RESCUE!",
+          "value": "500",
+          "answer": "What is Hollywood Land?"
+        }
+      ]
+    },
+    {
+      "name": "OPENING",
+      "questions": [
+        {
+          "question": "JULY 17, 1955",
+          "value": "100",
+          "answer": "What is Disneyland?"
+        },
+        {
+          "question": "APRIL 22, 1998 (EARTH DAY)",
+          "value": "200",
+          "answer": "What is Animal Kingdom?"
+        },
+        {
+          "question": "JUNE 23, 2018",
+          "value": "300",
+          "answer": "What is Pixar Pier?"
+        },
+        {
+          "question": "FEBRUARY 8, 2001",
+          "value": "400",
+          "answer": "What is Disney’s California Adventure?"
+        },
+        {
+          "question": "APRIL 12, 1992",
+          "value": "500",
+          "answer": "What is Euro Disney?"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE",
+      "questions": [
+        {
+          "question": "UP: A GREAT BIRD ADVENTURE",
+          "value": "100",
+          "answer": "What is Flights of Wonder?"
+        },
+        {
+          "question": "PANDORA: THE WORLD OF AVATAR",
+          "value": "200",
+          "answer": "What is Camp Minnie-Mickey?"
+        },
+        {
+          "question": "TEST TRACK",
+          "value": "300",
+          "answer": "What is World of Motion?"
+        },
+        {
+          "question": "PRINCESS FAIRYTALE HALL",
+          "value": "400",
+          "answer": "What is Snow White’s Scary Adventures?"
+        },
+        {
+          "question": "THE CALIFORNIA GRILL",
+          "value": "500",
+          "answer": "What is the Top of the World?"
+        }
+      ]
+    },
+    {
+      "name": "STAR WARS?",
+      "questions": [
+        {
+          "question": "SHE ASKED FOR HER ANIMATRONIC, BUT ALL SHE GOT WAS THIS.",
+          "value": "100",
+          "answer": "Who is Ellen DeGeneres?",
+          "image": "./images/wdwnt/ellen.png"
+        },
+        {
+          "question": "AFTER A TWITTER RANT RESULTED IN HER SHOW’S CANCELLATION, BOB IGER TWEETED, \"THERE WAS ONLY ONE THING TO DO HERE, AND THAT WAS THE RIGHT THING.\"",
+          "value": "200",
+          "answer": "Who is Roseanne Barr?"
+        },
+        {
+          "question": "SHE WAS ORIGINALLY IN TALKS WITH THE DISNEY COMPANY FOR CREATING A THEMED LAND BASED AROUND HER BOOKS - IT WOULD HAVE MADE SENSE, GIVEN HOW MUCH DISNEY LIKES BUILDING CASTLES.",
+          "value": "300",
+          "answer": "Who is JK Rowling?"
+        },
+        {
+          "question": "THIS ACTOR WAS RATHER UPSET AT THE ABRUPT CANCELLATION OF ABC’S \"CASTLE\" - ALTHOUGH HE SEEMS TO HAVE PUT THAT BEHIND HIM, SINCE HE’LL BE STARRING IN ABC’S NEW SERIES \"THE ROOKIE\" ONCE IT DEBUTS.",
+          "value": "400",
+          "answer": "Who is Nathan Fillion?"
+        },
+        {
+          "question": "THIS ACTOR ENDED UP FEUDING WITH DISNEY ANIMATION OVER HOW THEY ADVERTISED THE MOVIE HE WAS IN - SPECIFICALLY, THAT THEY PROMOTED HIS ROLE IN THE FILM TOO WELL.",
+          "value": "500",
+          "answer": "Who is Robin Williams?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "OF COURSE",
+      "questions": [
+        {
+          "question": "TOM MIGHT TEACH FAKE COURSES ON WRITING CLICKBAIT HEADLINES, BUT YOU CAN TAKE REAL COURSES ON EXCEPTIONAL CUSTOMER SERVICE AND LEADERSHIP EXCELLENCE HERE.",
+          "value": "100",
+          "answer": "What is the Disney Institute?"
+        },
+        {
+          "question": "OVER THE COURSE OF THIS ATTRACTION, GUESTS GET TO SEE MANY LANDMARKS SUCH AS THE MATTERHORN, THE GREAT WALL OF CHINA, AND THE EIFFEL TOWER.",
+          "value": "200",
+          "answer": "What is Soarin' Around the World?"
+        },
+        {
+          "question": "THIS ATTRACTION TAKES YOU THROUGH THE COURSE OF HUMAN HISTORY.",
+          "value": "300",
+          "answer": "What is Spaceship Earth?"
+        },
+        {
+          "question": "TRY THE 10-COURSE CHEF’S TASTING MENU AT THIS FIVE-DIAMOND RESTAURANT.",
+          "value": "400",
+          "answer": "What is Victoria and Albert’s?"
+        },
+        {
+          "question": "DISNEY HAS SEVERAL GOLF COURSES, BUT THIS IS THE ONLY ONE WHERE YOU CAN PLAY FOOTGOLF.",
+          "value": "500",
+          "answer": "What is Disney’s Oak Trail Golf Course. "
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "ANOTHER ONE RIDES THE BUS",
+      "questions": [
+        {
+          "question": "WHEN IS YOUR DISNEY BUS COMING? SOON YOU'LL BE ABLE TO CHECK THIS APP - IF IT’S NOT EXPERIENCING AN OUTAGE.",
+          "value": "200",
+          "answer": "What is My Disney Experience?"
+        },
+        {
+          "question": "TAKE THIS BUS FROM THE ORLANDO AIRPORT TO YOUR WALT DISNEY WORLD RESORT.",
+          "value": "400",
+          "answer": "What is Magical Express?"
+        },
+        {
+          "question": "SICK OF WAITING FOR THE BUS? BOOK YOURSELF ONE OF THESE DISNEY-RUN VEHICLES FROM YOUR LYFT APP.",
+          "value": "600",
+          "answer": "What is a Minnie Van?"
+        },
+        {
+          "question": "THIS IS THE ONE PARK YOU CAN’T REACH BY DISNEY BUS FROM FORT WILDERNESS.",
+          "value": "800",
+          "answer": "What is the Magic Kingdom?",
+          "daily-double": true
+        },
+        {
+          "question": "USED FOR GUEST TRANSPORTATION AND SHOWS, THIS STYLE OF BUS WAS SEEN AROUND WORLD SHOWCASE.",
+          "value": "1000",
+          "answer": "What is a double-decker bus?"
+        }
+      ]
+    },
+    {
+      "name": "I THINK I’M A CLONE NOW",
+      "questions": [
+        {
+          "question": "THE MOVIE SOLO MAKES A REFERENCE TO THIS PLANET WHICH GUESTS AT HOLLYWOOD STUDIOS WILL SOON BE ABLE TO VISIT LATE NEXT YEAR.",
+          "value": "200",
+          "answer": "What is Batuu?"
+        },
+        {
+          "question": "THE BATTLE ESCAPE ATTRACTION WILL PUT YOU IN THE MIDDLE OF A BATTLE BETWEEN THE RESISTANCE AND THIS GROUP.",
+          "value": "400",
+          "answer": "What is the First Order?"
+        },
+        {
+          "question": "THE NAME OF THE VILLAGE (NOT THE PLANET) WE’LL VISIT IN GALAXY’S EDGE.",
+          "value": "600",
+          "answer": "What is Black Spire Outpost?"
+        },
+        {
+          "question": "THE SIXTH VERSION OF THIS REEDPOP RUN STAR WARS CONVENTION WHICH TRAVELS AROUND THE NATION WAS HELD IN ORLANDO IN 2012, NOT TOO FAR FROM THE TOWN OF THE SAME NAME.",
+          "value": "800",
+          "answer": "What is (Star Wars) Celebration?"
+        },
+        {
+          "question": "IN STAR TOURS: THE ADVENTURE CONTINUES, PASSENGERS BOARD THIS MODEL OF VEHICLE.",
+          "value": "1000",
+          "answer": "What is the StarSpeeder 1000?"
+        }
+      ]
+    },
+    {
+      "name": "EAT IT!",
+      "questions": [
+        {
+          "question": "THIS OLD KEY WEST RESTAURANT IS KNOWN FOR ITS CONCH CHOWDER.",
+          "value": "200",
+          "answer": "What is Olivia’s?"
+        },
+        {
+          "question": "TRY THE CHEESECAKE IN A JAR AT THIS MAGIC KINGDOM RESTAURANT THAT REOPENED IN 2016.",
+          "value": "400",
+          "answer": "What is the Diamond Horseshoe?"
+        },
+        {
+          "question": "SNACK ON BANANA CHEESECAKE EGG ROLLS AT THIS WORLD SHOWCASE TABLE-SERVICE LOCATION.",
+          "value": "600",
+          "answer": "What is Nine Dragons?"
+        },
+        {
+          "question": "BACON IS EVEN BETTER WHEN IT’S SERVED ON A CLOTHESLINE, LIKE AT THIS DISNEY SPRINGS ESTABLISHMENT.",
+          "value": "800",
+          "answer": "What is the Edison?"
+        },
+        {
+          "question": "WHILE KUNGALOOSH IS BEST KNOWN AS A DRINK MADE FAMOUS BY THE ADVENTURER’S CLUB, IT’S ALSO THE NAME OF A DESSERT AT THIS MAGIC KINGDOM THEMED RESTAURANT.",
+          "value": "1000",
+          "answer": "What is Skipper Canteen?"
+        }
+      ]
+    },
+    {
+      "name": "I LOST ON JEOPARDY",
+      "questions": [
+        {
+          "question": "PETE GOT THE FIRST EVER WDWNT JEOPARDY QUESTION RIGHT, IDENTIFYING THIS SPINNING ADVENTURELAND ATTRACTION.",
+          "value": "200",
+          "answer": "What is the Magic Carpets of Aladdin?"
+        },
+        {
+          "question": "PETE COULDN’T GIVE THE NAME OF THIS DINOSAUR IN HOLLYWOOD STUDIOS THAT SERVES ICE CREAM AND INCORRECTLY DESCRIBED IT AS BLOCKING THE CHINESE THEATER.",
+          "value": "400",
+          "answer": "What is Gertie?"
+        },
+        {
+          "question": "PETE THOUGHT THAT THIS EPCOT ICON WAS FOR THE SEAS. IT'S ACTUALLY FOR THIS ATTRACTION.",
+          "value": "600",
+          "answer": "What is Horizons?",
+          "image": "./images/wdwnt/epcot/horizons.png"
+        },
+        {
+          "question": "PETE THOUGHT THAT JIMMY CARTER WAS AT THE OPENING OF DISNEYLAND, BUT REALLY, IT WAS THIS FUTURE PRESIDENT.",
+          "value": "800",
+          "answer": "Who is Ronald Reagan?"
+        },
+        {
+          "question": "PETE CALLED THE MEMORIAL \"SHARING THE MAGIC\" FEATURING THIS PERSON AND MINNIE MOUSE AS \"ALMOST PARTNERS\".",
+          "value": "1000",
+          "answer": "Who is Roy Disney?"
+        }
+      ]
+    },
+    {
+      "name": "TRAPPED IN THE DRIVE-THRU",
+      "questions": [
+        {
+          "question": "IN SCI-FI DINE IN'S FILM LOOP, THERE IS A MONTAGE OF CLIPS SET TO THIS TUNE ABOUT A CYCLOPEAN, HORNED, AERIFORM, CARNIVOROUS BEAST THAT REFLECTS LIGHT AT A WAVELENGTH OF AROUND 400NM.",
+          "value": "200",
+          "answer": "What is (a/the) one-eyed, one-horned, flying purple people eater?"
+        },
+        {
+          "question": "IN ONE OF THE INTERMISSION BREAKS AT SCI-FI, A CLOCK IS DISPLAYED WARNING YOU THAT THIS IS YOU \"LAST CHANCE TO VISIT THE SNACK BAR BEFORE THE NEXT SHOW\", WHILE THIS SONG BY THE DELL VIKINGS PLAYS IN THE BACKGROUND.",
+          "value": "400",
+          "answer": "What is Come and Go With Me?"
+        },
+        {
+          "question": "THIS MOVIE, DUBBED THE \"WORST FILM EVER MADE\" BY THE BOOK THE GOLDEN TURKEY AWARDS, WAS BELA LUGOSI’S LAST CREDITED FILM ROLE, AND HAS BEEN RIFFED ON BY BOTH THE FILM CREW AND RIFFTRAX.",
+          "value": "600",
+          "answer": "What is Plan 9 from Outer Space?"
+        },
+        {
+          "question": "INCLUDED IN SCI-FI'S FILM LOOP IS A TRAILER FOR WHAT IS POSSIBLY THE LEAST AMBITIOUS CROSSOVER EVENT IN HISTORY, WHERE THIS CLASSIC UNIVERSAL MONSTER MEETS A CREATURE KNOWN ONLY AS \"THE SPACE MONSTER\".",
+          "value": "800",
+          "answer": "Who is Frankenstein?"
+        },
+        {
+          "question": "ALSO FEATURED IN SCI-FI IS THE CARTOON \"THE CAT THAT HATED PEOPLE\", WITH THE TITULAR CAT VOICED BY FRED QUIMBY, AND DIRECTED BY THIS MAN, WHO IS FAR MORE FAMOUS FOR HIS WORK WITH THE LOONEY TUNES CHARACTERS.",
+          "value": "1000",
+          "answer": "Who is Tex Avery?"
+        }
+      ]
+    },
+    {
+      "name": "WEIRD \"AL\" YANKOVIC",
+      "questions": [
+        {
+          "question": "THIS LOCATION WAS FEATURED PROMINENTLY IN TOY STORY 2, DUE TO IT BEING OWNED AND OPERATED BY THE MAIN ANTAGONIST.",
+          "value": "200",
+          "answer": "What is Al's Toy Barn?"
+        },
+        {
+          "question": "THE SPINNER RIDE IN ADVENTURELAND IS THEMED TO THIS DISNEY MOVIE.",
+          "value": "400",
+          "answer": "What is Aladdin?"
+        },
+        {
+          "question": "NOW AN EXTINCT ATTRACTION, THIS IS THE ONLY SHOW IN DISNEY PARKS HISTORY TO FEATURE TIM CURRY.",
+          "value": "600",
+          "answer": "What is Alien Encounter?"
+        },
+        {
+          "question": "THIS COMPOSER WROTE THE SCORE FOR BEAUTY AND THE BEAST, HERCULES, AND (BELIEVE IT OR NOT) SAUSAGE PARTY.",
+          "value": "800",
+          "answer": "Who is Alan Menken?"
+        },
+        {
+          "question": "THIS WAS THE MAIN CHARACTER FROM DISNEY’S 2000 FILM, DINOSAUR.",
+          "value": "1000",
+          "answer": "Who is Aladar?",
+          "daily-double": true
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is River Country?",
+    "category": "PLOTTING FOR LATER",
+    "question": "ON MAY 31, WDWNT BROKE THE NEWS THAT WIMBERLY ALLISON TONG & GOO WERE SELECTED AS THE LEAD DESIGNERS FOR A NEW PROJECT THAT WOULD BE BUILT ON TOP OF THE FORMER HOME OF THIS."
+  }
+}

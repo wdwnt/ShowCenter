@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "SPINNING",
+      "questions": [
+        {
+          "question": "THIS ATTRACTION USES SPINNING TO SIMULATE GRAVITY FORCES FROM LIFTOFF.",
+          "value": "100",
+          "answer": "What is Mission: SPACE?"
+        },
+        {
+          "question": "YOU NEED AN ELEVATOR TO GET TO THIS SPINNING ATTRACTION.",
+          "value": "200",
+          "answer": "What is Astro Orbiter?"
+        },
+        {
+          "question": "IN 2012, THIS SPINNING ATTRACTION DOUBLED ITS RIDE CAPACITY.",
+          "value": "300",
+          "answer": "What is Dumbo the Flying Elephant?"
+        },
+        {
+          "question": "THIS SPINNING ATTRACTION HAS YOU TRAVELING THROUGH TIME, WHICH IS VERY CLOSE TO ANOTHER TIME TRAVELING ATTRACTION.",
+          "value": "400",
+          "answer": "What is Primeval Whirl?"
+        },
+        {
+          "question": "THIS SPINNING ATTRACTION IS CELEBRATING ITS 100TH YEAR IN SERVICE, BUT HAS ONLY BEEN IN THE MAGIC KINGDOM SINCE 1971",
+          "value": "500",
+          "answer": "What is Prince Charming Regal Carrousel?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "DARKNESS",
+      "questions": [
+        {
+          "question": "THIS ROLLER COASTER WAS DESIGNED BY WALT DISNEY TO BE IN COMPLETE DARKNESS.",
+          "value": "100",
+          "answer": "What is Space Mountain?"
+        },
+        {
+          "question": "THIS ATTRACTION'S ROOM PLUNGES YOU INTO COMPLETE DARKNESS IN THE ROOM WITH NO WINDOWS AND NO DOORS.",
+          "value": "200",
+          "answer": "What is the Haunted Mansion?"
+        },
+        {
+          "question": "GUESTS GET ATTACKED IN THE BACK IN THE DARK AT THIS ATTRACTION.",
+          "value": "300",
+          "answer": "What is It's Tough to Be a Bug?"
+        },
+        {
+          "question": "THE DARKNESS HIDES THE TRACK TO THE FIFTH DIMENSION IN THIS ATTRACTION.",
+          "value": "400",
+          "answer": "What is The Twilight Zone Tower of Terror?"
+        },
+        {
+          "question": "THE DARKNESS WAS A MAJOR FACTOR IN THIS ATTRACTION WHICH STARRED DREW CAREY.",
+          "value": "500",
+          "answer": "What is Sounds Dangerous?"
+        }
+      ]
+    },
+    {
+      "name": "PUPPIES",
+      "questions": [
+        {
+          "question": "THE DOG IN THIS ATTRACTION IS ENTICED WITH A BONE FOR WHAT HE HAS IN HIS MOUTH.",
+          "value": "100",
+          "answer": "What is Pirates of the Carribean?"
+        },
+        {
+          "question": "YOU CAN MEET THIS DOG ON DISCOVERY ISLAND",
+          "value": "200",
+          "answer": "Who is Dug?"
+        },
+        {
+          "question": "HIS DOG HOUSE IS A QUICK SERVICE WINDOW IN MICKEY'S TOONTOWN IN DISNEYLAND.",
+          "value": "300",
+          "answer": "Who is Pluto?"
+        },
+        {
+          "question": "THIS DOG IN THE CAROUSEL OF PROGRESS KEEPS THE WATER IN THE DRIP PAN FROM OVERFLOWING",
+          "value": "400",
+          "answer": "Who is Rover?"
+        },
+        {
+          "question": "QUARK IS THE NAME OF THE DOG IN THIS ATTRACTION.",
+          "value": "500",
+          "answer": "What is Honey, I Shrunk the Audience?"
+        }
+      ]
+    },
+    {
+      "name": "TACOS",
+      "questions": [
+        {
+          "question": "THIS RESTAURANT IN MEXICO IN EPCOT HAS TACOS AL PASTOR AND TACOS DE CARNE.",
+          "value": "100",
+          "answer": "What is San Angel Inn?"
+        },
+        {
+          "question": "THIS DISNEY SPRINGS RESTAURANT WE LOVE TO SHOW A PICTURE OF HAS FISH TACOS.",
+          "value": "200",
+          "answer": "What is Paddlefish?"
+        },
+        {
+          "question": "THIS LOUNGE IN ANIMAL KINGDOM SERVES SUSTAINABLE FISH TACOS.",
+          "value": "300",
+          "answer": "What is The Nomad Lounge?"
+        },
+        {
+          "question": "HAVE SOME TACOS DURANGO AT THE MAYA GRILL AT THIS RESORT",
+          "value": "400",
+          "answer": "What is Coronado Springs?"
+        },
+        {
+          "question": "BREAKFAST TACOS?! THIS YACHT CLUB RESORT RESTAURANT HAS BUTTERMILK FRIED SHRIMP TACOS ON ITS BREAKFAST MENU.",
+          "value": "500",
+          "answer": "What is Captain's Grill?"
+        }
+      ]
+    },
+    {
+      "name": "ABOMINABLE SNOW CREATURES",
+      "questions": [
+        {
+          "question": "THE ABOMINABLE SNOW CREATURE IN DISNEYLAND'S FANTASYLAND CAN BE FOUND IN THIS ATTRACTION.",
+          "value": "100",
+          "answer": "What is the Matterhorn?"
+        },
+        {
+          "question": "THIS SNOW CREATURE IS IN \"DISCO\" B-MODE AT EXPEDITION EVEREST.",
+          "value": "200",
+          "answer": "What is the Yeti?"
+        },
+        {
+          "question": "THIS FORMER ATTRACTION FEATURED A POLAR BEAR STANDING ON ITS HIND LEGS",
+          "value": "300",
+          "answer": "What is Maelstrom?"
+        },
+        {
+          "question": "IN FROZEN EVER AFTER, THIS SNOW CREATURE DIRECTS YOU BACK TO ARENDELLE.",
+          "value": "400",
+          "answer": "Who is Marshmallow?"
+        },
+        {
+          "question": "ORIGINAL PLANS FOR HOTH IN \"STAR TOURS: THE ADVENTURES CONTINUE\" HAD YOU ENCOUNTERING THESE TWO TYPES OF SNOW CREATURES, BUT WHO CARES?!",
+          "value": "500",
+          "answer": "What are wampas and tauntauns?"
+        }
+      ]
+    },
+    {
+      "name": "THE LETTER \"R\"",
+      "questions": [
+        {
+          "question": "HE WAS WALT DISNEY'S BROTHER.",
+          "value": "100",
+          "answer": "Who is Roy?"
+        },
+        {
+          "question": "ONE OF THE FEW ATTRACTIONS STILL OPERATING AT HOLLYWOOD STUDIOS.",
+          "value": "200",
+          "answer": "What is Rock 'n' Roller Coaster?"
+        },
+        {
+          "question": "THIS EATERY IN ANIMAL KINGDOM USED TO SERVE MCDONALDS.",
+          "value": "300",
+          "answer": "What is Restaurantosaurus?"
+        },
+        {
+          "question": "THIS TUBE RIDE ATTRACTION AT BLIZZARD BEACH FITS THE CATEGORY.",
+          "value": "400",
+          "answer": "What is Runoff Rapids?"
+        },
+        {
+          "question": "IF YOU WANT TO DROP INTO A SPOT THAT SWINGS, TAKE IT DOWN TO THIS HERE TOWN.",
+          "value": "500",
+          "answer": "What is Radiator Springs?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "HOORAY FOR HOLLYWOOD STUDIOS",
+      "questions": [
+        {
+          "question": "ONE STORMY NIGHT LONG AGO, THIS MANY PEOPLE STEP THROUGH THE DOOR OF AN ELEVATOR AND INTO A NIGHTMARE.",
+          "value": "200",
+          "answer": "What is five?"
+        },
+        {
+          "question": "BEFORE BECOMING THE STREETS OF AMERICA, THIS AREA WAS NAMED FOR A SINGLE CITY.",
+          "value": "400",
+          "answer": "What is New York Street?"
+        },
+        {
+          "question": "THIS BAR WAS FOUND ABOVE THE AREA NOW OCCUPIED BY PLAYHOUSE DISNEY: LIVE ON STAGE.",
+          "value": "600",
+          "answer": "What is the Catwalk Bar?"
+        },
+        {
+          "question": "THIS 1990S NON-WRESTLING HULK HOGAN TV SHOW WAS FILMED PRIMARILY AT THE DISNEY MGM STUDIOS (AND SOMETIMES AT EPCOT AND THE GRAND FLORIDIAN).",
+          "value": "800",
+          "answer": "What is Thunder in Paradise?"
+        },
+        {
+          "question": "THE FORMER WRITER'S STOP ADJACENT TO SCI FI DINE IN WAS THEMED TO THIS FORMER ABC TELEVISION SHOW.",
+          "value": "1000",
+          "answer": "What is Ellen?"
+        }
+      ]
+    },
+    {
+      "name": "PRESHOW STARS",
+      "questions": [
+        {
+          "question": "PATRICK WARBURTON",
+          "value": "200",
+          "answer": "What is Soarin'?"
+        },
+        {
+          "question": "GARY SINISE",
+          "value": "400",
+          "answer": "What is Mission: SPACE?"
+        },
+        {
+          "question": "PHYLICIA RASHAD",
+          "value": "600",
+          "answer": "What is Dinosaur?"
+        },
+        {
+          "question": "JOHN MICHAEL HIGGINS",
+          "value": "800",
+          "answer": "What is Test Track?"
+        },
+        {
+          "question": "WHOOPI GOLDBERG",
+          "value": "1000",
+          "answer": "What is Captain EO?"
+        }
+      ]
+    },
+    {
+      "name": "WONDERS OF LIFE",
+      "questions": [
+        {
+          "question": "GENERAL KNOWLEDGE GUIDES YOU IN THIS ATTRACTION",
+          "value": "200",
+          "answer": "What is Cranium Command?"
+        },
+        {
+          "question": "THE VIDEO FOR THIS ATTRACTION WAS DIRECTED BY LEONARD NIMOY.",
+          "value": "400",
+          "answer": "What is Body Wars?"
+        },
+        {
+          "question": "MARTIN SHORT NARRATES THIS MOVIE ABOUT THE PROCESS OF REPRODUCTION.",
+          "value": "600",
+          "answer": "What is The Making of Me?"
+        },
+        {
+          "question": "THIS WAS THE ONLY CORPORATE SPONSOR OF THE PAVILION.",
+          "value": "800",
+          "answer": "What is MetLife?"
+        },
+        {
+          "question": "ONE OF THE COACHES AT COACH'S CORNER WAS THIS CATCHER OF THE WORLD CHAMPION 1986 NEW YORK METS.",
+          "value": "1000",
+          "answer": "Who is Gary Carter?"
+        }
+      ]
+    },
+    {
+      "name": "MAGIC",
+      "questions": [
+        {
+          "question": "THIS MOVIE WAS THE BASIS FOR THE NIGHTTIME SHOW THAT WAS SUPPOSEDLY ALIVE WITH MAGIC.",
+          "value": "200",
+          "answer": "What is The Jungle Book?"
+        },
+        {
+          "question": "DONALD STRIKES UP THE BAND USING MAGIC AT THIS ATTRACTION.",
+          "value": "400",
+          "answer": "What is Mickey's Philharmagic?"
+        },
+        {
+          "question": "THIS WAS THE FIRST MOVIE SHOWN IN THE MAGIC EYE THEATER.",
+          "value": "600",
+          "answer": "What is Magic Journeys?"
+        },
+        {
+          "question": "THIS MAGICAL MOVIE CHARACTER HAD A LIVE SHOW IN FRONT OF THE CAROUSEL.",
+          "value": "800",
+          "answer": "Who is Merlin?",
+          "daily-double": true
+        },
+        {
+          "question": "THIS STORE WITH MANY TRICKS ON MAIN STREET CLOSED ON MARCH 19, 1995.",
+          "value": "1000",
+          "answer": "What is the House of Magic?"
+        }
+      ]
+    },
+    {
+      "name": "PARKING LOTS",
+      "questions": [
+        {
+          "question": "FILM",
+          "value": "200",
+          "answer": "What is Disney's Hollywood Studios?"
+        },
+        {
+          "question": "UNICORN",
+          "value": "400",
+          "answer": "What is Disney's Animal Kingdom?"
+        },
+        {
+          "question": "ORANGE",
+          "value": "600",
+          "answer": "What is Disney Springs?"
+        },
+        {
+          "question": "IMAGINE",
+          "value": "800",
+          "answer": "What is EPCOT?"
+        },
+        {
+          "question": "PLUTO",
+          "value": "1000",
+          "answer": "What is the Transportation and Ticket Center?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT CARS IN IT!",
+      "questions": [
+        {
+          "question": "LET'S HAVE RAMONE MAKE HIS DESIGNS ON A COMPUTER AND TRY THEM OUT AT THIS EPCOT ATTRACTION!",
+          "value": "200",
+          "answer": "What is Test Track?"
+        },
+        {
+          "question": "LET'S HAVE THE PISTON CUP AT THIS RACE TRACK IN THE MAGIC KINGDOM!",
+          "value": "400",
+          "answer": "What is the Tomorrowland Speedway?"
+        },
+        {
+          "question": "LET'S HAVE MATER TOW AWAY WHAT'S LEFT OF THIS FORMER AUTOMOTIVE SHOW AT HOLLYWOOD STUDIOS!",
+          "value": "600",
+          "answer": "What is Lights, Motor, Action?"
+        },
+        {
+          "question": "LET'S HAVE SALLY RUN THE COZY CONE POOL AT THIS RESORT!",
+          "value": "800",
+          "answer": "What is the Art of Animation?"
+        },
+        {
+          "question": "LET'S JUST HAVE THEM ALL RUN THE PEOPLEMOVER TRACK IN DISNEYLAND. IT'LL BE BETTER THAN THIS LAST ATTRACTION USING IT!",
+          "value": "1000",
+          "answer": "What is Rocket Rods?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "Who is Michael Giacchino?",
+    "category": "STAR WARS",
+    "question": "THE ONLY OTHER COMPOSER TO SCORE A STAR WARS MOVIE (ROGUE ONE), HE ALSO SCORED THE PRE-SHOW AND QUEUE TO STAR TOURS: THE ADVENTURES CONTINUE."
+  }
+}

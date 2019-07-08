@@ -1,0 +1,376 @@
+{
+  "jeopardy": [
+    {
+      "name": "ANIMAL KINGDOM",
+      "questions": [
+        {
+          "question": "THIS AREA JUST INSIDE THE ENTRANCE TO THE PARK HOUSES EXHIBITS OF SEVERAL ANIMALS, INCLUDING WALLABIES AND ANTEATERS.",
+          "value": "100",
+          "answer": "What is the Oasis?"
+        },
+        {
+          "question": "BEFORE PANDORA, YOU COULD FIND THIS AREA IN THE SOUTHWEST CORNER OF ANIMAL KINGDOM.",
+          "value": "200",
+          "answer": "What is Camp Minnie-Mickey?"
+        },
+        {
+          "question": "THIS NEVER-BUILT LAND IS THE REASON THERE’S A DRAGON IN THE ANIMAL KINGDOM LOGO.",
+          "value": "300",
+          "answer": "What is Beastly Kingdom?"
+        },
+        {
+          "question": "ANIMAL KINGDOM’S OPENING DAY COINCIDED WITH THIS ANNUAL CELEBRATION.",
+          "value": "400",
+          "answer": "What is Earth Day?"
+        },
+        {
+          "question": "VIEWED FROM ABOVE, THE FOOTPRINT OF ANIMAL KINGDOM IS SHAPED LIKE THIS CONTINENT.",
+          "value": "500",
+          "answer": "What is Africa?"
+        }
+      ]
+    },
+    {
+      "name": "AFRICA",
+      "questions": [
+        {
+          "question": "THIS CHARACTER HOSTS THE TUSKER HOUSE SAFARI.",
+          "value": "100",
+          "answer": "Who is Donald Duck?"
+        },
+        {
+          "question": "YOU CAN SEE A NUMBER OF AFRICAN ANIMALS AS YOU TOUR THE PANGANI FOREST IN THIS ATTRACTION.",
+          "value": "200",
+          "answer": "What is Gorilla Falls Exploration Trail?"
+        },
+        {
+          "question": "IF YOU WANT TO GET TO RAFIKI’S PLANET WATCH, TAKE THIS FROM HARAMBE IN AFRICA.",
+          "value": "300",
+          "answer": "What is the Wildlife Express Train?"
+        },
+        {
+          "question": "DEPENDING ON WHERE YOU SIT DURING FESTIVAL OF THE LION KING, YOU’LL BE ASKED TO ACT LIKE A LION, ELEPHANT, WARTHOG, OR THIS.",
+          "value": "400",
+          "answer": "What is a giraffe?"
+        },
+        {
+          "question": "ON THE KILIMANJARO SAFARIS, THE ISLAND WHERE THESE BIRDS CONGREGATE IS ACTUALLY A HIDDEN MICKEY.",
+          "value": "500",
+          "answer": "What are flamingoes?"
+        }
+      ]
+    },
+    {
+      "name": "ASIA",
+      "questions": [
+        {
+          "question": "BOTH THE OLD FLIGHTS OF WONDER AND THE NEW UP! A GREAT BIRD ADVENTURE CALL THIS VENUE HOME.",
+          "value": "100",
+          "answer": "What is the Caravan Theater?"
+        },
+        {
+          "question": "ANALA AND JEDA, BORN AT ANIMAL KINGDOM LAST AUGUST, ARE THIS KIND OF TIGER.",
+          "value": "200",
+          "answer": "What is Sumatran?"
+        },
+        {
+          "question": "DISNEY’S MT. EVEREST IS ACTUALLY CALLED THIS, PART OF THE FULL NAME OF THE ATTRACTION.",
+          "value": "300",
+          "answer": "What is the Forbidden Mountain?"
+        },
+        {
+          "question": "SEVERAL LOCATIONS IN ASIA, INCLUDING A TEA COMPANY AND AN ICE CREAM TRUCK, SHARE THIS NAME, WHICH MEANS “CITY OF HAPPINESS“ IN SANSKRIT.",
+          "value": "400",
+          "answer": "What is Anandapur?"
+        },
+        {
+          "question": "KALI RIVER RAPIDS WAS ORIGINALLY GOING TO BE NAMED AFTER THIS ANIMAL, BUT DISNEY WAS AFRAID GUESTS MIGHT EXPECT TO SEE ONE.",
+          "value": "500",
+          "answer": "What is a tiger? (Tiger Rapids Run)"
+        }
+      ]
+    },
+    {
+      "name": "FILL IN THE DINOSAUR! LINE",
+      "questions": [
+        {
+          "question": "\"HELLO, I'M DOCTOR MARSH, DIRECTOR OF ___...\" (3)",
+          "value": "100",
+          "answer": "What is \"the Dino Institute\"?"
+        },
+        {
+          "question": "\"STILL NOT OUR DINO, BUT AT LEAST THIS ONE’S A ___\"(3)",
+          "value": "200",
+          "answer": "What is \"vegetarian\"?"
+        },
+        {
+          "question": "\"AN AMAZING VEHICLE THAT WILL LITERALLY TRANSPORT YOU TO THE AGE OF THE DINOSAURS. HOW? ___\" (2)",
+          "value": "300",
+          "answer": "What is \"That's proprietary\"?",
+          "daily-double": true
+        },
+        {
+          "question": "\"FLASH PHOTOGRAPHY? I WOULDN’T. IT ALTERS THE HOMING SIGNAL, AND ___\" (3)",
+          "value": "400",
+          "answer": "What is \"that's not good\"?"
+        },
+        {
+          "question": "\"I’M DR. SEEKER, YOUR FRIENDLY CONTROLLER, AND ____\" (11)",
+          "value": "500",
+          "answer": "What is \"a heck of a paleontologist if I do say so myself\"?"
+        }
+      ]
+    },
+    {
+      "name": "DISCOVERY ISLAND",
+      "questions": [
+        {
+          "question": "THIS NIGHTTIME PROJECTION SHOW DEBUTED WELL BEFORE RIVERS OF LIGHT, AND PEOPLE GENERALLY LIKE IT BETTER TOO.",
+          "value": "100",
+          "answer": "What is Tree of Life Awakenings?"
+        },
+        {
+          "question": "LUCKILY THIS DISCOVERY ISLAND EATERY NO LONGER SERVES CHEESEBURGER FLATBREAD, BUT WE’D STILL RECOMMEND GOING NEXT DOOR TO TIFFIN’S.",
+          "value": "200",
+          "answer": "What is Pizzafari?"
+        },
+        {
+          "question": "HE HOSTS IT’S TOUGH TO BE A BUG, THOUGH AS OF EARLIER THIS MONTH, YOU CAN’T MEET HIM ANYMORE.",
+          "value": "300",
+          "answer": "Who is Flik?"
+        },
+        {
+          "question": "IF YOU MISS THE ONE IN MAELSTROM, JUST REMEMBER THE TREE OF LIFE IS BUILT ON THE BASE OF ONE.",
+          "value": "400",
+          "answer": "What is an oil rig?"
+        },
+        {
+          "question": "THIS SHOW RAN FOR A LIMITED TIME IN 2016 WHEN RIVERS OF LIGHT WAS DELAYED.",
+          "value": "500",
+          "answer": "What is The Jungle Book: Alive with Magic?"
+        }
+      ]
+    },
+    {
+      "name": "PELUNKE PEN?",
+      "questions": [
+        {
+          "question": "\"KALTXÌ\", WHICH MEANS THIS IN ENGLISH, APPEARS ON THE DISNEY BUSES HEADED TOWARDS ANIMAL KINGDOM; IT'S ALSO WHAT YOU MIGHT SAY TO YOUR DRIVER AS YOU GET ON.",
+          "value": "100",
+          "answer": "What is hello?"
+        },
+        {
+          "question": "PUT UP TWO, FIVE, AND THIS WORD, WHICH IS NA'VI FOR \"PRETTY\".",
+          "value": "200",
+          "answer": "What is \"sevin\"?"
+        },
+        {
+          "question": "WHEN BOARDING FLIGHT OF PASSAGE, IF YOU SEE SOMEONE SIT DOWN ON THEIR LINK CHAIR BACKWARDS, YOU COULD PROBABLY CALL THEM A \"SKXAWNG\", MEANING THIS.",
+          "value": "300",
+          "answer": "What is a moron/idiot?"
+        },
+        {
+          "question": "ALTHOUGH NA'VI ISN'T A TRANSCRIBED LANGUAGE, IT DOES HAVE THE VERB \"PAMREL SI\" IN IT; A LITERAL TRANSLATION IS \"MAKE A PICTURE SOUND\", BUT IT'S BETTER TRANSLATED AS THIS.",
+          "value": "400",
+          "answer": "What is \"to write\"?"
+        },
+        {
+          "question": "ALL THESE QUESTIONS HAVE HAD A LITTLE BIT OF THIS, THE \"LÌ'FYA LENA'VI\", IN THEM.",
+          "value": "500",
+          "answer": "What is the Na'vi language?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "HAPPY 35TH TOKYO!",
+      "questions": [
+        {
+          "question": "IT’S A SMALL WORLD RE-OPENED FOR THE 35TH ANNIVERSARY WITH A HUGE MURAL IN THE BOARDING AREA FEATURING THESE TWO DISNEY CHARACTERS",
+          "value": "200",
+          "answer": "Who are Mickey and Minnie?"
+        },
+        {
+          "question": "THIS STUFFED ANIMAL AND HIS FRIEND SHELLIEMAY STAR IN A NEW MEDITERRANEAN HARBOR SHOW AND A NEW MEET AND GREET IN DISNEYSEA.",
+          "value": "400",
+          "answer": "Who is Duffy?"
+        },
+        {
+          "question": "TOKYO DISNEYLAND’S PASTRY PALACE AND ICE CREAM CONE WILL FEATURE SPECIAL OFFERINGS OF THIS POPULAR TOKYO-EXCLUSIVE TREAT.",
+          "value": "600",
+          "answer": "What is chocolate crunch?"
+        },
+        {
+          "question": "THE NAME OF THE NEW DAYTIME PARADE AT TOKYO DISNEYLAND.",
+          "value": "800",
+          "answer": "What is Dreaming Up?"
+        },
+        {
+          "question": "THIS AREA HAS A NEW NIGHTTIME PROJECTION SHOW AND THE CELEBRATION TOWER WITH NINE MICKEY STATUES.",
+          "value": "1000",
+          "answer": "What is World Bazaar/Main Street?"
+        }
+      ]
+    },
+    {
+      "name": "JASON’S MINUTIAE",
+      "questions": [
+        {
+          "question": "THIS 3D FILM FANTASY DEBUTED IN THE MAGIC EYE THEATER ON OCTOBER 1, 1982.",
+          "value": "200",
+          "answer": "What is Magic Journeys?"
+        },
+        {
+          "question": "THIS NEWSCASTER WAS THE NARRATOR OF SPACESHIP EARTH FROM 1986-1994.",
+          "value": "400",
+          "answer": "Who is Walter Cronkite?"
+        },
+        {
+          "question": "THIS CZECH FILM DIRECTOR CREATED THE KINETIC MOSAIC IN THE UNIVERSE OF ENERGY’S PRESHOW.",
+          "value": "600",
+          "answer": "Who is Emil Radok?",
+          "daily-double": true
+        },
+        {
+          "question": "THIS WAS WHAT THE RESTAURANT IN CINDERELLA CASTLE WAS CALLED THE LAST TIME I ATE THERE",
+          "value": "800",
+          "answer": "What is King Stefan's Banquet Hall?"
+        },
+        {
+          "question": "THIS STORE, WHICH WAS REPLACED BY MOUSE GEAR, HAD A UNIQUE MEZZANINE LEVEL SHOPPING AREA.",
+          "value": "1000",
+          "answer": "What is Centorium?"
+
+        }
+      ]
+    },
+    {
+      "name": "COMMUNICORE",
+      "questions": [
+        {
+          "question": "IN 1994, COMMUNICORE BECAME THIS.",
+          "value": "200",
+          "answer": "What is Innoventions?"
+        },
+        {
+          "question": "IN COMMUNICORE DAYS IT WAS THE SUNRISE TERRACE RESTAURANT; NOW IT SERVES STARBUCKS.",
+          "value": "400",
+          "answer": "What is Fountain View?"
+        },
+        {
+          "question": "WHEN YOU LEFT THE UNIVERSE OF ENERGY, YOU COULD FOLLOW A PATH THAT WOULD LEAD YOU TO THIS, EXXON’S EXHIBIT IN COMMUNICORE EAST.",
+          "value": "600",
+          "answer": "What is the Energy Exchange?"
+        },
+        {
+          "question": "THIS COMMUNICORE SHOW USED THE PEPPER’S GHOST EFFECT AND FEATURED A CATCHY SHERMAN BROTHERS SONG WITH LYRICS LIKE “WHAT WAS A STICKY WICKET, BECOMES AN EASY GO!”",
+          "value": "800",
+          "answer": "What is the Astuter Computer Revue?"
+        },
+        {
+          "question": "THIS PURPLE ROBOT, OFTEN THOUGHT OF AS THE COMMUNICORE MASCOT, WOULD PLAY SIMPLE QUESTION AND ANSWER GAMES WITH GUESTS.",
+          "value": "1000",
+          "answer": "Who is SMRT-1?"
+        }
+      ]
+    },
+    {
+      "name": "DVC",
+      "questions": [
+        {
+          "question": "THE CONTEMPORARY RESORT’S DVC PROPERTY.",
+          "value": "200",
+          "answer": "What is Bay Lake Tower?"
+        },
+        {
+          "question": "ONE OF TWO DVC PROPERTIES AT ANIMAL KINGDOM LODGE. THE OTHER IS JAMBO HOUSE",
+          "value": "400",
+          "answer": "What is Kidani Village?"
+        },
+        {
+          "question": "THE DVC AT THIS RESORT HAS NOT JUST VILLAS BUT BUNGALOWS.",
+          "value": "600",
+          "answer": "What is the Polynesian?"
+        },
+        {
+          "question": "THESE DVC VILLAS HAVE A PENGUIN FOUNTAIN IN THE LOBBY.",
+          "value": "800",
+          "answer": "What are the Grand Floridian Villas?"
+        },
+        {
+          "question": "THESE TWO DVC PROPERTIES ARE CONNECTED TO THE WILDERNESS LODGE.",
+          "value": "1000",
+          "answer": "What are Boulder Ridge and Copper Creek?"
+        }
+      ]
+    },
+    {
+      "name": "THEY IMAGINEERED THIS!",
+      "questions": [
+        {
+          "question": "ONE HUNDRED AND ONE DALMATIANS, PIRATES OF THE CARIBBEAN, WESTERN RIVER EXPEDITION",
+          "value": "200",
+          "answer": "Who is Marc Davis?"
+        },
+        {
+          "question": "THE THREE CABALLEROS, IT’S A SMALL WORLD, THE CONTEMPORARY GRAND CONCOURSE MURAL",
+          "value": "400",
+          "answer": "Who is Mary Blair?"
+        },
+        {
+          "question": "JOURNEY INTO IMAGINATION, SPLASH MOUNTAIN, DISNEYLAND PARIS",
+          "value": "600",
+          "answer": "Who is Tony Baxter?"
+        },
+        {
+          "question": "THE DISNEYLAND MONORAIL, THE WALT DISNEY WORLD MONORAIL, GREAT MOMENTS WITH MR. LINCOLN",
+          "value": "800",
+          "answer": "Who is Bob Gurr?"
+        },
+        {
+          "question": "HAUNTED MANSION, GREAT MOVIE RIDE, WHO WANTS TO BE A MILLIONAIRE - PLAY IT!",
+          "value": "1000",
+          "answer": "Who is Jason Surrell?"
+        }
+      ]
+    },
+    {
+      "name": "WHO NEEDS TOM?",
+      "questions": [
+        {
+          "question": "THIS GOT FINISHED.",
+          "value": "200",
+          "answer": "What is the purple wall?",
+          "image": "./images/wdwnt/ellen_wall.png"
+        },
+        {
+          "question": "AFTER AN UPDATE TO THE MY DISNEY EXPERIENCE APP, GUESTS CAN NO LONGER TRANSFER THESE.",
+          "value": "400",
+          "answer": "What are FastPasses?"
+        },
+        {
+          "question": "TEST FOOTAGE OF THIS ATTRACTION LEAKED FROM A PRESENTATION AT A TECHNOLOGY CONFERENCE.",
+          "value": "600",
+          "answer": "What is the Millennium Falcon?"
+        },
+        {
+          "question": "THIS IMAGINEERING PREVIEW CENTER IN DISNEYLAND REOPENED.",
+          "value": "800",
+          "answer": "What is Blue Sky Cellar?"
+        },
+        {
+          "question": "A MILLENNIAL PINK MILKSHAKE DEBUTED AT THIS MAGIC KINGDOM EATERY.",
+          "value": "1000",
+          "answer": "What is Auntie Gravity’s?",
+          "daily-double": true
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is the Theater of the Stars?",
+    "category": "HOLLYWOOD STUDIOS",
+    "question": "THIS THEATER, ONCE HOME TO \"HOLLYWOOD! HOLLYWOOD! A STAR STUDDED SPECTACULAR!\" AND ONE OF THE EARS OF THE HIDDEN MICKEY, WAS DEMOLISHED TO BUILD SUNSET BLVD."
+  }
+}

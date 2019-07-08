@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "DISNEYLAND PARIS",
+      "questions": [
+        {
+          "question": "PARIS’ VERSION OF THIS ATTRACTION IS THE ONLY ONE OF THE FIVE VERSIONS THAT DOESN’T FEATURE ANIMATRONICS FROM THE MOVIE BASED OFF IT.",
+          "value": "100",
+          "answer": "What is Pirates of the Caribbean?"
+        },
+        {
+          "question": "BEFORE DECIDING ON FRANCE, DISNEY CONSIDERED BUILDING ITS EUROPEAN PARK IN THIS NEIGHBORING COUNTRY.",
+          "value": "200",
+          "answer": "What is Spain?"
+        },
+        {
+          "question": "THE PARK WAS ORIGINALLY CALLED THIS, BUT WAS RENAMED DISNEYLAND PARIS IN 1994 TO IMPROVE THE IMAGE OF THE PARK AMONG EUROPEANS.",
+          "value": "300",
+          "answer": "What is Euro Disney Resort?"
+        },
+        {
+          "question": "THE DISNEYLAND PARIS CASTLE IS THE ONLY DISNEY CASTLE TO HOUSE ONE OF THESE IN ITS VAULTS.",
+          "value": "400",
+          "answer": "What is a dragon?"
+        },
+        {
+          "question": "WHILE MODELED OFF AN ATTRACTION FROM THE AMERICAN PARKS, THE MODIFIED STORYLINE OF THIS DLP RIDE WAS INSPIRED BY THE NEVER-BUILT WESTERN RIVER EXPEDITION.",
+          "value": "500",
+          "answer": "Who is Phantom Manor?"
+        }
+      ]
+    },
+    {
+      "name": "THAT OTHER STUDIOS PARK",
+      "questions": [
+        {
+          "question": "THERE ARE PLANS TO COPY THIS RIDE TO A VERSION OF FRANCE THAT SITS IN CENTRAL FLORIDA.",
+          "value": "100",
+          "answer": "What is Ratatouille?"
+        },
+        {
+          "question": "THOUGH IT’S COPIED FROM AN ATTRACTION IN HOLLYWOOD STUDIOS, THE VERSION IN PARIS MUSIC THAT CAN’T BE HEARD ANYWHERE ELSE, INCLUDING \"LOVE ON A ROLLER COASTER\".",
+          "value": "200",
+          "answer": "What is Rock ‘n’ Roller Coaster starring Aerosmith?"
+        },
+        {
+          "question": "THOUGH THIS ORIGINAL ICON OF HOLLYWOOD STUDIOS WAS REMOVED LAST YEAR TO MAKE WAY FOR TOY STORY LAND, A TALLER REPLICA WAS BUILT FOR THE WALT DISNEY STUDIOS OPENING IN 2002.",
+          "value": "300",
+          "answer": "What is the Earful Tower?"
+        },
+        {
+          "question": "LIKE THE GREAT MOVIE RIDE, THIS SHOW PAYING HOMAGE TO GREAT FILMS OF THE PAST WAS CLOSED EARLIER THIS YEAR; IT WILL BE REPLACED BY A MARVEL CHARACTER SHOW NEXT SUMMER.",
+          "value": "400",
+          "answer": "What is CineMagique?"
+        },
+        {
+          "question": "CRUSH’S COASTER WAS PART OF THIS NEW LAND THAT REPLACED THE PARK’S ANIMATION COURTYARD IN 2007.",
+          "value": "500",
+          "answer": "What is Toon Studio?"
+        }
+      ]
+    },
+    {
+      "name": "TOKYO DISNEYLAND",
+      "questions": [
+        {
+          "question": "THE FIRST DISNEY PARK OPENED OUTSIDE OF THE U.S., TOKYO DISNEYLAND OPENED IN THIS YEAR.",
+          "value": "100",
+          "answer": "What is 1983?"
+        },
+        {
+          "question": "FOR SOME REASON, THIS CHARACTER INVADES TOKYO’S VERSION OF THE TIKI ROOM.",
+          "value": "200",
+          "answer": "Who is Stitch?"
+        },
+        {
+          "question": "WHILE THIS MODE OF TRANSPORT IS FREE IN DISNEYLAND AND DISNEY WORLD, GUESTS ACTUALLY MUST PAY FOR EACH RIDE IN TOKYO.",
+          "value": "300",
+          "answer": "What is the monorail?",
+          "daily-double": true
+        },
+        {
+          "question": "THIS RAILROAD IN TOKYO DISNEYLAND, NAMED AFTER A NEVER-BUILT MAGIC KINGDOM ATTRACTION, ONLY HAS ONE STOP; IF IT HAD MORE, IT WOULD HAVE HAD TO COMPLY WITH JAPANESE GOVERNMENT RAILWAY STANDARDS.",
+          "value": "400",
+          "answer": "What is the Western River Railroad?"
+        },
+        {
+          "question": "TOKYO DISNEY RESORT IS NOT ACTUALLY OWNED BY DISNEY, BUT BY THIS JAPANESE COMPANY.",
+          "value": "500",
+          "answer": "What is the Oriental Land Company?"
+        }
+      ]
+    },
+    {
+      "name": "TOKYO DISNEYSEA",
+      "questions": [
+        {
+          "question": "SINCE IT FITS WELL WITH THE SEA THEME OF THE PARK, THERE’S AN ENTIRE LAND DEDICATED TO THIS 1989 DISNEY ANIMATED FILM.",
+          "value": "100",
+          "answer": "What is the Little Mermaid (Mermaid Lagoon)?"
+        },
+        {
+          "question": "THE MAGIC KINGDOM VERSION OF THIS UNDERWATER ATTRACTION CLOSED IN 1994, BUT YOU CAN RIDE AN UPDATED VERSION ON MYSTERIOUS ISLAND IN DISNEYSEA.",
+          "value": "200",
+          "answer": "What is 20,000 Leagues Under the Sea?"
+        },
+        {
+          "question": "MOUNT PROMETHEUS HOUSES THIS ATTRACTION NAMED FOR ANOTHER JULES VERNE NOVEL, USING SIMILAR RIDE TECHNOLOGY TO TEST TRACK AND RADIATOR SPRINGS RACERS.",
+          "value": "300",
+          "answer": "What is Journey to the Center of the Earth?"
+        },
+        {
+          "question": "WHILE THIS NIGHTTIME SHOW ALSO EXISTS IN DISNEY WORLD AND DISNEYLAND, THE DISNEYSEA VERSION IS THE ONLY ONE THAT DOESN’T HAVE A STATIONARY STAGE.",
+          "value": "400",
+          "answer": "What is Fantasmic?"
+        },
+        {
+          "question": "MUCH LIKE THE GRAND CALIFORNIAN IN DISNEY’S CALIFORNIA ADVENTURE, GUESTS AT THIS RESORT HAVE DIRECT ACCESS TO DISNEYSEA FROM THE HOTEL.",
+          "value": "500",
+          "answer": "What is Hotel Miracosta?"
+        }
+      ]
+    },
+    {
+      "name": "HONG KONG DISNEYLAND",
+      "questions": [
+        {
+          "question": "THIS UNIQUE HONG KONG ATTRACTION, WHILE INSPIRED BY THE HAUNTED MANSION, IS CONSIDERED BY MANY TO BE DISNEY’S BEST DARK RIDE.",
+          "value": "100",
+          "answer": "What is Mystic Manor?"
+        },
+        {
+          "question": "THIS NIGHTTIME PARADE, CURRENTLY ON HIATUS IN THE CALIFORNIA PARKS, ACTUALLY PREMIERED FIRST IN HONG KONG AND IS STILL RUNNING NIGHTLY THERE.",
+          "value": "200",
+          "answer": "What is Paint the Night?"
+        },
+        {
+          "question": "WHILE ATTRACTIONS BASED ON THIS POPULAR ANIMATED FILM HAVE POPPED UP IN MANY DISNEY PARKS, HONG KONG WILL BE THE FIRST TO HAVE A FULL LAND DEDICATED TO IT, SCHEDULED TO OPEN IN 2020.",
+          "value": "300",
+          "answer": "What is Frozen?"
+        },
+        {
+          "question": "WHILE THERE ARE RUMORS THAT A ROLLER COASTER BASED ON THIS RECENT ANIMATED MOVIE MAY COME TO THE MAGIC KINGDOM, DISNEY CONFIRMED THAT A STAGE SHOW BASED ON IT IS COMING TO HONG KONG IN MAY 2018.",
+          "value": "400",
+          "answer": "What is Moana?"
+        },
+        {
+          "question": "WHILE THIS LAND EXISTS IN ALL PARKS EXCEPT SHANGHAI, THE ONE IN HONG KONG DISNEYLAND IS THE LARGEST.",
+          "value": "500",
+          "answer": "What is Adventureland?"
+        }
+      ]
+    },
+    {
+      "name": "THANKS, SHANGHAI!",
+      "questions": [
+        {
+          "question": "SO MANY GREAT CELEBRITIES DIED THIS YEAR, BUT AT LEAST YOU OPENED. THANKS, SHANGHAI!",
+          "value": "100",
+          "answer": "What is 2016?"
+        },
+        {
+          "question": "INSTEAD OF MAIN STREET USA, YOU’VE GOTTA BE DIFFERENT AND HAVE US ENTER ON THIS STREET - WHICH YOU EVEN STOLE FROM HOLLYWOOD STUDIOS! THANKS, SHANGHAI!",
+          "value": "200",
+          "answer": "What is Mickey Avenue?"
+        },
+        {
+          "question": "THEY’RE ALSO BUILDING ONE OF THESE LANDS IN HOLLYWOOD STUDIOS, BUT YOU’RE PROBABLY GOING TO STEAL OUR THUNDER AND OPEN YOURS FIRST. THANKS, SHANGHAI!",
+          "value": "300",
+          "answer": "What is Toy Story Land?"
+        },
+        {
+          "question": "YOU WENT SO OVER-BUDGET THAT YOU COULDN’T AFFORD A LICENSING AGREEMENT WITH ONE OF THE DISNEY PRINCESSES, SO INSTEAD YOU NAMED YOUR CASTLE THIS. THANKS, SHANGHAI!",
+          "value": "400",
+          "answer": "What is Enchanted Storybook Castle?"
+        },
+        {
+          "question": "SITUATED RIGHT NEXT TO THE PARK, THE SHANGHAI RESORT’S SHOPPING DISTRICT IS CALLED THIS. WON’T YOU TAKE ME TO… THIS PLACE? (GREAT, NOW I’VE GOT THAT STUCK IN MY HEAD. THANKS, SHANGHAI!)",
+          "value": "500",
+          "answer": "What is Disneytown?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "LOST IN THE SHUFFLE",
+      "questions": [
+        {
+          "question": "SHIN ORZO",
+          "value": "200",
+          "answer": "What is Horizons?"
+        },
+        {
+          "question": "ELITE ANNOUNCER",
+          "value": "400",
+          "answer": "What is Alien Encounter?"
+        },
+        {
+          "question": "A REPULSED SNAIL",
+          "value": "600",
+          "answer": "What is Pleasure Island?"
+        },
+        {
+          "question": "INDOOR FLOW, TOM",
+          "value": "800",
+          "answer": "What is World of Motion?"
+        },
+        {
+          "question": "I MOTIVATE HER GREED",
+          "value": "1000",
+          "answer": "What is The Great Movie Ride?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "FROM THE DESK OF",
+      "questions": [
+        {
+          "question": "I HELPED THIS COMPANY ACQUIRE PIXAR, MARVEL AND STAR WARS. NOW CAN I PLEASE RETIRE ALREADY?!",
+          "value": "200",
+          "answer": "Who is Bob Iger?"
+        },
+        {
+          "question": "PLEASE NOTE THAT ALL DINO INSTITUTE TRIPS ARE CANCELLED UNTIL WE FIGURE OUT WHO LET THE IGUANADON IN.",
+          "value": "400",
+          "answer": "Who is Dr. Marsh?"
+        },
+        {
+          "question": "I’VE BEEN SITTING HERE UNEMPLOYED SINCE 1998. ANY CHANCE YOU’RE GOING TO HIRE ME BACK? I DO WINDOWS, EVEN PYRAMID-SHAPED ONES!",
+          "value": "600",
+          "answer": "Who is Dreamfinder?"
+        },
+        {
+          "question": "LOOK AT ALL THE NEW PARKS I OPENED DURING THE DISNEY DECADE! THEY’RE ALL DOING SO WELL NOW, AREN’T THEY? WAIT… THEY AREN’T?!",
+          "value": "800",
+          "answer": "Who is Michael Eisner?"
+        },
+        {
+          "question": "HEY, MR. HAM AND EGGS, STOP UPSTAGING ME! I’M HOSTING A SHOW HERE!",
+          "value": "1000",
+          "answer": "Who is Bonnie Appetit?"
+        }
+      ]
+    },
+    {
+      "name": "BEFORE AND AFTER",
+      "questions": [
+        {
+          "question": "EPCOT CENTRIFUGE RIDE AND A FAMOUS TOMORROWLAND ATTRACTION.",
+          "value": "200",
+          "answer": "What is Mission Space Mountain?"
+        },
+        {
+          "question": "A NEW ANIMAL KINGDOM RIDE SOME CONSIDER A DISAPPOINTMENT AND A CLASSIC EPCOT RIDE THAT BECAME A DISAPPOINTMENT.",
+          "value": "400",
+          "answer": "Who is Na’vi River Journey into Imagination?"
+        },
+        {
+          "question": "A NEW NIGHTTIME SPECTACULAR AND THE 2017 FOOD AND WINE BOOTH THAT SERVED GLOWNUTS.",
+          "value": "600",
+          "answer": "Who is Rivers of Light Lab?"
+        },
+        {
+          "question": "INNOVENTIONS ATTRACTION AND NEVER-BUILT ADVENTURELAND ATTRACTION FEATURED IN A RECENT BACK TO THE FUTURE PODCAST.",
+          "value": "800",
+          "answer": "What is Where's the Fire Mountain?",
+          "daily-double": true
+        },
+        {
+          "question": "SPONSOR OF INNOVENTIONS SLAP STICK STUDIOS ATTRACTION AND CHARACTER WHO HUNTS A WOOLLY MAMMOTH IN THE FIRST SCENE OF 1986 SPACESHIP EARTH.",
+          "value": "1000",
+          "answer": "What is VelCro-Magnon Man?"
+        }
+      ]
+    },
+    {
+      "name": "WHY NOT BEN?!",
+      "questions": [
+        {
+          "question": "IN A REFERENCE TO M*A*S*H, WHEN I STAYED WITH MICHAEL FOR THE 10TH ANNIVERSARY AT THIS RESORT, WE NICKNAMED IT \"THE SWAMP\".",
+          "value": "200",
+          "answer": "What is Port Orleans: Riverside?"
+        },
+        {
+          "question": "THE PRESHOW AUDIO CUT OUT WHILE I WAS ON THIS ATTRACTION, SO WE CAME UP WITH THE LINE, \"IN SPACE, NO ONE CAN HEAR YOU SPIEL.\"",
+          "value": "400",
+          "answer": "What is Mission: Space?"
+        },
+        {
+          "question": "I WAS ONCE STUCK NEAR THE END OF THIS EERIE ATTRACTION WHERE A VENTRILOQUIST DUMMY WAS STARING AT ME THE WHOLE TIME. IT WAS PRETTY CREEPY.",
+          "value": "600",
+          "answer": "What is Twilight Zone: Tower of Terror?"
+        },
+        {
+          "question": "THE FIRST TIME I RODE THE BUS SYSTEM FROM THIS MILITARY RESORT, I WAS SURPRISED TO FIND OUT THEY ACTUALLY RAN ON A SCHEDULE.",
+          "value": "800",
+          "answer": "What is Shades of Green?"
+        },
+        {
+          "question": "KALTXI MA ’EYLAN. DURING THE ORDER OF THE SEVEN GAME, I WAS STATIONED AT THIS VALLEY.",
+          "value": "1000",
+          "answer": "What is Mo'ara?"
+        }
+      ]
+    },
+    {
+      "name": "I'M STUFFED",
+      "questions": [
+        {
+          "question": "EAT SALMON WITH PRINCESSES.",
+          "value": "200",
+          "answer": "What is Akershus Royal Banquet Hall?"
+        },
+        {
+          "question": "SPIN NAPKINS WITH DONALD AND PLUTO.",
+          "value": "400",
+          "answer": "What is Chef Mickeys?"
+        },
+        {
+          "question": "DINE ON SEAFOOD WITH CINDERELLA.",
+          "value": "600",
+          "answer": "What is 1900 Park Fare?"
+        },
+        {
+          "question": "DON’T FORGET THE KETCH-UUUUUPPPP!",
+          "value": "800",
+          "answer": "What is Whispering Canyon Cafe?"
+        },
+        {
+          "question": "\"TURN\" AWAY FROM THE BUFFET TO SEE CHIP AND DALE.",
+          "value": "1000",
+          "answer": "What is the Garden Grill?"
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT BOB CHAPEK IN IT!",
+      "questions": [
+        {
+          "question": "IF THE DRAGON ISN’T WORKING, THERE'S NO NEED TO CANCEL THIS PARADE. BOB CHAPEK CAN BREATHE FIRE! NO, WAIT, THAT’S JUST HOT AIR.",
+          "value": "200",
+          "answer": "What is the Festival of Fantasy Parade?"
+        },
+        {
+          "question": "BOB CHAPEK IS RUNNING OUT OF POWER! WHO’S GOT $30 FOR ONE OF THESE PORTABLE CHARGERS THAT YOU CAN BUY AT KIOSKS IN THE PARKS?",
+          "value": "400",
+          "answer": "What are FuelRods?"
+        },
+        {
+          "question": "BOB CHAPEK WATERPROOFED HIMSELF SO HE COULD RIDE THIS 400-FOOT-LONG WATER COASTER AT TYPHOON LAGOON, BUT HE SANK TO THE BOTTOM OF HIDEAWAY BAY AT THE END OF THE SLIDE.",
+          "value": "600",
+          "answer": "What is Crush ‘N’ Gusher?"
+        },
+        {
+          "question": "RUMOR HAS IT THAT DURING LIGHTNING STORMS BOB CHAPEK CLIMBS TO THE TOP OF THIS TALLEST ATTRACTION IN WALT DISNEY WORLD TO CHARGE UP.",
+          "value": "800",
+          "answer": "What is Expedition Everest?"
+        },
+        {
+          "question": "TO CHEER HIMSELF UP, BOB CHAPEK SOMETIMES DONS A FUZZY SUIT AND “SWINGS IN” FOR THIS SINGING ANIMATRONIC BEAUTY IN THE COUNTRY BEAR JAMBOREE (NO RELATION TO YOGI).",
+          "value": "1000",
+          "answer": "Who is Teddi Berra?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is the Living Seas Lounge?",
+    "category": "WDWNT 2017 EVENTS",
+    "question": "DURING THE 10TH ANNIVERSARY EVENT IN SEPTEMBER 2017, WE HOSTED A BREAKFAST EVENT IN THIS VIP ROOM."
+  }
+}

@@ -1,0 +1,375 @@
+{
+    "jeopardy": [
+        {
+            "name": "THE MATH GAME - ABRIDGED",
+            "questions": [
+                {
+                    "question": "THE NUMBER OF DISNEY THEME PARKS IN THE UNITED STATES, DIVIDED BY THE NUMBER OF WATER PARKS.",
+                    "value": "100",
+                    "answer": "What is 3? (6 / 2)"
+                },
+                {
+                    "question": "THE NUMBER OF RIDES IN PANDORA - THE WORLD OF AVATAR, TIMES THE NUMBER OF BABY TIGERS BORN IN ANIMAL KINGDOM LAST YEAR.",
+                    "value": "200",
+                    "answer": "What is 4? (2 x 2)"
+                },
+                {
+                    "question": "THIS IS THE NUMBER OF (CURRENTLY OPERATIONAL) RIDES IN HOLLYWOOD STUDIOS + THE NUMBER OF NEW RIDES OPENING IN TOY STORY LAND.",
+                    "value": "300",
+                    "answer": "What is 6? (4 + 2)"
+                },
+                {
+                    "question": "THE NUMBER OF MONORAILS IN WALT DISNEY WORLD, MINUS THE NUMBER OF MONORAIL RESORTS.",
+                    "value": "400",
+                    "answer": "What is 9? (12 - 3)"
+                },
+                {
+                    "question": "THE NUMBER OF COUNTRIES IN WORLD SHOWCASE, PLUS THE CURRENT NUMBER OF LANDS IN MAGIC KINGDOM.",
+                    "value": "500",
+                    "answer": "What is 17? (11 + 6)"
+                }
+            ]
+        },
+        {
+            "name": "THE _____ GAME",
+            "questions": [
+                {
+                    "question": "THE MONORAILS ARE SO BAD... DISNEY ADDED STICKERS TELLING YOU NOT TO ____ ON THE DOORS.",
+                    "value": "100",
+                    "answer": "What is \"lean\"?"
+                },
+                {
+                    "question": "DISNEY JUST CAME OUT WITH A BUNCH OF NEW COLORS FOR YOUR ____ - NOW WE'VE GOT NAVY BLUE, MILLENNIUM PINK, AND CREAM!",
+                    "value": "200",
+                    "answer": "What is a MagicBand?"
+                },
+                {
+                    "question": "FOR $150, YOU CAN GET A ____ TO GIVE YOU A RIDE TO THE AIRPORT.",
+                    "value": "300",
+                    "answer": "What is a Minnie Van?"
+                },
+                {
+                    "question": "SOLO: A STAR WARS STORY WAS LOOKING SO BAD... DISNEY FIRED THE DIRECTOR, AND HIRED ____ TO DIRECT IT.",
+                    "value": "400",
+                    "answer": "Who is Ron Howard?"
+                },
+                {
+                    "question": "AT MANY HOTEL ROOMS, DISNEY USED TO HAVE \"DO NOT DISTURB\" SIGNS. NOW, THEY HAVE \"____\" SIGNS.",
+                    "value": "500",
+                    "answer": "What is \"Room Occupied\"?"
+                }
+            ]
+        },
+        {
+            "name": "THE PRICE IS RIGHT",
+            "questions": [
+                {
+                    "question": "$119 WILL BUY YOU 3 HOURS IN THE MAGIC KINGDOM AT THIS EVENT.",
+                    "value": "100",
+                    "answer": "What is Disney After Hours?"
+                },
+                {
+                    "question": "A MERE $4.49 WILL GET YOU ONE OF THE BEST FROZEN TREATS IN WDW, BUT YOU'LL HAVE TO BRING YOUR OWN TAJIN.",
+                    "value": "200",
+                    "answer": "What is a Dole Whip?"
+                },
+                {
+                    "question": "FOR $24.99 YOU'LL GET THIS ALL-THE-RAGE HEADWEAR... OH, NEVER MIND, IT SOLD OUT AGAIN.",
+                    "value": "300",
+                    "answer": "What are Rose Gold Mouse Ears?"
+                },
+                {
+                    "question": "$49.95 WILL BUY YOU YOUR VERY OWN ONE OF THESE ALIEN FRIEND TO SIT ON YOUR SHOULDER.",
+                    "value": "400",
+                    "answer": "What is a Banshee/Ikran?"
+                },
+                {
+                    "question": "FOR $1200, THIS STAFF MEMBER WILL DO PRETTY MUCH ANYTHING FOR YOU.",
+                    "value": "500",
+                    "answer": "Who is Patrick Hackett?"
+                }
+            ]
+        },
+        {
+            "name": "THE MAP GAME",
+            "questions": [
+                {
+                    "question": "WATCH THE POWER OF DREAMS BLAZE BEFORE YOU IN THIS MUSICAL SHOW WITH STUNNING PYROTECHNICS AND WATER PROJECTIONS. (SNACKS AND BEVERAGES AVAILABLE FOR PURCHASE 1.5 HOURS PRIOR TO SHOWTIME. 30 MINUTES. SEE TIMES GUIDE.)",
+                    "value": "100",
+                    "answer": "What is Fantasmic?"
+                },
+                {
+                    "question": "HOSTED BY COCA-COLA - SPECIALTY HOT DOGS AND CORN DOG NUGGETS.",
+                    "value": "200",
+                    "answer": "What is What is Casey's Corner?"
+                },
+                {
+                    "question": "EMBARK ON A SELF-GUIDED WALKING TOUR OF SOUTHEAST ASIA, HOME TO TIGERS, MONKEYS, BATS AND KOMODO DRAGON.",
+                    "value": "300",
+                    "answer": "What is Maharajah Jungle Trek?"
+                },
+                {
+                    "question": "EXPLORE, EXPERIENCE AND CREATE IN THIS INTERACTIVE PLAY AREA.",
+                    "value": "400",
+                    "answer": "What is Imageworks?",
+                    "daily-double": true
+                },
+                {
+                    "question": "120-FOOT VERTICAL FREE-FALLING BODY SLIDE.",
+                    "value": "500",
+                    "answer": "What is Summit Plummet?"
+                }
+            ]
+        },
+        {
+            "name": "THE DATING GAME",
+            "questions": [
+                {
+                    "question": "JUNE 30, 2018",
+                    "value": "100",
+                    "answer": "What is the opening date of Toy Story Land?"
+                },
+                {
+                    "question": "AUGUST 16, 2021",
+                    "value": "200",
+                    "answer": "What is the opening date of the TRON Lightcycle Power Run?"
+                },
+                {
+                    "question": "AUGUST 13, 2017",
+                    "value": "300",
+                    "answer": "What is the closing date of the Great Movie Ride and the Universe of Energy?"
+                },
+                {
+                    "question": "MAY 27, 2017",
+                    "value": "400",
+                    "answer": "What is the opening date of Pandora - The World of AVATAR?"
+                },
+                {
+                    "question": "JULY 2, 2017",
+                    "value": "500",
+                    "answer": "What is the closing date of DisneyQuest?"
+                }
+            ]
+        },
+        {
+            "name": "QUIPS-LASH",
+            "questions": [
+                {
+                    "question": "NOW, AS THEY SAY, \"LOOK ALIVE,\" AND WE'LL CONTINUE OUR LITTLE TOUR.",
+                    "value": "100",
+                    "answer": "What is The Haunted Mansion?"
+                },
+                {
+                    "question": "IT'S A DAMN POOR MIND INDEED THAT CAN'T THINK OF AT LEAST TWO WAYS TO SPELL A WORD.",
+                    "value": "200",
+                    "answer": "What is The Hall of Presidents? (Who is Andrew Jackson?)"
+                },
+                {
+                    "question": "I'M MAX. DEBBIE WAS SICK, SO THE UNION SENT ME.",
+                    "value": "300",
+                    "answer": "What is Muppet*Vision 3D?"
+                },
+                {
+                    "question": "NO, THAT'S MY MOTHER-IN-LAW!",
+                    "value": "400",
+                    "answer": "What is Alien Encounter?"
+                },
+                {
+                    "question": "IF YOU STAY ON BOARD LONG ENOUGH, WHY, SOONER OR LATER, YOU'LL BE BACK.",
+                    "value": "500",
+                    "answer": "What is the Walt Disney World Railroad?"
+                }
+            ]
+        }
+    ],
+    "double-jeopardy": [
+        {
+            "name": "THERE'S A BUT...",
+            "questions": [
+                {
+                    "question": "SOARIN', BUT YOU'RE ON A DRAGON.",
+                    "value": "200",
+                    "answer": "What is Flight of Passage?"
+                },
+                {
+                    "question": "IT'S A ZOO, BUT IT'S NOT A ZOO.",
+                    "value": "400",
+                    "answer": "What is Disney's Animal Kingdom Theme Park?"
+                },
+                {
+                    "question": "IT'S A SMALL WORLD, BUT THERE'S A CHANTING SHAMAN.",
+                    "value": "600",
+                    "answer": "What is is Na'vi River Journey?"
+                },
+                {
+                    "question": "DUMBO, BUT YOU'RE IN ADVENTURELAND.",
+                    "value": "800",
+                    "answer": "What is The Magic Carpets of Aladdin?"
+                },
+                {
+                    "question": "IT'S TOY STORY MANIA, BUT DESPERATELY NEEDING A REFURB.",
+                    "value": "1000",
+                    "answer": "What is Buzz Lightyear's Space Ranger Spin?"
+                }
+            ]
+        },
+        {
+            "name": "IMPROPER NAMES",
+            "questions": [
+                {
+                    "question": "THE BIG GOLF BALL",
+                    "value": "200",
+                    "answer": "What is Spaceship Earth?"
+                },
+                {
+                    "question": "MGM",
+                    "value": "400",
+                    "answer": "What is Disney's Hollywood Studios?"
+                },
+                {
+                    "question": "RUNAWAY TRAIN",
+                    "value": "600",
+                    "answer": "What is Big Thunder Mountain Railroad?"
+                },
+                {
+                    "question": "MEXICAN BOAT RIDE",
+                    "value": "800",
+                    "answer": "What is Gran Fiesta Tour Starring The Three Caballeros?"
+                },
+                {
+                    "question": "FAST TRACK - NO, THE RIDE, NOT THE LINE JUMP THING",
+                    "value": "1000",
+                    "answer": "What is Test Track?"
+                }
+            ]
+        },
+        {
+            "name": "ONE MANN'S DREAM",
+            "questions": [
+                {
+                    "question": "HIS FAVORITE RIDE, TYLER THINKS THIS ATTRACTION LOOKS MORE LIKE TRON THAN A SIMULATION OF CAR TESTING TECHNOLOGY.",
+                    "value": "200",
+                    "answer": "What is Test Track?"
+                },
+                {
+                    "question": "TYLER WAITED 90 MINUTES (ON PURPOSE) JUST FOR A CHANCE TO HAVE NOT-SIGOURNEY WEAVER WELCOME HIM TO THIS INCREDIBLE RIDE.",
+                    "value": "400",
+                    "answer": "What is Flight of Passage?"
+                },
+                {
+                    "question": "TYLER WOULD RATHER SEE AN ORDINARY MOON THAN A TERRIFYING MOON WITH THE FACE OF THIS CHARACTER FROM JOURNEY INTO IMAGINATION.",
+                    "value": "600",
+                    "answer": "Who is Dr. Nigel Channing?"
+                },
+                {
+                    "question": "TYLER MADE A FOOL OF HIMSELF BY FLIRTATIOUSLY TELLING THIS MUSCULAR CHARACTER AT THEIR MEET AND GREET, \"FORGET BELLE, I'D GO OUT WITH YOU!\"",
+                    "value": "800",
+                    "answer": "Who is Gaston?"
+                },
+                {
+                    "question": "TYLER HAS GOTTEN SOAKED WITH WATER AT LEAST FOUR TIMES WHILE VOLUNTEERING TO SHOW OFF THE SPECIAL EFFECTS IN THIS NOW-SHUTTERED ATTRACTION.",
+                    "value": "1000",
+                    "answer": "What is the Backlot Studio Tour?"
+                }
+            ]
+        },
+        {
+            "name": "YOU MANIACS!",
+            "questions": [
+                {
+                    "question": "I DON'T CARE IF YOU'RE A \"HECK OF A PALEONTOLOGIST\" AND BROUGHT BACK THAT IGUANADON. IF YOU ASK ME, YOU'RE A HECK OF A SOCIOPATH!",
+                    "value": "200",
+                    "answer": "Who is Dr. Seeker?"
+                },
+                {
+                    "question": "HE FLEW US STRAIGHT INTO A COMET! \"STILL GETTING USED TO YOUR PROGRAMMING\"? WHAT A RUBE!",
+                    "value": "400",
+                    "answer": "Who is Captain Rex?"
+                },
+                {
+                    "question": "THIS GENIUS DECIDED IT'D BE A GOOD IDEA TO SEND LIVING TEST SUBJECTS THROUGH A CORROSIVE ENVIRONMENT TEST - NUMBER 7!",
+                    "value": "600",
+                    "answer": "Who is Bill McKim?"
+                },
+                {
+                    "question": "FIRST THE KIDS, THEN HIMSELF, AND NOW US?! INVENTOR OF THE YEAR OR NOT, MY RESPECT FOR YOU IS REALLY SHRINKING.",
+                    "value": "800",
+                    "answer": "Who is Wayne Szalinski?"
+                },
+                {
+                    "question": "IN HIS ZEAL TO SELL X-S TECH PRODUCTS ON EARTH, THIS EXECUTIVE GOT LOST IN SPACE WHILE A CARNIVOROUS ALIEN TERRORIZED THE AUDIENCE.",
+                    "value": "1000",
+                    "answer": "Who is Chairman Clench?",
+                    "daily-double": true
+                }
+            ]
+        },
+        {
+            "name": "YOU BLEW IT UP",
+            "questions": [
+                {
+                    "question": "...FOR ROCKET RODS.",
+                    "value": "200",
+                    "answer": "What is the Peoplemover?"
+                },
+                {
+                    "question": "...FOR A GUARDIANS OF THE GALAXY-THEMED INDOOR COASTER.",
+                    "value": "400",
+                    "answer": "What is the Universe of Energy?"
+                },
+                {
+                    "question": "...FOR MISSION: SPACE.",
+                    "value": "600",
+                    "answer": "What is Horizons?"
+                },
+                {
+                    "question": "...FOR TEST TRACK.",
+                    "value": "800",
+                    "answer": "What is World of Motion?"
+                },
+                {
+                    "question": "...FOR A FEW THINGS, MOST RECENTLY FOR THE SEVEN DWARFS MINE TRAIN.",
+                    "value": "1000",
+                    "answer": "What is 20,000 Leagues Under the Sea?",
+                    "daily-double": true
+                }
+            ]
+        },
+        {
+            "name": "DAMN YOU ALL 2 \"L\"",
+            "questions": [
+                {
+                    "question": "EPCOT AND THE MONORAIL ARE FAMOUS FOR PUTTING CARPET ON THIS.",
+                    "value": "200",
+                    "answer": "What is a wall?"
+                },
+                {
+                    "question": "WALT ORIGINALLY CONSIDERED CALLING THIS ATTRACTION \"CHILDREN OF THE WORLD.\"",
+                    "value": "400",
+                    "answer": "What is it's a small world?"
+                },
+                {
+                    "question": "THIS FUTURE WORLD COUNTER SERVICE RESTAURANT IS ONE OF THE FEW THINGS LEFT IN INNOVENTIONS.",
+                    "value": "600",
+                    "answer": "What is Electric Umbrella?"
+                },
+                {
+                    "question": "",
+                    "value": "800",
+                    "answer": "Who is Ellen DeGeneres?",
+                    "image": "./images/wdwnt/ellen.png"
+                },
+                {
+                    "question": "FROM 1982-1994, THIS WAS A CAFETERIA-STYLE RESTAURANT; TODAY IT'S A SIGNATURE DINING LOCATION SERVING THREE DIFFERENT KINDS OF POUTINE.",
+                    "value": "1000",
+                    "answer": "What is Le Cellier?"
+                }
+            ]
+        }
+    ],
+    "final-jeopardy": {
+        "answer": "What is Indiana Jones Epic Stunt Spectacular",
+        "category": "COAST TO COAST",
+        "question": "THIS WAS THE FIRST ATTRACTION TO OPEN IN WALT DISNEY WORLD AND THEN BE CLONED IN DISNEYLAND."
+    }
+}

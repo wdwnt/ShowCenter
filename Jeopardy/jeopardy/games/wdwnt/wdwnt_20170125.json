@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "RIVERS OF LIGHT",
+      "questions": [
+        {
+          "question": "WE'RE NOT SURE WHEN, BUT AT LEAST WE KNOW THAT RIVERS OF LIGHT WILL BE SHOWN IN THIS PARK.",
+          "value": "100",
+          "answer": "What is Animal Kingdom?"
+        },
+        {
+          "question": "THIS SHOW, MEANT AS A TEMPORARY REPLACEMENT FOR RIVERS OF LIGHT, ACTUALLY OFFERED FASTPASS.",
+          "value": "200",
+          "answer": "What is Jungle Book: Alive with Magic?"
+        },
+        {
+          "question": "RIVERS OF LIGHT WAS ORIGINALLY SUPPOSED TO PREMIERE TO THE PUBLIC ON THIS DATE.",
+          "value": "300",
+          "answer": "What is April 22, 2016?"
+        },
+        {
+          "question": "ORIGINALLY PLANNED TO DEBUT WITH RIVERS OF LIGHT BUT ALSO DELAYED, THIS SHOW IS SEEN ON THE PARK CENTERPIECE",
+          "value": "400",
+          "answer": "What is Tree of Life Awakens?"
+        },
+        {
+          "question": "THE MIDDLE SEGMENT OF RIVERS OF LIGHT THAT WAS SHOWN AT THE MEDIA PREVIEW FEATURED THIS TYPE OF FLOWER BLOSSOM.",
+          "value": "500",
+          "answer": "What is the lotus flower?"
+        }
+      ]
+    },
+    {
+      "name": "SHOWS",
+      "questions": [
+        {
+          "question": "ONCE TEMPORARY, THIS SHOW NOW HAS A PERMANENT RESIDENCE IN THE HARAMBE THEATER.",
+          "value": "100",
+          "answer": "What is the Festival of the Lion King?"
+        },
+        {
+          "question": "THE FORMER HOME OF SUPERSTAR TELEVISION IS WHERE THIS SHOW NOW PERFORMS.",
+          "value": "200",
+          "answer": "What is Frozen Ever After?"
+        },
+        {
+          "question": "HAVE SOME STRAWBERRY SHORTCAKE AT THIS SHOW AT PIONEER HALL.",
+          "value": "300",
+          "answer": "What is the Hoop-Dee-Doo Musical Revue?"
+        },
+        {
+          "question": "BEAUTY AND THE BEAST: LIVE ON STAGE HAS ITS PERFORMANCES AT THIS THEATER.",
+          "value": "400",
+          "answer": "What is the Theater of the Stars?"
+        },
+        {
+          "question": "THIS FORMER SHOW IN DISNEY-MGM STUDIOS HAD THE MONORAIL CRASH ON THE STAGE.",
+          "value": "500",
+          "answer": "What is Here Come the Muppets?"
+        }
+      ]
+    },
+    {
+      "name": "OPENING",
+      "questions": [
+        {
+          "question": "THIS IS THE YEAR DISNEYLAND OPENED.",
+          "value": "100",
+          "answer": "What is 1955?"
+        },
+        {
+          "question": "THIS IS THE YEAR EPCOT OPENED.",
+          "value": "200",
+          "answer": "What is 1982?"
+        },
+        {
+          "question": "THIS IS THE YEAR THE MAGIC KINGDOM OPENED.",
+          "value": "300",
+          "answer": "What is 1971?"
+        },
+        {
+          "question": "THIS IS THE YEAR BLIZZARD BEACH OPENED.",
+          "value": "400",
+          "answer": "What is 1995?"
+        },
+        {
+          "question": "THIS IS THE YEAR THE GRAND FLORIDIAN RESORT AND SPA OPENED.",
+          "value": "500",
+          "answer": "What is 1988?"
+        }
+      ]
+    },
+    {
+      "name": "WHEN",
+      "questions": [
+        {
+          "question": "THE YEAR WHEN RIVER COUNTRY CLOSED.",
+          "value": "100",
+          "answer": "What is 2001?"
+        },
+        {
+          "question": "THE YEAR WHEN BOB IGER BECAME CEO OF DISNEY.",
+          "value": "200",
+          "answer": "What is 2005?"
+        },
+        {
+          "question": "THE YEAR WHEN WDWNT WAS ESTABLISHED.",
+          "value": "300",
+          "answer": "What is 2007?",
+          "daily-double": true
+        },
+        {
+          "question": "THE YEAR WHEN WALT DISNEY WAS BORN.",
+          "value": "400",
+          "answer": "What is 1901?"
+        },
+        {
+          "question": "THE YEAR WHEN WALT DISNEY DIED.",
+          "value": "500",
+          "answer": "What is 1966?"
+        }
+      ]
+    },
+    {
+      "name": "PIGS",
+      "questions": [
+        {
+          "question": "A FRIEND OF POOH FROM THE HUNDRED ACRE WOOD.",
+          "value": "100",
+          "answer": "Who is Piglet?"
+        },
+        {
+          "question": "THERE ARE A COUPLE OF PIGS SHARING A DRINK AT THIS ATTRACTION.",
+          "value": "200",
+          "answer": "What is the Pirates of the Caribbean?"
+        },
+        {
+          "question": "THIS PIG IS MOAN'A'S FRIEND.",
+          "value": "300",
+          "answer": "Who is Pua?"
+        },
+        {
+          "question": "THE SWINE TREK FROM THIS MUPPETS SHOW SKETCH CAN BE FOUND IN THE MUPPETVISION*3D PRESHOW AREA",
+          "value": "400",
+          "answer": "What is Pigs in Space?"
+        },
+        {
+          "question": "THIS WAS THE MAGICAL PIG FROM THE BLACK CAULDRON",
+          "value": "500",
+          "answer": "Who is Hen Wen?"
+        }
+      ]
+    },
+    {
+      "name": "FLY",
+      "questions": [
+        {
+          "question": "THIS ATTRACTION FEATURES FLYING PIRATE SHIPS.",
+          "value": "100",
+          "answer": "What is Peter Pan's Flight?"
+        },
+        {
+          "question": "RIDE A FLYING RUG AT THIS ATTRACTION.",
+          "value": "200",
+          "answer": "What is the Magic Carpets of Aladdin?"
+        },
+        {
+          "question": "THE HANG GLIDER IN THIS ATTRACTION FILM IS ACTUALLY A CGI EFFECT.",
+          "value": "300",
+          "answer": "What is the Soarin' (Around the World)?"
+        },
+        {
+          "question": "THIS ATTRACTION FEATURES FLYING PACHYDERMS.",
+          "value": "400",
+          "answer": "What is Dumbo?"
+        },
+        {
+          "question": "YOU COULD WIDEN YOUR WORLD ON THIS EASTERN AIRLINES-SPONSORED ATTRACTION.",
+          "value": "500",
+          "answer": "What is If You Had Wings?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "CELEBRITY JEOPARDY",
+      "questions": [
+        {
+          "question": "THIS TV ACTOR WHO PLAYED UNCLE JESSE HAS THE D FROM THE ORIGINAL DISNEYLAND SIGN IN HIS BACKYARD.",
+          "value": "200",
+          "answer": "Who is John Stamos?"
+        },
+        {
+          "question": "AFTER HIS STINT IN THE MAKING OF ME, THIS ACTOR THEN APPEARED IN THE ATTRACTION IN HIS NATIVE COUNTRY.",
+          "value": "400",
+          "answer": "Who is Martin Short?",
+          "daily-double": true
+        },
+        {
+          "question": "THE PAPERS TO BREAK UP THE BEATLES WERE SIGNED IN THIS RESORT IN 1974.",
+          "value": "600",
+          "answer": "What is the Polynesian Resort?"
+        },
+        {
+          "question": "THIS ACTOR WHO LIVED TO BE 100 GAVE A COMEDIC SPEECH AT THE OPENING OF WALT DISNEY WORLD",
+          "value": "800",
+          "answer": "Who is Bob Hope?"
+        },
+        {
+          "question": "HE PLAYED DAVID LETTERMAN IN HBO'S \"THE LATE SHIFT\" AND TOM'S FAVORITE, BILL MCKIM, IN THE ORIGINAL TEST TRACK PRESHOW",
+          "value": "1000",
+          "answer": "Who is John Michael Higgins?"
+        }
+      ]
+    },
+    {
+      "name": "THE PARTNERS STATUE",
+      "questions": [
+        {
+          "question": "THE PARTNERS STATUE CAN BE FOUND \"AROUND\" THIS CENTRAL AREA OF THE MAGIC KINGDOM.",
+          "value": "200",
+          "answer": "What is the hub?"
+        },
+        {
+          "question": "EARLY SKETCHES HAD WALT HOLDING THE ROLLED UP PLANS FOR THIS MAJOR PROJECT.",
+          "value": "400",
+          "answer": "What is EPCOT?"
+        },
+        {
+          "question": "WALT IS WEARING A CLADDAGH RING WHICH HE AND HIS WIFE GOT ON THEIR VISIT TO THIS COUNTRY.",
+          "value": "600",
+          "answer": "What is Ireland?"
+        },
+        {
+          "question": "THE STATUE OF WALT IS ACTUALLY TALLER THAN WALT IN REAL LIFE BY THIS MANY INCHES.",
+          "value": "800",
+          "answer": "What is 7 (6'5\" - 5'10\")?"
+        },
+        {
+          "question": "THIS DISNEY LEGEND IS THE SCULPTOR OF THE PARTNERS STATUE.",
+          "value": "1000",
+          "answer": "Who is Blaine Gibson?"
+        }
+      ]
+    },
+    {
+      "name": "SID CAHUENGA",
+      "questions": [
+        {
+          "question": "ALTHOUGH IT LOOKS OUT OF PLACE, SID CAHUENGA'S CAN BE FOUND IN THIS PARK AT WALT DISNEY WORLD.",
+          "value": "200",
+          "answer": "What is Disney's Hollywood Studios?"
+        },
+        {
+          "question": "NOWADAYS, SID CAHUENGA'S FUNCTIONS AS A SERVICE CENTER FOR THESE.",
+          "value": "400",
+          "answer": "What are Magic Bands?"
+        },
+        {
+          "question": "IN EARLIER DAYS, SID CAHUENGA'S USED TO SELL THESE.",
+          "value": "600",
+          "answer": "What are film souveneirs?"
+        },
+        {
+          "question": "THE NAME SID WAS TAKEN FROM FIRST NAME OF THE OWNER OF THIS HOLYWOOD ICON WHICH ALSO HAPPENS TO BE AT THE SAME PARK.",
+          "value": "800",
+          "answer": "What is Grauman's Chinese Theater?"
+        },
+        {
+          "question": "LOOK IN THE TRUCK IN THE BACK AND YOU CAN SEE A FIGURE FROM THIS FORMER MAGIC KINGDOM ATTRACTION.",
+          "value": "1000",
+          "answer": "What is 20,000 Leagues Under the Sea?"
+        }
+      ]
+    },
+    {
+      "name": "CHESTER & HESTER",
+      "questions": [
+        {
+          "question": "THE NAME OF THIS RIDE IN DINORAMA IS AN HOMAGE TO WALT DISNEY'S ORIGINAL DINOSAUR DIORAMA.",
+          "value": "200",
+          "answer": "What is Primeval Whirl (Primeval World)?"
+        },
+        {
+          "question": "CHESTER AND HESTER'S WAS ORIGINALLY THE ONLY ONE OF THESE FOR MILES.",
+          "value": "400",
+          "answer": "What is a gas station?"
+        },
+        {
+          "question": "CHESTER AND HESTER WERE THIS KIND OF ASSOCIATES.",
+          "value": "600",
+          "answer": "What are husband and wife?"
+        },
+        {
+          "question": "CHESTER AND HESTER'S AND THE DINO INSTITUTE ARE SET IN THIS FICTIONAL COUNTY.",
+          "value": "800",
+          "answer": "What is Diggs County?"
+        },
+        {
+          "question": "CHESTER AND HESTER'S IS LOCATED ON THIS FICTIONAL ROUTE, AN HOMAGE TO THE OPENING OF THE PARK.",
+          "value": "1000",
+          "answer": "What is 498?"
+        }
+      ]
+    },
+    {
+      "name": "SPACESHIP EARTH",
+      "questions": [
+        {
+          "question": "DON'T CALL IT A GOLF BALL! SPACESHIP EARTH IS MOST ACCURATELY CALLED THIS.",
+          "value": "200",
+          "answer": "What is a geodesic sphere?"
+        },
+        {
+          "question": "BEFORE WE THANKED THE PHOENICIANS, SPACESHIP EARTH WAS NARRATED BY THIS ACTOR.",
+          "value": "400",
+          "answer": "Who is Jeremy Irons?"
+        },
+        {
+          "question": "GUTTERS COLLECT THE RAIN THAT FALLS ON SPACESHIP EARTH AND FUNNEL IT INTO THIS BODY OF WATER.",
+          "value": "600",
+          "answer": "What is the World Showcase Lagoon?"
+        },
+        {
+          "question": "EARLY DESIGNS FOR SPACESHIP EARTH WERE MODELED AFTER THIS FAMOUS BUILDING IN VATICAN CITY.",
+          "value": "800",
+          "answer": "What is St. Peter's Cathedral?"
+        },
+        {
+          "question": "THE ULTIMATE IDEA TO USE A GLOBE SHAPE WAS INSPIRED BY THIS ICON OF THE 1964 WORLD'S FAIR.",
+          "value": "1000",
+          "answer": "What is the Unisphere?"
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT GUARDIANS IN IT!",
+      "questions": [
+        {
+          "question": "LET'S HAVE ROCKET DRIVE A STARSPEEDER IN THIS ATTRACTION!",
+          "value": "200",
+          "answer": "What is Star Tours?"
+        },
+        {
+          "question": "LET'S HAVE DRAX THE DESTROYER NOT UNDERSTAND THE JOKES AND FIGHT ANIMATRONICS IN THE WATER IN THIS ATTRACTION!",
+          "value": "400",
+          "answer": "What is the Jungle Cruise?"
+        },
+        {
+          "question": "LET'S HAVE STAR LORD BLAST SOME MUSIC IN THE SPEAKERS FOR THIS ATTRACTION!",
+          "value": "600",
+          "answer": "What is the Rock'n'Roller Coaster?"
+        },
+        {
+          "question": "LET'S HAVE GAMORA INTRODUCE GUESTS TO X-S TECH IN THIS ATTRACTION!",
+          "value": "800",
+          "answer": "What is Alien Encounter?"
+        },
+        {
+          "question": "LET'S HAVE GROOT WALK AROUND ANIMAL KINGDOM WITH THIS WALKING PLANT!",
+          "value": "1000",
+          "answer": "Who is Devine?",
+          "daily-double": true
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What are Jungle Cruise and It's A Small World?",
+    "category": "MONKEYS AT WALT DISNEY WORLD",
+    "question": "THE TWO ATTRACTIONS IN THE MAGIC KINGDOM THAT FEATURE MONKEY FIGURES."
+  }
+}

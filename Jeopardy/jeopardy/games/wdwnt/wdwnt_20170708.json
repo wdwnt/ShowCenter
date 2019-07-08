@@ -1,0 +1,384 @@
+{
+  "jeopardy": [
+    {
+      "name": "STOPPING AT",
+      "questions": [
+        {
+          "question": "THE LATE CRETACEOUS PERIOD IN FRONT OF A CARNOTAURUS",
+          "value": "100",
+          "answer": "What is DINOSAUR?"
+        },
+        {
+          "question": "FANTASYLAND",
+          "value": "200",
+          "answer": "What is the Walt Disney World Railroad?"
+        },
+        {
+          "question": "ROCKET TOWER PLAZA",
+          "value": "300",
+          "answer": "What is the Tomorrowland Transit Authority PeoplemMover?"
+        },
+        {
+          "question": "THE SMELL LAB",
+          "value": "400",
+          "answer": "What is Journey into Imagination with Figment?"
+        },
+        {
+          "question": "BROKEN TRACKS",
+          "value": "500",
+          "answer": "What is Everest?"
+        }
+      ]
+    },
+    {
+      "name": "THE CONTEMPORARY RESORT",
+      "questions": [
+        {
+          "question": "THIS DISNEY LEGEND DESIGNED THE LARGE MOSAIC ON THE CONCOURSE.",
+          "value": "100",
+          "answer": "Who is Mary Blair?"
+        },
+        {
+          "question": "IN NOVEMBER, 1991, THIS AREA OPENED IN THE CONTEMPORARY RESORT.",
+          "value": "200",
+          "answer": "What is the convention center?"
+        },
+        {
+          "question": "THIS RESTAURANT WAS FORMERLY THE FIESTA FOOD AND FUN CENTER.",
+          "value": "300",
+          "answer": "What is the Wave?",
+          "daily-double": true
+        },
+        {
+          "question": "ON NOVEMBER 17, 1973, THIS PRESIDENT GAVE HIS MOST ICONIC SPEECH FROM THE CONTEMPORARY RESORT.",
+          "value": "400",
+          "answer": "Who is Richard Nixon?"
+        },
+        {
+          "question": "THIS COMEDIAN ONCE CALLED THE CONTEMPORARY RESORT \"WHERE THE GOODYEAR BLIMP GOES FOR MATING SEASON.\".",
+          "value": "500",
+          "answer": "Who is Bob Hope?"
+        }
+      ]
+    },
+    {
+      "name": "THE POLYNESIAN RESORT",
+      "questions": [
+        {
+          "question": "DURING THE 2014 RENOVATION, THESE WERE REMOVED FROM THE MAIN LOBBY.",
+          "value": "100",
+          "answer": "What are waterfalls?"
+        },
+        {
+          "question": "THIS EATING ESTABLISHMENT HAS UH-OA FROM THE ENCHANTED TIKI ROOM UNDER NEW MANAGEMENT.",
+          "value": "200",
+          "answer": "What is Trader Sam's Grog Grotto?"
+        },
+        {
+          "question": "THIS EATING ESTABLISHMENT IS THE ONLY PLACE OUTSIDE OF THE MAGIC KINGDOM TO GET A DOLE WHIP IN DISNEY WORLD.",
+          "value": "300",
+          "answer": "What is the Pineapple Lanai?"
+        },
+        {
+          "question": "IN DECEMBER OF 1974, THE PAPERWORK TO BREAK UP THIS BAND WAS SIGNED IN THE POLYNESIAN.",
+          "value": "400",
+          "answer": "Who are The Beatles?"
+        },
+        {
+          "question": "THE CENTRAL BUILDING IS ALSO KNOWN AS THIS",
+          "value": "500",
+          "answer": "What is the Great Ceremonial House?"
+        }
+      ]
+    },
+    {
+      "name": "THE GRAND FLORIDIAN",
+      "questions": [
+        {
+          "question": "DON'T BELIEVE FRANKIE FACTS! THIS PLACE IS A SEAFOOD RESTAURANT ON THE WATER.",
+          "value": "100",
+          "answer": "What is Narcoossee's?"
+        },
+        {
+          "question": "THIS RECENTLY RENOVATED EATERY IS OPEN 24 HOURS.",
+          "value": "200",
+          "answer": "What is Gasparilla Island Grill?"
+        },
+        {
+          "question": "THE DVC VILLAS AT THE GRAND FLORIDIAN HAS A FOUNTAIN WITH THESE ANIMALS FROM MARY POPPINS.",
+          "value": "300",
+          "answer": "What are penguins?"
+        },
+        {
+          "question": "THE TANNER FAMILY STAYED AT THE GRAND FLORIDIAN IN THE SPECIAL FOR THIS TELEVISION SHOW.",
+          "value": "400",
+          "answer": "What is Full House?"
+        },
+        {
+          "question": "THIS HULK HOGAN SHOW FILMED BEACH SCENES AT THE GRAND FLORIDIAN.",
+          "value": "500",
+          "answer": "What is Thunder in Paradise?"
+        }
+      ]
+    },
+    {
+      "name": "TRANSPORTATION & TICKET CENTER",
+      "questions": [
+        {
+          "question": "THE TTC IS ON THE OPPOSITE SIDE OF THIS BODY OF WATER FROM THE MAGIC KINGDOM.",
+          "value": "100",
+          "answer": "What is the Seven Seas Lagoon?"
+        },
+        {
+          "question": "THE PARKING LOTS AT THE TTC ARE DIVIDED INTO THESE TWO GROUPS.",
+          "value": "200",
+          "answer": "What are heroes and villains?"
+        },
+        {
+          "question": "GUESTS ARE SCREENED FOR SECURITY AT THE TTC WHEN TAKING THESE TWO FORMS OF TRANSPORTATION TO THE MAGIC KINGDOM.",
+          "value": "300",
+          "answer": "What are the monorail and ferryboat?"
+        },
+        {
+          "question": "THIS CENTRAL FLORIDA PUBLIC BUS TRANSPORTATION SYSTEM HAS A CONNECTION AT THE TTC.",
+          "value": "400",
+          "answer": "What is LYNX?"
+        },
+        {
+          "question": "THE EXPRESS MONORAILS AT THE TTC USE THIS PLATFORM LAYOUT TO BOARD ON ONE SIDE AND DISEMBARK ON THE OTHER.",
+          "value": "500",
+          "answer": "What is Spanish solution (Barcelona solution)?"
+        }
+      ]
+    },
+    {
+      "name": "AND OTHER DESTINATIONS",
+      "questions": [
+        {
+          "question": "THIS RESORT AREA IS WHERE YOU CAN FIND A BIG WOODY AND A GIANT BUZZ.",
+          "value": "100",
+          "answer": "What is the All Star Movies Resort?"
+        },
+        {
+          "question": "THIS RESORT IS THE LATEST TO OPEN AND WHAT WOULD HAVE BEEN THE LEGENDARY YEARS SECTION OF THE POP CENTURY RESORT.",
+          "value": "200",
+          "answer": "What is the Art of Animation Resort?"
+        },
+        {
+          "question": "THIS RESORT WAS FORMERLY NAMED DIXIE LANDINGS RESORT.",
+          "value": "300",
+          "answer": "What is Port Orleans Riverside?"
+        },
+        {
+          "question": "THE GONDOLA SYSTEM WILL STOP AT THIS MODERATE LEVEL RESORT.",
+          "value": "400",
+          "answer": "What is the Caribbean Beach Resort?"
+        },
+        {
+          "question": "THIS IS THE CURRENT NAME OF THE FORMER DISNEY INN.",
+          "value": "500",
+          "answer": "What is Shades of Green?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "MORE EPCOT ICONS",
+      "questions": [
+        {
+          "question": "",
+          "value": "200",
+          "answer": "What is Spaceship Earth?",
+          "image": "./images/wdwnt/epcot/spaceship.png"
+        },
+        {
+          "question": "",
+          "value": "400",
+          "answer": "What is The Living Seas?",
+          "image": "./images/wdwnt/epcot/seas.png"
+        },
+        {
+          "question": "",
+          "value": "600",
+          "answer": "What is Horizons?",
+          "image": "./images/wdwnt/epcot/horizons.png"
+        },
+        {
+          "question": "",
+          "value": "800",
+          "answer": "What is Communicore?",
+          "image": "./images/wdwnt/epcot/communicore.png"
+        },
+        {
+          "question": "",
+          "value": "1000",
+          "answer": "What is World Showcase?",
+          "image": "./images/wdwnt/epcot/worldshowcase.gif",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "OR IS IT",
+      "questions": [
+        {
+          "question": "A CLASSIC DISNEY CHARACTER OR IS IT A PLANET...OR PLANETOID?",
+          "value": "200",
+          "answer": "What is Pluto?"
+        },
+        {
+          "question": "AN ATTRACTION IN EPCOT OR IS IT A DRY RUN OF THE A SONG ON AN ALBUM.",
+          "value": "400",
+          "answer": "What is Test Track?"
+        },
+        {
+          "question": "A FIREWORKS SHOW OR IS IT WHAT WOULD HAPPEN IF YOU PUT A MIRROR TO DIRT.",
+          "value": "600",
+          "answer": "What is Reflections of Earth?"
+        },
+        {
+          "question": "A 90S DISNEY CHARACTER OR IS IT A 60S TV CHARACTER PLAYED BY BARBARA EDEN.",
+          "value": "800",
+          "answer": "What is Genie?"
+        },
+        {
+          "question": "A RIDE IN FANTASYLAND OR IS IT A NEIGHBORHOOD IN BROOKLYN NEAR A BRIDGE",
+          "value": "1000",
+          "answer": "What is Dumbo?"
+        }
+      ]
+    },
+    {
+      "name": "FLAGS",
+      "questions": [
+        {
+          "question": "",
+          "value": "200",
+          "answer": "What is Italy?",
+          "image": "./images/wdwnt/flags/italy.png"
+        },
+        {
+          "question": "",
+          "value": "400",
+          "answer": "What is Mexico?",
+          "image": "./images/wdwnt/flags/mexico.png"
+        },
+        {
+          "question": "",
+          "value": "600",
+          "answer": "What is Germany?",
+          "image": "./images/wdwnt/flags/germany.png"
+        },
+        {
+          "question": "",
+          "value": "800",
+          "answer": "What is Norway?",
+          "image": "./images/wdwnt/flags/norway.png"
+        },
+        {
+          "question": "",
+          "value": "1000",
+          "answer": "What is Morocco?",
+          "image": "./images/wdwnt/flags/morocco.png"
+        }
+      ]
+    },
+    {
+      "name": "I SAID THAT!",
+      "questions": [
+        {
+          "question": "\"WE HAVE COME HERE UNINVITED AND UNANNOUNCED.\"",
+          "value": "200",
+          "answer": "Who is Captain EO?"
+        },
+        {
+          "question": "\"WELL, YOU’VE BEEN ABSOLUTELY AMAZING SO FAR—BLOWING AWAY THE OPPONENTS HERE.\"",
+          "value": "400",
+          "answer": "Who is Alex Trebek?"
+        },
+        {
+          "question": "\"IT’S A DAMN POOR MIND INDEED CAN’T THINK OF AT LEAST TWO WAYS TO SPELL A WORD.\"",
+          "value": "600",
+          "answer": "Who is Andrew Jackson?"
+        },
+        {
+          "question": "\"MON AMI, QUIT TALKING WHILE I’M INTERRUPTING.\"",
+          "value": "800",
+          "answer": "Who is Pierre?"
+        },
+        {
+          "question": "\"I'LL BE WITH YOU IN JUST A MOMENT. PREPARE YOURSELVES FOR AN UNFORGETABLE, ENCOUNTER.\"",
+          "value": "1000",
+          "answer": "Who is Chairman Clench?"
+        }
+      ]
+    },
+    {
+      "name": "10 YEARS AGO",
+      "questions": [
+        {
+          "question": "FROZEN EVER AFTER",
+          "value": "200",
+          "answer": "What is Maelstron?"
+        },
+        {
+          "question": "PRINCESS FAIRYTALE HALL",
+          "value": "400",
+          "answer": "What is Snow White's Scary Adventures?"
+        },
+        {
+          "question": "PIZZERIZZO",
+          "value": "600",
+          "answer": "What is Pizza Planet?"
+        },
+        {
+          "question": "THE VALLEY OF MO'ARA",
+          "value": "800",
+          "answer": "What is Camp Minnie-Mickey?"
+        },
+        {
+          "question": "MORIMOTO ASIA",
+          "value": "1000",
+          "answer": "What is Mannequins Dance Palace?"
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT STITCH IN IT!",
+      "questions": [
+        {
+          "question": "WE ALREADY PUT STITCH IN TOMORROWLAND TO LET US ESCAPE FROM THIS ATTRACTION!",
+          "value": "200",
+          "answer": "What is Alien Encounter?"
+        },
+        {
+          "question": "WE ALREADY PUT STITCH ON THIS STORE WHERE HE SPITS AT PEOPLE!",
+          "value": "400",
+          "answer": "What is World of Disney?"
+        },
+        {
+          "question": "WE ALREADY PUT STITCH IN THIS POLYNESIAN RESORT RESTAURANT FOR BREAKFAST!",
+          "value": "600",
+          "answer": "What is 'Ohana?"
+        },
+        {
+          "question": "WE ALREADY PUT STITCH ON THE TOMORROWLAND STAGE FOR THIS RETIRED SHOW!",
+          "value": "800",
+          "answer": "What is Stitch's Supersonic Celebration?",
+          "daily-double": true
+        },
+        {
+          "question": "WE EVEN PUT STITCH ON THE MONORAIL NARRATION IN 2005 INTERRUPTING THIS ANNOUNCER! I GIVE UP!",
+          "value": "1000",
+          "answer": "What is Joe Hursh?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is Disney Springs?",
+    "category": "WDW NEWS TODAY",
+    "question": "IN MARCH 2013, WDWNT.COM POSTED CONCEPT ART AND PLANS FOR THIS MAJOR WALT DISNEY WORLD OVERHAUL PROJECT, NOW IN ITS FINAL PHASE."
+  }
+}

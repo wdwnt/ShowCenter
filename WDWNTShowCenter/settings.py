@@ -132,5 +132,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'TonysTownSquares'),
     os.path.join(BASE_DIR, 'Util'),
     os.path.join(BASE_DIR, 'JumbleCruise'),
+    os.path.join(BASE_DIR, 'Jeopardy'),
 )
 django_heroku.settings(locals())

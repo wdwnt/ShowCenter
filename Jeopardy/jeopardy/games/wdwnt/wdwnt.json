@@ -1,0 +1,386 @@
+{
+  "jeopardy": [
+    {
+      "name": "DISNEYLAND",
+      "questions": [
+        {
+          "question": "GREAT SCOTT! THIS IS THE YEAR DISNEYLAND OPENED.",
+          "value": "100",
+          "answer": "What is 1955?"
+        },
+        {
+          "question": "IN 1972, THIS AREA OF DISNEYLAND OPENED AS \"BEAR COUNTRY\". IN 1988, IT WAS RENAMED TO THIS.",
+          "value": "200",
+          "answer": "What is Critter Country?"
+        },
+        {
+          "question": "ONE OF THE MAIN ATTRACTIONS IN MICKEY'S TOONTOWN FAIR IS GADGET'S GO COASTER, NAMED AFTER A CHARACTER FROM THIS DISNEY AFTERNOON TV SHOW.",
+          "value": "300",
+          "answer": "What is Chip and Dale's Rescue Rangers?"
+        },
+        {
+          "question": "THIS FUTURE PRESIDENT WAS AT THE OPENING OF DISNEYLAND.",
+          "value": "400",
+          "answer": "Who is Ronald Reagan?"
+        },
+        {
+          "question": "THIS IS CONSIDERED THE \"LOST LAND\" OF DISNEYLAND OPENING ON JUNE 16, 1957 AND CLOSING IN SEPTEMBER 1961.",
+          "value": "500",
+          "answer": "What is Holidayland?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "MAGIC KINGDOM",
+      "questions": [
+        {
+          "question": "HOLD ON TO YOUR TASSELS! THIS IS THE NEWEST ATTRACTION IN ADVENTURELAND.",
+          "value": "100",
+          "answer": "What is the Magic Carpets of Aladdin?"
+        },
+        {
+          "question": "A REPLICA OF THE HOUSE OF BURGESSES IN LIBERTY SQUARE HAS TWO LANTERNS IN THE WINDOW FOR THIS MAN'S EPIC RIDE.",
+          "value": "200",
+          "answer": "Who is Paul Revere?"
+        },
+        {
+          "question": "THE STATUE OF ROY DISNEY AND MINNIE MOUSE HOLDS THIS TITLE.",
+          "value": "300",
+          "answer": "What is Sharing the Magic?"
+        },
+        {
+          "question": "ON OPENING DAY, THESE WERE THE ONLY TWO OPERATIONAL RIDES IN TOMORROWLAND",
+          "value": "400",
+          "answer": "What are the Skyway and the Speedway?"
+        },
+        {
+          "question": "THE MAYOR OF MAIN STREET USA IS NOT JUSTIN HEYMAN, BUT RATHER THIS PERSON",
+          "value": "500",
+          "answer": "Who is Christopher George Weaver?"
+        }
+      ]
+    },
+    {
+      "name": "EPCOT ICONS",
+      "questions": [
+        {
+          "question": "",
+          "value": "100",
+          "answer": "What is Spaceship Earth?",
+          "image": "./images/wdwnt/spaceship_earth.png"
+        },
+        {
+          "question": "",
+          "value": "200",
+          "answer": "What is World of Motion?",
+          "image": "./images/wdwnt/world_of_motion.png"
+        },
+        {
+          "question": "",
+          "value": "300",
+          "answer": "What is Horizons?",
+          "image": "./images/wdwnt/horizons.png"
+        },
+        {
+          "question": "",
+          "value": "400",
+          "answer": "What is Journey into Imagination?",
+          "image": "./images/wdwnt/journey_into_imagination.png"
+        },
+        {
+          "question": "",
+          "value": "500",
+          "answer": "What is Universe of Energy?",
+          "image": "./images/wdwnt/universe_of_energy.png"
+        }
+      ]
+    },
+    {
+      "name": "THAT STUDIOS PARK",
+      "questions": [
+        {
+          "question": "THAT BIG BLUE THING THAT USED TO BE IN THE MIDDLE BLOCKING THE CHINESE THEATER. THAT WAS AN EYESORE.",
+          "value": "100",
+          "answer": "What is the Sorcerer's Hat?"
+        },
+        {
+          "question": "THAT HOST GUY IN THE GREAT MOVIE RIDE",
+          "value": "200",
+          "answer": "Who is Robert Osbourne?"
+        },
+        {
+          "question": "THAT DINOSAUR IN ECHO LAKE THAT SERVES ICE CREAM",
+          "value": "300",
+          "answer": "Who is Gertie?"
+        },
+        {
+          "question": "THAT FAKE RECORD STUDIO NAME IN THE ROCK'N ROLLER COASTER",
+          "value": "400",
+          "answer": "What is G-Force Records?"
+        },
+        {
+          "question": "THAT GREEN SCREEN SHOW THAT USED TO BE IN WHAT IS NOW KNOWN AS THE HYPERION THEATER",
+          "value": "500",
+          "answer": "What is Superstar Television?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "KINGDOM OF ANIMALS",
+      "questions": [
+        {
+          "question": "ALTHOUGH THIS ANIMAL DOES NOT RESIDE IN DISNEY'S ANIMAL KINGDOM, IT WILL SOON MAKE ITS APPEARANCE AT DISNEY SPRINGS.",
+          "value": "100",
+          "answer": "What is the paddlefish?",
+          "image": "./images/wdwnt/paddlefish.jpg"
+        },
+        {
+          "question": "THIS ANIMAL IS BETTER KNOWN IN ITS ANIMATED FORM.",
+          "value": "200",
+          "answer": "What is a warthog?",
+          "image": "./images/wdwnt/warthog.jpg"
+        },
+        {
+          "question": "THIS IS TOM CORLESS'S FAVORITE ANIMAL ON KILIMANJARO SAFARIS.",
+          "value": "300",
+          "answer": "What is the Thomson's Gazelle?",
+          "image": "./images/wdwnt/thomsons_gazelle.jpg"
+        },
+        {
+          "question": "ALTHOUGH THIS ANIMAL HAS LEGS THAT LOOK LIKE THAT OF A ZEBRA, IT IS ACTUALLY THE ONLY LIVING RELATIVE OF THE GIRAFFE.",
+          "value": "400",
+          "answer": "What is the okapi?",
+          "image": "./images/wdwnt/okapi.jpg"
+        },
+        {
+          "question": "YOU CAN SEE THIS BUG AROUND DISCOVERY ISLAND IN A PLEXIGLASS BOX. IF YOU HEAR ONE OUT OF THE BOX, YOU MAY WANT TO MOVE IT, MOVE IT!",
+          "value": "500",
+          "answer": "What is the Madagascar Hissing Cockroach?",
+          "image": "./images/wdwnt/madagascar_hissing_cockroach.jpg"
+        }
+      ]
+    },
+    {
+      "name": "CALIFORNIA ADVENTURE",
+      "questions": [
+        {
+          "question": "THE CORN DOG CASTLE REIGNS SUPREME IN THIS AREA OF DISNEY'S CALIFORNIA ADVENTURE.",
+          "value": "100",
+          "answer": "What is Paradise Pier?"
+        },
+        {
+          "question": "MONSTERS INC: MIKE AND SULLY TO THE RESCUE REPLACED THIS OPENING DAY DARK RIDE.",
+          "value": "200",
+          "answer": "What is Superstar Limo?"
+        },
+        {
+          "question": "IT'S NOT IN FANTASYLAND ANYMORE, BUT THIS CHARACTER RESTAURANT HAS ALWAYS BEEN IN CALIFORNIA ADVENTURE WITH THE SAME NAME.",
+          "value": "300",
+          "answer": "What is Ariel's Grotto?"
+        },
+        {
+          "question": "THIS IS THE ORIGINAL NIGHTTIME SHOW HELD AT DISNEY'S CALIFORNIA ADVENTURES.",
+          "value": "400",
+          "answer": "What is LuminAria?",
+          "daily-double": false
+        },
+        {
+          "question": "CARS LAND WAS BUILT ON THE AREA OF LAND FORMERLY KNOWN AS THIS.",
+          "value": "500",
+          "answer": "What is the Timon parking lot?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "MUSIC",
+      "questions": [
+        {
+          "question": "THIS IS THE ONLY LIVING SHERMAN BROTHER.",
+          "value": "200",
+          "answer": "Who is Richard Sherman?"
+        },
+        {
+          "question": "THE MAIN THEME FOR THIS ATTRACTION WAS ONE OF THE LAST PIECES WRITTEN BY FAMOUS COMPOSER JERRY GOLDSMITH WHO SAID AFTER RIDING IT \"I'D DO ANYTHING TO BE PART OF THIS PROJECT. I'D EVEN SCORE THE FILM FOR FREE.\"",
+          "value": "400",
+          "answer": "What is Soarin'?"
+        },
+        {
+          "question": "AROUND THE MUPPET FOUNTAIN, YOU CAN HEAR THE INSTRUMENTAL VERSION OF THIS SONG FROM THE MUPPET MOVIE SUNG BY ROWLF AND KERMIT.",
+          "value": "600",
+          "answer": "What is I Hope That Something Better Comes Along?"
+        },
+        {
+          "question": "THIS FRENCH COMPOSER WAS THE CREATOR OF \"BAROQUE HOEDOWN\" WHICH YOU CAN HEAR IN THE MAIN STREET ELECTRICAL PARADE.",
+          "value": "800",
+          "answer": "Who is Jean-Jacques Perrey?"
+        },
+        {
+          "question": "COMMONLY HEARD AROUND THE EPCOT FOUNTAIN OF NATIONS, HE IS THE COMPOSER OF THE PIECE \"PAPILLON (ON THE WINGS OF THE BUTTERFLY)\"",
+          "value": "1000",
+          "answer": "Who is David Arkenstone?"
+        }
+      ]
+    },
+    {
+      "name": "THE EPCOT PROJECT",
+      "questions": [
+        {
+          "question": "EVERYBODY IN WALT DISNEY'S EPCOT WAS REQUIRED TO HAVE THIS TO PREVENT SLUMS AND GHETTOS. SHAME MICHAEL DOESN'T HAVE ONE RIGHT NOW.",
+          "value": "200",
+          "answer": "What is a job?"
+        },
+        {
+          "question": "WALT DISNEY DEBUTED HIS EPCOT PROJECT WITH A MODEL THAT HAS THIS NAME",
+          "value": "400",
+          "answer": "What is Progress City?"
+        },
+        {
+          "question": "THE CENTER OF THE CITY WOULD CONTAIN THIS 30-STORY BUILDING WHICH HAD THE HOTEL AND THIS",
+          "value": "600",
+          "answer": "What is a convention center?"
+        },
+        {
+          "question": "ALTHOUGH THE EPCOT PROJECT DID NOT HAPPEN, IT DID LEAD TO THE CREATION OF THIS PLANNED COMMUNITY",
+          "value": "800",
+          "answer": "What is Celebration?"
+        },
+        {
+          "question": "BETWEEN THE CITY CENTER AND THE RESIDENTIAL AREAS WAS THIS COLORFULLY NAMED AREA",
+          "value": "1000",
+          "answer": "What is the green belt?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "DISNEY WORLD IN TV",
+      "questions": [
+        {
+          "question": "AIRED THIS YEAR, THE JOHNSON FAMILY OF THIS SHOW SHOWED US THE OUTSIDE LINE FOR SOARIN' AROUND THE WORLD. WONDER WHY TOM HASN'T BROKEN THAT STORY YET.",
+          "value": "200",
+          "answer": "What is black-ish?"
+        },
+        {
+          "question": "THE VOICE OF ALADDIN, SCOTT WEINGER, MAKES AN APPEARANCE AS ALADDIN IN THIS SHOW'S DISNEY WORLD SPECIAL.",
+          "value": "400",
+          "answer": "What is Full House?"
+        },
+        {
+          "question": "THIS FAMILY FROM THE MIDDLE ENDED UP IN FLORIDA WHEN THEIR RESERVATIONS WERE FOR DISNEYLAND. THEY LET THEM IN ANYWAY.",
+          "value": "600",
+          "answer": "Who are the Hecks?"
+        },
+        {
+          "question": "STEVE URKEL CAUSED SOME CHAOS WITH HIS BELONGINGS AT THIS DELUXE RESORT NEW AT THE TIME.",
+          "value": "800",
+          "answer": "What is the Wilderness Lodge?"
+        },
+        {
+          "question": "IN THE STEP BY STEP DISNEY SPECIAL, THIS EMPLOYEE OF FRANK LAMBERT ATTEMPTED TO SET THE RECORD FOR VISITING EVERY ATTRACTION IN THE PARKS.",
+          "value": "1000",
+          "answer": "Who is Jake 'Flash' Gordon?"
+        }
+      ]
+    },
+    {
+      "name": "3D MOVIES",
+      "questions": [
+        {
+          "question": "IT'S HARD TO BE ANNOYED ABOUT HOW THIS 3D SHOW WAS SHOWN TO THE PUBLIC BEFORE THE MOVIE IT WAS BASED ON APPEARED IN MOVIE THEATERS.",
+          "value": "200",
+          "answer": "What is \"It's Tough to Be a Bug\"?"
+        },
+        {
+          "question": "\"HONEY, I SHRUNK THE AUDIENCE!\" OCCURS DURING THE PRESENTATION OF THIS PRIZE.",
+          "value": "400",
+          "answer": "What is the Inventor of the Year Award?"
+        },
+        {
+          "question": "EXECUTIVE PRODUCER OF THE BIG BANG THEORY BILL PRADY HAD ONE OF HIS FIRST WRITING JOBS WORKING ON THIS 3D MOVIE.",
+          "value": "600",
+          "answer": "What is \"Muppet*Vision 3-D\"?",
+          "daily-double": true
+        },
+        {
+          "question": "MICKEY'S PHILHARMAGIC REPLACED THE LEGEND OF THE LION KING WHICH REPLACED THIS OTHER 3D MOVIE FROM EPCOT.",
+          "value": "800",
+          "answer": "What is Magic Journeys?"
+        },
+        {
+          "question": "IN ONE OF HIS LAST ACTING ROLES, DICK SHAWN PLAYED THIS COMMANDER TO CAPTAIN EO.",
+          "value": "1000",
+          "answer": "Who is Commander Bog?"
+        }
+      ]
+    },
+    {
+      "name": "TABLE SERVICE",
+      "questions": [
+        {
+          "question": "THIS GRAND FLORIDIAN RESTAURANT OVERLOOKING THE SEVEN SEAS LAGOON IS ALSO THE NAME OF FLORIDA STATE ROAD 15.",
+          "value": "200",
+          "answer": "What is Narcoossee’s?"
+        },
+        {
+          "question": "IF YOU COULDN'T GET RESERVATIONS FOR THE HOOP-DEE-DOO REVUE, HEAD TO THIS RESTAURANT NEXT DOOR.",
+          "value": "400",
+          "answer": "What is Trail's End?"
+        },
+        {
+          "question": "THE SUBTITLE OF THIS RESTAURANT IS THE TRANSLATION OF THE NAME OF THE RESTAURANT FROM SWAHILI.",
+          "value": "600",
+          "answer": "What is Jiko?"
+        },
+        {
+          "question": "THE LOCATION OF THIS RESTAURANT WAS FORMERLY THE FOOD AND FUN CENTER.",
+          "value": "800",
+          "answer": "What is The Wave?"
+        },
+        {
+          "question": "YOU CAN DINE UNDER THE SKELETAL HULL OF A LUGGER FISHING BOAT IN THIS RESTAURANT.",
+          "value": "1000",
+          "answer": "What is Boatwright’s Dining Hall?"
+        }
+      ]
+    },
+    {
+      "name": "IT NEVER HAPPENED",
+      "questions": [
+        {
+          "question": "THERE STILL BE DRAGONS AROUND ANIMAL KINGDOM MEANT FOR THIS UNBUILT AREA.",
+          "value": "200",
+          "answer": "What is Beastly Kingdom?"
+        },
+        {
+          "question": "THE MATTERHORN, OR AT LEAST A HIGH TECH VERSION OF IT, WOULD HAVE COME TO EPCOT FOR A WORLD SHOWCASE PAVILION FOR THIS COUNTRY.",
+          "value": "400",
+          "answer": "What is Switzerland?"
+        },
+        {
+          "question": "ORIGINALLY, THIS TITULAR MOVIE CHARACTER WAS SUPPOSED TO HAVE AN ATTRACTION IN TOMORROWLAND. THEY ENDED UP MAKING A DIFFERENT VERSION IN EXCESS.",
+          "value": "600",
+          "answer": "What is Alien?"
+        },
+        {
+          "question": "PLANS WERE MADE FOR A DARK RIDE IN HOLLYWOOD STUDIOS FOR THIS 1993 DARK MOVIE",
+          "value": "800",
+          "answer": "What is \"The Nightmare Before Christmas\"?"
+        },
+        {
+          "question": "THE MUPPETS WERE MEANT TO HAVE THIS SECOND ATTRACTION IN MGM STUDIOS BASED ON A SIMILAR ATTRACTION IN THE SAME PARK.",
+          "value": "1000",
+          "answer": "What is the Great Muppet Movie Ride?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is WDWNT: The Documentary?",
+    "category": "WDWNT",
+    "question": "EPISODE 253 WAS THE FIRST INSTALLMENT OF THIS POPULAR SEGMENT AND IS ONE OF THE MOST DOWNLOADED EPISODES OF WDWNT."
+  }
+}

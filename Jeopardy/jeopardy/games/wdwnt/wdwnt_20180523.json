@@ -1,0 +1,375 @@
+{
+  "jeopardy": [
+    {
+      "name": "BREAKFAST",
+      "questions": [
+        {
+          "question": "THIS IS THE ONLY RESTAURANT WITH CHARACTER BREAKFAST IN ANIMAL KINGDOM.",
+          "value": "100",
+          "answer": "What is Tusker House?"
+        },
+        {
+          "question": "FOR A QUICK GRAB-AND-GO BREAKFAST IN THE MAGIC KINGDOM, PICK UP YOUR STARBUCKS HERE.",
+          "value": "200",
+          "answer": "What is the Main Street Bakery?"
+        },
+        {
+          "question": "AT BREAKFAST AT KONA CAFE, BE SURE TO HAVE THIS DECADENT ALLITERATIVE SPECIAL.",
+          "value": "300",
+          "answer": "What is Tonga Toast?"
+        },
+        {
+          "question": "THESE TWO ANTHROPOMORPHIZED BREAKFAST FOODS CRACKED CORNY JOKES IN KITCHEN KABARET.",
+          "value": "400",
+          "answer": "Who are Hamm and Eggz?"
+        },
+        {
+          "question": "YOU CAN SWOON OVER FLYNN RIDER AT THE CHARACTER BREAKFAST AT THIS RESORT RESTAURANT.",
+          "value": "500",
+          "answer": "What is Trattoria al Forno?"
+        }
+      ]
+    },
+    {
+      "name": "LUNCH",
+      "questions": [
+        {
+          "question": "YOU CAN GET A VARIETY OF AFRICAN-INSPIRED DISHES HERE, BUT THE BREAD SERVICE MIGHT BE FILLING ENOUGH FOR LUNCH.",
+          "value": "100",
+          "answer": "What is Sanaa?"
+        },
+        {
+          "question": "THESE TWO ATTRACTIONS SIT ABOVE THE LUNCHING PAD IN TOMORROWLAND.",
+          "value": "200",
+          "answer": "What are the Astro Orbiter and the TTA PeopleMover?"
+        },
+        {
+          "question": "LUNCH CAN COME WITH AFTERNOON TEA AT THE GARDEN VIEW TEA ROOM AT THIS RESORT.",
+          "value": "300",
+          "answer": "What is the Grand Floridian Resort and Spa?"
+        },
+        {
+          "question": "THE FIRST ONE OF THESE OPENED IN 2004 IN WHAT WAS THEN-DOWNTOWN DISNEY; IT’S NAMED FOR THE INVENTOR OF A CLASSIC LUNCH FOOD.",
+          "value": "400",
+          "answer": "What is Earl of Sandwich?"
+        },
+        {
+          "question": "HAVE LUNCH WITH AN IMAGINEER IN THE BAMBOO ROOM OF THIS RESTAURANT.",
+          "value": "500",
+          "answer": "What is the Hollywood Brown Derby?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "SNACK",
+      "questions": [
+        {
+          "question": "STITCH MUST HAVE STOPPED AT CASEY’S FOR ONE OF THESE AS A SNACK IN BETWEEN ESCAPES.",
+          "value": "100",
+          "answer": "What is a chili dog?"
+        },
+        {
+          "question": "THIS DINOSAUR MAY WANT TO MAKE A SNACK OUT OF TWELVE WANDERING TIME TOURISTS.",
+          "value": "200",
+          "answer": "What is a carnataurus?"
+        },
+        {
+          "question": "NOT SURE IF IT QUALIFIES AS A SNACK, A DESSERT, OR A MEAL, BUT THE KITCHEN SINK SUNDAE AT THIS ICE CREAM SHOP PROBABLY HAS MORE CALORIES THAN YOU SHOULD EAT IN A WEEK.",
+          "value": "300",
+          "answer": "What is Beaches and Cream Soda Shop?"
+        },
+        {
+          "question": "PONGU PONGU IN PANDORA IS THE ONLY PLACE TO GET THIS POPULAR PINEAPPLE SPRING ROLL SNACK.",
+          "value": "400",
+          "answer": "What is lumpia?"
+        },
+        {
+          "question": "FOR A VERY LIMITED TIME, YOU COULD SNACK ON POOP BROWNIES FROM THIS ANIMAL KINGDOM LOCATION.",
+          "value": "500",
+          "answer": "What is Zuri’s Sweets Shop?"
+        }
+      ]
+    },
+    {
+      "name": "DINNER",
+      "questions": [
+        {
+          "question": "BREAKFAST AND LUNCH HERE ARE QUICK-SERVICE, BUT THE DINING ROOM PROUDLY PRESENTS YOUR DINNER AS TABLE SERVICE.",
+          "value": "100",
+          "answer": "What is Be Our Guest?"
+        },
+        {
+          "question": "IF DISNEY’S SIGNATURE DINING OPTIONS AREN’T EXPENSIVE ENOUGH FOR YOU, SIT DOWN TO A PRICEY DINNER AT THIS AAA FIVE DIAMOND RESTAURANT.",
+          "value": "200",
+          "answer": "What is Victoria and Albert’s?"
+        },
+        {
+          "question": "AFTER THE RELEASE OF LILO AND STITCH, THE POLYNESIAN LUAU WAS RENAMED TO THIS, AND INCORPORATED A SONG FROM THE FILM.",
+          "value": "300",
+          "answer": "What is Disney’s Spirit of Aloha Dinner Show?"
+        },
+        {
+          "question": "THE OUTDOOR DINNER SHOW AT FORT WILDERNESS.",
+          "value": "400",
+          "answer": "What is Mickey’s Backyard BBQ?"
+        },
+        {
+          "question": "THESE TWO ALLITERATIVE RESTAURANTS WILL SERVE YOU DINNER MADE WITH FOOD THAT IS CULTIVATED INSIDE THE SAME EPCOT PAVILION WHERE THEY ARE HOUSED.",
+          "value": "500",
+          "answer": "What are Sunshine Seasons and the Garden Grill?"
+        }
+      ]
+    },
+    {
+      "name": "\"D\"-SERT",
+      "questions": [
+        {
+          "question": "THIS ATTRACTION WAS MOVED FROM ITS ORIGINAL LOCATION AND DOUBLED ITS RIDE CAPACITY FOR PEANUTS.",
+          "value": "100",
+          "answer": "What is Dumbo the Flying Elephant?"
+        },
+        {
+          "question": "WITH ALL THESE FOOD QUESTIONS, YOU MIGHT WANT TO LOOK INTO GETTING THIS ON YOUR NEXT VACATION TO WALT DISNEY WORLD.",
+          "value": "200",
+          "answer": "What is the Disney Dining Plan?"
+        },
+        {
+          "question": "WHILE GETTING SOME ICE CREAM ON MAIN STREET, OFFER SOME TO THESE CHARACTERS.",
+          "value": "300",
+          "answer": "Who are the Dapper Dans?"
+        },
+        {
+          "question": "AN HOMAGE TO THIS SLOW MOVING EASY-TO-DIGEST ATTRACTION CAN BE FOUND ON THE DD BATTERIES LOCATED IN THE QUEUE OF THE ATTRACTION THAT REPLACED IT.",
+          "value": "400",
+          "answer": "What is Delta Dreamflight?"
+        },
+        {
+          "question": "DO US ONE BETTER AND ANSWER THIS QUESTION WITH WHY IS THIS MARVEL CINEMATIC CHARACTER?",
+          "value": "500",
+          "answer": "Who is Drax the Destroyer?"
+        }
+      ]
+    },
+    {
+      "name": "LEFTOVERS",
+      "questions": [
+        {
+          "question": "THE ORIGINAL EPCOT ICON FOR THIS PAVILION CAN BE FOUND IN THE MIDDLE OF THE GRAVITY WHEEL IN MISSION: SPACE.",
+          "value": "100",
+          "answer": "What is Horizons?"
+        },
+        {
+          "question": "WHILE WALKING IN THE VILLAGE, THIS FORMER MAELSTROM HIGHLIGHT CAN BE FOUND IN A FRAME.",
+          "value": "200",
+          "answer": "What is a troll?"
+        },
+        {
+          "question": "A NAUTILUS CAN BE SEEN IN THE TREE OUTSIDE OF THIS ATTRACTION.",
+          "value": "300",
+          "answer": "What is The Many Adventures of Winnie the Pooh?"
+        },
+        {
+          "question": "THIS CHARACTER SURVIVED HIS ENCOUNTER, BUT THEN BECAME A LEVEL 1 CRIMINAL.",
+          "value": "400",
+          "answer": "Who is Skippy?"
+        },
+        {
+          "question": "MOST OF THE ANIMATRONICS ON THE ZIP-A-DEE LADY ARE FROM THIS FORMER ATTRACTION.",
+          "value": "500",
+          "answer": "What is America Sings?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "SOMETHING COMPLETELY DIFFERENT",
+      "questions": [
+        {
+          "question": "KITCHEN KABARET",
+          "value": "200",
+          "answer": "What is Soarin’ Around the World?"
+        },
+        {
+          "question": "SUPERSTAR TELEVISION",
+          "value": "400",
+          "answer": "What is Frozen Sing-Along Celebration?"
+        },
+        {
+          "question": "SOUNDS DANGEROUS",
+          "value": "600",
+          "answer": "What is Path of the Jedi?"
+        },
+        {
+          "question": "MISSION TO MARS (IN MAGIC KINGDOM)",
+          "value": "800",
+          "answer": "What is Stitch’s Great Escape?"
+        },
+        {
+          "question": "SUPERSTAR LIMO",
+          "value": "1000",
+          "answer": "What is Monsters Inc. Mike & Sully to the Rescue?"
+        }
+      ]
+    },
+    {
+      "name": "STUDIO '89",
+      "questions": [
+        {
+          "question": "DISNEY-MGM STUDIOS HAD THIS MANY ATTRACTIONS ON OPENING DAY.",
+          "value": "200",
+          "answer": "What is two?"
+        },
+        {
+          "question": "THIS WAS THE FIRST NEW ATTRACTION ADDED AFTER OPENING DAY.",
+          "value": "400",
+          "answer": "What is the Indiana Jones Epic Stunt Spectacular?"
+        },
+        {
+          "question": "YOU COULD VISIT THIS BAKERY ON OPENING DAY; IT FINALLY CLOSED LAST YEAR.",
+          "value": "600",
+          "answer": "What is Starring Rolls Cafe?"
+        },
+        {
+          "question": "YOU COULD GRAB A COCKTAIL HERE ON OPENING DAY; SOON YOU’LL NEED TO PAY $33,000 TO HAVE A DRINK IN THE SAME LOCATION.",
+          "value": "800",
+          "answer": "What is the Catwalk Bar?"
+        },
+        {
+          "question": "THIS STREETMOSPHERE CHARACTER, WHO IS ALSO PROPRIETOR OF A SHOP NEAR THE PARK’S ENTRANCE, PERFORMED IN THE PARK FROM ITS OPENING UNTIL 2005.",
+          "value": "1000",
+          "answer": "Who is Sid Cahuenga?"
+        }
+      ]
+    },
+    {
+      "name": "RESORT HOPPING - POP CENTURY",
+      "questions": [
+        {
+          "question": "POP CENTURY FALLS WITHIN THIS RESORT AREA.",
+          "value": "200",
+          "answer": "What is the Wide World of Sports Resort area?"
+        },
+        {
+          "question": "POP’S THREE POOLS INCLUDE THE HIPPY-DIPPY POOL, THE COMPUTER POOL, AND A POOL SHAPED LIKE THIS.",
+          "value": "400",
+          "answer": "What is a bowling pin?"
+        },
+        {
+          "question": "THE YEAR POP CENTURY OPENED.",
+          "value": "600",
+          "answer": "What is 2003?"
+        },
+        {
+          "question": "WHILE THE EXISTING BUILDINGS ARE DEDICATED TO THE “CLASSIC YEARS” OF THE 1950S-1990S, THE BUILDINGS DEDICATED TO THESE YEARS, THE 1900S-1940S, WERE NEVER FINISHED.",
+          "value": "800",
+          "answer": "What are the Legendary Years?",
+          "daily-double": true
+        },
+        {
+          "question": "POP CENTURY’S FOOD COURT IS KNOWN FOR THIS DESSERT - IT’S THE ONLY PLACE IN WALT DISNEY WORLD THAT SERVES IT.",
+          "value": "1000",
+          "answer": "What is tie-dyed cheesecake?"
+        }
+      ]
+    },
+    {
+      "name": "HAVE A HART, MAN!",
+      "questions": [
+        {
+          "question": "NATHAN RODE THIS CLASSIC FANTASYLAND ATTRACTION THREE TIMES ON HIS FIRST TRIP TO WDW. THANKFULLY HE MADE IT BACK FROM NEVERLAND.",
+          "value": "200",
+          "answer": "What is Peter Pan’s Flight?"
+        },
+        {
+          "question": "THIS IS NATHAN’S FAVORITE RESORT, DESPITE THE FACT THAT THE BEATLES BROKE UP THERE.",
+          "value": "400",
+          "answer": "What is the Polynesian Resort?"
+        },
+        {
+          "question": "NATHAN’S FIRST EXPERIENCE ON THIS HOLLYWOOD STUDIOS RIDE HAD HIM IN A COLD SWEAT, NOT BECAUSE HE WAS SCARED, BUT BECAUSE HE HAD A FEVER YET REFUSED TO LEAVE TILL THE DAY WAS DONE.",
+          "value": "600",
+          "answer": "What is Tower of Terror?"
+        },
+        {
+          "question": "IN 1994, NATHAN GOT TO ENJOY THIS RIDE ON IT’S LAST YEAR OF OPERATION.",
+          "value": "800",
+          "answer": "What is 20,000 Leagues Under the Sea?"
+        },
+        {
+          "question": "THIS DISNEY PARKS SHOW WAS A FAVORITE OF YOUNG NATHAN AND RAN FROM 1990-96 STARRING THE DISNEY AFTERNOON TV LINE-UP AND THE MOUSE HIMSELF.",
+          "value": "1000",
+          "answer": "What is Mickey’s Magical TV World?"
+        }
+      ]
+    },
+    {
+      "name": "ACCORDING TO THE LYRICS",
+      "questions": [
+        {
+          "question": "AMERICA SAILS ACROSS THE SKY AFTER SPREADING HER GOLDEN WINGS ON THIS.",
+          "value": "200",
+          "answer": "What is freedom’s wind?"
+        },
+        {
+          "question": "IN FANTASMIC! YOU WILL FIND THESE TYPES OF VISIONS LEADING TO STRANGE AND WONDROUS DREAMS.",
+          "value": "400",
+          "answer": "What is fantastic?"
+        },
+        {
+          "question": "IN RIVERS OF LIGHT, “WE ARE ONE” WITH THESE BODIES OF WATER.",
+          "value": "600",
+          "answer": "What are oceans?"
+        },
+        {
+          "question": "THIS IS WHERE THE BIRDS ARE GONNA WIND UP IF THE TIKI ROOM SHOW DOESN’T FILL YOU WITH PLEASURE AND GLEE.",
+          "value": "800",
+          "answer": "What is the lady’s hat?"
+        },
+        {
+          "question": "IN THE COUNTRY BEAR JAMBOREE, BROTHER TED IS ON THE CORN JUG AND THIS OTHER INSTRUMENT HE PLAYS WITH THE HANDLE OF A HOE.",
+          "value": "1000",
+          "answer": "What is the washboard?"
+        }
+      ]
+    },
+    {
+      "name": "WHO STILL NEEDS TOM?",
+      "questions": [
+        {
+          "question": "THE MALEFICENT DRAGON FLOAT FROM THIS PARADE CAUGHT FIRE.",
+          "value": "200",
+          "answer": "What is the Festival of Fantasy parade?"
+        },
+        {
+          "question": "YOU WON’T HEAR “KETCHUP!” IN THIS RESTAURANT ANYMORE.",
+          "value": "400",
+          "answer": "What is Whispering Canyon Cafe?"
+        },
+        {
+          "question": "THIS RESORT WAS RECENTLY STRUCK BY LIGHTNING.",
+          "value": "600",
+          "answer": "What is Disney’s Yacht Club Resort?"
+        },
+        {
+          "question": "TOM’S NOT THE ONLY THING FROM FLORIDA THAT’S GOING TO PARIS. IT WAS ANNOUNCED THAT THIS ATTRACTION WILL BE COPIED ACROSS THE POND.",
+          "value": "800",
+          "answer": "What is Mickey’s Philharmagic?"
+        },
+        {
+          "question": "DEADPOOL OVERTOOK MARVEL IN THE WEEKEND BOX OFFICE STANDINGS, BUT BOTH FILMS FEATURE THIS ACTOR.",
+          "value": "1000",
+          "answer": "Who is Josh Brolin?",
+          "daily-double": true
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is the red T-shirt and brown pants?",
+    "category": "JUST ELLEN",
+    "image": "./images/wdwnt/ellen.png",
+    "question": "IN THIS INFAMOUS PICTURE, THESE ARE THE ONLY TWO PARTS THAT WERE ACTUALLY SAVED FROM THE ATTRACTION."
+  }
+}

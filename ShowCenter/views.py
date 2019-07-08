@@ -20,4 +20,8 @@ def index(request):
                         '<br>'
                         '<a href="'+STATIC_URL+'jumblecruise/index.html">Jumble Cruise</a>'
                         '<br>'
+                        '<a href="'+STATIC_URL+'jeopardy/index.html">Jeopardy</a>'
+                        '<br>'
+                        '<a href="'+STATIC_URL+'jeopardy/host.html">Jeopardy Host Board</a>'
+                        '<br>'
                         '<a href="ff/"></a>')

@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "I'VE BEEN STARING",
+      "questions": [
+        {
+          "question": "I'VE BEEN STARING AT THESE DOUBLE D'S...THE BATTERIES IN THIS TOMORROWLAND ATTRACTION.",
+          "value": "100",
+          "answer": "What is Buzz Lightyear's Space Ranger Spin?"
+        },
+        {
+          "question": "I'VE BEEN STARING AT THE DOOR FOR \"INHUMAN RESOURCES\" AT THIS ATTRACTION.",
+          "value": "200",
+          "answer": "What is Monsters Inc. Laugh Floor?"
+        },
+        {
+          "question": "I'VE BEEN STARING AT THE OFFICE OF \"DEAN FINDER\" IN THIS ATTRACTION",
+          "value": "300",
+          "answer": "What is Journey Into Imagination with Figment?"
+        },
+        {
+          "question": "I'VE BEEN STARING AT THE GIANT MURAL BY MARY BLAIR IN THIS RESORT.",
+          "value": "400",
+          "answer": "What is the Contemporary Resort?"
+        },
+        {
+          "question": "I'VE BEEN STARING AT THE MIDDLE OF THE GIANT WHEEL AT MISSION: SPACE AND SEE THE LOGO FOR THIS FORMER ATTRACTION.",
+          "value": "500",
+          "answer": "What is Horizons?"
+        }
+      ]
+    },
+    {
+      "name": "AT THE EDGE",
+      "questions": [
+        {
+          "question": "THIS RESTAURANT OFFERS A FANTASMIC DINING PACKAGE WHILE OFFERING SOMETHING ON THE BORDER OF BEING CALLED ITALIAN FOOD",
+          "value": "100",
+          "answer": "What is Mama Melrose's?" 
+        },
+        {
+          "question": "AT THE EDGE OF ANIMAL KINGDOM IS THIS AREA ONLY ACCESSIBLE BY THE WILDLIFE EXPRESS TRAIN.",
+          "value": "200",
+          "answer": "What is Rafiki's Planet Watch?"
+        },
+        {
+          "question": "THIS MAGIC KINGDOM ATTRACTION ENCIRCLES THE EDGE OF THE PARK.",
+          "value": "300",
+          "answer": "What is the Walt Disney World Railroad?"
+        },
+        {
+          "question": "THIS DISASTER AREA FORMERLY WREAKED HAVOC AT THE EDGE OF HOLLYWOOD STUDIOS.",
+          "value": "400",
+          "answer": "What is Catastrophe Canyon?"
+        },
+        {
+          "question": "THIS IS THE NAME OF THE PARK ENTRANCE AT THE BACK EDGE OF EPCOT.",
+          "value": "500",
+          "answer": "What is the International Gateway?"
+        }
+      ]
+    },
+    {
+      "name": "OF THE WATER",
+      "questions": [
+        {
+          "question": "ALL OF THE INTERNATIONAL PAVILIONS IN EPCOT ARE AROUND THIS BODY OF WATER.",
+          "value": "100",
+          "answer": "What is the World Showcase Lagoon?"
+        },
+        {
+          "question": "SCREENS OF WATER SHOW THE STORY OF MICKEY'S IMAGINATION AT THIS NIGHTTIME SPECTACTULAR.",
+          "value": "200",
+          "answer": "What is Fantasmic?"
+        },
+        {
+          "question": "THE BLUE BAYOU AT DISNEYLAND IS WHERE YOU CAN SEE THE BOATS FOR THIS ATTRACTION.",
+          "value": "300",
+          "answer": "What is Pirates of the Caribbean?"
+        },
+        {
+          "question": "IN HOLLYWOOD STUDIOS, THIS DINOSAUR CAN BE FOUND IN THE WATER SERVING ICE CREAM.",
+          "value": "400",
+          "answer": "Who is Gertie?",
+          "daily-double": true
+        },
+        {
+          "question": "THIS RESTAURANT OVERLOOKS THE RIVER WHERE THE GRAN FIESTA TOUR BOATS PASS THROUGH.",
+          "value": "500",
+          "answer": "What is the San Angel Inn?"
+        }
+      ]
+    },
+    {
+      "name": "TRYING TO REMEMBER",
+      "questions": [
+        {
+          "question": "THIS OPENING DAY ALICE IN WONDERLAND FANTASYLAND ATTRACTION IS STILL SPINNING TODAY.",
+          "value": "100",
+          "answer": "What is Mad Tea Party?"
+        },
+        {
+          "question": "NO LONGER UNDER NEW MANAGEMENT, THIS ATTRACTION WAS AROUND ON OPENING DAY.",
+          "value": "200",
+          "answer": "What is Walt Disney's Enchanted Tiki Room (Tropical Serenade)?"
+        },
+        {
+          "question": "THE SONG FROM THIS WORLD'S FAIR ATTRACTION, NOW IN FANTASYLAND, IS STILL STUCK IN MY HEAD.",
+          "value": "300",
+          "answer": "What is it's a small world?"
+        },
+        {
+          "question": "THE LONG LINES ARE STILL AROUND AT THIS OPENING DAY ATTRACTION IN FANTASYLAND, BUT NOW THEY HAVE AN INTERACTIVE QUEUE.",
+          "value": "400",
+          "answer": "What is Peter Pan's Flight?"
+        },
+        {
+          "question": "BESIDES THE COUNTRY BEAR JAMBOREE, THIS IS THE ONLY OTHER OPENING DAY ATTRACTION AT FRONTIERLAND STILL AROUND TODAY.",
+          "value": "500",
+          "answer": "What is Frontierland Shooting Arcade?"
+        }
+      ]
+    },
+    {
+      "name": "WE KNOW THE WAY",
+      "questions": [
+        {
+          "question": "ENTER EPCOT AND HEAD STRAIGHT INTO THIS GEODESIC SPHERE.",
+          "value": "100",
+          "answer": "What is Spaceship Earth?"
+        },
+        {
+          "question": "TAKE THE MONORAIL FROM THE TRANSPORTATION AND TICKET CENTER ON THE RESORT LOOP AND GET OFF AT THE FIRST STOP.",
+          "value": "200",
+          "answer": "What is the Polynesian Resort?"
+        },
+        {
+          "question": "BEAR LEFT AT THE TREE OF LIFE, CROSS THE BRIDGE, BEAR LEFT, AND ENTER THE HARAMBE THEATER.",
+          "value": "300",
+          "answer": "What is Festival of the Lion King?"
+        },
+        {
+          "question": "HEAD TO THE CHINESE THEATER, TURN LEFT, AND ENTER THE HYPERION THEATER.",
+          "value": "400",
+          "answer": "What is Frozen Sing-Along Celebration?"
+        },
+        {
+          "question": "HEAD RIGHT AT THE HUB AND BOARD THE ELEVATORS TO THIS ATTRACTION ABOVE THE PEOPLEMOVER.",
+          "value": "500",
+          "answer": "What is Astro Orbiter?"
+        }
+      ]
+    },
+    {
+      "name": "YOU'RE WELCOME",
+      "questions": [
+        {
+          "question": "I BROKE THAT THIS RESORT WILL UNDERGO MAJOR RENOVATIONS INCLUDING A CONVENTION CENTER EXPANSION. YOU'RE WELCOME.",
+          "value": "100",
+          "answer": "What is Coronado Springs?"
+        },
+        {
+          "question": "ON FEBRUARY 10, I BROKE THAT THIS NEW NIGHTTIME SHOW WOULD FINALLY SOFT OPEN LATER THAT WEEK. YOU'RE WELCOME.",
+          "value": "200",
+          "answer": "What is Rivers of Light?"
+        },
+        {
+          "question": "I GAVE YOU A BLURRY IMAGE OF A FLYING BANSHEE FROM THIS UPCOMING ANIMAL KINGDOM ATTRACTION. YOU'RE WELCOME.",
+          "value": "300",
+          "answer": "What is Flight of Passage?"
+        },
+        {
+          "question": "ON FEBRUARY 3, I BROKE THAT THIS HOLLYWOOD STUDIOS QUICK SERVICE VENUE WOULD CLOSE THE NEXT DAY. YOU'RE WELCOME.",
+          "value": "400",
+          "answer": "What is Starring Roles Cafe and Bakery?"
+        },
+        {
+          "question": "ON FEBRUARY 22, I BROKE THAT THIS SERVICE INCREASED TO $19 FOR THE DAY AND $29 FOR A WEEK. YOU'RE WELCOME.",
+          "value": "500",
+          "answer": "What is the Express Bus Service?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "LIBERTY SQUARE",
+      "questions": [
+        {
+          "question": "IT MAY NOT LOOK LIKE IT FROM THE FRONT, BUT THIS IS THE LARGEST ATTRACTION IN LIBERTY SQUARE.",
+          "value": "200",
+          "answer": "What is the Haunted Mansion?"
+        },
+        {
+          "question": "THE RIVERS OF AMERICA IS WHERE YOU CAN FIND THIS LIBERTY SQUARE ATTRACTION.",
+          "value": "400",
+          "answer": "What is the Liberty Square Riverboat?"
+        },
+        {
+          "question": "THIS FAMILY STYLE RESTAURANT IN LIBERY SQUARE HAS SIX ROOMS, EACH COMMEMORATING A PIVOTAL FIGURE IN U.S. HISTORY.",
+          "value": "600",
+          "answer": "What is the Liberty Tree Tavern?"
+        },
+        {
+          "question": "A REPLICA OF THIS NATIONAL MONUMENT WAS CREATED FROM A MOLD AND PLACED IN LIBERTY SQUARE.",
+          "value": "800",
+          "answer": "What is the Liberty Bell?"
+        },
+        {
+          "question": "PICK UP A HOLIDAY ORNAMENT FOR YOUR TREE AT THIS LIBERTY SQUARE STORE.",
+          "value": "1000",
+          "answer": "What is Ye Olde Christmas Shoppe?"
+        }
+      ]
+    },
+    {
+      "name": "COUNTER SERVICE",
+      "questions": [
+        {
+          "question": "OH, BRIGHT LITTLE STAR, THIS IS WHERE YOU CAN LISTEN TO SONNY ECLIPSE.",
+          "value": "200",
+          "answer": "What is Cosmic Ray's Starlight Cafe?"
+        },
+        {
+          "question": "FIND THE INSPIRATION FOR OUR \"FIGARO IS A CAT\" SHIRT AT THIS COUNTER SERVICE RESTAURANT.",
+          "value": "400",
+          "answer": "What is Pinocchio Village Haus?"
+        },
+        {
+          "question": "GRAB SOME KATSU CURRY AT THIS COUNTER SERVICE LOCATION IN JAPAN AT EPCOT.",
+          "value": "600",
+          "answer": "What is Katsura Grill?"
+        },
+        {
+          "question": "PROPS FROM \"THE GOLDBERGS\" ARE SCATTERED AROUND THIS COUNTER SERVICE EATERY.",
+          "value": "800",
+          "answer": "What is the ABC Comissary?"
+        },
+        {
+          "question": "HAVE SOME FRENCH FRIES AND PULLED PORK AT THIS ANIMAL KINGDOM COUNTER SERVICE LOCATION, WITH SOME DISTINCT SAUCE WHILE IT LASTS.",
+          "value": "1000",
+          "answer": "What is Flame Tree Barbecue?"
+        }
+      ]
+    },
+    {
+      "name": "THE GREAT MOVIE RIDE",
+      "questions": [
+        {
+          "question": "THIS TCM HOST WHO JUST PASSED AWAY NARRATES THE RIDE AND PRESHOW MOVIE.",
+          "value": "200",
+          "answer": "Who is Robert Osborne?"
+        },
+        {
+          "question": "THESE TWO CHARACTERS TAKE OVER YOUR VEHICLE DEPENDING ON WHERE YOU BOARD.",
+          "value": "400",
+          "answer": "What are the gangster and the cowboy?"
+        },
+        {
+          "question": "THESE TWO STAR WARS CHARACTERS CAN BE FOUND OF THE WALLS OF THE INDIANA JONES SCENE.",
+          "value": "600",
+          "answer": "Who are C-3PO and R2-D2?"
+        },
+        {
+          "question": "ORIGINALLY TURNING AND SHOOTING WATER, THIS MOVIE'S DISPLAY IS IN A CONSTANT B-MODE.",
+          "value": "800",
+          "answer": "What is Footlight Parade?",
+          "daily-double": true
+        },
+        {
+          "question": "THE WICKED WITCH OF THE WEST WAS THE FIRST OF THIS MODEL OF AUDIO ANIMATRONICS.",
+          "value": "1000",
+          "answer": "What is the A-100?"
+        }
+      ]
+    },
+    {
+      "name": "THE MONORAIL",
+      "questions": [
+        {
+          "question": "THE FIRST MONORAIL WRAP WAS FOR THIS FEATURE FILM IN 2010 AND WAS NICKNAMED BY ADDING THE FIRST TWO LETTERS OF THE FILM.",
+          "value": "200",
+          "answer": "What is TRON: Legacy?"
+        },
+        {
+          "question": "THE CURRENT BIGGEST PROJECT FOR THE MONORAIL IS ADDING THIS FUNCTIONALITY.",
+          "value": "400",
+          "answer": "What is automation?"
+        },
+        {
+          "question": "JUST LIKE THIS GAME, THE MONORAIL IS ADDING THIS ACTIVITY.",
+          "value": "600",
+          "answer": "What is trivia?"
+        },
+        {
+          "question": "THE MOST RECENT ADDITION TO THE MARK VI MONORAIL FLEET IS THIS COLOR.",
+          "value": "800",
+          "answer": "What is Peach?"
+        },
+        {
+          "question": "THIS IS HOW MANY MONORAILS HAVE A DELTA ON THEIR COLORS.",
+          "value": "1000",
+          "answer": "What is 3 (Coral, Teal, Lime)?"
+        }
+      ]
+    },
+    {
+      "name": "ITALIAN FOOD",
+      "questions": [
+        {
+          "question": "IF YOU LOOK IN THE WINDOW OF THIS MAGIC KINGDOM RESTAURANT, YOU CAN SEE LADY AND THE TRAMP.",
+          "value": "200",
+          "answer": "What is Tony's Town Square Restaurant?"
+        },
+        {
+          "question": "HAVE SOME PIZZA AT THIS EPCOT ITALIAN EATERY.",
+          "value": "400",
+          "answer": "What is Via Napoli?"
+        },
+        {
+          "question": "THIS DISNEY SPRINGS ITALIAN RESTAURANT IS NAMED FOR A TYPE OF MUSHROOM.",
+          "value": "600",
+          "answer": "What is Portobello?"
+        },
+        {
+          "question": "ON DISNEY'S BOARDWALK, THIS ITALIAN RESTAURANT SERVES BREAKFAST AND DINNER.",
+          "value": "800",
+          "answer": "What is Trattoria al Forno?"
+        },
+        {
+          "question":  "THIS OPENING DAY EPCOT RESTAURANT WAS REPLACED BY TUTTO ITALIA IN 2007",
+          "value": "1000",
+          "answer": "What is L'Originale Alfredo di Roma Ristorante?"
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT THE MUPPETS IN IT!",
+      "questions": [
+        {
+          "question": "LET'S HAVE SAM EAGLE NARRATE THE NEW VERSION OF THIS ATTRACTION! HE ALREADY HAS A NEST AT THE TOP OF THE BUILDING!",
+          "value": "200",
+          "answer": "What is the Hall of Presidents?"
+        },
+        {
+          "question": "LET'S HAVE PEPE THE PRAWN STEAL THE STAGE AND SING IN THIS UNDERWATER SHOW AT THEATER IN THE WILD, OKAY!",
+          "value": "400",
+          "answer": "What is Finding Nemo: The Musical?"
+        },
+        {
+          "question": "LET'S HAVE FOZZIE TELL JOKES WITH MIKE WAZOWSKI AT THIS ATTRACTION! LET'S SEE WHOSE JOKES ARE WORSE!",
+          "value": "600",
+          "answer": "What is Monsters Inc Laugh Floor?"
+        },
+        {
+          "question": "LET'S HAVE KERMIT DRESS AS THIS ACTION HERO LIKE HE DID IN MUPPET BABIES AND \"THE MUPPETS AT WALT DISNEY WORLD\"!",
+          "value": "800",
+          "answer": "Who is Indiana Jones?"
+        },
+        {
+          "question": "LET'S HAVE GONZO WITH THIS CHARACTER! THEY NOW BOTH HAVE THE SAME VOICE ACTOR, DAVE GOELZ!",
+          "value": "1000",
+          "answer": "Who is Figment?",
+          "daily-double": true
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What are environmental tests?",
+    "category": "TEST TRACK",
+    "question": "TESTS TWO, FIVE, AND SEVEN ARE TESTS OF THIS NATURE IN THE ORIGINAL TEST TRACK PRESHOW."
+  }
+}

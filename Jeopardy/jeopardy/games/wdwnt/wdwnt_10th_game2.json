@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "IRMA",
+      "questions": [
+        {
+          "question": "THE RESORT WHERE TOM RODE OUT IRMA WHILE PLAYING MONOPOLY.",
+          "value": "100",
+          "answer": "What is the Yacht Club?"
+        },
+        {
+          "question": "THIS MAGIC KINGDOM ATTRACTION WAS SHUT DOWN FOR A WHILE AFTER THE STORM HIT.",
+          "value": "200",
+          "answer": "What is Jungle Cruise?"
+        },
+        {
+          "question": "A HIGHLIGHT WAS DONALD DUCK PLAYING THIS RHYTHM VIDEO GAME IN THE CONTEMPORARY RESORT ARCADE.",
+          "value": "300",
+          "answer": "What is Guitar Hero?"
+        },
+        {
+          "question": "DURING THE STORM, THE CONTEMPORARY RESORT HOUSED THIS MANY MONORAILS.",
+          "value": "400",
+          "answer": "What is two?"
+        },
+        {
+          "question": "THIS RESORT'S MAIN LOBBY SUFFERED SEVERE FLOODING DURING THE STORM.",
+          "value": "500",
+          "answer": "What is Port Orleans French Quarter?"
+        }
+      ]
+    },
+    {
+      "name": "GERTIE",
+      "questions": [
+        {
+          "question": "GERTIE IS THIS TYPE OF DINOSAUR.",
+          "value": "100",
+          "answer": "What is a brontosaurus?"
+        },
+        {
+          "question": "THE FULL NAME OF THE SHOP IS \"DINOSAUR GERTIE'S HOUSE OF\" THIS.",
+          "value": "200",
+          "answer": "What is Extinction?"
+        },
+        {
+          "question": "GERTIE LEFT FIVE OF THESE IN THE GROUND BEHIND HER",
+          "value": "300",
+          "answer": "What are footprints?"
+        },
+        {
+          "question": "GERTIE IS FAMOUS FOR BEING ONE OF THE FIRST ONE OF THESE.",
+          "value": "400",
+          "answer": "What is an animated character/film?"
+        },
+        {
+          "question": "IN 1955, GERTIE WAS IN AN ANIMATED SHORT ON THIS BLOCK OF TELEVISION PROGRAMMING ON ABC WHICH USUALLY FEATURED WALT AS A HOST.",
+          "value": "500",
+          "answer": "What is Disneyland?"
+        }
+      ]
+    },
+    {
+      "name": "IN THE RESORT AREA",
+      "questions": [
+        {
+          "question": "WILDERNESS LODGE",
+          "value": "100",
+          "answer": "What is Magic Kingdom Resort Area?"
+        },
+        {
+          "question": "BEACH CLUB",
+          "value": "200",
+          "answer": "What is Epcot® Resort Area?"
+        },
+        {
+          "question": "PORT ORLEANS FRENCH QUARTER",
+          "value": "300",
+          "answer": "What is Disney Springs Resort Area?"
+        },
+        {
+          "question": "ALL STAR MUSIC RESORT",
+          "value": "400",
+          "answer": "What is Disney's Animal Kingdom® Resort Area?"
+        },
+        {
+          "question": "POP CENTURY RESORT",
+          "value": "500",
+          "answer": "What is Wide World of Sports Resort Area?"
+        }
+      ]
+    },
+    {
+      "name": "LOST IN THE SHUFFLE",
+      "questions": [
+        {
+          "question": "SHIN ORZO",
+          "value": "100",
+          "answer": "What is Horizons?"
+        },
+        {
+          "question": "ELITE ANNOUNCER",
+          "value": "200",
+          "answer": "What is Alien Encounter?"
+        },
+        {
+          "question": "A REPULSED SNAIL",
+          "value": "300",
+          "answer": "What is Pleasure Island?"
+        },
+        {
+          "question": "INDOOR FLOW, TOM",
+          "value": "400",
+          "answer": "What is World of Motion?"
+        },
+        {
+          "question": "I MOTIVATE HER GREED",
+          "value": "500",
+          "answer": "What is The Great Movie Ride?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "CATCH THESE MEN",
+      "questions": [
+        {
+          "question": "USE THE CLOSED CIRCUIT TELEVISION MONITORS AT THE END OF DINOSAUR TO CATCH THIS MAN.",
+          "value": "100",
+          "answer": "What is Dr. Seeker?"
+        },
+        {
+          "question": "CATCH THIS ARCHAEOLOGIST EXAMINING THE RUINS OF HOLLYWOOD STUDIOS BEFORE A ROLLING BALL DOES!",
+          "value": "200",
+          "answer": "Who is Indiana Jones?"
+        },
+        {
+          "question": "CATCH WALT IN THE MIDDLE OF THE MAGIC KINGDOM AT THIS STATUE.",
+          "value": "300",
+          "answer": "What is Partners?"
+        },
+        {
+          "question": "CATCH THIS MAN AROUND THE MAGIC KINGDOM FLAGPOLE AT THE \"SHARING THE MAGIC\" STATUE.",
+          "value": "400",
+          "answer": "Who is Roy Disney?"
+        },
+        {
+          "question": "CATCH THIS PERFORMER AT THE RIVER ROOST LOUNGE AT PORT ORLEANS RIVERSIDE.",
+          "value": "500",
+          "answer": "Who is Yee-Haw Bob?"
+        }
+      ]
+    },
+    {
+      "name": "\"S\" WORDS",
+      "questions": [
+        {
+          "question": "IN A RECENT SURVEY, ALL OPTIONS EXCEPT FOR THE ORIGINAL NAME OF THE PARK CURRENTLY UNDER MASSIVE CONSTRUCTION DID NOT HAVE THIS WORD IN THE NAME.",
+          "value": "100",
+          "answer": "What is Studios?"
+        },
+        {
+          "question": "YOU USUALLY SEE ONE ON A BOAT, BUT IF THE BOATS ARE CLOSED, LIKE RECENTLY, THEY MIGHT DO THE SAME JOB ON LAND.",
+          "value": "200",
+          "answer": "What is a skipper?"
+        },
+        {
+          "question": "THIS COMPANY ABRUPTLY PULLED ITS SPONSORSHIP OF SPACESHIP EARTH AND ILLUMINATIONS: REFLECTIONS OF EARTH.",
+          "value": "300",
+          "answer": "What is Siemens?"
+        },
+        {
+          "question": "THIS IS THE NA'VI WORD FOR \"HERITAGE\".",
+          "value": "400",
+          "answer": "What is Satu'li?"
+        },
+        {
+          "question": "THE NAME OF THE FLOATWORKS AND FOOD FACTORY AT PORT ORLEANS RIVERSIDE.",
+          "value": "500",
+          "answer": "What is Sassagoula?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "JIM HENSON",
+      "questions": [
+        {
+          "question": "NAMED FOR A FRIEND, THIS SOFT-SPOKEN CHARACTER WAS SAID TO BE HENSON'S ALTER EGO.",
+          "value": "200",
+          "answer": "Who is Kermit the Frog?"
+        },
+        {
+          "question": "THESE TWO MUPPETS WERE BOTH VOICED BY JIM AND HAD FULL HANDS TO PLAY THE KEYS.",
+          "value": "400",
+          "answer": "Who are Rowlf the Dog and Doctor Teeth?"
+        },
+        {
+          "question": "JIM VOICED AND PERFORMED THE ROLE OF CANTUS THE MINSTREL, A WISE MENTOR ON THIS TELEVISION SERIES.",
+          "value": "600",
+          "answer": "What is Fraggle Rock?"
+        },
+        {
+          "question": "JIM DIRECTED THIS MOVIE WHICH ALSO HAD GEORGE LUCAS AS AN EXECUTIVE PRODUCER.",
+          "value": "800",
+          "answer": "What is Labyrinth?",
+          "daily-double": true
+        },
+        {
+          "question": "THIS GAME SHOW HOST WAS ONE OF THE CHARACTERS JIM PERFORMED ON SESAME STREET.",
+          "value": "1000",
+          "answer": "Who is Guy Smiley?"
+        }
+      ]
+    },
+    {
+      "name": "FOOD AND WINE",
+      "questions": [
+        {
+          "question": "CHEDDAR CHEESE SOUP, MOOSEHEAD RADLER, APPLE ICE WINE",
+          "value": "200",
+          "answer": "What is Canada?"
+        },
+        {
+          "question": "GLOWNUT, T=C^2, RGB",
+          "value": "400",
+          "answer": "What is Light Lab?"
+        },
+        {
+          "question": "PAELLA, SEAFOOD SALAD WITH SHRIMP, CASA CASTILLO MONASTRELL",
+          "value": "600",
+          "answer": "What is Spain?"
+        },
+        {
+          "question": "MADRAS RED CURRY, KORMA CHICKEN, SULA SHIRAZ",
+          "value": "800",
+          "answer": "What is India?"
+        },
+        {
+          "question": "PIGGY WINGS, CHOCOLATE PICANTE, RAVENSWOOD ZINFADEL",
+          "value": "1000",
+          "answer": "What is Flavors from Fire?"
+        }
+      ]
+    },
+    {
+      "name": "ATTRACTION VOICE ACTORS",
+      "questions": [
+        {
+          "question": "CAPTAIN JACK SPARROW",
+          "value": "200",
+          "answer": "What is Johnny Depp?"
+        },
+        {
+          "question": "C-3PO",
+          "value": "400",
+          "answer": "Who is Anthony Daniels?"
+        },
+        {
+          "question": "CAPTAIN REX",
+          "value": "600",
+          "answer": "Who is Pee-Wee Herman/Paul Reubens?"
+        },
+        {
+          "question": "9-EYE",
+          "value": "800",
+          "answer": "Who is Rhea Perlman?"
+        },
+        {
+          "question": "ALY SAN SAN",
+          "value": "1000",
+          "answer": "Who is Allison Janney?"
+        }
+      ]
+    },
+    {
+      "name": "A DOUBLE LIFE",
+      "questions": [
+        {
+          "question": "WHETHER WAITING OR TIME TRAVELING, 10,000 YEARS WILL GIVE YOU SUCH A CRICK IN THE NECK!",
+          "value": "200",
+          "answer": "Who are Genie and the Timekeeper?"
+        },
+        {
+          "question": "HER HUSBAND CLIFF THOUGHT SHE WAS A LAWYER - HE NEVER SUSPECTED SHE WAS ACTUALLY THE HEAD OF THE DINO INSTITUTE.",
+          "value": "400",
+          "answer": "Who are Clair Huxtable and Doctor Marsh?"
+        },
+        {
+          "question": "AFTER RETIRING FROM HOSTING LATE NIGHT AND THEN THE LATE SHOW, HE WENT ON TO DIRECT AUTOMOBILE SAFETY INSPECTIONS.",
+          "value": "600",
+          "answer": "Who are David Letterman and Bill McKim?"
+        },
+        {
+          "question": "BEFORE SHE FLEW ON SERENITY, SHE LED MISSION CONTROL - BUT NO AMOUNT OF ADVANCED TRAINING WITH HEAVERS COULD PREPARE HER FOR THE HORRORS OF THE REAVERS.",
+          "value": "800",
+          "answer": "Who are Zoe and Capcom?"
+        },
+        {
+          "question": "AFTER DATING ELAINE BENES, HE WENT INTO AIR TRANSPORTATION.",
+          "value": "1000",
+          "answer": "Who are David Puddy and Patrick?"
+        }
+      ]
+    },
+    {
+      "name": "A HANGOVER",
+      "questions": [
+        {
+          "question": "LET'S START FORGETTING ABOUT THE LAST TEN YEARS AT THE ONLY PLACE IN THE MAGIC KINGDOM THAT SERVES ALCOHOL.",
+          "value": "200",
+          "answer": "What is Be Our Guest?"
+        },
+        {
+          "question": "LOOSEN UP BEFORE SINGING CHRISTMAS PODCAST PARADE SONGS WITH A MAGICAL STAR COCKTAIL HERE, RIGHT NEXT TO THE KITCHEN.",
+          "value": "400",
+          "answer": "What is the Tune-In Lounge?"
+        },
+        {
+          "question": "THERE'S OVER SEVEN ... TYPES OF LAGERS AT THIS PLACE, INCLUDING SAFARI, SINGHA, AND TIGER LAGER, BUT NOT ENOUGH TO FORGET THAT RUNNING GAG.",
+          "value": "600",
+          "answer": "What is the Nomad Lounge?"
+        },
+        {
+          "question": "DRINK AWAY THE THOUGHT OF HAVING TO PLAY ANOTHER GAME OF JEOPARDY WITH CRAFT BEERS AT THE LEGACY SHOWPLACE HERE.",
+          "value": "800",
+          "answer": "What is the Odyssey Center?"
+        },
+        {
+          "question": "IF YOU'RE STILL ALIVE AFTER THIS CATEGORY, MARGARITAS AT THIS... STAR WARS...,NO, NOT STAR WARS, BUT KINDA... THIS EPCOT PLACE.",
+          "value": "1000",
+          "answer": "What is La Cantina de San Angel?"
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT WDWNT IN IT",
+      "questions": [
+        {
+          "question": "LET'S HAVE TOM KNEEL IN FRONT OF THE CHINESE THEATER A LA PLANET OF THE APES CURSING THE LOSS OF THIS ATTRACTION.",
+          "value": "200",
+          "answer": "What is The Great Movie Ride?"
+        },
+        {
+          "question": "LET'S HAVE JASON AT THIS TOMORROWLAND ATTRACTION WHICH HE HAS CLASSIFIED AS \"PART OF EPCOT\". ",
+          "value": "400",
+          "answer": "What is the Carousel of Progress?"
+        },
+        {
+          "question": "LET'S HAVE RON DRESSED TO THE NINES (OR 999S) AT THE ATTRACTION HE USED TO WORK AT",
+          "value": "600",
+          "answer": "What is The Haunted Mansion?"
+        },
+        {
+          "question": "LET'S HAVE MICHAEL WORK ON MORE JEOPARDY QUESTIONS IN THIS QUICK SERVICE DINING FACILITY NEXT TO CHEF MICKEY'S. WAIT, HE ACTUALLY DID THAT.",
+          "value": "800",
+          "answer": "What is the Contempo Café?",
+          "daily-double": true
+        },
+        {
+          "question": "LET'S HAVE BEN STAY AT THIS MOST RECENTLY OPENED RESORT, BECAUSE WHY NOT.",
+          "value": "1000",
+          "answer": "What is the Art of Animation Resort?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is September 11?",
+    "category": "CLOSED",
+    "question": "THE ONLY CALENDAR DATE IN WHICH THE PARKS HAVE BEEN CLOSED TWICE BY EXTERNAL FORCES."
+  }
+}

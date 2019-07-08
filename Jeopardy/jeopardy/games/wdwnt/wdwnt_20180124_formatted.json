@@ -1,0 +1,380 @@
+{
+    "double-jeopardy": [
+        {
+            "name": "20TH CENTURY",
+            "questions": [
+                {
+                    "answer": "Who is Walt Disney?",
+                    "question": "1901 - HE WAS BORN ON DECEMBER 5TH IN CHICAGO, IL.",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Grand Prix Raceway (Tomorrowland Speedway)?",
+                    "question": "1971 - THIS TOMORROWLAND ATTRACTION WAS ALREADY TWO YEARS OUTDATED WHEN IT OPENED IN DECEMBER.",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is The Imagination Pavilion?",
+                    "question": "1982 - THIS WAS THE ONLY FUTURE WORLD PAVILION TO OPEN WITHOUT AN OPERATING RIDE.",
+                    "value": "600"
+                },
+                {
+                    "answer": "What is Superstar Television?",
+                    "question": "1989 - THIS OPENING DAY ATTRACTION OCCUPIED THE LOCATION NOW KNOWN AS THE HYPERION THEATER.",
+                    "value": "800"
+                },
+                {
+                    "answer": "Who is Michael Ovitz?",
+                    "daily-double": true,
+                    "question": "1995 - THIS CO-FOUNDER OF THE CREATIVE ARTISTS AGENCY (CAA) BECAME THE PRESIDENT OF THE WALT DISNEY COMPANY - BUT ONLY LASTED TWO YEARS UNTIL BOB IGER REPLACED HIM.",
+                    "value": "1000"
+                }
+            ]
+        },
+        {
+            "name": "FOX",
+            "questions": [
+                {
+                    "answer": "Who is Nick Wilde?",
+                    "question": "ZOOTOPIA; JASON BATEMAN.",
+                    "value": "200"
+                },
+                {
+                    "answer": "Who is Br'er Fox?",
+                    "question": "SONG OF THE SOUTH; JAMES BASKETT",
+                    "value": "400"
+                },
+                {
+                    "answer": "Who is Maid Marian?",
+                    "question": "ROBIN HOOD; MONICA EVANS",
+                    "value": "600"
+                },
+                {
+                    "answer": "Who is Tod?",
+                    "question": "FOX & THE HOUND; MICKEY ROONEY",
+                    "value": "800"
+                },
+                {
+                    "answer": "Who is \"Honest\" John Worthington Foulfellow?",
+                    "question": "PINOCCHIO; WALTER CATLETT (UNCREDITED)",
+                    "value": "1000"
+                }
+            ]
+        },
+        {
+            "name": "BEFORE AND AFTER (THE ACQUISITION)",
+            "questions": [
+                {
+                    "answer": "What is the Captain American Adventure?",
+                    "question": "A 45 MINUTE USO SHOW WITH STEVE ROGERS (NOT WILL), MARK TWAIN AND BEN FRANKLIN.",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Treasure Planet of the Apes?",
+                    "question": "YOU MANIACS! YOU TOOK THIS MOVIE BASED ON THE CLASSIC ROBERT LOUIS STEVENSON NOVEL AND YOU BLEW IT ALL UP! DARN YOU ALL TO HECK!",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is Fight Club 33?",
+                    "question": "THE FIRST RULE OF THIS EXCLUSIVE DISNEY ORGANIZATION, IS THAT YOU DO NOT TALK ABOUT THIS EXCLUSIVE ORGANIZATION.",
+                    "value": "600"
+                },
+                {
+                    "answer": "What is Festival of the Lion Kingsmen?",
+                    "question": "THIS SHOW IN THE HARAMBE THEATER HAS COLIN FIRTH TEACHING YOU HOW TO BE A GENTLEMAN SPY.",
+                    "value": "800"
+                },
+                {
+                    "answer": "What is Murder on the Orient Express Monorail?",
+                    "question": "FAMOUS DETECTIVE HERCULE POIROT RIDES DIRECTLY FROM THE TTC TO THE MAGIC KINGDOM, BUT ONE TOURIST DOESN'T MAKE IT THERE ALIVE. MAYBE THEY WERE SHOVED OUT OF AN OPEN DOOR?",
+                    "value": "1000"
+                }
+            ]
+        },
+        {
+            "name": "NO, THIS IS PATRICK!",
+            "questions": [
+                {
+                    "answer": "What is the Hoop Dee Doo Musical Revue?",
+                    "question": "THE FIRST RESORT I EVER STAYED AT IN WALT DISNEY WORLD WAS FORT WILDERNESS, WHICH SERVES AS HOME FOR THIS DINNER SHOW.",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is the Contemporary Resort?",
+                    "question": "MY FAVORITE RESTAURANT AT WALT DISNEY WORLD IS THE WAVE, WHICH IS INSIDE OF THIS MAGIC KINGDOM-AREA RESORT.",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is Carousel of Progress?",
+                    "question": "ONE OF MY FAVORITE ATTRACTIONS AT WALT DISNEY WORLD, THIS ACTUALLY CAME FROM DISNEYLAND, WHERE IT WAS REPLACED BY AMERICA SINGS IN 1974.",
+                    "value": "600"
+                },
+                {
+                    "answer": "What is the TTA/Tomorrowland Transit Authority/WEDWay PeopleMover?",
+                    "question": "THIS IS ONE OF MY FAVORITE ATTRACTIONS AT WALT DISNEY WORLD. A VERSION OF IT USED TO EXIST OUT IN DISNEYLAND AS WELL - BUT GOT REPLACED BY ROCKET RODS IN 1998. (YUCK.)",
+                    "value": "800"
+                },
+                {
+                    "answer": "What is the Year of a Million Dreams?",
+                    "question": "I'VE BEEN INSIDE OF THE CINDERELLA CASTLE SUITE - WHICH IS GORGEOUS, BY THE WAY. IT WAS CREATED AS A PART OF THIS DISNEY PROMOTION, WHICH (CONTRARY TO ITS NAME) RAN FOR A LITTLE OVER TWO YEARS.",
+                    "value": "1000"
+                }
+            ]
+        },
+        {
+            "name": "THE REST OF THE RECENT NEWS",
+            "questions": [
+                {
+                    "answer": "What is The Hall of Presidents?",
+                    "question": "QUASHING RUMORS THAT THIS ATTRACTION WOULDN'T RE-OPEN AFTER BEING CLOSED FOR NEARLY A YEAR, IT FINALLY REOPENED WITH LITTLE FANFARE ON DECEMBER 11TH.",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is The Edison?",
+                    "question": "QUASHING RUMORS THAT THIS RESTAURANT WOULDN'T OPEN AFTER BEING UNDER CONSTRUCTION FOR NEARLY A YEAR, IT FINALLY OPENED WITH LITTLE FANFARE ON DECEMBER 31ST.",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is \"Do Not Disturb\"?",
+                    "question": "BEGINNING WITH THE THREE MONORAIL RESORTS NEAR THE MAGIC KINGDOM, WALT DISNEY WORLD RESORT HOTELS WILL NO LONGER PROVIDE GUESTS WITH DOOR SIGNS SAYING THIS.",
+                    "value": "600"
+                },
+                {
+                    "answer": "What are Good Neighbor Hotels?",
+                    "question": "STARTING IN 2018, GUESTS STAYING AT THIS CATEGORY OF NON-DISNEY-OWNED HOTELS WILL HAVE ADVANCED ACCESS TO FASTPASS+.",
+                    "value": "800"
+                },
+                {
+                    "answer": "Who is Mimi Kaboom?",
+                    "question": "THIS STREETMOSPHERE ACTRESS PASSED AWAY IN DECEMBER - AFTER FINDING OUT, HER FELLOW CAST MEMBERS HAD A PIE EATING TRIBUTE ON SUNSET BOULEVARD.",
+                    "value": "1000"
+                }
+            ]
+        },
+        {
+            "name": "LET'S JUST PUT FOX IN TGMR",
+            "questions": [
+                {
+                    "answer": "What is Glee?",
+                    "question": "FOOTLIGHT PARADE? NOBODY EVEN KNOWS WHAT THAT IS ANYMORE. LET'S PUT IN THIS MATTHEW MORRISON AND JANE LYNCH TELEVISION SERIES - THAT'LL REALLY TAKE THIS RIDE IN NEW DIRECTIONS!",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Die Hard?",
+                    "question": "SURE MARY POPPINS IS A CLASSIC, BUT IT'S BORING - HOW ABOUT THIS ACTION FILM INSTEAD? LET'S REPLACE MARY FLOATING WITH HANS GRUBER FALLING FROM THE TOP OF NAKATOMI TOWER!",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is Independence Day?",
+                    "question": "SURE, THE ALIEN SCENE HAS A GOOD FEEL TO IT, BUT THAT PROPERTY IS DEAD. HOW ABOUT WE PUT IN THIS 1996 WILL SMITH MOVIE INSTEAD? IT JUST GOT A SEQUEL IN 2016, SO IT MUST BE GOOD!",
+                    "value": "600"
+                },
+                {
+                    "answer": "What is Firefly?",
+                    "daily-double": true,
+                    "question": "GIVEN OUR NEW ACQUISITIONS, WE CAN MERGE THE WESTERN AND SPACE SCENES TOGETHER, ALL USING ONE TELEVISION SHOW - THE FANBOYS WILL LOVE IT! BURN THE LAND AND BOIL THE SEA - YOU CAN'T TAKE THE SKY FROM ME!",
+                    "value": "800"
+                },
+                {
+                    "answer": "What is My Cousin Vinny?",
+                    "question": "THE GANGSTER SCENE IS TOO GRITTY FOR A DISNEY PARK - WE NEED TO LIGHTEN IT UP. LET'S PUT THIS CLASSIC JOE PESCI COURTROOM COMEDY IN INSTEAD - THE ONLY ANIMATRONICS WE'D NEED WOULD BE TWO \"YUTES\"!",
+                    "value": "1000"
+                }
+            ]
+        }
+    ],
+    "final-jeopardy": {
+        "answer": "What is Seabase Alpha?",
+        "category": "SO LONG AND THANKS FOR ALL THE FISH",
+        "question": "THE ORIGINAL LIVING SEAS PAVILION HAD YOU BOARD HYDROLATORS THAT TRANSPORTED YOU TO THIS FICTIONAL LOCATION."
+    },
+    "jeopardy": [
+        {
+            "name": "PIXAR",
+            "questions": [
+                {
+                    "answer": "Who is Bing Bong?",
+                    "question": "HE'S YOUR FRIEND WHO LIKES TO PLAY - HIS ROCKET MAKES YOU YELL \"HOORAY!\"",
+                    "value": "100"
+                },
+                {
+                    "answer": "What is Coco?",
+                    "question": "EARLIER THIS YEAR, A MARIACHI BAND IN MEXICO AT EPCOT SANG SONGS FROM THIS PIXAR MOVIE.",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Flights of Wonder?",
+                    "question": "RUSSELL AND DUG FROM \"UP\" WILL BE REPLACING THIS SHOW IN THE CARAVAN THEATER LATER THIS YEAR.",
+                    "value": "300"
+                },
+                {
+                    "answer": "What is the Incredicoaster?",
+                    "question": "CALIFORNIA SCREAMIN' AT DISNEY CALIFORNIA ADVENTURE WILL BE TRANSFORMED FOR PIXAR PIER TO BECOME THIS.",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is Woody's Lunchbox?",
+                    "question": "I WANT MY BABYBEL, BABYBEL, BABYBEL... AND I'LL BE ABLE TO GET IT WHEN THIS TOY STORY LAND RESTAURANT OPENS.",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "name": "MARVEL",
+            "questions": [
+                {
+                    "answer": "What is Logan?",
+                    "question": "HUGH JACKMAN MADE HIS FINAL APPEARANCE AS WOLVERINE IN THIS MOVIE.",
+                    "value": "100"
+                },
+                {
+                    "answer": "Who is Iron Fist?",
+                    "question": "HE IS DANNY RAND. PROTECTOR OF K'UN-LUN. SWORN ENEMY OF THE HAND.",
+                    "value": "200"
+                },
+                {
+                    "answer": "Who is Deadpool?",
+                    "question": "THIS MUTANT HAS DESCRIBED HIMSELF AS LOOKING \"LIKE A CROSS BETWEEN RYAN REYNOLDS AND A SHAR-PEI\".",
+                    "value": "300"
+                },
+                {
+                    "answer": "What is Ant Man and the Wasp?",
+                    "question": "THIS IS THE FIRST MOVIE IN THE MCU COMING OUT AFTER AVENGERS: INFINITY WAR.",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is The Runaways?",
+                    "question": "THIS HULU SERIES (BASED ON THE SUPERHERO TEAM OF THE SAME NAME) RECENTLY FINISHED ITS FIRST SEASON, AND WAS RENEWED FOR A SECOND.",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "name": "STAR WARS",
+            "questions": [
+                {
+                    "answer": "Who is Captain Rex?",
+                    "question": "TWO DIFFERENT CHARACTERS IN THE STAR WARS UNIVERSE SHARE THIS NAME: IN THE CLONE WARS, HE'S DESIGNATION NUMBER CT-7567; IN STAR TOURS, HE'S AN RX-24 DROID.",
+                    "value": "100"
+                },
+                {
+                    "answer": "Who is Qui-Gon Jinn?",
+                    "question": "THIS JEDI HAS A CERTAIN SET OF SKILLS - HE WILL FIND YOU, AND HE WILL... GET KILLED BY DARTH MAUL. WHOOPS.",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Batuu?",
+                    "question": "THIS IS THE NAME OF THE PLANET YOU'LL BE VISITING IN STAR WARS: GALAXY'S EDGE.",
+                    "value": "300"
+                },
+                {
+                    "answer": "Who is Kit Fisto?",
+                    "question": "THIS MEMBER OF THE JEDI COUNCIL LOOKS KIND OF LIKE A GREEN SQUID.",
+                    "value": "400"
+                },
+                {
+                    "answer": "Who is BB-9E?",
+                    "image": "./images/wdwnt/bb9e.png",
+                    "question": "THIS NEW DROID FIRST APPEARED IN THE LAST JEDI.",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "name": "\"X\"-MEN",
+            "questions": [
+                {
+                    "answer": "What is an X-Wing?",
+                    "question": "THIS CLASS OF STARFIGHTER IS THE PRIMARY SHIP USED BY THE REBEL ALLIANCE.",
+                    "value": "100"
+                },
+                {
+                    "answer": "What is \"The X Files\"?",
+                    "question": "ALONG WITH TWIN PEAKS, THIS SHOW WAS PART OF THE INSPIRATION FOR GRAVITY FALLS. THE TRUTH IS OUT THERE!",
+                    "value": "200"
+                },
+                {
+                    "answer": "Who is X Atencio? (Francis Xavier Atencio)",
+                    "question": "HE IS MOST WELL KNOWN FOR HELPING WRITE YO HO AND GRIM GRINNING GHOSTS - AND BELIEVE IT OR NOT, HIS FIRST NAME IS ACTUALLY FRANCIS.",
+                    "value": "300"
+                },
+                {
+                    "answer": "What is X-S Tech?",
+                    "question": "THIS FICTIONAL ALIEN CORPORATION IS MOST WELL KNOWN FOR THEIR TELEPORTER TECHNOLOGY - ALTHOUGH I WOULDN'T EXACTLY SAY THEY HAVE A GOOD REPUTATION...",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is the X-2 Deep Space Shuttle?",
+                    "daily-double": true,
+                    "question": "THIS IS THE NAME OF YOUR CRAFT IN BOTH VERSIONS OF MISSION: SPACE; IT'S CAPABLE OF GOING FROM 0 TO 6,000 IN 60 SECONDS, SO WHEN YOU HEAR THE WORDS \"GO FOR LAUNCH\", YOU'LL PROBABLY WANT TO HANG ON.",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "name": "SIMPSONS DID IT!",
+            "questions": [
+                {
+                    "answer": "What is Spaceship Earth?",
+                    "image": "./images/wdwnt/simpsons/100.png",
+                    "question": "",
+                    "value": "100"
+                },
+                {
+                    "answer": "What is Honey I Shrunk The Audience?",
+                    "image": "./images/wdwnt/simpsons/200.png",
+                    "question": "",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Country Bear Jamboree?",
+                    "image": "./images/wdwnt/simpsons/300.png",
+                    "question": "",
+                    "value": "300"
+                },
+                {
+                    "answer": "What is Pirates of the Caribbean?",
+                    "image": "./images/wdwnt/simpsons/400.png",
+                    "question": "",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is Cool Wash?",
+                    "image": "./images/wdwnt/simpsons/500.png",
+                    "question": "",
+                    "value": "500"
+                }
+            ]
+        },
+        {
+            "name": "AND OTHER ACQUISITIONS",
+            "questions": [
+                {
+                    "answer": "What is Avatar?",
+                    "question": "ORIGINALLY THE ONLY LICENSED PROPERTY IN ANIMAL KINGDOM, IT IS NOW OWNED BY DISNEY.",
+                    "value": "100"
+                },
+                {
+                    "answer": "What is ESPN?",
+                    "question": "BACK IN 1996, THE DISNEY COMPANY ACQUIRED ABC, WHICH INCLUDED AN 80% STAKE IN THIS SPORTS NETWORK. (ONE OF THEIR SHOWS ENDED UP BEING THE INSPIRATION FOR AROUND THE HUB!)",
+                    "value": "200"
+                },
+                {
+                    "answer": "What is Disneyland Paris?",
+                    "question": "ON JUNE 13, 2017, WDWNT REPORTED THAT DISNEY BOUGHT OUT ENOUGH OWNERSHIP STOCK TO CONTROL THIS LOCATION.",
+                    "value": "300"
+                },
+                {
+                    "answer": "Who are the Power Rangers?",
+                    "question": "THESE COLORFUL CHARACTERS ONCE APPEARED ON THE STREETS OF AMERICA IN DISNEY'S HOLLYWOOD STUDIOS. MAYBE THEY'LL MAKE A RETURN NOW THAT DISNEY OWNS THEM AGAIN?",
+                    "value": "400"
+                },
+                {
+                    "answer": "What is BAMTech?",
+                    "question": "ON AUGUST 8, 2017, DISNEY ANNOUNCED IT PURCHASED THE MAJORITY STAKE IN THIS DIGITAL MEDIA COMPANY SPUN OFF FROM MAJOR LEAGUE BASEBALL.",
+                    "value": "500"
+                }
+            ]
+        }
+    ]
+}

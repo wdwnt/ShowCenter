@@ -1,0 +1,379 @@
+{
+  "jeopardy": [
+    {
+      "name": "NOT SO SCARY",
+      "questions": [
+        {
+          "question": "BASED OFF OF THE NAME OF THE PREVIOUS EVERYDAY VERSION, IT'S THE NAME OF THE FIREWORKS SHOW.",
+          "value": "100",
+          "answer": "What is (Happy) Hallowishes?"
+        },
+        {
+          "question": "THE HEADLESS HORSEMAN RIDES ALONG MAIN STREET RIGHT BEFORE THIS PARADE.",
+          "value": "200",
+          "answer": "What is Mickey's \"Boo-To-You\" Halloween Parade?"
+        },
+        {
+          "question": "MIKE WAZOWSKI AND SULLY HOST THEIR MONSTROUS SCREAM-O-WEEN BALL AT THIS LOCATION.",
+          "value": "300",
+          "answer": "What is the Rockettower Plaza Stage/Tomorrowland Stage?"
+        },
+        {
+          "question": "THIS CHARACTER MAY HAVE HANDED OVER HIS DEED TO OWL, BUT, WHILE TRICK OR TREATING IN PHILARHAMGIC, YOU MIGHT FIND HIM ON THE SCREEN.",
+          "value": "400",
+          "answer": "Who is Mr. Toad?"
+        },
+        {
+          "question": "THIS TRIO OF WITCHES HOST THREE VILLIAN \"SPELLTACULAR\" SHOWS EVERY NIGHT.",
+          "value": "500",
+          "answer": "Who are the Sanderson Sisters?"
+        }
+      ]
+    },
+    {
+      "name": "HAUNTED ELEVATOR",
+      "questions": [
+        {
+          "question": "THE PROGRAMMABLE SOFTWARE CONTROLLING THE DROP PROFILES OF THE TOWER OF TERROR DROPS HAS HAD THIS MANY SIGNIFICANT ITERATIONS.",
+          "value": "100",
+          "answer": "What is four?"
+        },
+        {
+          "question": "THE TOWER IS THIS TALL, WHICH IS THE SAME HEIGHT AS EVEREST (GIVE OR TAKE SIX INCHES) IN ANIMAL KINGDOM. ANY HIGHER, AND IT WOULD HAVE NEEDED A LIGHT.",
+          "value": "200",
+          "answer": "What is 199'?"
+        },
+        {
+          "question": "THE DESIGN FOR THE RIDE'S AUTONOMOUS GUIDED VEHICLES WERE INSPIRED BY THIS EPCOT ATTRACTION.",
+          "value": "300",
+          "answer": "What is Universe of Energy?"
+        },
+        {
+          "question": "VERTICAL VEHICLE CONVEYANCES CARRY THE RIDE VEHICLE IN EACH OF THIS MANY VERTICAL SHAFTS THROUGHOUT THE ATTRACTION.",
+          "value": "400",
+          "answer": "What is six?"
+        },
+        {
+          "question": "TAKEN FROM THE INTRODUCTION OF THE TWILIGHT ZONE EPISODE \"IT'S A GOOD LIFE\", ROD SERLING ORIGINALLY POINTS TO A MAP OF THIS COUNTRY.",
+          "value": "500",
+          "answer": "What is the United States?"
+        }
+      ]
+    },
+    {
+      "name": "WHAT'S MY NAME",
+      "questions": [
+        {
+          "question": "I AM THE CHAIRMAN OF WALT DISNEY'S PARKS AND RESORTS, AND, ACCORDING TO THE FIFTH AUTOCOMPLETE ON GOOGLE, A ROBOT.",
+          "value": "100",
+          "answer": "Who is Bob Chapek?"
+        },
+        {
+          "question": "I AM THE IMAGINEER RESPONSIBLE FOR MOST OF ANIMAL KINGDOM, BUT YOU MIGHT JUST KNOW ME FOR MY EAR.",
+          "value": "200",
+          "answer": "Who is Joe Rohde?"
+        },
+        {
+          "question": "I AM THE CEO THAT GAVE YOU THAT STUDIOS PARK, AND... YOU MANIACS! YOU BLEW IT UP! AH, DAMN YOU!",
+          "value": "300",
+          "answer": "Who is Michael Eisner"
+        },
+        {
+          "question": "I WRITE BOOKS ON DISNEY IMAGINEERING, MADE THE LEGEND OF CAPTAIN JACK SPARROW, BUT NOW I'M AT UNIVERSAL MAKING JIMMY FALLON'S CAR FLOAT!",
+          "value": "400",
+          "answer": "Who is Jason Surrell?"
+        },
+        {
+          "question": "AFTER THE NAVY, I DRAINED THE SWAMP, PLANNED, AND BUILT THE FLORIDA PROJECT, BUT YOU MIGHT JUST KNOW ME FOR THE BOAT NAMED AFTER ME.",
+          "value": "500",
+          "answer": "Who is Admiral Joe Fowler?"
+        }
+      ]
+    },
+    {
+      "name": "DAVID S.",
+      "questions": [
+        {
+          "question": "ON THE LIVE BACK TO THE FUTURE OF HIS FAVORITE RIDE, DAVID SMITH COMMENTED ON THE BATTERING RAM ON THE VIDEO OF ITS OPENING IN DISNEYLAND, SAYING \"IT'S EARLY FASTPASS!\"",
+          "value": "100",
+          "answer": "What is Pirates of the Caribbean?"
+        },
+        {
+          "question": "DAVID SMITH'S DVC HOME RESORT IS THIS FIRST DVC RESORT IN THE MAGIC KINGDOM RESORT AREA.",
+          "value": "200",
+          "answer": "What is Bay Lake Tower?"
+        },
+        {
+          "question": "THE ONLY TIME DAVID SMITH WAS EVACUATED FROM A RIDE WAS RIGHT BEFORE THE HEFFALUMP ROOM ON THIS ATTRACTION.",
+          "value": "300",
+          "answer": "What is The Many Adventures of Winnie the Pooh?"
+        },
+        {
+          "question": "YOU MIGHT FIND DAVID SMITH IN THIS DISNEY SPRINGS RESTAURANT FROM AN IRON CHEF.",
+          "value": "400",
+          "answer": "What are Morimoto Asia?"
+        },
+        {
+          "question": "DAVID SMITH ALMOST GOT ONE MILLION POINTS AT THIS ATTRACTION AND 32000 POINTS FOUR TIMES.",
+          "value": "500",
+          "answer": "What is Who Wants to Be a Millionaire: Play It?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "PUMPKINS",
+      "questions": [
+        {
+          "question": "THE WONDERFUL THING ABOUT THIS PUMPKIN IS THAT IT'S THE ONLY ONE!",
+          "value": "100",
+          "answer": "Who is Tigger?",
+          "image": "./images/wdwnt/pumpkins/tigger.jpg"
+        },
+        {
+          "question": "THAT'S PUMPKIN WITH ONE EYE!",
+          "value": "200",
+          "answer": "What is Mike Wazowski?",
+          "image": "./images/wdwnt/pumpkins/mike.jpg"
+        },
+        {
+          "question": "THIS PUMPKIN MAY BE AROUND WORLD SHOWCASE.",
+          "value": "300",
+          "answer": "Who is Agent P?",
+          "image": "./images/wdwnt/pumpkins/agent_p.jpg"
+        },
+        {
+          "question": "THIS PUMPKIN KINDA RESEMBLES ANGELINA JOLIE.",
+          "value": "400",
+          "answer": "Who is Maleficent",
+          "image": "./images/wdwnt/pumpkins/maleficent.jpg"
+        },
+        {
+          "question": "THIS PUMPKIN HAS FRIENDS ON THE OTHER SIDE.",
+          "value": "500",
+          "answer": "Who is Dr. Facilier",
+          "image": "./images/wdwnt/pumpkins/dr_facilier.jpg"
+        }
+      ]
+    },
+    {
+      "name": "ANY QUESTIONS",
+      "questions": [
+        {
+          "question": "WE DON'T KNOW WHEN THIS ATTRACTION WILL OPEN AGAIN SINCE IT CLOSED ALMOST A YEAR AGO, BUT WHEN IT DOES, IS IT GONNA BE HUGE?",
+          "value": "100",
+          "answer": "What is the Hall of Presidents?"
+        },
+        {
+          "question": "OVER 5.7 MILLION GUESTS RODE THIS ATTRACTION IN ITS FIRST FULL YEAR OF OPERATION, BUT WERE THEY THE LAST?",
+          "value": "200",
+          "answer": "What is Maelstrom?"
+        },
+        {
+          "question": "IN THE BAMBOO ROOM AT THIS RESTAURANT, YOU CAN DINE WITH AN IMAGINEER. FEEL FREE TO ASK SOME QUESTIONS THERE.",
+          "value": "300",
+          "answer": "What is The Brown Derby?"
+        },
+        {
+          "question": "THIS ATTRACTION HAS POSTERS FOR \"MY FAIR LADYBUG\", \"ANTIE\", AND \"WEB SIDE STORY\", BUT HOW MUCH BUZZ IS THERE ABOUT THESE SHOWS?",
+          "value": "400",
+          "answer": "What is It's Tough To Be a Bug?"
+        },
+        {
+          "question": "YOU CAN ORDER LOTS OF FOOD AT THIS DISNEY SPRINGS BAR FILLED WITH ADVENTURE NODS AND DECOR, BUT WHY DID YOU HAVE TO HAVE STEAKS?!",
+          "value": "500",
+          "answer": "What is Jock Lindsey's Hangar Bar?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "REST IN PIECES",
+      "questions": [
+        {
+          "question": "THIS POINT OF INTEREST WAS A SIZE 605 and 7/8",
+          "value": "200",
+          "answer": "What is the Sorcerer's Hat?"
+        },
+        {
+          "question": "THIS FANTASYLAND ATTRACTION SAT ABANDONED FOR A DECADE BEFORE IT WAS FINALLY DEMOLISHED IN 2004 TO MAKE SPACE FOR A PLAYGROUND.",
+          "value": "400",
+          "answer": "What is 20,000 Leagues Under the Sea?"
+        },
+        {
+          "question": "THIS 4D EPCOT FILM WAS, IRONICALLY, REPLACED IN 2010 BY THE SAME MOVIE THAT IT REPLACED IN 1994.",
+          "value": "600",
+          "answer": "What is Honey I Shrunk the Audience?"
+        },
+        {
+          "question": "THIS SHORT-LIVED BOAT RIDE OPENED WITH ANIMAL KINGDOM IN APRIL, 1998 AND CLOSED JUST OVER A YEAR LATER. THE BOATS ARE STILL IN ONE PIECE BEHIND PRIMEVAL WHIRL AND FINDING NEMO - THE MUSICAL.",
+          "value": "800",
+          "answer": "What is Discovery River Boats?"
+        },
+        {
+          "question": "THE FLOATS FROM THIS PARADE WERE BROKEN UP INTO COLLECTIBLE PINS",
+          "value": "1000",
+          "answer": "What is Spectromagic?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "ATTRACTION PHANTOMS",
+      "questions": [
+        {
+          "question": "A WHOLE LAND DEDICATED TO THIS ACADEMY AWARD-WINNING FILM WAS PLANNED FOR SUNSET BOULEVARD, BUT A DISAGREEMENT WITH SPIELBERG AND AMBLIN ENTERTAINMENT TANKED IT.",
+          "value": "200",
+          "answer": "What is \"Who Framed Roger Rabbit\"?"
+        },
+        {
+          "question": "THIS ATTRACTION WOULD HAVE TAKEN GUESTS ON A THRILLING RIDE TO ATLANTIS, IF NOT FOR THE MOVIE'S POOR PERFORMANCE AND OTHER FACTORS.",
+          "value": "400",
+          "answer": "What is Fire Mountain?"
+        },
+        {
+          "question": "THIS MOUNTAIN WAS PROPOSED AS A ROLLER COASTER FOR JAPAN AT EPCOT, BUT DISNEY ALREADY HAD A SPONSORSHIP AGREEMENT WITH KODAK.",
+          "value": "600",
+          "answer": "What is Mount Fuji?"
+        },
+        {
+          "question": "JIM HENSON EXPLAINED THIS ATTRACTION AS \"A BACKSTAGE RIDE EXPLAINING HOW MOVIES WERE SHOT...AND ALL THE INFORMATION IS WRONG\".",
+          "value": "800",
+          "answer": "What is the Great Muppet Movie Ride?"
+        },
+        {
+          "question": "BUDGETARY REASONS AND DEADLINES CAUSED THE CANCELLATION OF PLANS FOR A CRUISE BOAT RIDE ON THIS GERMAN RIVER",
+          "value": "1000",
+          "answer": "What is the Rhine?"
+        }
+      ]
+    },
+    {
+      "name": "FOOD AND WINE",
+      "questions": [
+        {
+          "question": "CHEDDAR CHEESE SOUP, MOOSEHEAD RADLER, APPLE ICE WINE",
+          "value": "200",
+          "answer": "What is Canada?"
+        },
+        {
+          "question": "GLOWNUT, T=C^2, RGB",
+          "value": "400",
+          "answer": "What is Light Lab?"
+        },
+        {
+          "question": "PAELLA, SEAFOOD SALAD WITH SHRIMP, CASA CASTILLO MONASTRELL",
+          "value": "600",
+          "answer": "What is Spain?"
+        },
+        {
+          "question": "MADRAS RED CURRY, KORMA CHICKEN, SULA SHIRAZ",
+          "value": "800",
+          "answer": "What is India?"
+        },
+        {
+          "question": "PIGGY WINGS, CHOCOLATE PICANTE, RAVENSWOOD ZINFADEL",
+          "value": "1000",
+          "answer": "What is Flavors from Fire?"
+        }
+      ]
+    },
+    {
+      "name": "SPIRITS",
+      "questions": [
+        {
+          "question": "LET'S START WITH A LITTLE WINE HERE AT THE FIRST PLACE IN THE MAGIC KINGDOM TO OFFER ALCOHOL.",
+          "value": "200",
+          "answer": "What is Be Our Guest?"
+        },
+        {
+          "question": "GUESTS COULD HAVE A MAGICAL STAR COCKTAIL OR DAD'S ELECTRIC LEMONADE HERE, RIGHT NEXT TO THE KITCHEN.",
+          "value": "400",
+          "answer": "What is the Tune-In Lounge??"
+        },
+        {
+          "question": "THERE'S OVER SEVEN ... TYPES OF LAGERS AT THIS PLACE, INCLUDING SAFARI, SINGHA, AND TIGER LAGER, BUT NOT ENOUGH TO FORGET THAT RUNNING GAG.",
+          "value": "600",
+          "answer": "What is the Nomad Lounge?"
+        },
+        {
+          "question": "DRINK AWAY THE THOUGHT OF HAVING TO PLAY ANOTHER GAME OF JEOPARDY WITH CRAFT BEERS AT THE LEGACY SHOWPLACE HERE.",
+          "value": "800",
+          "answer": "What is the Odyssey Center?"
+        },
+        {
+          "question": "HAVE A MARGARITA AT THIS PLACE IN THE EPCOT MEXICO PAVILION WHOSE NAME MIGHT MAKE YOU THINK IT COULD BE IN STAR WARS: GALAXY'S EDGE.",
+          "value": "1000",
+          "answer": "What is La Cantina de San Angel?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "THE HAUNTED MANSION",
+      "questions": [
+        {
+          "question": "WELCOME, FOOLISH MORTALS, TO THE STRETCHING ROOM, WHERE YOU CAN FIND THIS MANY PICTURES.",
+          "value": "200",
+          "answer": "What is four?"
+        },
+        {
+          "question": "LOOK ALIVE! THE STRETCHING ROOM PICTURES HAVE THIS MANY PEOPLE.",
+          "value": "400",
+          "answer": "What is six?"
+        },
+        {
+          "question": "DURING YOUR TOUR, THE BACKSTAGE AREA FOR CAST MEMBERS IS REFERRED TO AS THIS.",
+          "value": "600",
+          "answer": "What is servants quarters?"
+        },
+        {
+          "question": "THIS ANIMAL APPEARS IN SEVERAL SCENES AND WAS ONCE CONSIDERED A POSSIBLE NARRATOR FOR THE RIDE.",
+          "value": "800",
+          "answer": "What is a raven?"
+        },
+        {
+          "question": "AFTER THE 2007 REFURBISHMENT, KAT CRESSIDA BECAME THE VOICE OF THIS WIDOW BRIDE.",
+          "value": "1000",
+          "answer": "Who is Constance?"
+        }
+      ]
+    },
+    {
+      "name": "LET'S JUST PUT THE GHOST HOST IN IT",
+      "questions": [
+        {
+          "question": "\"THAT IS THE TIME WHEN MONSTERS ARE PRESENT, PRACTICING THEIR JOKES WITH FOOLISH DELIGHT.\"",
+          "value": "200",
+          "answer": "What is Monsters Inc. Laugh Floor?"
+        },
+        {
+          "question": "\"OUR TOUR BEGAN HERE IN THIS GALLERY WHERE YOU SAW PAINTINGS OF SOME OUR MOVIE CREATIONS AS THEY APPEARED IN THEIR EDITABLE, STORYBOARDING STATE.\"",
+          "value": "400",
+          "answer": "What is the Magic of Disney Animation?"
+        },
+        {
+          "question": "\"THERE ARE SEVERAL PROMINENT BIRDS WHO HAVE RETIRED HERE FROM CREEPY OLD COOPS FROM ALL OVER THE WORLD. ACTUALLY WE HAVE 999 HAPPY ANIMATRONIC FOWL HERE, BUT THERE'S ROOM FOR A THOUSAND. ANY VOLUNTEERS?\"",
+          "value": "600",
+          "answer": "What is the Enchanted Tiki Room?"
+        },
+        {
+          "question": "\"AND NOW, A LINEAR INDUCTION CARRIAGE APPROACHES TO CARRY YOU INTO THE BOUNDLESS REALM OF THE FUTURE-NATURAL. TAKE YOUR LOVED ONES BY THE HAND, PLEASE, AND KINDLY WATCH YOUR STEP.\"",
+          "value": "800",
+          "answer": "What is the TTA/PeopleMover?"
+        },
+        {
+          "question": "\"AH, THERE YOU ARE, AND JUST IN TIME! THERE'S A LITTLE MATTER I FORGOT TO MENTION. BEWARE OF HITCHHIKING IGUANADONS!\"",
+          "value": "1000",
+          "answer": "What is DINOSAUR?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "Who are the Power Rangers?",
+    "category": "THINGS THAT WERE IN HOLLYWOOD STUDIOS",
+    "question": "THIS FRANCHISE, BOUGHT BY DISNEY IN 2001, HAD CHARACTER APPEARANCES IN HOLLYWOOD STUDIOS UNTIL IT WAS BOUGHT BACK BY ITS CREATOR, HAIM SABAN."
+  }
+}

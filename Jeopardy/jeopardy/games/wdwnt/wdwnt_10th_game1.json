@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "DINNER...",
+      "questions": [
+        {
+          "question": "\"A BLAND AND BORING BUFFET. HOWEVER, I THINK BREAKFAST CAN BE WORTH IT FOR THE DECOR AND CHARACTERS IF THAT'S YOUR THING; IT'S HARD TO MESS UP A BREAKFAST BUFFET.\"",
+          "value": "100",
+          "answer": "What is The Crystal Palace?"
+        },
+        {
+          "question": "\"CITRUS SWIRL IS A FANBOY FAVORITE. IT'S VERY REFRESHING BUT SEEMS TO MELT UNUSUALLY FAST. I LIKE TO GET THE ICED COFFEE FLOAT, MOSTLY AS AN EXCUSE TO HAVE ICE CREAM FOR BREAKFAST.\"",
+          "value": "200",
+          "answer": "What is Sunshine Tree Terrace?"
+        },
+        {
+          "question": "\"UNDER NO CIRCUMSTANCES SHOULD YOU WASTE YOUR TIME AND/OR MONEY HERE. YOU WILL BE MUCH BETTER OFF INDULGING IN THE NEW MENU NEARBY AT PECOS BILL'S OR EVEN EATING THE MEDIOCRE BBQ SANDWICHES FROM TORTUGA TAVERN.\"",
+          "value": "300",
+          "answer": "What is The Diamond Horseshoe?"
+        },
+        {
+          "question": "\"MY FAVORITE BUFFET IN ALL OF WALT DISNEY WORLD. A GREAT MIX OF SAFE, FAMILIAR OPTIONS AND MORE DIVERSE AFRICAN FARE. BREAKFAST AND LUNCH ALSO HAVE CHARACTERS.\"",
+          "value": "400",
+          "answer": "What is Tusker House?"
+        },
+        {
+          "question": "\"ANYTHING THAT WAS DECENT ON THE MENU WAS REMOVED. DO NOT RECOMMEND.\"",
+          "value": "500",
+          "answer": "Who is Pinocchio Village Haus?"
+        }
+      ]
+    },
+    {
+      "name": "THE HAUNTED MANSION",
+      "questions": [
+        {
+          "question": "WELCOME, FOOLISH MORTALS, TO THE STRETCHING ROOM, WHERE YOU CAN FIND THIS MANY PICTURES.",
+          "value": "200",
+          "answer": "What is four?"
+        },
+        {
+          "question": "LOOK ALIVE! THE STRETCHING ROOM PICTURES HAVE THIS MANY PEOPLE.",
+          "value": "400",
+          "answer": "What is six?"
+        },
+        {
+          "question": "DURING YOUR TOUR, THE BACKSTAGE AREA FOR CAST MEMBERS IS REFERRED TO AS THIS.",
+          "value": "600",
+          "answer": "What is servants quarters?"
+        },
+        {
+          "question": "THIS ANIMAL APPEARS IN SEVERAL SCENES AND WAS ONCE CONSIDERED A POSSIBLE NARRATOR FOR THE RIDE.",
+          "value": "800",
+          "answer": "What is a raven?"
+        },
+        {
+          "question": "AFTER THE 2007 REFURBISHMENT, KAT CRESSIDA BECAME THE VOICE OF THIS WIDOW BRIDE.",
+          "value": "1000",
+          "answer": "Who is Constance?"
+        }
+      ]
+    },
+    {
+      "name": "PIRATES OF THE CARIBBEAN",
+      "questions": [
+        {
+          "question": "THIS FAMOUS CHARACTER WILL SOON BE CONTROVERSALLY MOVED TO THE OTHER SIDE OF THE AUCTION BLOCK.",
+          "value": "100",
+          "answer": "What is the redhead?"
+        },
+        {
+          "question": "DON'T BE CHICKEN AND SAY THE NAME OF THE MAYOR OF THE TOWN.",
+          "value": "200",
+          "answer": "Who is Carlos?"
+        },
+        {
+          "question": "THIS RECENTLY PASSED DISNEY LEGEND WROTE THE FAMOUS SONG AND EVEN VOICED THE ORIGINAL SKULL AND CROSSBONES.",
+          "value": "300",
+          "answer": "Who is Xavier \"X\" Atencio?"
+        },
+        {
+          "question": "ORIGINAL PLANS FOR THE FLORIDA PIRATES ATTRACTION INCLUDED HAVING A PIRATE TURN INTO THIS, WHICH LATER WAS ACCOMPLISHED IN SHANGHAI'S PIRATES.",
+          "value": "400",
+          "answer": "What is a skeleton?"
+        },
+        {
+          "question": "THE MONEY TO BUILD PIRATES IN FLORIDA WAS TAKEN FROM HALF OF THE BUDGET TO ORIGINALLY BUILD THIS.",
+          "value": "500",
+          "answer": "Who is the Western River Expedition?"
+        }
+      ]
+    },
+    {
+      "name": "TOMORROWLAND",
+      "questions": [
+        {
+          "question": "THE ORIGINALLY NAMED GALAXY PALACE THEATER IN TOMORROWLAND IS NOW KNOWN AS THIS.",
+          "value": "100",
+          "answer": "What is the Tomorrowland Stage?"
+        },
+        {
+          "question": "TOMORROWLAND STAR SONNY ECLIPSE HAILS FROM THIS CITY.",
+          "value": "200",
+          "answer": "What is Yew Nork City?"
+        },
+        {
+          "question": "THE METROPOLIS SCIENCE CENTER IN TOMORROWLAND WAS HOME TO THE TIMEKEEPER AND THIS TIME TRAVELER.",
+          "value": "300",
+          "answer": "What is 9-Eye?"
+        },
+        {
+          "question": "BEFORE STITCH AND CHILI DOGS, THIS WAS THE FIRST ATTRACTION TO OCCUPY THAT SPACE.",
+          "value": "400",
+          "answer": "What is Flight to the Moon?"
+        },
+        {
+          "question": "THE ORIGINAL ENTRANCE FROM THE HUB HAD TWO 85' SPIERS, EACH OF WHICH HAD A SMALL ONE OF THESE FEATURES GOING DOWN.",
+          "value": "500",
+          "answer": "What is a waterfall?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "TOWER OF TERROR",
+      "questions": [
+        {
+          "question": "THE PROGRAMMABLE SOFTWARE CONTROLLING THE DROP PROFILES OF THE TOWER OF TERROR DROPS HAS HAD THIS MANY SIGNIFICANT ITERATIONS.",
+          "value": "100",
+          "answer": "What is four?"
+        },
+        {
+          "question": "THE TOWER IS THIS TALL, WHICH IS THE SAME HEIGHT AS EVEREST (GIVE OR TAKE SIX INCHES) IN ANIMAL KINGDOM. ANY HIGHER, AND IT WOULD HAVE NEEDED A LIGHT.",
+          "value": "200",
+          "answer": "What is 199'?"
+        },
+        {
+          "question": "THE DESIGN FOR THE RIDE'S AUTONOMOUS GUIDED VEHICLES WERE INSPIRED BY THIS EPCOT ATTRACTION.",
+          "value": "300",
+          "answer": "What is Universe of Energy?"
+        },
+        {
+          "question": "VERTICAL VEHICLE CONVEYANCES CARRY THE RIDE VEHICLE IN EACH OF THIS MANY VERTICAL SHAFTS THROUGHOUT THE ATTRACTION.",
+          "value": "400",
+          "answer": "What is six?"
+        },
+        {
+          "question": "TAKEN FROM THE INTRODUCTION OF THE TWILIGHT ZONE EPISODE \"IT'S A GOOD LIFE\", ROD SERLING ORIGINALLY POINTS TO A MAP OF THIS COUNTRY.",
+          "value": "500",
+          "answer": "What is the United States?"
+        }
+      ]
+    },
+    {
+      "name": "DINOSAUR",
+      "questions": [
+        {
+          "question": "BECAUSE OF BUDGET CUTS, THE RIDE VEHICLE SYSTEM, LAYOUT, AND STRUCTURE ARE COPIED FROM THIS DISNEYLAND ATTRACTION.",
+          "value": "100",
+          "answer": "What is Indiana Jones and the Temple of the Forbidden Eye?"
+        },
+        {
+          "question": "A SINGLE TIME ROVER CAN SIT UP TO THIS MANY PASSENGERS.",
+          "value": "200",
+          "answer": "What is twelve?"
+        },
+        {
+          "question": "WITH ITS RECENT DISCOVERY IN THE ARCHAEOLOGICAL WORLD DURING THE ATTRACTION'S CREATION, IMAGINEERS DECIDED TO USE THIS DINOSAUR AS THE PRIMARY ANTAGONIST.",
+          "value": "300",
+          "answer": "What is a carnotaurus?"
+        },
+        {
+          "question": "FROM THE ATTRACTION'S TIME SPONSORED BY MCDONALD'S, THE PIPES ON THE WALL ARE COLORED FOR THESE THREE CONDIMENTS.",
+          "value": "400",
+          "answer": "What are ketchup, mustard, and mayonnaise?"
+        },
+        {
+          "question": "ORIGINAL PLANS CALLED FOR THIS ILLUSION EFFECT TO SHOW YOUR PREHISTORIC PASSENGER. IT WAS REPLACED WITH A CLOSED CIRCUIT TELEVISION.",
+          "value": "500",
+          "answer": "What is Pepper's Ghost?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "...AND A MOVIE",
+      "questions": [
+        {
+          "question": "IT'S HARD TO BE ANNOYED ABOUT HOW THIS 3D SHOW WAS SHOWN TO THE PUBLIC BEFORE THE MOVIE IT WAS BASED ON APPEARED IN MOVIE THEATERS.",
+          "value": "200",
+          "answer": "What is \"It's Tough to Be a Bug\"?"
+        },
+        {
+          "question": "\"HONEY, I SHRUNK THE AUDIENCE!\" OCCURS DURING THE PRESENTATION OF THIS PRIZE.",
+          "value": "400",
+          "answer": "What is the Inventor of the Year Award?"
+        },
+        {
+          "question": "EXECUTIVE PRODUCER OF THE BIG BANG THEORY BILL PRADY HAD ONE OF HIS FIRST WRITING JOBS WORKING ON THIS 3D MOVIE.",
+          "value": "600",
+          "answer": "What is \"Muppet*Vision 3-D\"?",
+          "daily-double": true
+        },
+        {
+          "question": "MICKEY'S PHILHARMAGIC REPLACED THE LEGEND OF THE LION KING WHICH REPLACED THIS OTHER 3D MOVIE FROM EPCOT.",
+          "value": "800",
+          "answer": "What is Magic Journeys?"
+        },
+        {
+          "question": "IN ONE OF HIS LAST ACTING ROLES, DICK SHAWN PLAYED THIS COMMANDER TO CAPTAIN EO.",
+          "value": "1000",
+          "answer": "Who is Commander Bog?"
+        }
+      ]
+    },
+    {
+      "name": "THE HAUNTED MANSION",
+      "questions": [
+        {
+          "question": "HIS CAREER MOSTLY DIED AFTER STARRING IN THIS MOVIE AS JIM EVERS.",
+          "value": "200",
+          "answer": "Who is Eddie Murphy?"
+        },
+        {
+          "question": "THESE ACAPELLA SINGERS WENT FROM MAIN STREET TO THE SILVER SCREEN BY PROVIDING THE VOICES FOR THE SINGING BUSTS.",
+          "value": "400",
+          "answer": "Who are the Dapper Dans?"
+        },
+        {
+          "question": "NATHANIEL PARKER PLAYS THIS OWNER OF THE HAUNTED MANSION.",
+          "value": "600",
+          "answer": "Who is Master Edward Gracey?"
+        },
+        {
+          "question": "HE PLAYED EZRA, THE BUMBLING FOOTMAN GHOST? INCONCEIVABLE!",
+          "value": "800",
+          "answer": "Who is Wallace Shawn?"
+        },
+        {
+          "question": "MADAME LEOTA IS PORTRAYED BY JENNIFER TILLY, WHO, TWO YEARS PRIOR, VOICED CELIA MAE IN THIS PIXAR FILM.",
+          "value": "1000",
+          "answer": "What is Monsters, Inc.?"
+        }
+      ]
+    },
+    {
+      "name": "PIRATES OF THE CARIBBEAN",
+      "questions": [
+        {
+          "question": "THIS MOST RECENT AND POOREST PERFORMING MOVIE HAS A SCENE WITH PAUL MCCARTNEY AS UNCLE JEFF TEAGUE.",
+          "value": "200",
+          "answer": "What is Dead Men Tell No Tales?"
+        },
+        {
+          "question": "THE FILM SERIES WAS ENOUGH FOR THIS ARTIST TO (AFTER MUCH DEBATE) WORK WITH THE LONELY ISLAND ON A SONG MOSTLY ABOUT JACK SPARROW. NOW BACK TO THE GOOD PART!",
+          "value": "400",
+          "answer": "Who is Michael Bolton?"
+        },
+        {
+          "question": "BESIDES JACK SPARROW AND BARBOSSA, HE IS THE ONLY CHARACTER TO BE IN EVERY MOVIE SO FAR.",
+          "value": "600",
+          "answer": "Who is Joshamee Gibbs?"
+        },
+        {
+          "question": "IT IS THE TENTH HIGHEST-GROSSING FILM SERIES OF ALL TIME, WITH THESE TWO DISNEY-OWNED FRANCHISES EARNING MORE.",
+          "value": "800",
+          "answer": "What are Marvel (MCU) and Star Wars?"
+        },
+        {
+          "question": "THE ONLY MOVIE TO WIN AN ACADEMY AWARD (IN BEST VISUAL EFFECTS) OUT OF 11 NOMINATIONS.",
+          "value": "1000",
+          "answer": "What is Dead Man's Chest?"
+        }
+      ]
+    },
+    {
+      "name": "TOMORROWLAND",
+      "questions": [
+        {
+          "question": "GEORGE CLOONEY STARRED IN TOMORROWLAND ALONGSIDE THIS \"IN HOUSE\" ACTOR.",
+          "value": "200",
+          "answer": "Who is Hugh Laurie?"
+        },
+        {
+          "question": "PART OF THE FILM OCCURS AT THE 1964 WORLD'S FAIR IN THIS NEW YORK CITY BOROUGH.",
+          "value": "400",
+          "answer": "What is Queens?"
+        },
+        {
+          "question": "PEOPLE ARE TRANSPORTED TO TOMORROWLAND BY TOUCHING THIS COLLECTIBLE ITEM, WHICH WERE GIVEN AWAY AT TEST TRACK.",
+          "value": "600",
+          "answer": "What is a pin?"
+        },
+        {
+          "question": "HE COMPOSED THE SCORE FOR TOMORROWLAND AND MANY OTHER RECENT DISNEY MOVIES AND ATTRACTIONS.",
+          "value": "800",
+          "answer": "Who is Michael Giacchino?"
+        },
+        {
+          "question": "THIS DIRECTOR OF TOMORROWLAND HAD BETTER LUCK DIRECTING ANIMATED MOVIES LIKE HIS PREVIOUS WORK OF THE INCREDIBLES AND RATATOUILLE.",
+          "value": "1000",
+          "answer": "Who is Brad Bird?"
+        }
+      ]
+    },
+    {
+      "name": "TOWER OF TERROR",
+      "questions": [
+        {
+          "question": "AFTER FOUR POLICE ACADEMY MOVIES, THIS ACTOR'S CAREER PLUMMETED SO FAST, HE STARS AS BUZZY CROCKER IN THIS MOVIE.",
+          "value": "200",
+          "answer": "Who is Steve Guttenberg?"
+        },
+        {
+          "question": "BUZZY INVESTIGATES THE INCIDENT WITH HIS YOUNG NIECE ANNA, PORTRAYED BY THIS ACTRESS, WHO ALSO STARRED IN MUCH BETTER FILMS SUCH AS JUMANJI, ANASTASIA, AND SPIDER-MAN.",
+          "value": "400",
+          "answer": "Who is Kirsten Dunst?"
+        },
+        {
+          "question": "THE DATE IN WHICH THE FIVE SOULS WERE LOST TO THE TOWER.",
+          "value": "600",
+          "answer": "What is October 31, 1939?"
+        },
+        {
+          "question": "DIRECTOR D. J. MACHALE HAD SOME EXPERIENCE IN FAMILY FRIENDLY SCARING DIRECTING EPISODES FOR THIS ICONIC NICKELODEON SCARY SERIES.",
+          "value": "800",
+          "answer": "What is Are You Afraid of the Dark?"
+        },
+        {
+          "question": "THE MOVIE AIRED SUNDAY, OCTOBER 26, 1997, IN THIS ABC PROGRAMMING BLOCK.",
+          "value": "1000",
+          "answer": "What is The Wonderful World of Disney?"
+        }
+      ]
+    },
+    {
+      "name": "DINOSAUR",
+      "questions": [
+        {
+          "question": "LONG ISLAND NATIVE D.B. SWEENEY VOICED THIS MAIN IGUANADON.",
+          "value": "200",
+          "answer": "Who is Aladar?"
+        },
+        {
+          "question": "HAYDEN PANETTIERE VOICES THE ADOPTIVE LEMUR SISTER SURI, BUT SHE HAD PREVIOUS ANIMATION EXPERIENCE AS A YOUNGER SISTER AS THIS PRINCESS IN \"A BUG'S LIFE\". PRETEND IT'S A SEED.",
+          "value": "400",
+          "answer": "Who is Dot?"
+        },
+        {
+          "question": "THIS STAR OF ER AND THE GOOD WIFE VOICED THE MAIN LOVE INTEREST NEERA.",
+          "value": "600",
+          "answer": "Who is Julianna Margulies?"
+        },
+        {
+          "question": "IT IS THE SECOND FILM AFTER THIS MOVIE PRODUCED BY WALT DISNEY FEATURE ANIMATION TO FEATURE COMPUTER-GENERATED THREE-DIMENSIONAL ANIMATION.",
+          "value": "800",
+          "answer": "What is Fantasia 2000?",
+          "daily-double": true
+        },
+        {
+          "question": "TOUCHED BY AN ANGEL STAR DELLA REESE VOICED EEMA, AN ELDERLY DINOSAUR OF THIS TRICERATOPS FAMILY MEMBER, ORIGINALLY OUTSIDE OF COUNTDOWN TO EXTINCTION.",
+          "value": "1000",
+          "answer": "What is a Styracosaurus?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "What is Indiana Jones Epic Stunt Spectacular",
+    "category": "WHAT'S LEFT OF HOLLYWOOD STUDIOS",
+    "question": "THE OLDEST ATTRACTION REMAINING IN THE PARK'S CURRENT STATE."
+  }
+}

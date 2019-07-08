@@ -1,0 +1,385 @@
+{
+  "jeopardy": [
+    {
+      "name": "MARCH",
+      "questions": [
+        {
+          "question": "THE HEADLESS HORSEMAN KICKS OFF THIS SPECIAL EVENT PARADE.",
+          "value": "100",
+          "answer": "What is Mickey’s Boo To You Parade?"
+        },
+        {
+          "question": "DISNEY RETIRED THIS NIGHTTIME PARADE IN 2010, AND THEN PUT CHUNKS OF IT INTO LIMITED EDITION PINS IN 2014. (SORRY, TOM)",
+          "value": "200",
+          "answer": "What is SpectroMagic?"
+        },
+        {
+          "question": "THIS PARADE-LIKE SHOW HAS BEEN RUNNING IN WALT DISNEY WORLD SINCE 1971, BUT NOT IN ANY PARK.",
+          "value": "300",
+          "answer": "What is the Electrical Water Pageant?"
+        },
+        {
+          "question": "THIS PARADE FIRST PREMIERED AT HOLLYWOOD STUDIOS ON OCTOBER 1, 2001 AS PART OF THE 100 YEARS OF MAGIC CELEBRATION.",
+          "value": "400",
+          "answer": "What is the Stars and Motorcars Parade?"
+        },
+        {
+          "question": "THIS SHORT-LIVED WORLD SHOWCASE PARADE DEBUTED AS PART OF EPCOT’S MILLENNIUM CELEBRATION.",
+          "value": "500",
+          "answer": "What is Tapestry of Nations?"
+        }
+      ]
+    },
+    {
+      "name": "MADNESS",
+      "questions": [
+        {
+          "question": "",
+          "value": "100",
+          "answer": "What is Journey Into Imagination?",
+          "image": "./images/wdwnt/madness/figment.png"
+        },
+        {
+          "question": "",
+          "value": "200",
+          "answer": "What is Mr. Toad's Wild Ride?",
+          "image": "./images/wdwnt/madness/toad.png"
+        },
+        {
+          "question": "",
+          "value": "300",
+          "answer": "What is Maelstrom?",
+          "image": "./images/wdwnt/madness/maelstrom.png"
+        },
+        {
+          "question": "",
+          "value": "400",
+          "answer": "What is Fantasmic?",
+          "image": "./images/wdwnt/madness/fantasmic.png"
+        },
+        {
+          "question": "",
+          "value": "500",
+          "answer": "What is the Main Street Electrical Parade?",
+          "image": "./images/wdwnt/madness/msep.png"
+        }
+      ]
+    },
+    {
+      "name": "ON \"SEA\"",
+      "questions": [
+        {
+          "question": "THE OTHER DISNEY PARK LOCATED IN JAPAN",
+          "value": "100",
+          "answer": "What is Tokyo DisneySea?"
+        },
+        {
+          "question": "THE ONLY CURRENT EPCOT PAVILION TO FIT THE CATEGORY - ALTHOUGH ITS PREDECESSOR ALSO HAD \"SEA\" IN THE NAME.",
+          "value": "200",
+          "answer": "What is The Seas with Nemo and Friends?"
+        },
+        {
+          "question": "THE NEWEST OMNIMOVER RIDE IN DISNEY WORLD, TAKE IT FROM ME.",
+          "value": "300",
+          "answer": "What is Under the Sea - Journey of The Little Mermaid?"
+        },
+        {
+          "question": "THIS MAN-MADE BODY OF WATER IS LOCATED IN THE CENTER OF THE MONORAIL RESORT LOOP.",
+          "value": "400",
+          "answer": "What is the Seven Seas Lagoon?"
+        },
+        {
+          "question": "THE ONLY ATTRACTION IN WALT DISNEY WORLD TO FEATURE WORKING SUBMARINES.",
+          "value": "500",
+          "answer": "What is 20,000 Leagues Under the Sea?"
+        }
+      ]
+    },
+    {
+      "name": "B.S.",
+      "questions": [
+        {
+          "question": "THEY'RE BUILDING A NEW MONORAIL HOTEL NEAR ANIMAL KINGDOM",
+          "value": "100",
+          "answer": "What is Epcot?"
+        },
+        {
+          "question": "THEY'RE GOING TO MAKE UNIVERSE OF ENERGY BASED ON BLACK PANTHER.",
+          "value": "200",
+          "answer": "What is Guardians of the Galaxy?"
+        },
+        {
+          "question": "THEY'RE FIXING UP THAT BIG GOLD DOME. MAYBE THAT MEANS THEY'LL DO SOMETHING WITH THE HORIZONS BUILDING NOW!",
+          "value": "300",
+          "answer": "What is Wonders of Life?"
+        },
+        {
+          "question": "THEY'RE REPAINTING TOMORROWLAND. IT'LL BE NICE TO GET IT READY FOR TEST TRACK.",
+          "value": "400",
+          "answer": "What is the Tron coaster?"
+        },
+        {
+          "question": "SOON I'LL GET TO EAT SOME CHEESE AT WOODY'S ROUNDUP!",
+          "value": "500",
+          "answer": "What is Woody's Lunchbox?"
+        }
+      ]
+    },
+    {
+      "name": "DIS-CONNECTED",
+      "questions": [
+        {
+          "question": "SOMETIMES WE REPORT ON STORIES FROM THIS OFFICIAL SITE, AND SOMETIMES WE REPORT THEM BEFORE IT. IT'S A WEIRD SYMBIOTIC RELATIONSHIP.",
+          "value": "100",
+          "answer": "What is the Disney Parks Blog?"
+        },
+        {
+          "question": "FASTPASS CAN BE CLAIMED USING THIS APP...WHEN IT WORKS",
+          "value": "200",
+          "answer": "What is the My Disney Experience app?"
+        },
+        {
+          "question": "IF YOU'RE AN ANNUAL PASSHOLDER, YOU'LL GET THIS SERVICE WHICH ADDS ANIMATED CHARACTERS TO MOMENTS INCLUDED.",
+          "value": "300",
+          "answer": "What is PhotoPass?"
+        },
+        {
+          "question": "MINNIE VANS ARE POWERED USING THIS RIDE HAILING APP.",
+          "value": "400",
+          "answer": "What is Lyft?",
+          "daily-double": true
+        },
+        {
+          "question": "THIS SITE COULD PROBABLY BE BEST DESCRIBED AS BUZZFEED MEETS WDWNT.",
+          "value": "500",
+          "answer": "What is Oh My Disney!?"
+        }
+      ]
+    },
+    {
+      "name": "“T” FOR TWO",
+      "questions": [
+        {
+          "question": "IT’S THE FASTEST ATTRACTION IN WALT DISNEY WORLD.",
+          "value": "100",
+          "answer": "What is Test Track?"
+        },
+        {
+          "question": "THOUGH YOU MIGHT NEED A DRINK, THERE IS SADLY NO BAR AT THE EXIT OF THIS THRILL RIDE IN HOLLYWOOD STUDIOS.",
+          "value": "200",
+          "answer": "What is the Tower of Terror?"
+        },
+        {
+          "question": "WHILE EACH SHOW AT THIS EPCOT ATTRACTION IS IMPROVISED AND UNIQUE, IT’S A PRETTY GOOD BET YOU’RE GOING TO HEAR \"RIGHTEOUS\".",
+          "value": "300",
+          "answer": "What is Turtle Talk with Crush?"
+        },
+        {
+          "question": "YOU CAN BOOK A MAGIC KINGDOM FIREWORKS DESSERT PARTY AT THIS RESTAURANT.",
+          "value": "400",
+          "answer": "What is the Tomorrowland Terrace?"
+        },
+        {
+          "question": "IF BIDDING FOR CHICKENS MAKES YOU HUNGRY FOR A TURKEY LEG, HEAD TO THIS COUNTER SERVICE RESTAURANT",
+          "value": "500",
+          "answer": "What is Tortuga Tavern?"
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "RESORT HOPPING: FORT WILDERNESS",
+      "questions": [
+        {
+          "question": "THIS DINNER SHOW HAS BEEN RUNNING FOR 44 YEARS.",
+          "value": "200",
+          "answer": "What is the Hoop-Dee-Doo Musical Revue?"
+        },
+        {
+          "question": "THE NAME OF THE BUILDING THAT HOUSES FORT WILDERNESS’ DINNER SHOW.",
+          "value": "400",
+          "answer": "What is Pioneer Hall?"
+        },
+        {
+          "question": "SOME OF THE BEST CORNBREAD IN WALT DISNEY WORLD CAN BE FOUND AT THIS BUFFET.",
+          "value": "600",
+          "answer": "What is Trail’s End?"
+        },
+        {
+          "question": "YOU CAN DO THIS FROM A BOAT OR ON THE DOCK, BUT IT’S CATCH AND RELEASE ONLY.",
+          "value": "800",
+          "answer": "What is fishing?",
+          "daily-double": true
+        },
+        {
+          "question": "ALL OF THE HORSES IN WALT DISNEY WORLD CALL THIS RANCH HOME.",
+          "value": "1000",
+          "answer": "What is the Tri-Circle D Ranch?"
+        }
+      ]
+    },
+    {
+      "name": "ACTUAL JEOPARDY: DISNEY PRINCESS NAMES",
+      "questions": [
+        {
+          "question": "FRENCH FOR \"BEAUTIFUL\"",
+          "value": "200",
+          "answer": "What is Belle?"
+        },
+        {
+          "question": "ALGONQUIAN FOR \"MISCHIEVOUS ONE\"",
+          "value": "400",
+          "answer": "What is Pocahontas?"
+        },
+        {
+          "question": "\"MAGNOLIA\" OR LITERALLY \"WOOD\" & \"ORCHID\" IN CHINESE",
+          "value": "600",
+          "answer": "What is Mulan?"
+        },
+        {
+          "question": "FROM THE PERSIAN VIA ARABIC, IT'S A FRAGRANT FLOWER",
+          "value": "800",
+          "answer": "What is Jasmine?"
+        },
+        {
+          "question": "FROM THE LATIN FOR \"DAWN\", JUST LIKE A ROMAN GODDESS",
+          "value": "1000",
+          "answer": "What is Aurora?",
+          "daily-double": true
+        }
+      ]
+    },
+    {
+      "name": "\"E\" TICKETS",
+      "questions": [
+        {
+          "question": "LOOK OUT FOR THE DISCO YETI HERE!",
+          "value": "200",
+          "answer": "What is Expedition Everest?"
+        },
+        {
+          "question": "BACK WHEN EPCOT WAS AN ACRONYM, THIS IS WHAT THE E STOOD FOR.",
+          "value": "400",
+          "answer": "What is experimental?"
+        },
+        {
+          "question": "ENTER MAURICE’S COTTAGE IN FANTASYLAND FOR THIS \"STORIED\" ATTRACTION.",
+          "value": "600",
+          "answer": "What is Enchanted Tales with Belle?"
+        },
+        {
+          "question": "",
+          "value": "800",
+          "answer": "Who is Ellen?",
+          "image": "./images/wdwnt/ellen.png"
+        },
+        {
+          "question": "EAT YOUR BACON CHEESEBURGER AND CHICKEN NUGGETS ON THE FIRST OR SECOND FLOOR OF THIS FUTURE WORLD RESTAURANT.",
+          "value": "1000",
+          "answer": "What is the Electric Umbrella?"
+        }
+      ]
+    },
+    {
+      "name": "TRUMP ON DISNEY",
+      "questions": [
+        {
+          "question": "THIS IS CLEARLY THE ABSOLUTE BEST ATTRACTION IN DISNEY WORLD… NATURALLY, IT’S THE ONLY ONE WITH ME IN IT.",
+          "value": "200",
+          "answer": "What is the Hall of Presidents?"
+        },
+        {
+          "question": "OH, THAT? PEOPLE TOLD ME TO NEVER GO NEAR THAT PAVILION. THEY’VE GOT THESE THREE BIRDS IN THERE - BAD HOMBRES!",
+          "value": "400",
+          "answer": "What is the Mexico pavilion?"
+        },
+        {
+          "question": "TRICKY TOM CORLESS - HE STOLE MY SLOGAN, TO MAKE A T-SHIRT FOR THIS ATTRACTION! JOKE’S ON HIM, IT CLOSED! #SAD",
+          "value": "600",
+          "answer": "What is The Great Movie Ride?"
+        },
+        {
+          "question": "PEOPLE SAID I WASN’T GOING TO BUILD IT - BUT I DID, AND PEOPLE LOVE IT SO MUCH, THEY’VE BEEN TAKING ‘SELFIES’ WITH IT! TAKE THAT, FAKE NEWS!",
+          "value": "800",
+          "answer": "What is The Purple Wall?"
+        },
+        {
+          "question": "OH, FORGET THAT COMPANY - RDA WAS THE BEST. WE’RE GONNA TAKE PANDORA BACK, AND DO CLEAN UNOBTANIUM MINING!",
+          "value": "1000",
+          "answer": "What is ACE (Alpha Centauri Expeditions)?"
+        }
+      ]
+    },
+    {
+      "name": "JASON'S FAMILY PHOTOS",
+      "questions": [
+        {
+          "question": "IT MIGHT SEEM LIKE A LAVISH CHOICE NOW, BUT BACK WHEN THIS PICTURE OF ME WAS TAKEN, THERE WERE ONLY TWO OPTIONS.",
+          "value": "200",
+          "answer": "What is the Polynesian Resort?",
+          "image": "./images/wdwnt/diffendals/poly.jpg"
+        },
+        {
+          "question": "EAT YOUR HEART OUT, PETER QUILL. I WAS THERE IN THE ‘80S TOO BEFORE THIS WAS CREATED IN FRONT OF EPCOT.",
+          "value": "400",
+          "answer": "What is Leave a Legacy?",
+          "image": "./images/wdwnt/diffendals/epcot.jpg"
+        },
+        {
+          "question": "THE YEAR WAS 1981, SO THE RESTAURANT THAT WILL BE HERE WON'T BE OPEN FOR ANOTHER 34 YEARS. AT LEAST I GOT HERE EARLY FOR MY RESERVATION!",
+          "value": "600",
+          "answer": "What is Skipper Canteen?",
+          "image": "./images/wdwnt/diffendals/skipper_canteen.jpg"
+        },
+        {
+          "question": "HERE I AM SPORTING MY NOW-FAMOUS BEARD AT THIS MGM ATTRACTION.",
+          "value": "800",
+          "answer": "What is The Magic of Disney Animation?",
+          "image": "./images/wdwnt/diffendals/mickey.jpg"
+        },
+        {
+          "question": "LIKE MY FULL HEAD OF HAIR, THIS TOMORROWLAND OUTDOOR AMPHITHEATER IS NO MORE.",
+          "value": "1000",
+          "answer": "What is the Galaxy Palace Theater?",
+          "image": "./images/wdwnt/diffendals/pluto.jpg"
+        }
+      ]
+    },
+    {
+      "name": "WE'RE PROBABLY GETTING FIRED!",
+      "questions": [
+        {
+          "question": "FIREABLE OFFENSE: DAMAGE TO COMPANY STARSPEEDER AND OTHER ASSETS; RECKLESS ENDANGERMENT OF CUSTOMERS",
+          "value": "200",
+          "answer": "Who is Captain Rex?"
+        },
+        {
+          "question": "FIREABLE OFFENSE: HACKING LABORATORY COMPUTER SECURITY; NEARLY GETTING GUESTS KILLED BY A GIANT ASTEROID IN THE LATE CRETACEOUS PERIOD.",
+          "value": "400",
+          "answer": "Who is Dr. Seeker?"
+        },
+        {
+          "question": "FIREABLE OFFENSE: SLEEPING ON THE JOB AND LITERALLY GETTING FIRED OUT OF A TUBA",
+          "value": "600",
+          "answer": "Who is Donald Duck?"
+        },
+        {
+          "question": "FIREABLE OFFENSE: HAVING MISS PIGGY DRAGGED OFF THE FILM SET BY A WATER SKI TOW ROPE.",
+          "value": "800",
+          "answer": "Who is Bean Bunny?"
+        },
+        {
+          "question": "FIREABLE OFFENSE: LOST CHAIRMAN CLENCH SOMEWHERE IN SPACE A TELEPORTED AND CARNIVOROUS ALIEN INTO A ROOM FULL OF POTENTIAL CUSTOMERS.",
+          "value": "1000",
+          "answer": "Who are Spidlok and Dr. Feemis (Alien Encounter)?"
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "answer": "Who is Bonnie Appetite?",
+    "category": "HOSTS (NOT NAMED TOM CORLESS)",
+    "question": "The host of Kitchen Kabaret, she participated in the numbers \"Meal Time Blues/Chase Those Blues Away\", as well as the finale."
+  }
+}
