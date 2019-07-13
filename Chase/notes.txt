@@ -1,0 +1,96 @@
+Note: This *needs* Prize Wall to exist in order to function.
+
+Game states:
+* Intro
+
+* Chaser reveal
+ - just some sound and a camera view
+
+* Cash Builder
+ - Host asks questions, contestant gives answers orally, each right answer has points go up
+ - <DURATION> timer on screen
+ - Right answers give the player <AMOUNT> points
+ - Wrong/pass is no harm, but time delay while we give the right answer
+
+* Head-to-Head
+ - Point selection
+  * Initially display points from cash builder in middle step
+  * Let chaser set point totals for step closer and step further
+   - BALLPARK: Double it if they make it harder, half it if they make it easier
+  * Step positions:
+   - Easy: 4 from top, 4 questions to win
+   - Normal: 3 from top, 5 questions to win
+   - Hard: 2 from top, 6 questions to win
+  * Contestant chooses where to start - other points disappear, that one is now their player marker
+  * Chaser starts at top of the board
+ - Actual chase
+  * Question shows up on screen
+  * Host reads
+  * When host done reading, 3 answer choices show up
+  * As soon as answers display, buzzers are unlocked
+  * As soon as one player locks an answer, other has 5s to lock theirs
+  * Once both are locked, host reveals player answer, then correct answer, then chaser answer
+   - If player correct, they move step closer to home
+   - If chaser correct, they move step closer to player
+  * Repeat until caught or home free
+   - If caught, out of the game
+   - If home, bank points for Final Chase
+
+* Final Chase
+ - Players get X steps ahead, where X is remaining players
+  * IF THERE ARE NO PEOPLE: Team picks one person to play for <MINIMUM_PRIZE_VALUE> for each player
+ - Players get 2 minutes to answer as many questions as they can (same style as cash builder)
+  * If there's only one player, player just states the answer when they know it
+  * If not, players buzz in and answer when called on
+   - add <BUZZ_IN_LATENCY> to timer when someone buzzes in to deal with latency
+ - Each question right puts them another step further from the chaser
+ - Chaser then has 2 minutes to answer questions
+  * Each question right gets them a step closer to the players
+  * If they get a question wrong, clock stops, players get a chance to steal; if they get it right, chaser gets pushed back
+ - If chaser catches in 2min, players lose; if not, players win, split bank evenly among all of them
+
+* Ending
+
+
+settings.json
+* CashBuilderDuration
+* CashBuilderValue
+* MinimumPrizeValue
+* BuzzInLatencyCompensation
+
+
+
+
+
+
+Board:
+
+[Chaser]
+[      ]
+[ Hard ]
+[ Norm.]
+[ Easy ]
+[      ]
+[      ]
+[      ]
+[ Bank ]
+---------
+[Chaser]
+[      ]
+[      ]
+[Player]
+[      ]
+[      ]
+[      ]
+[      ]
+[ Bank ]
+---------
+[      ]
+[Chaser]
+[      ]
+[      ]
+[Player]
+[      ]
+[      ]
+[      ]
+[ Bank ]

@@ -1,0 +1,51 @@
+Entities:
+* server - The backend that manages the sockets
+* board - The browser running the game board. This is what's broadcast.
+* chaser - The chaser
+* player_X - Each player, numbered 1 through X
+
+
+Initial setup:
+* board calls out to server to start a game with X players
+* server responds directly with:
+ - unique join codes for each player, plus the chaser, plus a re-join code for itself
+--
+* player/chaser clicks on link, puts in join code, sends to server
+* server responds directly with their role (chaser, player_1, player_2, etc.)
+* server broadcasts that that role has joined
+
+Heartbeat:
+* when a client disconnects, the server broadcasts that fact
+
+Head-to-head:
+* board says prep for question to player_X
+* server broadcasts
+* player_X and chaser both show disabled buttons for A, B, and C
+--
+* board says buzzers hot for question to player_X
+* server broadcasts
+* player_X and chaser both have buttons enable
+--
+* player_X or chaser clicks on an answer
+* server parrots to board
+* server alerts the non-sender that an answer was given
+##
+board waits 5s, or until it gets answers from both people
+##
+* board says prep for question to player_X [SEE ABOVE]
+ - Note that even if another question isn't sent, this is fine, we'll correct it later
+--
+* board says disable buzzers
+* server broadcasts
+* all buzzer entities remove buttons from UI
+
+Final chase: (if more than one player)
+* board says prepare for final chase with [player_X, ...]
+* server broadcasts
+* player_X shows an enabled buzzer
+--
+* player_X buzzes in
+* server broadcasts
+* board announces player, puts them on camera, etc.
+--
+* board says disable buzzers [SEE ABOVE]
