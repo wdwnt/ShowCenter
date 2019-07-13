@@ -8,3 +8,4 @@ whitenoise
 jsonfield
 python-dateutil
 icalevents
+channels
