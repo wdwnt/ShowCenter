@@ -9,3 +9,4 @@ jsonfield
 python-dateutil
 icalevents
 channels
+channels-redis

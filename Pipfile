@@ -12,6 +12,7 @@ google-api-python-client = "*"
 python-dateutil = "*"
 icalevents = "*"
 channels="*"
+channels-redis="*"
 
 [requires]
 python_version = "3.7.1"

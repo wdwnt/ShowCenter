@@ -77,6 +77,15 @@ WSGI_APPLICATION = 'WDWNTShowCenter.wsgi.application'
 
 ASGI_APPLICATION = "WDWNTShowCenter.routing.application"
 
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [os.environ.get('REDISCLOUD_URL'),],
+        },
+    },
+}
+
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
