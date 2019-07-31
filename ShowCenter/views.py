@@ -24,5 +24,6 @@ def index(request):
                         '<br>'
                         '<a href="'+STATIC_URL+'jeopardy/host.html">Jeopardy Host Board</a>'
                         '<br>'
-                        '<a href="'+STATIC_URL+'sale/">Sale of the Pop Century</a>'
+                        '<a href="'+STATIC_URL+'sale/index.html">Sale of the Pop Century</a>'
+                        ' (and its <a href="'+STATIC_URL+'sale/index.html#!/cp">control panel</a>)'
                         '<br>')
