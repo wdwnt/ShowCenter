@@ -1,0 +1,147 @@
+<div class="control-panel">
+    <h2>Player info</h2>
+    <div class="control-group" ng-repeat="player in $ctrl.show.players">
+        <label>
+            Name:
+            <input ng-model="player.name">
+        </label>
+        <label>
+            Points:
+            <input type="number" ng-model="player.score">
+        </label>
+    </div>
+
+    <hr>
+
+    <h2>Game state control</h2>
+    <div class="control-group">
+        <md-button class="md-primary md-raised" ng-click="$ctrl.gotoBlank()">
+            Show blank
+        </md-button>
+        <md-button class="md-primary md-raised" ng-click="$ctrl.gotoLogo()">
+            Show logo
+        </md-button>
+    </div>
+    <div class="control-group">
+        <md-button class="md-primary md-raised" ng-click="$ctrl.gotoDefault()">
+            Show score board
+        </md-button>
+    </div>
+    <h3>Fame Game prize wall for:</h3>
+    <div class="control-group">
+        <md-button class="md-primary md-raised" ng-repeat="player in $ctrl.show.players" ng-click="$ctrl.gotoPrizeWall($index)">
+            {{player.name}}
+        </md-button>
+    </div>
+    <h3>End game for:</h3>
+    <div class="control-group">
+        <md-button class="md-primary md-raised" ng-repeat="player in $ctrl.show.players" ng-click="$ctrl.gotoEndGame($index)">
+            {{player.name}}
+        </md-button>
+    </div>
+
+    <hr>
+
+    <div ng-show="$ctrl.show.state === 'default'">
+        <h2>Scoreboard controls</h2>
+        <div class="control-group" ng-show="$ctrl.show.activePlayer === null">
+            <h3>Buzz in for:</h3>
+            <md-button class="md-primary md-raised" ng-repeat="player in $ctrl.show.players" ng-click="$ctrl.buzzIn($index)">
+                {{player.name}}
+            </md-button>
+        </div>
+        <div class="control-group" ng-show="$ctrl.show.activePlayer === null">
+            <label>
+                Press 1, 2, or 3 to buzz in:
+                <input id="buzzerInMain" ng-model="buzzerInMain" ng-change="$ctrl.buzzIn(buzzerInMain-1); buzzerInMain=''">
+            </label>
+        </div>
+        <div ng-if="$ctrl.show.activePlayer !== null">
+            <h3>Buzzed in for {{$ctrl.activePlayer().name}}</h3>
+            <div class="control-group">
+                <md-button class="md-warn md-raised" ng-click="$ctrl.activePlayer().score = $ctrl.activePlayer().score - $ctrl.SETTINGS.questionValue; $ctrl.resetBuzzers()">
+                    Wrong
+                </md-button>
+                <md-button class="green md-raised" ng-click="$ctrl.activePlayer().score = $ctrl.activePlayer().score + $ctrl.SETTINGS.questionValue; $ctrl.resetBuzzers()">
+                    Right
+                </md-button>
+            </div>
+            <md-button class="md-primary md-raised" ng-click="$ctrl.resetBuzzers()">Reset</md-button>
+        </div>
+    </div>
+    <div ng-show="$ctrl.show.state === 'numberSelect'">
+        <h2>Fame Game board for {{$ctrl.activePlayer().name}}</h2>
+        <div class="board-buttons">
+            <md-button class="md-primary md-raised"
+                       ng-repeat="board in $ctrl.show.numbersBoard"
+                       ng-disabled="board.isRevealed || !$ctrl.currentPrize()"
+                       ng-click="$ctrl.revealBoard(board)">
+                {{$index+1}}
+            </md-button>
+        </div>
+        <h1 ng-show="!$ctrl.currentPrize()">
+            You NEED to set a prize for this round before revealing squares.
+        </h1>
+        <div>
+            <md-button class="md-primary md-raised green" ng-click="$ctrl.showMoney()">
+                Show all money squares (end of game only!)
+            </md-button>
+        </div>
+    </div>
+    <div ng-show="$ctrl.show.state === 'endGame'">
+        <h2>End game for {{$ctrl.activePlayer().name}}</h2>
+        <div class="control-group">
+            <md-button class="md-primary md-raised green" ng-disabled="$ctrl.timerRunning" ng-click="$ctrl.startTimer()">
+                Start timer
+            </md-button>
+            <md-button class="md-warn md-raised" ng-disabled="!$ctrl.timerRunning" ng-click="$ctrl.stopTimer()">
+                Stop timer
+            </md-button>
+        </div>
+        <div>
+            <label>
+                Press any key to stop timer:
+                <input id="buzzerIn" ng-model="buzzerIn" ng-change="$ctrl.stopTimer(); buzzerIn=''">
+            </label>
+        </div>
+        <h4>Correct answer: {{$ctrl.show.bonusRound.questions[$ctrl.show.bonusRound.curQuestion].answer}}</h4>
+        <div>
+            <md-button class="md-primary md-raised" ng-disabled="$ctrl.timerRunning" ng-click="$ctrl.nextQuestion()">
+                Right answer
+            </md-button>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2>
+        Game settings:
+    </h2>
+    <div>
+        <h3>Question value:</h3>
+        <input type="number" ng-model="$ctrl.SETTINGS.questionValue">
+        <h3>Prizes for each Fame Game round:</h3>
+        <div ng-repeat="prize in $ctrl.SETTINGS.prizeList track by $index">
+            <input ng-disabled="$index < $ctrl.show.nextNumbersRound-1" ng-model="$ctrl.SETTINGS.prizeList[$index]">
+        </div>
+        <h3>Dollar values to add each round:</h3>
+        <div class="control-group" ng-repeat="bonus in $ctrl.SETTINGS.numberSelectBonuses">
+            <div>Round {{$index+1}}:</div>
+            <input ng-disabled="$parent.$index < $ctrl.show.nextNumbersRound" ng-repeat="val in bonus" type="number" ng-model="bonus[$index]">
+        </div>
+        <h3>End game clues</h3>
+        <div ng-repeat="round in $ctrl.show.bonusRound.questions">
+            <h4>Clue #{{$index+1}}</h4>
+            <input ng-disabled="round.solved" ng-model="round.answer" style="width: 320px">
+            <div class="board-buttons">
+                <div ng-repeat="clue in round.clues">
+                    <input style="width: 100px" ng-disabled="clue.revealed" ng-model="clue.word">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <md-button class="md-warn md-raised" ng-click="$ctrl.reset()">
+        Reset the WHOLE game
+    </md-button>
+</div>

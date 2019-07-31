@@ -1,0 +1,10 @@
+<div class="end-game">
+    <div class="clock">
+        <div ng-repeat="char in $ctrl.pad($ctrl.show.bonusRound.timer, 2) track by $index" ng-bind="char"></div>
+    </div>
+    <div class="clues">
+        <div class="clue" ng-repeat="clue in $ctrl.curQuestion().clues">
+            {{clue.revealed ? clue.word : $ctrl.NBSP}}
+        </div>
+    </div>
+</div>

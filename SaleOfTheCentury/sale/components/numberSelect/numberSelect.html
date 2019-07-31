@@ -1,0 +1,11 @@
+<div class="numbers-grid">
+    <div ng-repeat="board in $ctrl.show.numbersBoard" class="board" ng-class="['board-'+$index]">
+        <div class="board-cover" ng-class="[board.isRevealed?'board-cover-dropped':'board-cover-up']">
+            {{$index+1}}
+        </div>
+        <img class="frame-img" src="img/octagon.png">
+        <div ng-show="board.isRevealed" class="board-value" ng-class="[board.isMoney?'board-money':'board-prize']">
+            {{board.revealedValue}}
+        </div>
+    </div>
+</div>

@@ -52,10 +52,10 @@
         },
         "autobahn": {
             "hashes": [
-                "sha256:70f0cfb8005b5429df5709acf5d66a8eba00669765547029371648dffd4a0470",
-                "sha256:89f94a1535673b1655df28ef91e96b7f34faea76da04a5e56441c9ac779a2f9f"
+                "sha256:03ef2bad9d596ac04451d1627c18e434dc70f427109fd23911672ad5fe042f6d",
+                "sha256:60c2f283137b3aafc06f274949387eebcc78c8faad580a8755f6dc83c74bf0e2"
             ],
-            "version": "==19.7.1"
+            "version": "==19.7.2"
         },
         "automat": {
             "hashes": [
@@ -183,10 +183,10 @@
         },
         "google-api-python-client": {
             "hashes": [
-                "sha256:048da0d68564380ee23b449e5a67d4666af1b3b536d2fb0a02cee1ad540fa5ec",
-                "sha256:5def5a485b1cbc998b8f869456c7bde0c0e6d3d0a5ea1f300b5ef57cb4b1ce8f"
+                "sha256:2e55a5c7b56233c68945b6804c73e253445933f4d485d4e69e321b38772b9dd6",
+                "sha256:60f2ac2f27997d9af10ae126d9937b7d8c1fd061d12668ccaf94b4347ee85021"
             ],
-            "version": "==1.7.9"
+            "version": "==1.7.10"
         },
         "google-auth": {
             "hashes": [
@@ -265,9 +265,9 @@
         },
         "icalevents": {
             "hashes": [
-                "sha256:d9e12192c4c3585d675d4641f49d98c5352912dbbadd33d9339dd9aea5ef3597"
+                "sha256:f36b0dc968b5a77b80503168a2abb939e336bb9ca4a37fda48b320dbf36ada37"
             ],
-            "version": "==0.1.20"
+            "version": "==0.1.21"
         },
         "idna": {
             "hashes": [

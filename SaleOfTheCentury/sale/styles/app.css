@@ -1,0 +1,21 @@
+html {
+	--app-height: 1080px;
+	--app-width: 1920px;
+	--sidebar-size: 490px;
+	--chroma-key: #00ff00;
+}
+
+@font-face {
+  font-family: "DS-Digital-Italic";
+
+  src: url("../fonts/DS-DIGII.woff") format("woff"),
+    url("../fonts/DS-DIGII.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.md-button.green,
+.md-button.green:hover{
+    background-color: green !important;
+    color: white !important;
+}

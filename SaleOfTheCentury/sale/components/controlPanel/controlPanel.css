@@ -1,0 +1,13 @@
+.control-panel {
+
+}
+
+.control-panel .control-group{
+	display: flex;
+}
+
+.board-buttons{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-gap: 10px;
+}
