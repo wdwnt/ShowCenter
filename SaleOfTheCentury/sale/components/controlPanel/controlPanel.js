@@ -55,7 +55,18 @@ angular.module('sale')
 				ctrl.timerRunning = false;
 				return;
 			}
+
 			ctrl.show.bonusRound.timer--;
+
+			$timeout(tick, 1200);
+		};
+		let clue = function(){
+			let curQuestion = ctrl.show.bonusRound.questions[ctrl.show.bonusRound.curQuestion];
+			if(!ctrl.timerRunning || !ctrl.show.bonusRound.timer || !curQuestion){
+				ctrl.timerRunning = false;
+				return;
+			}
+
 			let foundOne = false;
 			angular.forEach(curQuestion.clues, function(clue){
 				if(!clue.revealed && !foundOne){
@@ -63,11 +74,13 @@ angular.module('sale')
 					foundOne = true;
 				}
 			});
-			$timeout(tick, 1200);
+
+			$timeout(clue, 1500);
 		};
 		ctrl.startTimer = function(){
 			ctrl.timerRunning = true;
-			tick();
+			clue();
+			$timeout(tick, 500);
 			document.getElementById("buzzerIn").focus();
 		};
 		ctrl.stopTimer = function(){
@@ -92,7 +105,9 @@ angular.module('sale')
 		ctrl.gotoDefault = function(){
 			ctrl.show.state='default';
 			ctrl.show.activePlayer=null;
-			document.getElementById("buzzerInMain").focus();
+			$timeout(function(){
+				document.getElementById("buzzerInMain").focus();
+			}, 0);
 		};
 
 		ctrl.gotoPrizeWall = function(activePlayer){
