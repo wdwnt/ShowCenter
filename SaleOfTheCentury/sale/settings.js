@@ -1,14 +1,14 @@
 angular.module('sale')
 .constant('DEFAULT_SETTINGS', {
-	questionValue: 5,
+	questionValue: 2,
 	numberSelectBonuses:[
-		[5, 10],
-		[15],
-		[25]
+		[2, 4],
+		[6],
+		[8]
 	],
 	prizeList: ['', '', '']
 })
-.constant('STARTING_CASH', 20)
+.constant('STARTING_CASH', 5)
 .factory('DEFAULT_SHOW', function(STARTING_CASH, times){
 	return {
 		state: 'blank',
