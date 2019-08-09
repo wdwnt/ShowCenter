@@ -110,6 +110,7 @@ angular.module('parkscenter')
 				.wait(1000)
 				.overlay("WDWNT Intro Video")
 				.wait(3000)
+				.unmute("Audio Microphone")
 				.cut("Virtual - Me")
 				.wait(8000)
 				.overlay("WDWNT Intro Video")
@@ -120,8 +121,22 @@ angular.module('parkscenter')
 				.fade("Virtual - All the panelists", 1000);
 		};
 
+		ctrl.travel = function(){
+			vMix().overlay("TravelPlugWithHUD")
+				.wait(20000)
+				.overlay("TravelPlugWithHUD")
+				.fade("Virtual - Me");
+		};
+
 		ctrl.end = function(){
 			vMix().overlay("End tag");
+		};
+
+		ctrl.postshow = function(){
+			vMix().overlay("End tag")
+				.fade("All the panelists")
+				.wait(2000)
+				.overlay("All the panelists and Chat", 4);
 		};
 
 		ctrl.buzz = function(){
