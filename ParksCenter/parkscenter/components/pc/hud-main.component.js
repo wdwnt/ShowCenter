@@ -1,6 +1,6 @@
 angular.module('parkscenter')
 .component('hudMain', {
-	templateUrl: STATIC_BASE+'templates/pc/hud-main.template.html',
+	templateUrl: 'templates/pc/hud-main.template.html',
 	controller: function($scope, $rootScope, $location, $timeout, $filter, $q, vMix){
 		let ctrl = this;
 
@@ -30,7 +30,7 @@ angular.module('parkscenter')
 				ctrl.curIndex=-1;
 				ctrl.clock=-1;
 				
-				ctrl.imageList = [STATIC_BASE+'images/wdwntLogo.png'];
+				ctrl.imageList = ['images/wdwntLogo.png'];
 				angular.forEach($rootScope.showData, function(item){
 					ctrl.imageList.push(item.thumbnail);
 				});
@@ -77,14 +77,14 @@ angular.module('parkscenter')
     				return {
                 	    "shortName": "",
                 	    "longName": "Welcome to ParksCenter!",
-                	    "thumbnail": STATIC_BASE+"images/wdwntLogo.png",
+                	    "thumbnail": "images/wdwntLogo.png",
                 	    "duration": -1
                 	};
 				}else{
 					return {
                 	    "shortName": "",
                 	    "longName": "Thanks for watching ParksCenter!",
-                	    "thumbnail": STATIC_BASE+"images/wdwntLogo.png",
+                	    "thumbnail": "images/wdwntLogo.png",
                 	    "duration": -1
                 	};
 				}

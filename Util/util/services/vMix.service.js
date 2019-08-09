@@ -62,6 +62,21 @@ angular.module('vMix', [])
                     playFromBeginning: function(input){
                         return this.restart(input).play(input);
                     },
+                    mute: function(input){
+                        return wrap(promise.then(function(){
+                            return call("?Function=AudioOff&Input="+(input||0));
+                        }));
+                    },
+                    unmute: function(input){
+                        return wrap(promise.then(function(){
+                            return call("?Function=AudioOn&Input="+(input||0));
+                        }));
+                    },
+                    muteToggle: function(input){
+                        return wrap(promise.then(function(){
+                            return call("?Function=Audio&Input="+(input||0));
+                        }));
+                    },
                     overlay: function(input, overlayNumber){
                         if(!overlayNumber){
                             overlayNumber = 1;

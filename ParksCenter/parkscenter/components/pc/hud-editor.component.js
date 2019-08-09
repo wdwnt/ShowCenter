@@ -1,6 +1,6 @@
 angular.module('parkscenter')
 .component('hudEditor', {
-	templateUrl: STATIC_BASE+'templates/pc/hud-editor.template.html',
+	templateUrl: 'templates/pc/hud-editor.template.html',
 	controller: function($scope, $rootScope, $location){
 		var ctrl = this;
 		
@@ -12,7 +12,7 @@ angular.module('parkscenter')
 					var item = {
 						shortName: "",
 						longName: "",
-						thumbnail: STATIC_BASE+"images/wdwntLogo.png",
+						thumbnail: "images/wdwntLogo.png",
 						duration: 210
 					};
 					$rootScope.showData = [angular.copy(item), angular.copy(item), angular.copy(item),
@@ -22,7 +22,7 @@ angular.module('parkscenter')
 			
 			ctrl.curIndex=0;
 			
-			ctrl.imageList = [STATIC_BASE+'images/wdwntLogo.png'];
+			ctrl.imageList = ['images/wdwntLogo.png'];
 			angular.forEach($rootScope.showData, function(item){
 				ctrl.imageList.push(item.thumbnail);
 			});

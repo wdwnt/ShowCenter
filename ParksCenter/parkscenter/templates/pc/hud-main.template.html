@@ -3,7 +3,7 @@
         <div class="sidebar">
             <div class="item-list">
                 <div class="thumbnail">
-                    <img ng-src="{{$ctrl.getCurItem().thumbnail}}" fallback="{{ $root.STATIC_BASE }}images/wdwntLogo.png"/>
+                    <img ng-src="{{$ctrl.getCurItem().thumbnail}}" fallback="images/wdwntLogo.png"/>
                 </div>
                 <div class="clock">
                     <span ng-show="$ctrl.clockDate">{{$ctrl.clockDate | date:'m:ss'}}&nbsp;</span>
@@ -17,7 +17,7 @@
                     {{item.shortName}}
                 </div>
                 <div class="logo" ng-click="$ctrl.curIndex = $root.showData.length">
-                    <img src="{{ $root.STATIC_BASE }}images/parksCenter.png"/>
+                    <img src="images/parksCenter.png"/>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="right-sidebar">
-        This runs best with vMix. Download the preset <a href="{{ $root.STATIC_BASE }}ParksCenter.vmix">here.</a>
+        This runs best with vMix. Download the preset <a href="ParksCenter.vmix">here.</a>
         vMix Automations:
         <md-button class="md-raised md-primary" ng-click="$ctrl.white()">Cut to white</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.intro()">Start show</md-button>

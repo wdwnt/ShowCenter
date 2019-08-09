@@ -17,7 +17,7 @@
 							{{$ctrl.state.curGame.top.name}}
 						</div>
 					</div>
-					<img src="{{ $root.STATIC_BASE }}images/vs/vs_no_tilt.png" style="height: 56px">
+					<img src="images/vs/vs_no_tilt.png" style="height: 56px">
 					<div class="team">
 						<div>
 							{{$ctrl.state.curGame.bottom.name}}
@@ -67,9 +67,9 @@
 		<md-option ng-repeat="device in $ctrl.audioOuts" ng-value="device.deviceId">{{device.label}}</md-option>
 	</md-select>
 	<audio controls preload="auto" id="introAudio">
-		<source ng-src="{{ $root.STATIC_BASE }}audio/parksCenterVsIntro.mp3">
+		<source ng-src="audio/parksCenterVsIntro.mp3">
 	</audio>
 	<audio controls preload="auto" id="buzzer">
-		<source ng-src="{{ $root.STATIC_BASE }}audio/buzzer.mp3">
+		<source ng-src="audio/buzzer.mp3">
 	</audio>
 </div>

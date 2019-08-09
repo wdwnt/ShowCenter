@@ -3,7 +3,7 @@ angular.module('parkscenter')
 	return {
 		restrict: 'E',
 		replace: true,
-		templateUrl: STATIC_BASE+'templates/vs/round.template.html',
+		templateUrl: 'templates/vs/round.template.html',
 		scope: {
 			model: '=',
 			editable: '<'
@@ -51,7 +51,7 @@ angular.module('parkscenter')
 	return {
 		restrict: 'E',
 		replace: true,
-		templateUrl: STATIC_BASE+'templates/vs/bracket.template.html',
+		templateUrl: 'templates/vs/bracket.template.html',
 		scope: {
 			model: '=',
 			editable: '<'
@@ -89,7 +89,7 @@ angular.module('parkscenter')
 	}
 })
 .component('vsHudEditor', {
-	templateUrl: STATIC_BASE+'templates/vs/hud-editor.template.html',
+	templateUrl: 'templates/vs/hud-editor.template.html',
 	controller: function($scope, $rootScope, $location){
 		var ctrl = this;
 

@@ -4,7 +4,6 @@ from django.urls import path
 from django.contrib import admin
 
 import ShowCenter.urls
-import ParksCenter.urls
 import FanlyFeud.urls
 
 admin.autodiscover()
@@ -15,7 +14,6 @@ admin.autodiscover()
 
 urlpatterns = [
     path('', include(ShowCenter.urls)),
-    path('parkscenter/', include(ParksCenter.urls)),
     path('ff/', include(FanlyFeud.urls)),
     path('admin/', admin.site.urls),
 ]

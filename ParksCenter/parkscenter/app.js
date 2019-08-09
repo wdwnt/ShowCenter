@@ -1,4 +1,4 @@
-angular.module('parkscenter', ['ngRoute', 'ngMaterial', 'vMix'])
+angular.module('parkscenter', ['ngRoute', 'ngMaterial', 'vMix', 'util'])
 .config(function($routeProvider, $mdThemingProvider){
 	$routeProvider
         .when('/pc/edit', {
@@ -14,7 +14,7 @@ angular.module('parkscenter', ['ngRoute', 'ngMaterial', 'vMix'])
 			template: '<vs-hud-main></vs-hud-main>'
 		})
     	.otherwise({
-    		templateUrl: STATIC_BASE+'templates/landing.template.html'
+    		templateUrl: 'templates/landing.template.html'
     	});
 	
 	$mdThemingProvider.theme('default')
@@ -22,5 +22,4 @@ angular.module('parkscenter', ['ngRoute', 'ngMaterial', 'vMix'])
 		.accentPalette('light-blue');
 }).run(function($rootScope, $location){
 	$rootScope.$location = $location;
-	$rootScope.STATIC_BASE = STATIC_BASE;
 });

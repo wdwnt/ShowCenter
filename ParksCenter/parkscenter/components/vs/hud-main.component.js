@@ -1,6 +1,6 @@
 angular.module('parkscenter')
 .component('vsHudMain', {
-	templateUrl: STATIC_BASE+'templates/vs/hud-main.template.html',
+	templateUrl: 'templates/vs/hud-main.template.html',
 	controller: function($scope, $rootScope, $location, $timeout, $filter){
 		var ctrl = this;
 

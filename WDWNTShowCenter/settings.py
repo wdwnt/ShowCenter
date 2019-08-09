@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'channels',
     'ShowCenter',
-    'ParksCenter',
     'FanlyFeud'
 ]
 
@@ -137,13 +136,14 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'DiceTree'),
+    os.path.join(BASE_DIR, 'Jeopardy'),
+    os.path.join(BASE_DIR, 'JumbleCruise'),
     os.path.join(BASE_DIR, 'MapGame'),
     os.path.join(BASE_DIR, 'MatchGame'),
+    os.path.join(BASE_DIR, 'ParksCenter'),
     os.path.join(BASE_DIR, 'ParksPursuit'),
+    os.path.join(BASE_DIR, 'SaleOfTheCentury'),
     os.path.join(BASE_DIR, 'TonysTownSquares'),
     os.path.join(BASE_DIR, 'Util'),
-    os.path.join(BASE_DIR, 'JumbleCruise'),
-    os.path.join(BASE_DIR, 'Jeopardy'),
-    os.path.join(BASE_DIR, 'SaleOfTheCentury'),
 )
 django_heroku.settings(locals())
