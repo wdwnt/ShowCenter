@@ -122,10 +122,10 @@ angular.module('parkscenter')
 		};
 
 		ctrl.outtro = function(){
-			vMix().mute("Audio Microphone")
-				.playFromBeginning("parksCenterOuttro.mp3")
+			vMix().playFromBeginning("parksCenterOuttro.mp3")
 				.fade("ParksCenter Logo", 1000)
 				.wait(15000)
+				.mute("Audio Microphone")
 				.playlist("ParksCenter Commercials");
 		};
 
