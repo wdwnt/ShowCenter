@@ -85,6 +85,16 @@ angular.module('vMix', [])
                             return call("?Function=OverlayInput"+overlayNumber+"&Input="+(input||0));
                         }));
                     },
+                    playlist: function(name){
+                        if(name){
+                            promise = wrap(promise.then(function(){
+                                return call("?Function=SelectPlayList&Value="+name);
+                            }));
+                        }
+                        return wrap(promise.then(function(){
+                            return call("?Function=StartPlayList");
+                        }));
+                    },
                     setMultiViewInput: function(input, multiViewSlot, setInput){
                         if(!input || !multiViewSlot || !setInput){
                             console.log("bad input");

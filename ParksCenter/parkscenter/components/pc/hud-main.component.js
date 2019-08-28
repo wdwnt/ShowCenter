@@ -121,6 +121,24 @@ angular.module('parkscenter')
 				.fade("Virtual - All the panelists", 1000);
 		};
 
+		ctrl.outtro = function(){
+			vMix().mute("Audio Microphone")
+				.playFromBeginning("parksCenterOuttro.mp3")
+				.fade("ParksCenter Logo", 1000)
+				.wait(15000)
+				.playlist("ParksCenter Commercials");
+		};
+
+		ctrl.shortIntro = function(){
+			vMix().unmute("Audio Microphone")
+				.fade("Virtual - Me", 1000)
+				.playFromBeginning("parksCenterIntro.mp3")
+				.wait(7500)
+				.fade("ParksCenter Logo", 1000)
+				.wait(5500)
+				.fade("Virtual - All the panelists", 1000);
+		};
+
 		ctrl.travel = function(){
 			vMix().overlay("TravelPlugWithHUD")
 				.wait(20000)
