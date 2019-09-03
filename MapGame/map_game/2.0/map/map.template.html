@@ -1,0 +1,19 @@
+<div class="parent">
+    <img id="img" ng-src="{{img}}">
+    <div class="map-holder">
+        <div class="header-row">
+            <div class="corner-piece"></div>
+            <div class="row-header" ng-repeat="row in makeRows() track by $index" ng-style='{height: cellHeight(), "line-height": cellHeight()}'>
+                {{ row }}
+            </div>
+        </div>
+        <div class="map-row" ng-repeat="row in cells">
+            <div class="col-header">
+                {{ letterFor($index) }}
+            </div>
+            <div class="map-cell" ng-repeat="cell in row" ng-style="cellStyle(cell.visible)" ng-click="cell.visible = !cell.visible">
+                <img style="width: 100%; height: 100%" src="img/wdwnt.png">
+            </div>
+        </div>
+    </div>
+</div>

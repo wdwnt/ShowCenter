@@ -1,0 +1,34 @@
+.parent {
+    position: relative;
+}
+
+.map-holder{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+#img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.header-row{
+    height: 20px;
+}
+
+.row-header, .col-header{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.row-header{
+    width: 20px;
+}
+
+.corner-piece{
+    width: 20px;
+    height: 20px;
+}
