@@ -22,8 +22,11 @@ def index(request):
                         '<br>'
                         '<a href="'+STATIC_URL+'jeopardy/index.html">Jeopardy</a>'
                         '<br>'
-                        '<a href="'+STATIC_URL+'jeopardy/host.html">Jeopardy Host Board</a>'
-                        '<br>'
                         '<a href="'+STATIC_URL+'sale/index.html">Sale of the Pop Century</a>'
                         ' (and its <a href="'+STATIC_URL+'sale/index.html#!/cp">control panel</a>)'
+                        '<a href="'+STATIC_URL+'jeopardy/host.html">Jeopardy Host Board</a>'
+                        '<br>'
+                        '<br>'
+                        'One-off games:<br>'
+                        '<a href="'+STATIC_URL+'misc/IllumiNateTheTorches/index.html">IllumiNate The Torches</a>'
                         '<br>')

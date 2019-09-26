@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IllumiNate The Torches</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        const TOP_OFFSET = 0;
+        const LEFT_OFFSET = 38;
+        const FIRE_POS = [
+        	[505, 523],
+        	[400, 494],
+        	[210, 602],
+        	[260, 572],
+        	[300, 538],
+        	[170, 692],
+        	[176, 767],
+        	[194, 889],
+        	[258, 1065],
+        	[333, 1173],
+        	[387, 1244],
+        	[479, 1215],
+        	[497, 1158],
+        	[545, 1095],
+        	[535, 1020],
+        	[593, 912],
+        	[628, 815],
+        	[593, 716],
+        	[543, 627],
+        	[432, 846]
+        ];
+
+        function onload(){
+        	let fires = $(".fire");
+        	for(let i=0; i<fires.length; i++){
+        		console.log(i);
+        		let fire = fires.get(i);
+        		fire.style.top = (FIRE_POS[i][0]+TOP_OFFSET)+"px";
+        		fire.style.left = (FIRE_POS[i][1]+LEFT_OFFSET)+"px";
+        		fire.appendChild($('<img src="fire.gif" style="width: 75px; height: 150px; visibility: hidden; object-fit: cover">')[0]);
+        		let hitbox = $('<div style="width: 50px; height: 50px; position: relative; top: -68px; left: 12px;">')[0];
+        		hitbox.onclick = function(){
+        			if(fire.firstElementChild.style.visibility === "hidden"){
+        			    fire.firstElementChild.style.visibility = "";
+                    }else{
+        				fire.firstElementChild.style.visibility = "hidden";
+                    }
+                };
+                fire.appendChild(hitbox);
+            }
+        }
+    </script>
+</head>
+<body onload="onload()" style="margin: 0; background-color: #00ff00;">
+<div style="width: 1920px; height: 1080px; position: relative; background-color: white;">
+    <img src="map.jpg" style="height: 1080px; margin-left: 360px">
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+    <div class="fire" style="position: absolute"></div>
+</div>
+</body>
+</html>
