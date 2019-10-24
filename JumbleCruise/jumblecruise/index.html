@@ -1,40 +1,40 @@
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
-  <script src="wordscramble.js"></script>
-  <link rel="stylesheet" type="text/css" href="app.css">
-  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="wordscramble.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
 </head>
 <body style="text-align: left;">
-  <div class="main-screen">
+<div class="main-screen" style='background-image: url("/static/jumblecruise/JumbleCruise_Halloween.jpg")'>
     <div class="anagram-holder">
-      <div class="anagram" id="anagram">&nbsp;</div>
+        <div class="anagram" id="anagram">&nbsp;</div>
     </div>
     <div class="image">
-      <img src="JumbleCruise_Trans.png"/>
+        <!--img src="JumbleCruise_Trans.png"/-->
     </div>
-  </div>
-  <div class="controls">
+</div>
+<div class="controls">
     <button onclick="clearJumble()">Clear jumble</button>
     <input id="jumble_text" placeholder="Jumble text">
     <button onclick="displayJumble()">Display jumble</button>
     <input id="answer_text" placeholder="Answer text">
     <button onclick="revealAnswer()">Reveal answer</button>
-  </div>
-  
-	<script>
-    function clearJumble(){
-      $('#anagram').text("\xa0");
-    }
-    
-    function displayJumble(){
-      var jumbleText = $('#jumble_text').val().toUpperCase();
-      $('#anagram').text(jumbleText);
-    }
-    
-    function revealAnswer(){
-      var answerText = $('#answer_text').val().toUpperCase();
-      $('#anagram').scramble(answerText, {loopCount: 1});
-    }
-	</script>
+</div>
+
+<script>
+	function clearJumble() {
+		$('#anagram').text("\xa0");
+	}
+
+	function displayJumble() {
+		var jumbleText = $('#jumble_text').val().toUpperCase();
+		$('#anagram').text(jumbleText);
+	}
+
+	function revealAnswer() {
+		var answerText = $('#answer_text').val().toUpperCase();
+		$('#anagram').scramble(answerText, {loopCount: 1});
+	}
+</script>
 </body>
