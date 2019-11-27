@@ -26,6 +26,8 @@ def index(request):
                         ' (and its <a href="'+STATIC_URL+'sale/index.html#!/cp">control panel</a>)'
                         '<a href="'+STATIC_URL+'jeopardy/host.html">Jeopardy Host Board</a>'
                         '<br>'
+                         '<a href="'+STATIC_URL+'toys/index.html">Toys for Tots HUD</a>'
+                        '<br>'
                         '<br>'
                         'One-off games:<br>'
                         '<a href="'+STATIC_URL+'misc/IllumiNateTheTorches/index.html">IllumiNate The Torches</a>'

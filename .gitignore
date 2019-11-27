@@ -4,3 +4,5 @@ staticfiles
 .env
 db.sqlite3
 .idea
+/ToysForTots/toys/bar.css
+/ToysForTots/toys/bar.css.map
