@@ -2,38 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet/less" type="text/css" href="bar.less" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="bar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Below links retrieved from https://cdnjs.com/libraries/angular.js/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-aria.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-messages.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.js"></script>
+
     <script src="bar.js"></script>
  <title>Title</title>
 </head>
-<body>
+<body ng-app="toysBar">
 
-<div id=countdown-wrap>
-  <div id="goal">$10,000</div>
-  <div id="glass">
-    <div id="progress">
-    </div>
-  </div>
-  <div class="goal-stat">
-    <span class="goal-number">16%</span>
-    <span class="goal-label">Funded</span>
-  </div>
-  <div class="goal-stat">
-    <span class="goal-number">$1,640</span>
-    <span class="goal-label">Raised</span>
-  </div>
-  <div class="goal-stat">
-    <span class="goal-number"><div id="countdown"></div></span>
-    <span class="goal-label">Days to Go</span>
-  </div>
-  <div class="goal-stat">
-    <span class="goal-number">38</span>
-    <span class="goal-label">Sponsors</span>
-  </div>
-</div>
-<!--http://stackoverflow.com/questions/9335140/how-to-countdown-to-a-date -->
-
+<progress-bar></progress-bar>
 
 </body>
 </html>

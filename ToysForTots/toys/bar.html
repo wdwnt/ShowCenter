@@ -1,0 +1,25 @@
+<div class="bar-holder">
+    <div class=countdown-wrap>
+      <div class="glass">
+        <div class="progress" style="width: {{$ctrl.progressPercent}}%">
+        </div>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">{{$ctrl.progressPercent}}%</span>
+        <span class="goal-label">Funded</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">${{$ctrl.progressDollars}}</span>
+        <span class="goal-label">Raised</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">{{$ctrl.timeLeft.number}}</span>
+        <span class="goal-label">{{$ctrl.timeLeft.units}} Remaining</span>
+      </div>
+      <div class="goal-stat">
+        <span class="goal-number">{{$ctrl.donations.length}}</span>
+        <span class="goal-label">Donations</span>
+      </div>
+    </div>
+    <div class="goal">Goal: ${{$ctrl.goal}}</div>
+</div>
