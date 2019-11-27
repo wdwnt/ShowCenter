@@ -11,3 +11,4 @@ icalevents
 channels
 channels-redis
 requests
+ftfy
