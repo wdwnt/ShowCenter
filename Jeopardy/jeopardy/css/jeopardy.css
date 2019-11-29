@@ -138,6 +138,14 @@ body {
 	margin-right: 10%;
 }
 
+#question-image {
+	height: calc(100% - 180px);
+}
+
+#question-image img{
+	height: 100%;
+}
+
 #game-load-logo-img {
 	width: 80%;
 	height: 80%;
