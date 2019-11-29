@@ -17,9 +17,12 @@
     <script src="bar.js"></script>
  <title>Title</title>
 </head>
-<body ng-app="toysBar" style="background-color: #142F4C;">
+<body ng-app="toysBar" style="background-color: #00FF00">
 
-<progress-bar></progress-bar>
+<div style="display: flex; flex-direction: column; width: 1920px; height: 1080px; background-color: #142F4C">
+    <div style="width: 100%; height: calc(100% - 100px); background-color: #00FF00"></div>
+    <progress-bar style="height: 80px; margin: 10px; font-size: x-large"></progress-bar>
+</div>
 
 </body>
 </html>
