@@ -36,11 +36,9 @@ angular.module('toysBar', ['ngMaterial'])
 					let seconds = Math.floor((distance % _minute) / _second);
 
 					if(days){
-						ctrl.timeLeft = {
-							number: days,
-							units: "Days"
-						};
-					}else if(hours){
+						hours += days * 24;
+					}
+					if(hours){
 						ctrl.timeLeft = {
 							number: hours,
 							units: "Hours"
