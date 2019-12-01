@@ -26,8 +26,8 @@ html, body{
     height: 775px;
     /*margin: auto;*/
     padding-top: 20px;
-/*     background: #888888; */
-	background: url('../images/tree_raw.jpeg');
+     background: #888888; 
+	/*background: url('../images/tree_raw.jpeg');*/
 	background-size: cover;
 
 }
