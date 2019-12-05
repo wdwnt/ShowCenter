@@ -146,6 +146,12 @@ angular.module('parkscenter')
 				.fade("Virtual - Me");
 		};
 
+		ctrl.endWithMusic = function(){
+			vMix().playFromBeginning("parksCenterOuttro.mp3")
+				.wait(14000)
+				.overlay("End tag");
+		};
+
 		ctrl.end = function(){
 			vMix().overlay("End tag");
 		};
