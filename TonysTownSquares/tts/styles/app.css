@@ -153,6 +153,7 @@ display-square .marker{
     background-color: gray;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 display-square .marker input{
