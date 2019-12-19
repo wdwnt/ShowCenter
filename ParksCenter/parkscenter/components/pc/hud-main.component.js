@@ -156,9 +156,14 @@ angular.module('parkscenter')
 			vMix().overlay("End tag");
 		};
 
+		ctrl.cleanTheTubes = function(){
+			vMix().cut("CleaningTheTubes")
+				.wait(100)
+				.overlay("End tag")
+		};
+
 		ctrl.postshow = function(){
-			vMix().overlay("End tag")
-				.fade("All the panelists")
+			vMix().fade("All the panelists")
 				.wait(2000)
 				.overlay("All the panelists and Chat", 4);
 		};
