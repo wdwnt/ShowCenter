@@ -146,6 +146,10 @@ body {
 	height: 100%;
 }
 
+#answer-text {
+	font-size: 30px;
+}
+
 #game-load-logo-img {
 	width: 80%;
 	height: 80%;
