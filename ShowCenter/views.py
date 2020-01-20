@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.conf import settings
 
+
 # Create your views here.
 def index(request):
     STATIC_URL = settings.STATIC_URL
@@ -20,13 +21,14 @@ def index(request):
                         '<br>'
                         '<a href="'+STATIC_URL+'jumblecruise/index.html">Jumble Cruise</a>'
                         '<br>'
-                        '<a href="'+STATIC_URL+'jeopardy/index.html">Jeopardy</a>'
+                        '<a href="'+STATIC_URL+'jeopardy/index.html">Jeopardy</a>, and its '
+                        '<a href="'+STATIC_URL+'jeopardy/host.html">Host Board</a>'
                         '<br>'
                         '<a href="'+STATIC_URL+'sale/index.html">Sale of the Pop Century</a>'
                         ' (and its <a href="'+STATIC_URL+'sale/index.html#!/cp">control panel</a>)'
-                        '<a href="'+STATIC_URL+'jeopardy/host.html">Jeopardy Host Board</a>'
                         '<br>'
-                         '<a href="'+STATIC_URL+'toys/vmix.html">Toys for Tots HUD</a> (and the <a href="'+STATIC_URL+'toys/index.html">embeddable verison</a>)'
+                        '<a href="'+STATIC_URL+'toys/vmix.html">Toys for Tots HUD</a> '
+                        '(and the <a href="'+STATIC_URL+'toys/index.html">embeddable version</a>)'
                         '<br>'
                         '<br>'
                         'One-off games:<br>'
