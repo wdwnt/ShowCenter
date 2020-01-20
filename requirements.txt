@@ -12,3 +12,4 @@ channels
 channels-redis
 requests
 ftfy
+six
