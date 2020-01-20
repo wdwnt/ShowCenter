@@ -30,6 +30,8 @@ def index(request):
                         '<a href="'+STATIC_URL+'toys/vmix.html">Toys for Tots HUD</a> '
                         '(and the <a href="'+STATIC_URL+'toys/index.html">embeddable version</a>)'
                         '<br>'
+                        '<a href="'+STATIC_URL+'train/index.html">Train of Thought</a>'
+                        '<br>'
                         '<br>'
                         'One-off games:<br>'
                         '<a href="'+STATIC_URL+'misc/IllumiNateTheTorches/index.html">IllumiNate The Torches</a>'

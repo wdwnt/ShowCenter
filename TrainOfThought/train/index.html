@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app="train" lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="app.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<title>Train of Thought</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Below links retrieved from https://cdnjs.com/libraries/angular.js/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-route.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-aria.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-messages.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.js"></script>
+		<script src="app.js"></script>
+		<script src="../util/util.module.js"></script>
+		<script src="../util/directives/contenteditable.directive.js"></script>
+	</head>
+	<body ng-cloak>
+    <div class="train-view">
+        <div class="word-holder" ng-repeat="word in words">
+            <div class="word" ng-click="revealLetter(word)">
+                {{ word.revealedText }}
+            </div>
+            <button class="md-button md-raised md-primary" ng-click="revealAll(word)">Show "{{ word.answer }}"</button>
+        </div>
+    </div>
+    <div class="sidenav">
+        <div class="scores">
+            <div ng-repeat="team in teams" class="score-holder">
+                <div class="score-display">
+                    <div class="score-number" contenteditable ng-model="team.score"></div>
+                    <div class="team-name" contenteditable ng-model="team.name"></div>
+                </div>
+                <div class="score-controls">
+                    <button class="md-button md-raised md-warn" ng-click="team.score = team.score - 1">-</button>
+                    <button class="md-button md-raised md-primary" ng-click="team.score = team.score + increment">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <div style="margin-bottom: 10px">
+                Give points in increments of <input type="number" ng-model="increment">
+            </div>
+            <textarea ng-model="inputText"
+                      placeholder="Train text - one word per line"
+                      rows="9"
+                      cols="20"
+            ></textarea>
+            <button class="md-button md-raised md-primary" ng-click="load()">Load train</button>
+        </div>
+    </div>
+	</body>
+</html>

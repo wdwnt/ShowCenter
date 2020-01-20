@@ -145,6 +145,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'SaleOfTheCentury'),
     os.path.join(BASE_DIR, 'TonysTownSquares'),
     os.path.join(BASE_DIR, 'ToysForTots'),
+    os.path.join(BASE_DIR, 'TrainOfThought'),
     os.path.join(BASE_DIR, 'Util'),
     os.path.join(BASE_DIR, 'OneOffGames'),
 )
