@@ -1,7 +1,7 @@
 google-api-python-client
 google-auth
 google-auth-httplib2
-Django
+Django==2.*
 gunicorn
 django-heroku
 whitenoise
@@ -12,4 +12,3 @@ channels
 channels-redis
 requests
 ftfy
-six
