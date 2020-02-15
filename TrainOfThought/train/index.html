@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sriracha&display=swap">
 		<title>Train of Thought</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Below links retrieved from https://cdnjs.com/libraries/angular.js/ -->
@@ -23,10 +24,21 @@
 	<body ng-cloak>
     <div class="train-view">
         <div class="word-holder" ng-repeat="word in words">
-            <div class="word" ng-click="revealLetter(word)">
-                {{ word.revealedText }}
+            <div class="word"
+                 style="font-size: calc(850px / 2 / {{ words.length || 1 }});"
+            >
+                <div class="inner-word">{{ word.revealedText || "\u00A0" }}</div>
             </div>
-            <button class="md-button md-raised md-primary" ng-click="revealAll(word)">Show "{{ word.answer }}"</button>
+            <button class="md-button md-raised md-success small-button"
+                    ng-click="revealLetter(word)"
+            >
+                + letter
+            </button>
+            <button class="md-button md-raised md-primary"
+                    ng-click="revealAll(word)"
+            >
+                Show "{{ word.answer }}"
+            </button>
         </div>
     </div>
     <div class="sidenav">

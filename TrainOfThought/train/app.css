@@ -3,11 +3,11 @@ body{
 }
 
 .train-view{
-    width: 960px;
+    width: 640px;
     height: 1080px;
     background-color: #9999FF;
     overflow: visible;
-    margin-right: 205px;
+    margin-right: 285px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -15,13 +15,24 @@ body{
 
 .word-holder{
     flex-grow: 1;
-    width: 1160px;
+    width: 920px;
     display: flex;
 }
 
 .word{
-    width: 960px;
+    width: 640px;
+    height: 100%;
     user-select: none;
+    margin: auto;
+    font-family: 'Sriracha', cursive;
+    background-image: url("cloud.png");
+    background-size: 100% 100%;
+}
+
+.inner-word{
+    position: relative;
+    top: 18px;
+    left: 75px;
 }
 
 .word-holder button{
@@ -30,8 +41,17 @@ body{
     margin: auto;
 }
 
+.word-holder button.small-button{
+    width: 80px;
+}
+
 .controls{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+}
+
+.md-button.md-raised.md-success{
+    color: black;
+    background-color: #00e300;
 }
