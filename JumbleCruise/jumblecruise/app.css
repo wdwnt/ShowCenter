@@ -27,6 +27,11 @@
 
 .anagram{
   font-size: 92pt;
+  /*
+  Normal font:
   font-family: 'Stylish', sans-serif;
-
+  */
+  font-family: 'Odibee Sans', cursive;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
 }
