@@ -136,6 +136,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'DiceTree'),
+    os.path.join(BASE_DIR, 'ImageGenerator'),
     os.path.join(BASE_DIR, 'Jeopardy'),
     os.path.join(BASE_DIR, 'JumbleCruise'),
     os.path.join(BASE_DIR, 'MapGame'),
