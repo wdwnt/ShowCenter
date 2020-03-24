@@ -36,7 +36,7 @@
             <div class="event-text">{{ item.event.toUpperCase() }}</div>
             <div class="event-text invisible">{{ item.event.toUpperCase() }}</div>
         </div>
-        <div class="spacer" ng-repeat-end></div>
+        <div class="spacer" ng-show="!$last" ng-repeat-end></div>
     </div>
 </div>
 </body>
