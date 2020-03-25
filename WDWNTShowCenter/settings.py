@@ -148,6 +148,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'ToysForTots'),
     os.path.join(BASE_DIR, 'TrainOfThought'),
     os.path.join(BASE_DIR, 'Util'),
+    os.path.join(BASE_DIR, 'WhoseQueue'),
     os.path.join(BASE_DIR, 'OneOffGames'),
 )
 django_heroku.settings(locals())
