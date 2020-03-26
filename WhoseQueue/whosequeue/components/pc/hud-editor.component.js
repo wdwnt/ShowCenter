@@ -10,10 +10,10 @@ angular.module('parkscenter')
 					$rootScope.showData = JSON.parse(sessionStorage.getItem("lastPCGame"));
 				}else{
 					var item = {
-						shortName: "",
+						shortName: "Game ",
 						longName: "",
-						thumbnail: "images/wdwntLogo.png",
-						duration: 210
+						thumbnail: "images/whosequeue.png",
+						duration: 0
 					};
 					$rootScope.showData = [angular.copy(item), angular.copy(item), angular.copy(item),
 						angular.copy(item), angular.copy(item), angular.copy(item), angular.copy(item)];
@@ -21,10 +21,13 @@ angular.module('parkscenter')
             }
 			
 			ctrl.curIndex=0;
+            ctrl.gameIndex = 1;
 			
-			ctrl.imageList = ['images/wdwntLogo.png'];
+			ctrl.imageList = ['images/whosequeue.png'];
 			angular.forEach($rootScope.showData, function(item){
 				ctrl.imageList.push(item.thumbnail);
+				item.shortName = "Game " + ctrl.gameIndex;
+				ctrl.gameIndex += 1;
 			});
 
 			$scope.$watch(function(){

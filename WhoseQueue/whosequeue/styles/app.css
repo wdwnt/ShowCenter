@@ -73,7 +73,7 @@
 .parkscenter-hud .sidebar .item-list .logo{
 	height: calc(var(--app-height) * 2 / 15);
 	padding: 0;
-	background-color: gray;
+	background-color: white;
 	color: black;
 }
 

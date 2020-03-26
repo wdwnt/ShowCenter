@@ -30,7 +30,7 @@ angular.module('parkscenter')
 				ctrl.curIndex=-1;
 				ctrl.clock=-1;
 				
-				ctrl.imageList = ['images/wdwntLogo.png'];
+				ctrl.imageList = ['images/whosequeue.png'];
 				angular.forEach($rootScope.showData, function(item){
 					ctrl.imageList.push(item.thumbnail);
 				});
@@ -76,15 +76,15 @@ angular.module('parkscenter')
 				if(ctrl.curIndex===-1){
     				return {
                 	    "shortName": "",
-                	    "longName": "Welcome to ParksCenter!",
-                	    "thumbnail": "images/wdwntLogo.png",
+                	    "longName": "Welcome to Whose Queue!",
+                	    "thumbnail": "images/whosequeue.png",
                 	    "duration": -1
                 	};
 				}else{
 					return {
                 	    "shortName": "",
-                	    "longName": "Thanks for watching ParksCenter!",
-                	    "thumbnail": "images/wdwntLogo.png",
+                	    "longName": "Thanks for watching Whose Queue!",
+                	    "thumbnail": "images/whosequeue.png",
                 	    "duration": -1
                 	};
 				}
