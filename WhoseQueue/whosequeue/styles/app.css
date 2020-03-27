@@ -14,7 +14,7 @@
 .parkscenter-hud .sidebar{
 	flex: 1;
 	height: 100%;
-	background-color: #082549;
+	background-color: azure;
 }
 
 .parkscenter-hud .sidebar .item-list{
@@ -56,18 +56,18 @@
 }
 
 .parkscenter-hud .sidebar .item-list .past{
-	background-color: #082549;
+	background-color: azure;
 	color: grey;
 }
 
 .parkscenter-hud .sidebar .item-list .present{
-	background-color: #1b7cf5;
+	background-color: coral;
 	color: white;
 }
 
 .parkscenter-hud .sidebar .item-list .future{
-	background-color: #0a3162;
-	color: white;
+	background-color: azure;
+	color: darkkhaki;
 }
 
 .parkscenter-hud .sidebar .item-list .logo{
@@ -108,7 +108,7 @@
 	font-family: 'Arial Black', Gadget, sans-serif;
 	font-size: 26pt;
 	padding: 20px 0;
-	background-color: #1b7cf5;
+	background-color: coral;
 	color: white;
 	border: 1px solid black;
 }
