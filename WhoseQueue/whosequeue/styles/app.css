@@ -6,7 +6,7 @@
 	height: var(--app-height);
 	background-color: #00ff00; /* Shouldn't be necessary, but good in case of a leak. */
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	justify-content: flex-start;
 	align-items: flex-end;
 }
