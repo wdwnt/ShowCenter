@@ -110,15 +110,15 @@ angular.module('parkscenter')
 				.wait(1000)
 				.overlay("WDWNT Intro Video")
 				.wait(3000)
-				.unmute("Audio Microphone")
-				.cut("Virtual - Me")
+				.unmute("My webcam")
+				.cut("Me")
 				.wait(8000)
 				.overlay("WDWNT Intro Video")
 				.playFromBeginning("parksCenterIntro.mp3")
 				.wait(7500)
 				.fade("ParksCenter Logo", 1000)
 				.wait(5500)
-				.fade("Virtual - All the panelists", 1000);
+				.fade("All the panelists", 1000);
 		};
 
 		ctrl.outtro = function(){
@@ -131,19 +131,19 @@ angular.module('parkscenter')
 
 		ctrl.shortIntro = function(){
 			vMix().unmute("Audio Microphone")
-				.fade("Virtual - Me", 1000)
+				.fade("Me", 1000)
 				.playFromBeginning("parksCenterIntro.mp3")
 				.wait(7500)
 				.fade("ParksCenter Logo", 1000)
 				.wait(5500)
-				.fade("Virtual - All the panelists", 1000);
+				.fade("All the panelists", 1000);
 		};
 
 		ctrl.travel = function(){
 			vMix().overlay("TravelPlugWithHUD")
 				.wait(20000)
 				.overlay("TravelPlugWithHUD")
-				.fade("Virtual - Me");
+				.fade("Me");
 		};
 
 		ctrl.endWithMusic = function(){
