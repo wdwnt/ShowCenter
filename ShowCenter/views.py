@@ -6,7 +6,7 @@ from django.conf import settings
 def index(request):
     STATIC_URL = settings.STATIC_URL
     resp = f'''
-    <a href="{STATIC_URL}imgGen/index.html">Image generators</a>'
+    <a href="{STATIC_URL}imgGen/index.html">Image generators</a>
         <br>
         <br>
         <a href="{STATIC_URL}parkscenter/index.html">ParksCenter</a>
@@ -37,6 +37,8 @@ def index(request):
         <a href="{STATIC_URL}train/index.html">Train of Thought</a>
         <br>
         <a href="{STATIC_URL}whosequeue/index.html">Whose Queue Is It Anyway</a>
+        <br>
+        <a href="{STATIC_URL}leveled/index.html">LEVELED</a>
         <br>
         <br>
         One-off games:<br>

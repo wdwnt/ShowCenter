@@ -139,6 +139,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'ImageGenerator'),
     os.path.join(BASE_DIR, 'Jeopardy'),
     os.path.join(BASE_DIR, 'JumbleCruise'),
+    os.path.join(BASE_DIR, 'Leveled'),
     os.path.join(BASE_DIR, 'MapGame'),
     os.path.join(BASE_DIR, 'MatchGame'),
     os.path.join(BASE_DIR, 'ParksCenter'),
