@@ -1,5 +1,21 @@
 body{
   --image-size: 150px;
+  --logo-height: 150px;
+
+  margin: 0;
+}
+
+.logo{
+  background-color: black;
+  width: 100%;
+  height: var(--logo-height);
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  height: 100%;
 }
 
 .row{
@@ -17,7 +33,7 @@ body{
 .item{
   width: var(--image-size);
   height: var(--image-size);
-  background-color: wheat;
+  background-color: black;
   position: relative;
 }
 
@@ -26,8 +42,23 @@ body{
   text-align: center;
   line-height: var(--image-size);
   width: calc(1.5 * var(--image-size));
+
+  font-family: "Gotham Black", serif;
+  font-size: 38px;
 }
 
+.header.item.tier-1{
+  background-color: #FF7F7F;
+}
+.header.item.tier-2{
+  background-color: #FFFF7F;
+}
+.header.item.tier-3{
+  background-color: #7FBFFF;
+}
+.header.item.tier-4{
+  background-color: #FF7FFF;
+}
 .header.item.unsorted{
   background-color: tan;
 }
