@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gotham Black";
+  src: url("gotham-black-webfont.woff");
+}
+
 body{
   --image-size: 150px;
   --logo-height: 150px;
