@@ -38,7 +38,7 @@ def index(request):
         <br>
         <a href="{STATIC_URL}whosequeue/index.html">Whose Queue Is It Anyway</a>
         <br>
-        <a href="{STATIC_URL}leveled/index.html">LEVELED</a>
+        LEVELED: <a href="{STATIC_URL}leveled/4tier.html">4 tiers</a>, <a href="{STATIC_URL}leveled/5tier.html">5 tiers</a>
         <br>
         <br>
         One-off games:<br>

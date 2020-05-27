@@ -1,0 +1,16 @@
+.header.item.tier-1{
+    background-color: #FF7F7F;
+}
+.header.item.tier-2{
+    background-color: #FFFF7F;
+}
+.header.item.tier-3{
+    background-color: #7FBFFF;
+}
+.header.item.tier-4{
+    background-color: #FF7FFF;
+}
+.header.item.unsorted{
+    background-color: black;
+    color: white;
+}
