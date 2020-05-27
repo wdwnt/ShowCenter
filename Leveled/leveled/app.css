@@ -10,6 +10,17 @@ body{
   margin: 0;
 }
 
+#stage{
+  width: 1920px;
+  height: 1080px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: black;
+}
+
 .logo{
   background-color: black;
   width: 100%;
