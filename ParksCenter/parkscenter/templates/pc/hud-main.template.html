@@ -12,7 +12,7 @@
                     Times Guide
                 </div>
                 <div ng-repeat="item in $root.showData"
-                    class="short-name" ng-class="$ctrl.getItemState($index)"
+                    class="live short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)"
                     ng-click="$ctrl.curIndex = $index">
                     {{item.shortName}}
                 </div>
@@ -44,6 +44,8 @@
         <br>
         <md-button class="md-raised md-primary" ng-click="$ctrl.outtro()">Outtro (for XL episodes)</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.shortIntro()">Short intro (for XL episodes)</md-button>
+        <br>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.enablePride()">Pride mode</md-button>
     </div>
 </div>
 <div class="bottom-panel">

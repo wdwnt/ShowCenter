@@ -1,7 +1,7 @@
 angular.module('parkscenter')
 .component('hudMain', {
 	templateUrl: 'templates/pc/hud-main.template.html',
-	controller: function($scope, $rootScope, $location, $timeout, $filter, $q, vMix){
+	controller: function($scope, $rootScope, $location, $timeout, $filter, $q, vMix, addCss){
 		let ctrl = this;
 
 		ctrl.DEFAULT_AUDIO = "Line 1";
@@ -170,6 +170,10 @@ angular.module('parkscenter')
 
 		ctrl.buzz = function(){
 			vMix().playFromBeginning("buzzer.mp3");
+		};
+
+		ctrl.enablePride = function(){
+			addCss("styles/app.pride.css");
 		};
 	}
 });

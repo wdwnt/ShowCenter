@@ -10,7 +10,7 @@
 			<div class="header">
 				Show length: {{$ctrl.getShowDuration()}}
 			</div>
-			<div ng-repeat="item in $root.showData" class="short-name" ng-class="$ctrl.getItemState($index)" ng-click="$ctrl.curIndex = $index">
+			<div ng-repeat="item in $root.showData" class="editor short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)" ng-click="$ctrl.curIndex = $index">
 				<input title="Short name" placeholder="Title {{$index+1}}" type="text" ng-model="item.shortName">
 			</div>
 			<div class="logo">
