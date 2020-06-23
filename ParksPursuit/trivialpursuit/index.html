@@ -18,7 +18,7 @@
     <div id="game-container">
 
         <div id="board-left">
-            <img id="logo" class="noselect" src="images/dpplogo.png" alt="" />
+            <img id="logo" class="noselect" src="images/ParksPursuit_logo.png" alt="" />
 
             <br />
 
@@ -63,7 +63,7 @@
         </div>
 
         <div id="board-right">
-            <img id="board" class="noselect" data-draggable="target" src="images/Tots2019.png" alt="" style="margin-top: 150px"/>
+            <img id="board" class="noselect" data-draggable="target" src="images/wdwnewstonight.jpg" alt=""/>
 
             <!--
             <table id="pieces-table">
@@ -85,7 +85,7 @@
             <img id="p4" class="gamepiece" draggable="true" data-draggable="gp" src="images/p4.png" alt="" />
             <img id="p5" class="gamepiece" draggable="true" data-draggable="gp" src="images/p5.png" alt="" />-->
             
-            <table id="category-table" style="margin-top: 180px">
+            <table id="category-table">
                 <tr>
 	                <td style="color:cornflowerblue" contenteditable="true">Places</td>
 					<td style="color:deeppink" contenteditable="true">Music</td>
@@ -102,5 +102,13 @@
 
     </div>
   </div>
+    <script type="text/javascript">
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const theme = urlParams.get('theme');
+        if (theme == 'tots') {
+            $('#board').attr("src","images/Tots2019.png");
+        }
+    </script>
 </body>
 </html>
