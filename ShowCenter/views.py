@@ -40,6 +40,8 @@ def index(request):
         <br>
         LEVELED: <a href="{STATIC_URL}leveled/4tier.html">4 tiers</a>, <a href="{STATIC_URL}leveled/5tier.html">5 tiers</a>
         <br>
+        <a href="{STATIC_URL}sogs/index.html">Super Obscure Game Show</a>
+        <br>
         <br>
         One-off games:<br>
         <a href="{STATIC_URL}misc/IllumiNateTheTorches/index.html">IllumiNate The Torches</a>
