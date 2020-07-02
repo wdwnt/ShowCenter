@@ -1,3 +1,7 @@
+:focus{
+	outline: none;
+}
+
 .parkscenter-hud{
 	--app-height: 720px;
 	--app-width: 1280px;
