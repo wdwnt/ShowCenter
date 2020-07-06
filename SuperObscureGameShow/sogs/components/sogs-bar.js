@@ -9,13 +9,21 @@ angular.module('sogs')
 		//play with this over at https://cubic-bezier.com/
 		const EASING = BezierEasing(0,-0.24,.39,.88);
 
+		ctrl.ONE_TO_100 = [];
+		for(let i=0; i<100; i++){
+			ctrl.ONE_TO_100.push(i+1);
+		}
+
 		ctrl.currentLevel = 100;
+		ctrl.backgroundClass = "";
 
 		ctrl.play = function(amount){
-			console.log("play to "+amount);
 			ctrl.currentLevel = 100;
 			if(amount === null){
-				//TODO: show incorrect answer animation
+				$timeout(function(){
+					ctrl.currentLevel = "X";
+					ctrl.backgroundClass="incorrect";
+				}, 1000);
 			}else{
 				let animationTimeLeft = ANIMATION_DURATION;
 				const drawLoop = function(){
@@ -37,13 +45,19 @@ angular.module('sogs')
 		};
 
 		ctrl.finish = function(){
-			//TODO finishing flourish
-			alert("tada");
+			ctrl.backgroundClass="correct";
+		};
+
+		ctrl.chipColor = function(i){
+			return Math.floor((i-1)/25)+1
+		};
+
+		function reset(){
+			ctrl.currentLevel = 100;
+			ctrl.backgroundClass = "";
 		}
 
-		$scope.$on("reset", function(){
-			ctrl.currentLevel = 100;
-		});
+		$scope.$on("reset", reset);
 
 		$scope.$on("play", function(event, amount){
 			ctrl.play(amount);

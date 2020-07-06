@@ -1,0 +1,88 @@
+html {
+    --BG-COLOR: #f9edd3;
+    --CORRECT-BG-COLOR: #76f647;
+    --INCORRECT-BG-COLOR: #f86c72;
+}
+
+@font-face {
+    font-family: "TheBoldFont";
+    src: url("fonts/theboldfont.ttf");
+}
+
+@keyframes correctAnswer {
+    from{ background-color: var(--BG-COLOR); }
+    to{ background-color: var(--CORRECT-BG-COLOR); }
+}
+
+@keyframes incorrectAnswer {
+    from{ background-color: var(--BG-COLOR); }
+    to{ background-color: var(--INCORRECT-BG-COLOR); }
+}
+
+body{
+    background-color: var(--BG-COLOR);
+    font-family: "TheBoldFont", serif;
+}
+
+sogs-bar{
+    display: block;
+    width: fit-content;
+}
+
+sogs-bar>div{
+    width: 100px;
+    height: 100%;
+    background-color: var(--BG-COLOR);
+}
+
+sogs-bar>div.correct{
+    animation: 250ms linear 0s 5 alternate correctAnswer;
+    background-color: var(--CORRECT-BG-COLOR);
+}
+
+sogs-bar>div.incorrect{
+    animation: 250ms linear 0s 5 alternate incorrectAnswer;
+    background-color: var(--INCORRECT-BG-COLOR);
+}
+
+sogs-bar .point-holder{
+    height: 30px;
+    width: 100%;
+    font-size: 18pt;
+    text-align: center;
+}
+
+sogs-bar .chip-holder{
+    height: calc(100% - 30px);
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+sogs-bar .chip{
+    height: calc(1% - 2px);
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 1px 0;
+}
+
+sogs-bar .chip-4{
+    background-color: #D74276;
+    border-color: #CF0F69;
+}
+
+sogs-bar .chip-3{
+    background-color: #00ABBE;
+    border-color: #00ABBE;
+}
+
+sogs-bar .chip-2{
+    background-color: #D89E00 ;
+    border-color: #C29A00 ;
+}
+
+sogs-bar .chip-1{
+    background-color: #D54110;
+    border-color: #A30004;
+}
