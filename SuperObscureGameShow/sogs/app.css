@@ -2,7 +2,12 @@ html {
     --BG-COLOR: #f9edd3;
     --CORRECT-BG-COLOR: #76f647;
     --INCORRECT-BG-COLOR: #f86c72;
+
+    --SCREEN-WIDTH: 1280px;
+    --SCREEN-HEIGHT: 720px;
 }
+
+/* Font and animation definitions */
 
 @font-face {
     font-family: "TheBoldFont";
@@ -19,10 +24,40 @@ html {
     to{ background-color: var(--INCORRECT-BG-COLOR); }
 }
 
+/* Global stylings */
+
 body{
     background-color: var(--BG-COLOR);
     font-family: "TheBoldFont", serif;
 }
+
+.bordered{
+    border: 2px solid red;
+    padding: 1px;
+}
+
+/* sogs-main styles */
+
+sogs-main sogs-bar{
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui{
+    width: var(--SCREEN-WIDTH);
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui>div{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+sogs-main .main-ui .default{
+    background-image: url("images/sogsLogo.jpg");
+}
+
+/* sogs-bar styles */
 
 sogs-bar{
     display: block;

@@ -1,8 +1,36 @@
-<sogs-bar style="height: 730px; border: 2px solid red; padding: 1px"></sogs-bar>
-<button ng-click="$ctrl.go(0)">Go to 0</button>
-<button ng-click="$ctrl.go(10)">Go to 10</button>
-<button ng-click="$ctrl.go(50)">Go to 50</button>
-<button ng-click="$ctrl.go(90)">Go to 90</button>
-<button ng-click="$ctrl.go(99)">Go to 99</button>
-<button ng-click="$ctrl.go(null)">Incorrect</button>
+<div style="display: flex">
+    <div class="bordered main-ui" ng-switch="$ctrl.data[$ctrl.curItem].type">
+        <div ng-switch-when="text" class="text">
+            <div class="text-item"
+                 ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
+                 ng-click="$ctrl.reveal(item)"
+            >
+                <div class="text-clue" ng-bind="item.clue"></div>
+                <div class="text-points" ng-show="item.revealed" ng-bind="item.value"></div>
+                <div class="text-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+            </div>
+        </div>
+        <div ng-switch-when="images" class="images">
+            <div class="image-item"
+                 ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
+                 ng-click="$ctrl.reveal(item)"
+            >
+                <img ng-src="{{ item.image }}">
+                <div class="image-clue" ng-show="item.clue" ng-bind="item.clue"></div>
+                <div class="image-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+                <div class="image-points" ng-show="item.revealed" ng-bind="item.value"></div>
+            </div>
+        </div>
+        <div ng-switch-default class="default"></div>
+    </div>
+    <sogs-bar class="bordered"></sogs-bar>
+</div>
+<button ng-click="$ctrl.curItem=$ctrl.curItem-1">&lt;</button>
+Question {{ $ctrl.curItem }}
+<button ng-click="$ctrl.curItem=$ctrl.curItem+1">&gt;</button>
+<button ng-click="$ctrl.go(null, 'wrong')">Incorrect</button>
 <button ng-click="$ctrl.reset()">Reset</button>
+<div>
+    <textarea ng-model="gameJson"></textarea>
+    <button ng-click="$ctrl.load(gameJson)">Load JSON</button>
+</div>

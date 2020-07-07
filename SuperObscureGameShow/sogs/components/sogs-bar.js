@@ -18,12 +18,9 @@ angular.module('sogs')
 		ctrl.backgroundClass = "";
 
 		ctrl.play = function(amount){
-			ctrl.currentLevel = 100;
+			reset();
 			if(amount === null){
-				$timeout(function(){
-					ctrl.currentLevel = "X";
-					ctrl.backgroundClass="incorrect";
-				}, 1000);
+				$timeout(function(){ctrl.finish(false);}, 1000);
 			}else{
 				let animationTimeLeft = ANIMATION_DURATION;
 				const drawLoop = function(){
@@ -35,7 +32,7 @@ angular.module('sogs')
 					}
 					if(ctrl.currentLevel < amount || ctrl.currentLevel === 0){
 						ctrl.currentLevel = amount;
-						$timeout(function(){ctrl.finish();}, 0);
+						$timeout(function(){ctrl.finish(true);}, 0);
 					}else{
 						$timeout(drawLoop, ANIMATION_INCREMENT);
 					}
@@ -44,8 +41,16 @@ angular.module('sogs')
 			}
 		};
 
-		ctrl.finish = function(){
-			ctrl.backgroundClass="correct";
+		ctrl.finish = function(success){
+			if(success){
+				ctrl.backgroundClass="correct";
+			}else{
+				ctrl.currentLevel = "X";
+				ctrl.backgroundClass="incorrect";
+			}
+			$timeout(function(){
+				$scope.$emit("finished", ctrl.args);
+			}, 2000);
 		};
 
 		ctrl.chipColor = function(i){
@@ -59,7 +64,8 @@ angular.module('sogs')
 
 		$scope.$on("reset", reset);
 
-		$scope.$on("play", function(event, amount){
+		$scope.$on("play", function(event, amount, args){
+			ctrl.args = args;
 			ctrl.play(amount);
 		});
 	}
