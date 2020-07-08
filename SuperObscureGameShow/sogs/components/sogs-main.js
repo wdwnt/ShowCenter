@@ -9,11 +9,12 @@ angular.module('sogs')
 
 		ctrl.reveal = function(item){
 			if(!item.revealed){
-				ctrl.go(item.amount, item);
+				ctrl.go(item.value, item);
 			}
 		}
 
 		ctrl.go = function(amount, item){
+			console.log("go to "+amount);
 			$scope.$broadcast("play", amount, item);
 		}
 
@@ -26,7 +27,9 @@ angular.module('sogs')
 		}
 
 		$scope.$on("finished", function(event, item){
-			item.revealed =  true;
+			if(item){
+				item.revealed =  true;
+			}
 		});
 	}
 })

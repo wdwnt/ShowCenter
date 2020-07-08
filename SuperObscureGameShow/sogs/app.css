@@ -45,6 +45,7 @@ sogs-main sogs-bar{
 sogs-main .main-ui{
     width: var(--SCREEN-WIDTH);
     height: var(--SCREEN-HEIGHT);
+    margin-right: 5px;
 }
 
 sogs-main .main-ui>div{
@@ -56,6 +57,121 @@ sogs-main .main-ui>div{
 sogs-main .main-ui .default{
     background-image: url("images/sogsLogo.jpg");
 }
+
+/* Image view layout */
+
+sogs-main .main-ui .images{
+    position: absolute;
+    width: var(--SCREEN-WIDTH);
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui .images>img{
+    position: absolute;
+    top: 0;
+    width: var(--SCREEN-WIDTH);
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui .image-items{
+    position: absolute;
+    left: calc(var(--SCREEN-WIDTH) * 0.1875);
+    top: calc(var(--SCREEN-HEIGHT) * 2 / 9);
+    width: calc(var(--SCREEN-WIDTH) * 0.625);
+    height: calc(var(--SCREEN-HEIGHT) * 2 / 3 - 3px);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+sogs-main .main-ui .image-item{
+    position: relative;
+    width: 250px;
+    height: 220px;
+    text-align: center;
+}
+
+sogs-main .main-ui .image-item>img{
+    max-height: 180px;
+}
+
+sogs-main .main-ui .image-clue{
+    position: absolute;
+    top: 183px;
+    width: 168px;
+    margin-left: 27px;
+    background-color: var(--BG-COLOR);
+
+    z-index: 100;
+
+    font-size: 10pt;
+}
+
+sogs-main .main-ui .image-clue.image-answer{
+    z-index: 150;
+}
+
+sogs-main .main-ui .image-points{
+    position: absolute;
+    z-index: 200;
+    top: 188px;
+    left: 205px;
+    font-size: 12pt;
+    width: 35px;
+    text-align: center;
+}
+
+/* Text view layout */
+
+sogs-main .main-ui .text{
+    position: relative;
+    background-image: url("images/textTemplate.jpg");
+}
+
+sogs-main .main-ui .text-items{
+    position: absolute;
+    left: 270px;
+    top: 62px;
+    height: calc(var(--SCREEN-HEIGHT) * 15 / 18);
+
+    font-size: 18pt;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+sogs-main .main-ui .text-item{
+    position: relative;
+    width: 740px;
+    height: 60px;
+    outline: none !important;
+}
+
+sogs-main .main-ui .text-clue{
+    width: 510px;
+}
+
+sogs-main .main-ui .text-points{
+    position: absolute;
+    left: 525px;
+    top: 13px;
+    width: 55px;
+
+    font-size: 28px;
+    text-align: center;
+}
+
+sogs-main .main-ui .text-answer{
+    position: absolute;
+    top: 0;
+    left: 600px;
+    width: 140px;
+    height: 60px;
+}
+
 
 /* sogs-bar styles */
 

@@ -1,34 +1,39 @@
 <div style="display: flex">
-    <div class="bordered main-ui" ng-switch="$ctrl.data[$ctrl.curItem].type">
+    <div class="main-ui" ng-switch="$ctrl.data[$ctrl.curItem].type">
         <div ng-switch-when="text" class="text">
-            <div class="text-item"
-                 ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
-                 ng-click="$ctrl.reveal(item)"
-            >
-                <div class="text-clue" ng-bind="item.clue"></div>
-                <div class="text-points" ng-show="item.revealed" ng-bind="item.value"></div>
-                <div class="text-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+            <div class="text-items">
+                <div class="text-item"
+                     ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
+                     ng-click="$ctrl.reveal(item)"
+                >
+                    <div class="text-clue" ng-bind="item.clue"></div>
+                    <div class="text-points" ng-show="item.revealed" ng-bind="item.value"></div>
+                    <div class="text-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+                </div>
             </div>
         </div>
         <div ng-switch-when="images" class="images">
-            <div class="image-item"
-                 ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
-                 ng-click="$ctrl.reveal(item)"
-            >
-                <img ng-src="{{ item.image }}">
-                <div class="image-clue" ng-show="item.clue" ng-bind="item.clue"></div>
-                <div class="image-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
-                <div class="image-points" ng-show="item.revealed" ng-bind="item.value"></div>
+            <div class="image-items">
+                <div class="image-item"
+                     ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
+                     ng-click="$ctrl.reveal(item)"
+                >
+                    <img ng-src="{{ item.image }}">
+                    <div class="image-clue" ng-show="item.clue" ng-bind="item.clue"></div>
+                    <div class="image-clue image-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+                    <div class="image-points" ng-show="item.revealed" ng-bind="item.value"></div>
+                </div>
             </div>
+            <img src="images/imageTemplate.png">
         </div>
         <div ng-switch-default class="default"></div>
     </div>
-    <sogs-bar class="bordered"></sogs-bar>
+    <sogs-bar></sogs-bar>
 </div>
 <button ng-click="$ctrl.curItem=$ctrl.curItem-1">&lt;</button>
-Question {{ $ctrl.curItem }}
+Question {{ $ctrl.curItem+1 }}
 <button ng-click="$ctrl.curItem=$ctrl.curItem+1">&gt;</button>
-<button ng-click="$ctrl.go(null, 'wrong')">Incorrect</button>
+<button ng-click="$ctrl.go(null, null)">Incorrect</button>
 <button ng-click="$ctrl.reset()">Reset</button>
 <div>
     <textarea ng-model="gameJson"></textarea>
