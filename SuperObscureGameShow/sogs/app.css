@@ -152,6 +152,7 @@ sogs-main .main-ui .text-item{
 
 sogs-main .main-ui .text-clue{
     width: 510px;
+    white-space: pre-line;
 }
 
 sogs-main .main-ui .text-points{
@@ -172,6 +173,16 @@ sogs-main .main-ui .text-answer{
     height: 60px;
 }
 
+/* Game controls */
+
+sogs-main .controls{
+    display: flex;
+    font-size: 26px;
+}
+
+sogs-main .json-loader{
+    margin-left: 25px;
+}
 
 /* sogs-bar styles */
 
@@ -184,6 +195,7 @@ sogs-bar>div{
     width: 100px;
     height: 100%;
     background-color: var(--BG-COLOR);
+    padding: 0 5px;
 }
 
 sogs-bar>div.correct{

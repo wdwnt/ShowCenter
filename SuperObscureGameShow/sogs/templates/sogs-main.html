@@ -4,7 +4,6 @@
             <div class="text-items">
                 <div class="text-item"
                      ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
-                     ng-click="$ctrl.reveal(item)"
                 >
                     <div class="text-clue" ng-bind="item.clue"></div>
                     <div class="text-points" ng-show="item.revealed" ng-bind="item.value"></div>
@@ -16,7 +15,6 @@
             <div class="image-items">
                 <div class="image-item"
                      ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
-                     ng-click="$ctrl.reveal(item)"
                 >
                     <img ng-src="{{ item.image }}">
                     <div class="image-clue" ng-show="item.clue" ng-bind="item.clue"></div>
@@ -30,12 +28,38 @@
     </div>
     <sogs-bar></sogs-bar>
 </div>
-<button ng-click="$ctrl.curItem=$ctrl.curItem-1">&lt;</button>
-Question {{ $ctrl.curItem+1 }}
-<button ng-click="$ctrl.curItem=$ctrl.curItem+1">&gt;</button>
-<button ng-click="$ctrl.go(null, null)">Incorrect</button>
-<button ng-click="$ctrl.reset()">Reset</button>
-<div>
-    <textarea ng-model="gameJson"></textarea>
-    <button ng-click="$ctrl.load(gameJson)">Load JSON</button>
+<div class="controls">
+    <div>
+        <div class="question-control">
+            <button ng-click="$ctrl.curItem=$ctrl.curItem-1">&lt;</button>
+            Question {{ $ctrl.curItem+1 }}
+            <button ng-click="$ctrl.curItem=$ctrl.curItem+1">&gt;</button>
+        </div>
+        <div class="correct-answer-list" ng-show="$ctrl.data[$ctrl.curItem].items">
+            <table>
+                <tr>
+                    <td>Clue #</td>
+                    <td>Clue text</td>
+                    <td>Answer</td>
+                </tr>
+                <tr ng-repeat="item in $ctrl.data[$ctrl.curItem].items">
+                    <td>{{ $index+1 }}</td>
+                    <td>{{ item.clue }}</td>
+                    <td ng-show="item.startedRevealing">{{ item.answer }}</td>
+                    <td ng-show="!item.startedRevealing">
+                        <button ng-click="$ctrl.reveal(item)">{{ item.answer }}</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="json-loader">
+        <button ng-click="$ctrl.go(null, null)">Incorrect</button>
+        <button ng-click="$ctrl.reset()">Reset</button>
+        <br>
+        <br>
+        <textarea ng-model="gameJson"></textarea>
+        <br>
+        <button ng-click="$ctrl.load(gameJson)">Load JSON</button>
+    </div>
 </div>
