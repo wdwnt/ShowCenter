@@ -12,3 +12,5 @@ channels
 channels-redis
 requests
 ftfy
+fuzzywuzzy
+python-Levenshtein

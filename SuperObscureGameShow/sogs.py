@@ -72,7 +72,8 @@ FASTPASS_ANSWERS = ('Alien Swirling Saucers',
                     'Toy Story Midway Mania!',
                     'Turtle Talk With Crush',
                     'Under the Sea ~ Journey of The Little Mermaid',
-                    'Up! A Great Bird Adventure',)
+                    'Up! A Great Bird Adventure',
+                    'Voyage of The Little Mermaid')
 
 FP_ANS_KEY = 'Name as many attractions as you can that had FastPass+ as of March 1, 2020 (i.e., before the parks closed).'
 DIRECT_KEYS = [
@@ -226,7 +227,7 @@ def confirm(prompt):
 
 def _merge_counter(in_counter: Counter, accepted_answer):
     in_dict = dict(in_counter)
-    cleaned_answers = defaultdict(int)
+    cleaned_answers = Counter()
     is_accepted_tuple = isinstance(accepted_answer, tuple)
     manual_matches = {}
     if not is_accepted_tuple:
@@ -234,7 +235,7 @@ def _merge_counter(in_counter: Counter, accepted_answer):
     for answer, answer_count in in_dict.items():
         is_matching_answer = answer in accepted_answer if is_accepted_tuple else answer == accepted_answer
         if is_matching_answer:
-            cleaned_answers[answer] = answer_count
+            cleaned_answers[answer] += answer_count
         else:
             if is_accepted_tuple:
                 (sort_match, sort_score) = process.extractOne(a, FASTPASS_ANSWERS, scorer=fuzz.token_sort_ratio)
@@ -247,7 +248,7 @@ def _merge_counter(in_counter: Counter, accepted_answer):
                     possible_matches.append('NONE OF THE ABOVE')
                     selection = rawselect(f'Which does this match?: {answer}', choices=possible_matches)
                     if selection == 'NONE OF THE ABOVE':
-                        cleaned_answers[answer] = answer_count
+                        cleaned_answers[answer] += answer_count
                         manual_matches[answer] = None
                     else:
                         cleaned_answers[selection] += answer_count
@@ -266,7 +267,7 @@ def _merge_counter(in_counter: Counter, accepted_answer):
                         cleaned_answers[answer] = answer_count
                         manual_matches[answer] = None
 
-    return Counter(cleaned_answers), manual_matches
+    return cleaned_answers, manual_matches
 
 in_data = parse_input_file(FILE_LOCATION)
 
