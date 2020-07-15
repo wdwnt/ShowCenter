@@ -54,6 +54,8 @@
         </div>
     </div>
     <div class="json-loader">
+        <input ng-model="points" style="width: 3em" ng-show="!$ctrl.data[$ctrl.curItem].items">
+        <button ng-click="$ctrl.go(points, null); points = ''" ng-show="!$ctrl.data[$ctrl.curItem].items">Reveal</button>
         <button ng-click="$ctrl.go(null, null)">Incorrect</button>
         <button ng-click="$ctrl.reset()">Reset</button>
         <br>
