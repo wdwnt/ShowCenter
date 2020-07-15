@@ -66,6 +66,17 @@ sogs-main .main-ui .images{
     height: var(--SCREEN-HEIGHT);
 }
 
+sogs-main .main-ui .images .title{
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    width: 600px;
+    height: 78px;
+    z-index: 100;
+    text-align: center;
+    font-size: 24pt;
+}
+
 sogs-main .main-ui .images>img{
     position: absolute;
     top: 0;
@@ -133,10 +144,10 @@ sogs-main .main-ui .text{
 sogs-main .main-ui .text-items{
     position: absolute;
     left: 270px;
-    top: 62px;
+    top: 66px;
     height: calc(var(--SCREEN-HEIGHT) * 15 / 18);
 
-    font-size: 18pt;
+    font-size: 16pt;
 
     display: flex;
     flex-direction: column;

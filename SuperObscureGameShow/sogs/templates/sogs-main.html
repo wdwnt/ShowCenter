@@ -12,6 +12,7 @@
             </div>
         </div>
         <div ng-switch-when="images" class="images">
+            <div class="title">{{ $ctrl.data[$ctrl.curItem].title }}</div>
             <div class="image-items">
                 <div class="image-item"
                      ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
@@ -32,7 +33,7 @@
     <div>
         <div class="question-control">
             <button ng-click="$ctrl.curItem=$ctrl.curItem-1">&lt;</button>
-            Question {{ $ctrl.curItem+1 }}
+            Board {{ $ctrl.curItem+1 }}
             <button ng-click="$ctrl.curItem=$ctrl.curItem+1">&gt;</button>
         </div>
         <div class="correct-answer-list" ng-show="$ctrl.data[$ctrl.curItem].items">
