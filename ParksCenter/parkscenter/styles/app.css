@@ -3,8 +3,8 @@
 }
 
 .parkscenter-hud{
-	--app-height: 720px;
-	--app-width: 1280px;
+	--app-height: 1080px;
+	--app-width: 1920px;
 
 	width: var(--app-width);
 	height: var(--app-height);
@@ -35,7 +35,7 @@
 	border: 1px solid black;
 	text-transform: uppercase;
 	font-family: 'Arial Black', Gadget, sans-serif;
-	font-size: 16pt;
+	font-size: 26pt;
 	padding: 8px 0 8px 5px;
 }
 
@@ -89,7 +89,7 @@
 
 .parkscenter-hud .main .body{
 	width: 100%;
-	height: calc(100% - 96px);
+	height: calc(var(--app-height) - var(--app-height) * 2 / 15);
 	background-color: #00ff00;
 	overflow: hidden;
 	position: relative;
@@ -107,11 +107,11 @@
 }
 
 .parkscenter-hud .main .footer{
-	height: 54px;
+	height: calc(var(--app-height) * 2 / 15 - 40px);
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Arial Black', Gadget, sans-serif;
-	font-size: 26pt;
+	font-size: 48pt;
 	padding: 20px 0;
 	background-color: #1b7cf5;
 	color: white;
@@ -205,7 +205,7 @@
 
 .parkscenter-vs-hud .main .bracket li.game-top,
 .parkscenter-vs-hud .main .bracket li.game-bottom{
-	padding-left:20px;
+	padding-left: 20px;
 	background-color: var(--inprog-color);
 	border: var(--border-color) !important;
 	padding-top: 10px;
