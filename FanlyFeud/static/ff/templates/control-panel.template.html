@@ -2,7 +2,7 @@
 <div style="display: flex">
     <div style="margin-right: 10px" ng-repeat="(_, team) in $ctrl.show.teams">
         <div style="display: flex">Name: <input ng-model="team.name"></div>
-        <div style="display: flex">Points: <input ng-model="team.points"></div>
+        <div style="display: flex">Points: <input type="number" ng-model="team.points"></div>
         Members:
         <div ng-repeat="member in team.members track by $index" style="display: flex">
             <input ng-model="team.members[$index]">
@@ -30,9 +30,9 @@
             <button ng-click="$ctrl.show.main.surveyData[curRound] = $ctrl.createSurveyQuestion(answers)">Go</button>
         </div>
         <div ng-if="$ctrl.show.main.surveyData[curRound]" style="width: 520px">
-            <textarea style="width: 500px; height: 2.4em" ng-model="$ctrl.show.main.surveyData[curRound].question"></textarea>
+            <textarea style="width: 510px; height: 2.4em" ng-model="$ctrl.show.main.surveyData[curRound].question"></textarea>
             <div style="width: 500px; height: 100px; display: flex; flex-wrap: wrap; flex-direction: column">
-                <div ng-repeat="answer in $ctrl.show.main.surveyData[curRound].answers" style="width: 250px; height: 25px">
+                <div ng-repeat="answer in $ctrl.show.main.surveyData[curRound].answers" style="width: 260px; height: 25px">
                     <input ng-model="answer.answer" style="width: 190px">
                     <input ng-model="answer.points" style="width: 45px">
                 </div>
