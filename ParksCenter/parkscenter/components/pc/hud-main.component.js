@@ -110,7 +110,7 @@ angular.module('parkscenter')
 				.wait(1000)
 				.overlay("WDWNT Intro Video")
 				.wait(3000)
-				.unmute("My webcam")
+				.unmute("YetiMic")
 				.cut("Me")
 				.wait(8000)
 				.overlay("WDWNT Intro Video")
@@ -140,9 +140,16 @@ angular.module('parkscenter')
 		};
 
 		ctrl.travel = function(){
-			vMix().overlay("TravelPlugWithHUD")
+			vMix().overlay("TravelPlug")
 				.wait(20000)
-				.overlay("TravelPlugWithHUD")
+				.overlay("TravelPlug")
+				.fade("Me");
+		};
+
+		ctrl.wigs = function(){
+			vMix().overlay("WIGSPlug")
+				.wait(20000)
+				.overlay("WIGSPlug")
 				.fade("Me");
 		};
 
