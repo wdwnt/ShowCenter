@@ -42,6 +42,8 @@ def index(request):
         <br>
         <a href="{STATIC_URL}sogs/index.html">Super Obscure Game Show</a>
         <br>
+        <a href="{STATIC_URL}millionaire/index.html">Millionaire</a>
+        <br>
         <br>
         One-off games:<br>
         <a href="{STATIC_URL}misc/IllumiNateTheTorches/index.html">IllumiNate The Torches</a>

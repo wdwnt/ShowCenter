@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="question/millionaire-question.css">
+<div class="question-box">
+    <div class="question padding">
+        <div class="bumper left-bumper"></div>
+        <div class="content"><p>{{ $ctrl.game.currentQuestion.question }}</p></div>
+        <div class="bumper right-bumper"></div>
+    </div>
+    <div class="answers">
+        <div class="answer padding"
+             ng-repeat="answer in $ctrl.game.currentQuestion.answers"
+             ng-class="$ctrl.getClassForAnswer($index)"
+             ng-click="$ctrl.clickAnswer($index)"
+        >
+            <div class="bumper left-bumper dot"></div>
+            <div class="answer-label">{{ $ctrl.answerLabels[$index] }}:</div>
+            <div class="content">{{ answer }}</div>
+            <div class="bumper right-bumper"></div>
+        </div>
+    </div>
+</div>
