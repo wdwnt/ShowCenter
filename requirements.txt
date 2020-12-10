@@ -1,7 +1,7 @@
 google-api-python-client
 google-auth
 google-auth-httplib2
-Django==2.*
+Django
 gunicorn
 django-heroku
 whitenoise

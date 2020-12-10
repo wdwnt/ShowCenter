@@ -1,6 +1,6 @@
 angular.module('vMix', [])
     .factory('vMix', function($q, $http, $timeout){
-        let VMIX_DEFAULT_LOCATION = "http://127.0.0.1:8088/api/";
+        let VMIX_DEFAULT_LOCATION = "http://127.0.0.1:41235/api/";
 
         return function(url){
             let VMIX_LOCATION = VMIX_DEFAULT_LOCATION;
