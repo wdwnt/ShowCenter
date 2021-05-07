@@ -1,0 +1,242 @@
+[
+  {
+    "type": "text",
+    "items": [
+      {
+        "clue": "The newest resort at WDW",
+        "answer": "Riviera",
+        "value": 80
+      },
+      {
+        "clue": "It replaced XZFR Rockin' Rollerdrome at Pleasure Island",
+        "answer": "Rock and Roll Beach Club",
+        "value": 2
+      },
+      {
+        "clue": "He impersonates Mickey Mouse in a preshow video",
+        "answer": "Rizzo",
+        "value": 40
+      },
+      {
+        "clue": "The planet you exited Space Mountain through, before the FedEx Sponsorship",
+        "answer": "RCA-1",
+        "value": 5
+      },
+      {
+        "clue": "Stopped visiting guests at Chefs De France in 2013",
+        "answer": "Remy",
+        "value": 53
+      },
+      {
+        "clue": "Irish pub themed restaurant at Disney Springs",
+        "answer": "Raglan Road",
+        "value": 76
+      },
+      {
+        "clue": "He’s talking to John Muir in the American Adventure",
+        "answer": "Teddy Roosevelt",
+        "value": 21
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "items": [
+      {
+        "clue": "It has two locations, one at Disney Springs and one at Animal Kingdom",
+        "answer": "Rainforest Cafe",
+        "value": 80
+      },
+      {
+        "clue": "These Wizard of Oz props were once on display in the Great Movie Ride queue",
+        "answer": "Ruby Slippers",
+        "value": 63
+      },
+      {
+        "clue": "This Cocoa beach icon now has a store at Disney Springs",
+        "answer": "Ron Jon Surf Shop",
+        "value": 39
+      },
+      {
+        "clue": "One of the three outer areas of Coronado Springs",
+        "answer": "Ranchos",
+        "value": 9
+      },
+      {
+        "clue": "The New Smokehouse at the American adventure",
+        "answer": "Regal Eagle",
+        "value": 57
+      },
+      {
+        "clue": "His blueberry moonshine still exploded, flooding Chickapin Hill",
+        "answer": "Rackety Raccoon",
+        "value": 7
+      },
+      {
+        "clue": "She’s missing from both the Tiki Room and the Big Thunder Mountain queue",
+        "answer": "Rosita",
+        "value": 22
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "items": [
+      {
+        "clue": "It featured the Dreamport",
+        "answer": "Journey into Imagination",
+        "value": 20
+      },
+      {
+        "clue": "It featured the Futureport",
+        "answer": "Horizons",
+        "value": 12
+      },
+      {
+        "clue": "Directed by Francis Ford Coppola",
+        "answer": "Captain EO",
+        "value": 24
+      },
+      {
+        "clue": "Its name refers to a unit of length, not depth",
+        "answer": "20,000 Leagues Under the Sea",
+        "value": 38
+      },
+      {
+        "clue": "Former home of SMRT-1",
+        "answer": "Communicore",
+        "value": 12
+      },
+      {
+        "clue": "Starred Chevy Chase and Martin Short",
+        "answer": "Monster Sound Show",
+        "value": 5
+      },
+      {
+        "clue": "Also the name of a 2000 movie",
+        "answer": "Mission to Mars",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "items": [
+      {
+        "clue": "Was temporarily named \"Radio Disney River Cruise\"",
+        "answer": "Discovery River Boats",
+        "value": 13
+      },
+      {
+        "clue": "Most of the footage was spliced together with animation from The Lion King to form its replacement",
+        "answer": "Symbiosis",
+        "value": 5
+      },
+      {
+        "clue": "The only opening day EPCOT attraction with an outdoor portion",
+        "answer": "World of Motion",
+        "value": 22
+      },
+      {
+        "clue": "The price in the name might have been misleading - most things actually cost a quarter",
+        "answer": "Main Street Penny Arcade",
+        "value": 24
+      },
+      {
+       "clue": "Closed in two lands simultaneously",
+        "answer": "Skyway",
+        "value": 11
+      },
+      {
+       "clue": "Starred Woody Harrelson, Howard Cosell, and Lucile Ball",
+        "answer": "Superstar Television",
+        "value": 4
+      },
+      {
+        "clue": "You go to Hell. (No, really.)",
+        "answer": "Mr. Toad’s Wild Ride",
+        "value": 50
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "items": [
+      {
+        "clue": "National Ursine Hootenanny",
+        "answer": "Country Bear Jamboree",
+        "value": 33
+      },
+      {
+         "clue": "Soarin’ to Luna",
+        "answer": "Flight to the Moon",
+        "value": 23
+      },
+      {
+        "clue": "The Phantom Manor",
+        "answer": "The Haunted Mansion",
+        "value": 78
+      },
+      {
+        "clue": "Frozen Water’s #FFFFFF Quest",
+        "answer": "Snow White’s Adventures",
+        "value": 7
+      },
+      {
+        "clue": "Equatorial Ballad",
+        "answer": "Tropical Serenade",
+        "value": 3
+      },
+      {
+        "clue": "That is an Inconsequential Planet",
+        "answer": "It’s a Small World",
+        "value": 10
+      },
+      {
+        "clue": "Sir Amphibian’s Feral Excursion",
+        "answer": "Mr. Toad’s Wild Ride",
+        "value": 59
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "items": [
+      {
+        "clue": "Skippy’s Escape",
+        "answer": "Peter Pan’s Flight",
+        "value": 5
+      },
+      {
+        "clue": "Atmospheric Route",
+        "answer": "Skyway",
+        "value": 14
+      },
+      {
+        "clue": "Neutral Relations Arboreal Dwelling",
+        "answer": "Swiss Family Treehouse",
+        "value": 24
+      },
+      {
+        "clue": "Corridor of Executives",
+        "answer": "Hall of Presidents",
+        "value": 64
+      },
+      {
+        "clue": "Crazy Cuppa Celebration ",
+        "answer": "Mad Tea Party",
+        "value": 35
+      },
+      {
+        "clue": "Approximately 96 Megameters Submerged",
+        "answer": "20,000 Leagues Under the Sea",
+        "value": 68
+      },
+      {
+        "clue": "Walter Elias’ Globe Trackage",
+        "answer": "Walt Disney World Railroad",
+        "value": 8
+      }
+    ]
+  }
+]
