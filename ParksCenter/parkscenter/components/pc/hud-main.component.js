@@ -8,9 +8,11 @@ angular.module('parkscenter')
 		
 		let inc = function(){
 			ctrl.curIndex++;
+			ctrl.indexChanged();
 		};
 		let dec = function(){
 			ctrl.curIndex--;
+			ctrl.indexChanged();
 		};
 		ctrl.arrowControl={
 				left: dec,
@@ -100,6 +102,28 @@ angular.module('parkscenter')
 				return "present";
 			}
 		};
+
+		ctrl.indexChanged = function (){
+			const shortNameList = document.getElementById('short-name-list');
+
+			let itemAtTop = ctrl.curIndex;
+			if(ctrl.curIndex >= $rootScope.showData.length) {
+				itemAtTop = $rootScope.showData.length - 7;
+			}
+			if(ctrl.curIndex <= 1 || itemAtTop < 0) {
+				itemAtTop = 1;
+			}
+
+			console.log(itemAtTop);
+			const elmToScrollTo = document.getElementById('short-name-' + itemAtTop);
+			console.log(elmToScrollTo);
+			const top = elmToScrollTo.offsetTop;
+			console.log(top);
+			shortNameList.scrollTo({
+				top,
+				behavior: "smooth"
+			});
+		}
 
 		ctrl.white = function(){
 			vMix().cut("White");

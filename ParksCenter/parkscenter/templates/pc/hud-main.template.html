@@ -2,21 +2,24 @@
     <div arrow-control="$ctrl.arrowControl[$dir]()" class="parkscenter-hud">
         <div class="sidebar">
             <div class="item-list">
-                <div class="thumbnail">
+                <div class="thumbnail item-list-item">
 				    <img src="images/ParksCenter_2021_Logo.png">
                 </div>
-                <div class="clock">
+                <div class="clock item-list-item">
                     <span ng-show="$ctrl.clockDate">{{$ctrl.clockDate | date:'m:ss'}}&nbsp;</span>
                 </div>
-                <div class="header" ng-click="$ctrl.curIndex = -1">
+                <div class="header item-list-item" ng-click="$ctrl.curIndex = -1; $ctrl.indexChanged()">
                     Times Guide
                 </div>
-                <div ng-repeat="item in $root.showData"
-                    class="live short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)"
-                    ng-click="$ctrl.curIndex = $index">
-                    {{item.shortName}}
+                <div class="short-name-list" id="short-name-list">
+                    <div ng-repeat="item in $root.showData"
+                         id="short-name-{{$index+1}}"
+                        class="live item-list-item short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)"
+                        ng-click="$ctrl.curIndex = $index; $ctrl.indexChanged()">
+                        {{item.shortName}}
+                    </div>
                 </div>
-                <div class="logo" ng-click="$ctrl.curIndex = $root.showData.length">
+                <div class="logo item-list-item" ng-click="$ctrl.curIndex = $root.showData.length; $ctrl.indexChanged()">
 				    <img src="images/wdwnt_logo_2017_v2.png"/>
                 </div>
             </div>

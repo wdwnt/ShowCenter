@@ -4,6 +4,11 @@ body {
 	--wdwnt-color-3: #0a3162;
 }
 
+.green-button {
+	background-color: green !important;
+	color: white !important;
+}
+
 /* region ParksCenter */
 
 :focus{
@@ -37,7 +42,7 @@ body {
 	align-items: stretch;
 }
 
-.parkscenter-hud .sidebar .item-list div{
+.parkscenter-hud .sidebar .item-list .item-list-item{
 	height: calc(var(--app-height) / 15);
 	box-sizing: border-box;
 	border: 1px solid black;
@@ -45,6 +50,24 @@ body {
 	font-family: 'Arial Black', Gadget, sans-serif;
 	font-size: 26pt;
 	padding: 8px 0 8px 5px;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name-list{
+	height: calc(7 * var(--app-height) / 15);
+	overflow: hidden;
+	position: relative;
+}
+.parkscenter-hud .sidebar .item-list .short-name-list.editor{
+	overflow: auto;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name {
+	display: flex;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name .delete {
+	background-color: red;
+	color: white;
 }
 
 .parkscenter-hud .sidebar .item-list .thumbnail{
