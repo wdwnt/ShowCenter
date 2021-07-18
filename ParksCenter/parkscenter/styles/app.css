@@ -1,3 +1,11 @@
+body {
+	--wdwnt-color-1: #1b7cf5;
+	--wdwnt-color-2: #082549;
+	--wdwnt-color-3: #0a3162;
+}
+
+/* region ParksCenter */
+
 :focus{
 	outline: none;
 }
@@ -19,7 +27,7 @@
 .parkscenter-hud .sidebar{
 	flex: 1;
 	height: 100%;
-	background-color: #082549;
+	background-color: var(--wdwnt-color-2);
 }
 
 .parkscenter-hud .sidebar .item-list{
@@ -43,6 +51,7 @@
 	height: calc(var(--app-height) * 4 / 15);
 	border: 0;
 	padding: 0;
+	background-color: var(--wdwnt-color-1);
 }
 
 .parkscenter-hud .sidebar .item-list .thumbnail img{
@@ -61,25 +70,29 @@
 }
 
 .parkscenter-hud .sidebar .item-list .past{
-	background-color: #082549;
+	background-color: var(--wdwnt-color-2);
 	color: grey;
 }
 
 .parkscenter-hud .sidebar .item-list .present{
-	background-color: #1b7cf5;
+	background-color: var(--wdwnt-color-1);
 	color: white;
 }
 
 .parkscenter-hud .sidebar .item-list .future{
-	background-color: #0a3162;
+	background-color: var(--wdwnt-color-3);
 	color: white;
 }
 
 .parkscenter-hud .sidebar .item-list .logo{
 	height: calc(var(--app-height) * 2 / 15);
 	padding: 0;
-	background-color: gray;
+	background-color: white;
 	color: black;
+}
+
+.parkscenter-hud .sidebar .item-list .logo img {
+	width: 100%;
 }
 
 .parkscenter-hud .main{
@@ -113,7 +126,7 @@
 	font-family: 'Arial Black', Gadget, sans-serif;
 	font-size: 42pt;
 	padding: 20px 0;
-	background-color: #1b7cf5;
+	background-color: var(--wdwnt-color-1);
 	color: white;
 	border: 1px solid black;
 }
@@ -133,19 +146,25 @@
 	display: flex
 }
 
-/* Animations */
+/* endregion */
+
+/* region Animations */
 
 .parkscenter-hud .sidebar .item-list .short-name.ng-animate{
 	transition:0.5s ease all;
 }
 
-/* Editor specific classes */
+/* endregion */
+
+/* region Editor specific classes */
 
 .parkscenter-hud input{
 	width: calc(100% - 20px);
 }
 
-/* ParksCenter Vs. */
+/* endregion */
+
+/* region ParksCenter Vs. */
 
 .parkscenter-vs-hud .main .footer{
 	background-color: #f53214;
@@ -294,3 +313,5 @@
 .parkscenter-vs-hud .main .clock.clock-show{
 	top: 0;
 }
+
+/* endregion */
