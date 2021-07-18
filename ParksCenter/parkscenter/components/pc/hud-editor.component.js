@@ -18,6 +18,7 @@ angular.module('parkscenter')
 				}else{
 					$rootScope.showData = [angular.copy(item), angular.copy(item), angular.copy(item),
 						angular.copy(item), angular.copy(item), angular.copy(item), angular.copy(item),
+						angular.copy(item), angular.copy(item), angular.copy(item), angular.copy(item),
 						angular.copy(item)];
 				}
             }
