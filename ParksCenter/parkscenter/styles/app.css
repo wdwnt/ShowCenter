@@ -68,6 +68,8 @@ body {
 .parkscenter-hud .sidebar .item-list .short-name .delete {
 	background-color: red;
 	color: white;
+	position: absolute;
+	right: 0;
 }
 
 .parkscenter-hud .sidebar .item-list .thumbnail{

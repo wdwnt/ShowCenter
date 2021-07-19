@@ -12,7 +12,7 @@
 			</div>
 			<div class="short-name-list editor">
 				<div ng-repeat="item in $root.showData" class="editor item-list-item short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)" ng-click="$ctrl.curIndex = $index">
-					<input title="Short name" placeholder="Title {{$index+1}}" type="text" ng-model="item.shortName">
+					<span contenteditable="true" ng-model="item.shortName" style="display: inline-block; width: 100%"></span>
 					<a class="delete" ng-click="$ctrl.deleteItem($index)">X</a>
 				</div>
 			</div>
@@ -23,9 +23,7 @@
 	</div>
 	<div class="main">
 		<div class="body"></div>
-		<div class="footer" id="footer">
-			<input title="Long name" type="text" ng-model="$root.showData[$ctrl.curIndex].longName" placeholder="Description {{$ctrl.curIndex+1}}">
-		</div>
+		<div class="footer" id="footer" ng-model="$root.showData[$ctrl.curIndex].longName" contenteditable="true"></div>
 	</div>
 </div>
 <hr>
