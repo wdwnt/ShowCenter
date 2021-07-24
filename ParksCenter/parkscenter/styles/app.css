@@ -110,10 +110,13 @@ body {
 }
 
 .parkscenter-hud .sidebar .item-list .logo{
-	height: calc(var(--app-height) * 2 / 15);
+	height: calc(var(--app-height) * 2 / 15 + 2px);
 	padding: 0;
 	background-color: white;
 	color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .parkscenter-hud .sidebar .item-list .logo img {
