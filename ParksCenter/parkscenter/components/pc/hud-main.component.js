@@ -35,6 +35,8 @@ angular.module('parkscenter')
 				ctrl.imageList = ['images/wdwntLogo.png'];
 				angular.forEach($rootScope.showData, function(item){
 					ctrl.imageList.push(item.thumbnail);
+					item.shortName = item.shortName.replace(/[^\x00-\x7F]/g, "");
+					item.longName = item.longName.replace(/[^\x00-\x7F]/g, "");
 				});
 
 				$scope.$watch(function(){
@@ -131,72 +133,30 @@ angular.module('parkscenter')
 
 		ctrl.intro = function(){
 			vMix().cut("White")
-				.wait(1000)
-				.overlay("WDWNT Intro Video")
+				.volumeFade("2021 PC Music Bed", 100, 1000)
 				.wait(3000)
-				.unmute("YetiMic")
-				.cut("Me")
-				.wait(8000)
-				.overlay("WDWNT Intro Video")
-				.playFromBeginning("parksCenterIntro.mp3")
-				.wait(7500)
-				.fade("ParksCenter Logo", 1000)
-				.wait(5500)
-				.fade("All the panelists", 1000);
-		};
-
-		ctrl.outtro = function(){
-			vMix().playFromBeginning("parksCenterOuttro.mp3")
-				.fade("ParksCenter Logo", 1000)
-				.wait(15000)
-				.mute("Audio Microphone")
-				.playlist("ParksCenter Commercials");
-		};
-
-		ctrl.shortIntro = function(){
-			vMix().unmute("Audio Microphone")
-				.fade("Me", 1000)
-				.playFromBeginning("parksCenterIntro.mp3")
-				.wait(7500)
-				.fade("ParksCenter Logo", 1000)
-				.wait(5500)
-				.fade("All the panelists", 1000);
-		};
-
-		ctrl.travel = function(){
-			vMix().overlay("TravelPlug")
-				.wait(20000)
-				.overlay("TravelPlug")
-				.fade("Me");
-		};
-
-		ctrl.wigs = function(){
-			vMix().overlay("WIGSPlug")
-				.wait(20000)
-				.overlay("WIGSPlug")
-				.fade("Me");
-		};
-
-		ctrl.endWithMusic = function(){
-			vMix().playFromBeginning("parksCenterOuttro.mp3")
-				.wait(14000)
-				.overlay("End tag");
+				.playFromBeginning("2021 PC Music Bed")
+				.fade("Me", 500)
+				.restart("Intro No Music")
+				.wait(15*1000)
+				.fade("Intro No Music", 500)
+				.wait(7*1000)
+				.fade("Me", 500)
+				.wait(5*1000)
+				.volumeFade("2021 PC Music Bed", 0, 2000)
+				.wait(2500)
 		};
 
 		ctrl.end = function(){
-			vMix().overlay("End tag");
+			vMix().fade("End Tag");
 		};
 
 		ctrl.cleanTheTubes = function(){
-			vMix().cut("CleaningTheTubes")
-				.wait(100)
-				.overlay("End tag")
+			vMix().fade("CleaningTheTubes");
 		};
 
 		ctrl.postshow = function(){
-			vMix().fade("All the panelists")
-				.wait(2000)
-				.overlay("All the panelists and Chat", 4);
+			vMix().fade("All the panelists");
 		};
 
 		ctrl.buzz = function(){

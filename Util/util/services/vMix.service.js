@@ -77,12 +77,28 @@ angular.module('vMix', [])
                             return call("?Function=Audio&Input="+(input||0));
                         }));
                     },
+                    volumeFade: function(input, level, duration){
+                        return wrap(promise.then(function(){
+                            return call("?Function=SetVolumeFade" +
+                                "&Value="+level+","+duration+
+                                "&Input="+(input||0)
+                            );
+                        }));
+                    },
                     overlay: function(input, overlayNumber){
                         if(!overlayNumber){
                             overlayNumber = 1;
                         }
                         return wrap(promise.then(function(){
                             return call("?Function=OverlayInput"+overlayNumber+"&Input="+(input||0));
+                        }));
+                    },
+                    overlayOut: function(overlayNumber){
+                        if(!overlayNumber){
+                            overlayNumber = 1;
+                        }
+                        return wrap(promise.then(function(){
+                            return call("?Function=OverlayInput"+overlayNumber+"Out");
                         }));
                     },
                     playlist: function(name){
