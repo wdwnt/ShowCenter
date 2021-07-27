@@ -133,19 +133,17 @@ angular.module('parkscenter')
 
 		ctrl.intro = function(){
 			vMix().cut("White")
-				.volumeFade("2021 PC Music Bed", 58, 20)
-				.wait(3000)
+				.volumeFade("2021 PC Music Bed", 58, 10)
 				.playFromBeginning("2021 PC Music Bed")
+				.wait(2750)
 				.fade("Me", 500)
 				.restart("Intro No Music")
 				.wait(15*1000)
 				.volumeFade("2021 PC Music Bed", 75, 500)
 				.fade("Intro No Music", 500)
-				.wait(7*1000)
+				.wait(9*1000)
 				.fade("Me", 500)
-				.wait(5*1000)
-				.volumeFade("2021 PC Music Bed", 0, 2000)
-				.wait(2500)
+				.volumeFade("2021 PC Music Bed", 0, 7000)
 		};
 
 		ctrl.end = function(){
