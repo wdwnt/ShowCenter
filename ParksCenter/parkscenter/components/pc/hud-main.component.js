@@ -133,7 +133,8 @@ angular.module('parkscenter')
 
 		ctrl.intro = function(){
 			vMix().cut("White")
-				.volumeFade("2021 PC Music Bed", 58, 10)
+				.volumeFade("2021 PC Music Bed", 58, 50)
+				.wait(100)
 				.playFromBeginning("2021 PC Music Bed")
 				.wait(2750)
 				.fade("Me", 500)
