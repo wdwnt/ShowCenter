@@ -13,7 +13,7 @@ def index(request):
                         '<br>'
                         '<a href="'+STATIC_URL+'dice/index.html">Tree of Dice</a>'
                         '<br>'
-                        '<a href="'+STATIC_URL+'map_game/index.html">Map Game</a>'
+                        '<a href="'+STATIC_URL+'map_game/2.0/index.html">Map Game</a>'
                         '<br>'
                         '<a href="'+STATIC_URL+'match-game/index.html">Match Game</a>'
                         '<br>'
