@@ -12,7 +12,7 @@
     </div>
     -->
     <div style="display: flex; align-items: center; position: relative">
-        <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(480px - {{ $ctrl.showStrikes*125 }}px)">
+        <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(785px - {{ $ctrl.showStrikes*125 }}px)">
             <div>
                 <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
             </div>

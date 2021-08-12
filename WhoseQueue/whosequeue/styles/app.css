@@ -1,0 +1,291 @@
+.parkscenter-hud{
+	--app-height: 720px;
+	--app-width: 1280px;
+
+	width: var(--app-width);
+	height: var(--app-height);
+	background-color: #00ff00; /* Shouldn't be necessary, but good in case of a leak. */
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.parkscenter-hud .sidebar{
+	flex: 1;
+	height: 100%;
+	background-color: azure;
+}
+
+.parkscenter-hud .sidebar .item-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.parkscenter-hud .sidebar .item-list div{
+	height: calc(var(--app-height) / 15);
+	box-sizing: border-box;
+	border: 1px solid black;
+	text-transform: uppercase;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 16pt;
+	padding: 8px 0 8px 5px;
+}
+
+.parkscenter-hud .sidebar .item-list .thumbnail{
+	height: calc(var(--app-height) * 4 / 15);
+	border: 0;
+	padding: 0;
+}
+
+.parkscenter-hud .sidebar .item-list .thumbnail img{
+	width: 100%;
+	height: 100%;
+}
+
+.parkscenter-hud .sidebar .item-list .clock{
+	background-color: lightgrey;
+	color: black;
+}
+
+.parkscenter-hud .sidebar .item-list .header{
+	background-color: black;
+	color: white;
+}
+
+.parkscenter-hud .sidebar .item-list .past{
+	background-color: azure;
+	color: grey;
+}
+
+.parkscenter-hud .sidebar .item-list .present{
+	background-color: coral;
+	color: white;
+}
+
+.parkscenter-hud .sidebar .item-list .future{
+	background-color: azure;
+	color: darkkhaki;
+}
+
+.parkscenter-hud .sidebar .item-list .logo{
+	height: calc(var(--app-height) * 2 / 15);
+	padding: 0;
+	background-color: white;
+	color: black;
+}
+
+.parkscenter-hud .main{
+	flex: 3;
+	height: 100%;
+}
+
+.parkscenter-hud .main .body{
+	width: 100%;
+	height: calc(100% - 96px);
+	background-color: #00ff00;
+	overflow: hidden;
+	position: relative;
+}
+
+.parkscenter-hud .intro-logo{
+	transition: all 1s linear;
+	position: relative;
+	left: 0;
+}
+
+.parkscenter-hud .intro-logo.ng-hide{
+	position: relative;
+	left: 958px;
+}
+
+.parkscenter-hud .main .footer{
+	height: 54px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	font-size: 26pt;
+	padding: 20px 0;
+	background-color: coral;
+	color: white;
+	border: 1px solid black;
+}
+
+.top-panel{
+	display: flex;
+}
+
+.top-panel .right-sidebar{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.bottom-panel{
+	margin-top: 10px;
+	display: flex
+}
+
+/* Animations */
+
+.parkscenter-hud .sidebar .item-list .short-name.ng-animate{
+	transition:0.5s ease all;
+}
+
+/* Editor specific classes */
+
+.parkscenter-hud input{
+	width: calc(100% - 20px);
+}
+
+/* ParksCenter Vs. */
+
+.parkscenter-vs-hud .main .footer{
+	background-color: #f53214;
+}
+
+.parkscenter-vs-hud .main .footer .fight{
+	display: flex;
+	justify-content: space-between;
+}
+
+.parkscenter-vs-hud .main .footer .fight .team{
+	display: flex;
+}
+
+.parkscenter-vs-hud .main .footer .fight .scorebox{
+	width: 54px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border: 2px solid black;
+	margin: 0 10px;
+}
+
+/*
+ * Bracket CSS
+ */
+
+.parkscenter-vs-hud .main .bracket{
+	--bracket-line-color: 1px solid #aaa;
+	--border-color: 1px solid black;
+	--bracket-background-color: white;
+	--inprog-color: lightgray;
+	--winner-color: lightgreen;
+	--loser-color: gray;
+
+	width: fit-content;
+	padding-left: 19px;
+	padding-right: 19px;
+	display:flex;
+	flex-direction:row;
+	background-color: var(--bracket-background-color);
+}
+.parkscenter-vs-hud .main .bracket .round{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:200px;
+	list-style:none;
+	padding:0;
+	margin: 0;
+}
+.parkscenter-vs-hud .main .bracket .round .spacer{ flex-grow:1; }
+
+.parkscenter-vs-hud .main .bracket .round .game-spacer{
+	flex-grow:1;
+}
+
+.parkscenter-vs-hud .main .bracket li.game-top,
+.parkscenter-vs-hud .main .bracket li.game-bottom{
+	padding-left:20px;
+	background-color: var(--inprog-color);
+	border: var(--border-color) !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.parkscenter-vs-hud .main .bracket li.game.winner{
+	font-weight:bold;
+	background-color: var(--winner-color);
+}
+
+.parkscenter-vs-hud .main .bracket li.game.loser{
+	background-color: var(--loser-color);
+}
+
+.parkscenter-vs-hud .main .bracket li.game span{
+	float:right;
+	margin-right:5px;
+}
+
+.parkscenter-vs-hud .main .bracket li.game-top{
+	border-bottom:var(--bracket-line-color);
+}
+
+.parkscenter-vs-hud .main .bracket li.game-spacer{
+	min-height:100px;
+}
+
+.parkscenter-vs-hud .main .bracket ul.left li.game-spacer{
+	border-right:var(--bracket-line-color);
+}
+
+.parkscenter-vs-hud .main .bracket ul.right li.game-spacer{
+	border-left:var(--bracket-line-color);
+}
+
+.parkscenter-vs-hud .main .bracket ul.finals{
+	width: 250px;
+}
+
+.parkscenter-vs-hud .main .bracket ul.finals li.game-top{
+	margin-right: 50px
+}
+
+.parkscenter-vs-hud .main .bracket ul.finals li.game-bottom{
+	margin-left: 50px
+}
+
+.parkscenter-vs-hud .main .bracket li.game-bottom{
+	border-top:var(--bracket-line-color);
+}
+
+/* Animations for show/hide*/
+
+.parkscenter-vs-hud .main .bracket{
+	position: absolute;
+	transition:0.5s ease all;
+	left: calc((var(--app-width) - 1088px) / 2)
+}
+
+.parkscenter-vs-hud .main .bracket.bracket-hidden{
+	bottom: calc(var(--app-height) * -1);
+}
+.parkscenter-vs-hud .main .bracket.bracket-visible{
+	bottom: 0;
+}
+
+.parkscenter-vs-hud .main .clock{
+	position: relative;
+	transition:0.5s ease all;
+	height: 40px;
+	width: 100px;
+	left: 0;
+	font-size: 24px;
+	font-family: 'Arial Black', Gadget, sans-serif;
+	background-color: white;
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	border: 2px solid black;
+}
+.parkscenter-vs-hud .main .clock.clock-hide{
+	top: -45px;
+}
+.parkscenter-vs-hud .main .clock.clock-show{
+	top: 0;
+}

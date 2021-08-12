@@ -1,0 +1,54 @@
+<div class="top-panel">
+    <div arrow-control="$ctrl.arrowControl[$dir]()" class="parkscenter-hud">
+        <div class="sidebar">
+            <div class="item-list">
+                <div class="thumbnail">
+                    <img ng-src="{{$ctrl.getCurItem().thumbnail}}" fallback="images/whosequeue.png"/>
+                </div>
+                <div class="clock">
+                    <span ng-show="$ctrl.clockDate">{{$ctrl.clockDate | date:'m:ss'}}&nbsp;</span>
+                </div>
+                <div class="header" ng-click="$ctrl.curIndex = -1">
+                    Games
+                </div>
+                <div ng-repeat="item in $root.showData"
+                    class="short-name" ng-class="$ctrl.getItemState($index)"
+                    ng-click="$ctrl.curIndex = $index">
+                    {{item.shortName}}
+                </div>
+                <div class="logo" ng-click="$ctrl.curIndex = $root.showData.length">
+                    <img src="images/wdwntlogo2017.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="body">
+                &nbsp;
+            </div>
+            <div class="footer" id="footer">
+                <span>{{$ctrl.getCurItem().longName}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="right-sidebar">
+        This runs best with vMix. Download the preset <a href="ParksCenter.vmix">here.</a>
+        vMix Automations:
+        <md-button class="md-raised md-primary" ng-click="$ctrl.white()">Cut to white</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.intro()">Start show</md-button>
+        <br>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.travel()">Travel plug</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.endWithMusic()">End with ~15s music</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.end()">Show endtag</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.cleanTheTubes()">Cleaning the tubes</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.postshow()">Post-show</md-button>
+        <br>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.outtro()">Outtro (for XL episodes)</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.shortIntro()">Short intro (for XL episodes)</md-button>
+    </div>
+</div>
+<div class="bottom-panel">
+    <md-button class="md-raised md-primary" ng-click="$ctrl.buzz()">Buzzer sound test</md-button>
+</div>
+<div ng-show="false">
+	<img ng-repeat="src in $ctrl.imageList track by $index" ng-src={{src}}>
+</div>

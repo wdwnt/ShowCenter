@@ -1,0 +1,11 @@
+<div class="{{ $ctrl.backgroundClass }}">
+    <div class="point-holder">
+        {{ $ctrl.currentLevel || 0 }}
+    </div>
+    <div class="chip-holder">
+        <div ng-repeat="i in $ctrl.ONE_TO_100"
+             class="chip chip-{{ $ctrl.chipColor(i) }}"
+             ng-show="$ctrl.currentLevel >= i || $ctrl.currentLevel === 'X'"
+        ></div>
+    </div>
+</div>

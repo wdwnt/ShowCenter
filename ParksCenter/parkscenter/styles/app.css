@@ -1,6 +1,23 @@
+body {
+	--wdwnt-color-1: #1b7cf5;
+	--wdwnt-color-2: #082549;
+	--wdwnt-color-3: #0a3162;
+}
+
+.green-button {
+	background-color: green !important;
+	color: white !important;
+}
+
+/* region ParksCenter */
+
+:focus{
+	outline: none;
+}
+
 .parkscenter-hud{
-	--app-height: 720px;
-	--app-width: 1280px;
+	--app-height: 1080px;
+	--app-width: 1920px;
 
 	width: var(--app-width);
 	height: var(--app-height);
@@ -9,12 +26,13 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-end;
+	flex-shrink: 0;
 }
 
 .parkscenter-hud .sidebar{
 	flex: 1;
 	height: 100%;
-	background-color: #082549;
+	background-color: var(--wdwnt-color-2);
 }
 
 .parkscenter-hud .sidebar .item-list{
@@ -24,20 +42,41 @@
 	align-items: stretch;
 }
 
-.parkscenter-hud .sidebar .item-list div{
+.parkscenter-hud .sidebar .item-list .item-list-item{
 	height: calc(var(--app-height) / 15);
 	box-sizing: border-box;
 	border: 1px solid black;
 	text-transform: uppercase;
 	font-family: 'Arial Black', Gadget, sans-serif;
-	font-size: 16pt;
+	font-size: 26pt;
 	padding: 8px 0 8px 5px;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name-list{
+	height: calc(7 * var(--app-height) / 15);
+	overflow: hidden;
+	position: relative;
+}
+.parkscenter-hud .sidebar .item-list .short-name-list.editor{
+	overflow: auto;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name {
+	display: flex;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name .delete {
+	background-color: red;
+	color: white;
+	position: absolute;
+	right: 0;
 }
 
 .parkscenter-hud .sidebar .item-list .thumbnail{
 	height: calc(var(--app-height) * 4 / 15);
 	border: 0;
 	padding: 0;
+	background-color: var(--wdwnt-color-1);
 }
 
 .parkscenter-hud .sidebar .item-list .thumbnail img{
@@ -56,25 +95,32 @@
 }
 
 .parkscenter-hud .sidebar .item-list .past{
-	background-color: #082549;
+	background-color: var(--wdwnt-color-2);
 	color: grey;
 }
 
 .parkscenter-hud .sidebar .item-list .present{
-	background-color: #1b7cf5;
+	background-color: var(--wdwnt-color-1);
 	color: white;
 }
 
 .parkscenter-hud .sidebar .item-list .future{
-	background-color: #0a3162;
+	background-color: var(--wdwnt-color-3);
 	color: white;
 }
 
 .parkscenter-hud .sidebar .item-list .logo{
-	height: calc(var(--app-height) * 2 / 15);
+	height: calc(var(--app-height) * 2 / 15 + 2px);
 	padding: 0;
-	background-color: gray;
+	background-color: white;
 	color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parkscenter-hud .sidebar .item-list .logo img {
+	width: 100%;
 }
 
 .parkscenter-hud .main{
@@ -84,7 +130,7 @@
 
 .parkscenter-hud .main .body{
 	width: 100%;
-	height: calc(100% - 96px);
+	height: calc(var(--app-height) - var(--app-height) * 2 / 15);
 	background-color: #00ff00;
 	overflow: hidden;
 	position: relative;
@@ -102,13 +148,13 @@
 }
 
 .parkscenter-hud .main .footer{
-	height: 54px;
+	height: calc(var(--app-height) * 2 / 15 - 40px);
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Arial Black', Gadget, sans-serif;
-	font-size: 26pt;
+	font-size: 42pt;
 	padding: 20px 0;
-	background-color: #1b7cf5;
+	background-color: var(--wdwnt-color-1);
 	color: white;
 	border: 1px solid black;
 }
@@ -128,19 +174,25 @@
 	display: flex
 }
 
-/* Animations */
+/* endregion */
+
+/* region Animations */
 
 .parkscenter-hud .sidebar .item-list .short-name.ng-animate{
 	transition:0.5s ease all;
 }
 
-/* Editor specific classes */
+/* endregion */
+
+/* region Editor specific classes */
 
 .parkscenter-hud input{
 	width: calc(100% - 20px);
 }
 
-/* ParksCenter Vs. */
+/* endregion */
+
+/* region ParksCenter Vs. */
 
 .parkscenter-vs-hud .main .footer{
 	background-color: #f53214;
@@ -200,7 +252,7 @@
 
 .parkscenter-vs-hud .main .bracket li.game-top,
 .parkscenter-vs-hud .main .bracket li.game-bottom{
-	padding-left:20px;
+	padding-left: 20px;
 	background-color: var(--inprog-color);
 	border: var(--border-color) !important;
 	padding-top: 10px;
@@ -289,3 +341,5 @@
 .parkscenter-vs-hud .main .clock.clock-show{
 	top: 0;
 }
+
+/* endregion */

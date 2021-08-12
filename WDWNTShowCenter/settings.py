@@ -136,17 +136,23 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'DiceTree'),
+    os.path.join(BASE_DIR, 'ImageGenerator'),
     os.path.join(BASE_DIR, 'Jeopardy'),
     os.path.join(BASE_DIR, 'JumbleCruise'),
+    os.path.join(BASE_DIR, 'Leveled'),
     os.path.join(BASE_DIR, 'MapGame'),
     os.path.join(BASE_DIR, 'MatchGame'),
     os.path.join(BASE_DIR, 'ParksCenter'),
     os.path.join(BASE_DIR, 'ParksPursuit'),
     os.path.join(BASE_DIR, 'SaleOfTheCentury'),
+    os.path.join(BASE_DIR, 'SuperObscureGameShow'),
     os.path.join(BASE_DIR, 'TonysTownSquares'),
     os.path.join(BASE_DIR, 'ToysForTots'),
     os.path.join(BASE_DIR, 'TrainOfThought'),
     os.path.join(BASE_DIR, 'Util'),
+    os.path.join(BASE_DIR, 'WhoseQueue'),
     os.path.join(BASE_DIR, 'OneOffGames'),
+    os.path.join(BASE_DIR, 'Millionaire'),
+    os.path.join(BASE_DIR, 'ShowController'),
 )
 django_heroku.settings(locals())

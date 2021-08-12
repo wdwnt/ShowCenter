@@ -73,6 +73,11 @@ angular.module('fanlyfeud')
 			ctrl.showStrikes = count;
 			$timeout(function(){
 				ctrl.showStrikes = 0;
+				let main = (ctrl.show && ctrl.show.main) || null;
+				if(ctrl.currentPointMultiplier() === 3 && main.strikes === 1){
+					//only get one strike in the final round, so jump this to 3 under the hood
+					main.strikes = 3;
+				}
 			}, 1000);
 		}
 

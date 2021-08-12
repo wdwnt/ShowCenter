@@ -1,0 +1,41 @@
+html {
+    --SCREEN-WIDTH: 1920px;
+    --SCREEN-HEIGHT: 1080px;
+}
+
+:focus{
+    outline: none;
+}
+
+.bumper{
+    font-size: 0; line-height: 0; width: 0;
+    border-top: var(--BUMPER-BORDER-SIZE) solid #0f0;
+    border-bottom: var(--BUMPER-BORDER-SIZE) solid #0f0;
+}
+
+.left-bumper{
+    border-left: none;
+    border-right: var(--BUMPER-BORDER-SIZE) solid var(--BACKGROUND-COLOR);
+}
+
+.right-bumper{
+    border-left: var(--BUMPER-BORDER-SIZE) solid var(--BACKGROUND-COLOR);
+    border-right: none;
+}
+
+.dot:before{
+    color: orange;
+    content: "•";
+    position: relative;
+    left: calc(var(--BUMPER-BORDER-SIZE) * 0.4);
+    font-size: calc(var(--QUESITON-LINE-HEIGHT) / 1.5);
+}
+
+.selected .dot:before,
+.correct .dot:before{
+    color: white;
+}
+
+.content{
+    flex-grow: 1;
+}

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "SerifGothicStd";
+    src: url("SerifGothicStd-ExtraBold.otf") format("opentype");
+}
+
+.schedule{
+    background-image: url("liveBlank.jpg");
+    width: 1920px;
+    height: 1080px;
+}
+
+.text{
+    position: relative;
+    left: 1000px;
+    height: 100%;
+
+    font-family: "SerifGothicStd", Arial, sans-serif;
+    font-size: 32pt;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text>div{
+    width: 100%;
+}
+
+.event-holder{
+    display: flex;
+    position: relative;
+}
+
+.event-date{
+    text-decoration: underline;
+}
+
+.event-text{
+    position: absolute;
+    left: 150px;
+    width: 700px;
+    overflow: hidden;
+}
+
+.event-text.invisible{
+    position: unset;
+    left: unset;
+    visibility: hidden;
+}
+
+.spacer::after{
+    content: "\00a0";
+}

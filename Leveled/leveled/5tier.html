@@ -1,0 +1,60 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js'></script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="5tier.css">
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.css">
+    <title>LEVELED</title>
+</head>
+<body style="">
+<div id="stage">
+    <div class="logo"><img src="leveled.png"></div>
+    <div class="row">
+        <div class="header item tier-1" contenteditable>Top Tier</div>
+        <div class="container"></div>
+    </div>
+    <div class="row">
+        <div class="header item tier-2" contenteditable>Level 2</div>
+        <div class="container"></div>
+    </div>
+    <div class="row">
+        <div class="header item tier-3" contenteditable>Level 3</div>
+        <div class="container"></div>
+    </div>
+    <div class="row">
+        <div class="header item tier-4" contenteditable>Level 4</div>
+        <div class="container"></div>
+    </div>
+    <div class="row">
+        <div class="header item tier-5" contenteditable>Level 5</div>
+        <div class="container"></div>
+    </div>
+    <div class="row">
+        <div class="header item unsorted">Unleveled</div>
+        <div id="unsorted" class="container"></div>
+    </div>
+</div>
+<div id="settings">
+    <input id="files" type="file" multiple>
+    <button onclick="load();">Load</button>
+</div>
+<script>
+	dragula(Array.from(document.getElementsByClassName("container")));
+
+	function load(){
+		const images = $('#files')[0].files;
+		for(const img of images){
+			const src = URL.createObjectURL(img);
+			const image = new Image();
+			image.src = src;
+			const div = document.createElement("div");
+			div.classList.add("item");
+			div.appendChild(image);
+			$('#unsorted').append(div);
+        }
+    }
+</script>
+</body>

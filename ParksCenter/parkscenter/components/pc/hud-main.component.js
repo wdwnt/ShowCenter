@@ -1,16 +1,18 @@
 angular.module('parkscenter')
 .component('hudMain', {
 	templateUrl: 'templates/pc/hud-main.template.html',
-	controller: function($scope, $rootScope, $location, $timeout, $filter, $q, vMix){
+	controller: function($scope, $rootScope, $location, $timeout, $filter, $q, vMix, addCss){
 		let ctrl = this;
 
 		ctrl.DEFAULT_AUDIO = "Line 1";
 		
 		let inc = function(){
 			ctrl.curIndex++;
+			ctrl.indexChanged();
 		};
 		let dec = function(){
 			ctrl.curIndex--;
+			ctrl.indexChanged();
 		};
 		ctrl.arrowControl={
 				left: dec,
@@ -33,6 +35,8 @@ angular.module('parkscenter')
 				ctrl.imageList = ['images/wdwntLogo.png'];
 				angular.forEach($rootScope.showData, function(item){
 					ctrl.imageList.push(item.thumbnail);
+					item.shortName = item.shortName.replace(/[^\x00-\x7F]/g, "");
+					item.longName = item.longName.replace(/[^\x00-\x7F]/g, "");
 				});
 
 				$scope.$watch(function(){
@@ -101,75 +105,66 @@ angular.module('parkscenter')
 			}
 		};
 
+		ctrl.indexChanged = function (){
+			const shortNameList = document.getElementById('short-name-list');
+
+			let itemAtTop = ctrl.curIndex;
+			if(ctrl.curIndex >= $rootScope.showData.length) {
+				itemAtTop = $rootScope.showData.length - 7;
+			}
+			if(ctrl.curIndex <= 1 || itemAtTop < 0) {
+				itemAtTop = 1;
+			}
+
+			console.log(itemAtTop);
+			const elmToScrollTo = document.getElementById('short-name-' + itemAtTop);
+			console.log(elmToScrollTo);
+			const top = elmToScrollTo.offsetTop;
+			console.log(top);
+			shortNameList.scrollTo({
+				top,
+				behavior: "smooth"
+			});
+		}
+
 		ctrl.white = function(){
 			vMix().cut("White");
 		};
 
 		ctrl.intro = function(){
 			vMix().cut("White")
-				.wait(1000)
-				.overlay("WDWNT Intro Video")
-				.wait(3000)
-				.unmute("Audio Microphone")
-				.cut("Virtual - Me")
-				.wait(8000)
-				.overlay("WDWNT Intro Video")
-				.playFromBeginning("parksCenterIntro.mp3")
-				.wait(7500)
-				.fade("ParksCenter Logo", 1000)
-				.wait(5500)
-				.fade("Virtual - All the panelists", 1000);
-		};
-
-		ctrl.outtro = function(){
-			vMix().playFromBeginning("parksCenterOuttro.mp3")
-				.fade("ParksCenter Logo", 1000)
-				.wait(15000)
-				.mute("Audio Microphone")
-				.playlist("ParksCenter Commercials");
-		};
-
-		ctrl.shortIntro = function(){
-			vMix().unmute("Audio Microphone")
-				.fade("Virtual - Me", 1000)
-				.playFromBeginning("parksCenterIntro.mp3")
-				.wait(7500)
-				.fade("ParksCenter Logo", 1000)
-				.wait(5500)
-				.fade("Virtual - All the panelists", 1000);
-		};
-
-		ctrl.travel = function(){
-			vMix().overlay("TravelPlugWithHUD")
-				.wait(20000)
-				.overlay("TravelPlugWithHUD")
-				.fade("Virtual - Me");
-		};
-
-		ctrl.endWithMusic = function(){
-			vMix().playFromBeginning("parksCenterOuttro.mp3")
-				.wait(14000)
-				.overlay("End tag");
+				.volumeFade("2021 PC Music Bed", 58, 50)
+				.wait(100)
+				.playFromBeginning("2021 PC Music Bed")
+				.wait(2750)
+				.fade("Me", 500)
+				.restart("Intro No Music")
+				.wait(15*1000)
+				.volumeFade("2021 PC Music Bed", 75, 500)
+				.fade("Intro No Music", 500)
+				.wait(9*1000)
+				.fade("Me", 500)
+				.volumeFade("2021 PC Music Bed", 0, 7000)
 		};
 
 		ctrl.end = function(){
-			vMix().overlay("End tag");
+			vMix().fade("End Tag");
 		};
 
 		ctrl.cleanTheTubes = function(){
-			vMix().cut("CleaningTheTubes")
-				.wait(100)
-				.overlay("End tag")
+			vMix().fade("CleaningTheTubes");
 		};
 
 		ctrl.postshow = function(){
-			vMix().fade("All the panelists")
-				.wait(2000)
-				.overlay("All the panelists and Chat", 4);
+			vMix().fade("All the panelists");
 		};
 
 		ctrl.buzz = function(){
 			vMix().playFromBeginning("buzzer.mp3");
+		};
+
+		ctrl.enablePride = function(){
+			addCss("styles/app.pride.css");
 		};
 	}
 });

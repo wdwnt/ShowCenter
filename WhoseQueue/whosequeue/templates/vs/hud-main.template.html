@@ -1,0 +1,75 @@
+<div class="top-panel">
+	<div class="parkscenter-hud parkscenter-vs-hud">
+		<div class="main">
+			<div class="body">
+				<div class="clock {{$ctrl.state.footer === 'fight'?'clock-show':'clock-hide'}}">
+					<span ng-show="$ctrl.clockDate">{{$ctrl.clockDate | date:'m:ss'}}&nbsp;</span>
+				</div>
+				<bracket ng-class="{'bracket-visible':$ctrl.state.bracketVisible, 'bracket-hidden':!$ctrl.state.bracketVisible}" model="$root.vsShowData"></bracket>
+			</div>
+			<div class="footer" id="footer">
+				<div ng-if="$ctrl.state.footer === 'fight'" class="fight">
+					<div class="team">
+						<div class="scorebox">
+							{{$ctrl.state.curGame.top.score}}
+						</div>
+						<div>
+							{{$ctrl.state.curGame.top.name}}
+						</div>
+					</div>
+					<img src="images/vs/vs_no_tilt.png" style="height: 56px">
+					<div class="team">
+						<div>
+							{{$ctrl.state.curGame.bottom.name}}
+						</div>
+						<div class="scorebox">
+							{{$ctrl.state.curGame.bottom.score}}
+						</div>
+					</div>
+				</div>
+				<span ng-if="$ctrl.state.footer !== 'fight'">{{$ctrl.state.footer}}</span>
+			</div>
+		</div>
+	</div>
+	<div class="right-sidebar">
+		<md-button class="md-raised md-primary" ng-click="$ctrl.state.bracketVisible = !$ctrl.state.bracketVisible">Show/hide bracket</md-button>
+		<div style="display: flex; justify-content: center; border-top: black 1px solid">
+			<a ng-click="$ctrl.sidebarRound(-1);"><i class="material-icons md-36">arrow_back</i></a>
+			<span>Round {{$ctrl.state.sidebarRound+1}}</span>
+			<a ng-click="$ctrl.sidebarRound(1);"><i class="material-icons md-36">arrow_forward</i></a>
+		</div>
+		<md-button ng-repeat="game in $root.vsShowData[$ctrl.state.sidebarRound]"
+				   class="md-raised md-primary"
+				   ng-disabled="game.isFinal || ($ctrl.state.curGame && !$ctrl.state.curGame.isFinal)"
+				   ng-click="$ctrl.setGame(game)">
+			{{game.top.name}} vs. {{game.bottom.name}}
+		</md-button>
+		<div ng-show="$ctrl.state.curGame" style="border-top: black 1px solid">
+			{{$ctrl.state.curGame.top.name}} vs. {{$ctrl.state.curGame.bottom.name}}
+		</div>
+		<table ng-show="$ctrl.state.curGame">
+			<tr ng-repeat="vote in $ctrl.state.curGameVotes track by $index">
+				<td ng-model="$ctrl.voters[$index]" contenteditable="true"></td>
+				<td><input type="checkbox" ng-disabled="$ctrl.state.curGame.isFinal" ng-click="$ctrl.state.curGameVotes[$index] = -1; $ctrl.updateScores()" ng-checked="vote === -1"></td>
+				<td><input type="checkbox" ng-disabled="$ctrl.state.curGame.isFinal" ng-click="$ctrl.state.curGameVotes[$index] = 0; $ctrl.updateScores()" ng-checked="vote === 0"></td>
+				<td><input type="checkbox" ng-disabled="$ctrl.state.curGame.isFinal" ng-click="$ctrl.state.curGameVotes[$index] = 1; $ctrl.updateScores()" ng-checked="vote === 1"></td>
+			</tr>
+		</table>
+		<md-button class="md-raised md-primary" ng-disabled="$ctrl.state.curGame.isFinal || $ctrl.state.curGameVotes.indexOf(0)!==-1" ng-show="$ctrl.state.curGame" ng-click="$ctrl.finalizeCurGame()">Finalize results</md-button>
+		<md-button style="border-top: black 1px solid" class="md-raised md-primary" ng-click="$ctrl.dumpGame()">Dump game</md-button>
+	</div>
+</div>
+<div class="bottom-panel">
+	<md-select ng-model="audioOut"
+			   ng-change="$ctrl.setAllAudioOuts(audioOut)"
+			   placeholder="Select audio output"
+			   style="width: fit-content">
+		<md-option ng-repeat="device in $ctrl.audioOuts" ng-value="device.deviceId">{{device.label}}</md-option>
+	</md-select>
+	<audio controls preload="auto" id="introAudio">
+		<source ng-src="audio/parksCenterVsIntro.mp3">
+	</audio>
+	<audio controls preload="auto" id="buzzer">
+		<source ng-src="audio/buzzer.mp3">
+	</audio>
+</div>

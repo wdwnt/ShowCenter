@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WDWNT Live! schedule generator</title>
+    <link rel="stylesheet" href="live.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Below links retrieved from https://cdnjs.com/libraries/angular.js/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-aria.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular-messages.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.10/angular-material.min.js"></script>
+
+    <!-- Retrieved from http://html2canvas.hertzen.com/ -->
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+    <script src="live.js"></script>
+</head>
+<body ng-app="live">
+<div>
+    <div>Graphic text:</div>
+    <textarea style="width: 500px; height: 200px" ng-model="txt"></textarea>
+    <button ng-click="load(txt)">Load text</button>
+    <button ng-click="save()">Download as image</button>
+</div>
+<div class="schedule">
+    <div class="text">
+        <div class="event-date" ng-repeat-start="event in events">
+            {{ event.title.toUpperCase() }}
+        </div>
+        <div ng-repeat="item in event.items" class="event-holder">
+            <div class="event-time">{{ item.time.toUpperCase() }}</div>
+            <div class="event-text">{{ item.event.toUpperCase() }}</div>
+            <div class="event-text invisible">{{ item.event.toUpperCase() }}</div>
+        </div>
+        <div class="spacer" ng-show="!$last" ng-repeat-end></div>
+    </div>
+</div>
+</body>
+</html>

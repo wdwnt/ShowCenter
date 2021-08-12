@@ -1,0 +1,74 @@
+<div>
+    <input ng-model="ip">
+    <button ng-click="ctrl.connectToVMix(ip)">Connect</button>
+</div>
+<hr>
+<div ng-if="ctrl.vMixInputNames">
+    <div class="player-selector">
+        <div ng-repeat="_ in ctrl.playerInputName track by $index">
+            <label>Player {{ $index + 1 }}:</label>
+            <select ng-model="ctrl.playerInputName[$index]">
+                <option ng-repeat="name in ctrl.vMixInputNames track by $index"
+                        ng-value="name"
+                >
+                    {{ name }}
+                </option>
+            </select>
+        </div>
+    </div>
+    <hr>
+    <div class="actions">
+        <button ng-click="ctrl.showAllShot()">
+            All-shot
+        </button>
+        <button ng-click="ctrl.showTwoShot()">
+            Two-shot
+        </button>
+        <button ng-click="ctrl.showOneShot()">
+            One-shot
+        </button>
+    </div>
+    <hr>
+    <div class="chaos" style="display: flex">
+        Set chaos dice to:
+        <button ng-repeat="num in [0, 1, 2, 3, 4, 5, 6]" ng-click="ctrl.setChaos(num)">
+            {{ num }}
+        </button>
+    </div>
+    <hr>
+    <div class="slot-one-selector" style="display: flex">
+        <button ng-repeat="inputName in ctrl.playerInputName track by $index"
+                ng-click="ctrl.setSlotOne(inputName)"
+        >
+            Set slot 1 to<br>{{ inputName }}
+        </button>
+    </div>
+    <div>
+        Slot 1:
+        <select ng-model="ctrl.slotOne" ng-change="ctrl.setSlotOne(ctrl.slotOne)">
+            <option ng-repeat="name in ctrl.vMixInputNames track by $index"
+                    ng-value="name"
+            >
+                {{ name }}
+            </option>
+        </select>
+    </div>
+    <hr>
+    <div class="slot-two-selector" style="display: flex">
+        <button ng-repeat="inputName in ctrl.playerInputName track by $index"
+                ng-click="ctrl.setSlotTwo(inputName)"
+        >
+            Set slot 2 to<br>{{ inputName }}
+        </button>
+    </div>
+    <div>
+        Slot 2:
+        <select ng-model="ctrl.slotTwo" ng-change="ctrl.setSlotTwo(ctrl.slotTwo)">
+            <option ng-repeat="name in ctrl.vMixInputNames track by $index"
+                    ng-value="name"
+            >
+                {{ name }}
+            </option>
+        </select>
+    </div>
+</div>

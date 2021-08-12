@@ -1,4 +1,7 @@
 .fanly-feud {
+    --answer-width: 600px;
+    --answer-height: 70px;
+
     width: 100%;
     height: 100%;
     background-color: #ffc106;
@@ -97,9 +100,6 @@
 /* Board */
 
 .board{
-    --answer-width: 250px;
-    --answer-height: 60px;
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -146,7 +146,7 @@
 
 .board-bumper{
     width: 40px;
-    height: 260px;
+    height: calc(var(--answer-height) * 4 + 20px);
     font-weight: bold;
 }
 
@@ -167,8 +167,8 @@
 .answer-blank{
     width: 100%;
     text-align: center;
-    padding-top: 4px;
-    padding-left: 0px;
+    padding-top: 12px;
+    padding-left: 0;
 }
 
 .answer-exists{
@@ -183,7 +183,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 3px;
 }
 
 .answer-cover-buffer{
@@ -191,9 +191,13 @@
     display: inline-block;
     background-color: #6bdfff;
     border: solid black 1px;
-    width: 100px;
-    height: calc(var(--answer-height) - 40px) !important;
-    margin-top: 6px;
+    width: calc(var(--answer-width) / 2 - 25px);
+    height: calc(var(--answer-height) * 2 / 5) !important;
+    margin-top: 14px;
+}
+
+.answer-cover-number{
+    margin-top: 14px;
 }
 
 .answer-cover-visible{
@@ -214,7 +218,7 @@
 }
 
 .answer-body>div{
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .answer-text{
@@ -229,5 +233,5 @@
     color: gold;
     border: solid gold 4px;
     box-sizing: border-box;
-    padding-top: 4px !important;
+    padding-top: 9px !important;
 }

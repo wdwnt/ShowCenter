@@ -1,0 +1,77 @@
+millionaire-question .question-box{
+    --QUESTION-BLOCK-HEIGHT: calc(var(--SCREEN-HEIGHT) / 3);
+    --QUESITON-LINE-HEIGHT: calc(var(--QUESTION-BLOCK-HEIGHT) / 3);
+    --BUMPER-BORDER-SIZE: calc(var(--QUESITON-LINE-HEIGHT) / 2);
+
+    width: var(--SCREEN-WIDTH);
+    background: #0F0;
+    color: white;
+
+    font-size: calc(var(--QUESITON-LINE-HEIGHT) / 3);
+    text-align: center;
+    border: 10px solid #0f0;
+}
+
+millionaire-question .padding{
+    margin: 10px 0;
+}
+
+millionaire-question .question{
+    --BACKGROUND-COLOR: black;
+
+    width: var(--SCREEN-WIDTH);
+    height: var(--QUESITON-LINE-HEIGHT);
+    background-color: var(--BACKGROUND-COLOR);
+
+    display: flex;
+}
+
+millionaire-question .question .content{
+    padding: 0 10px;
+    display: table;
+    height: 100%
+}
+millionaire-question .question .content p{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+millionaire-question .answers{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: var(--QUESITON-LINE-HEIGHT);
+}
+
+millionaire-question .answer-label{
+    color: orange;
+}
+millionaire-question .selected .answer-label,
+millionaire-question .correct .answer-label{
+    color: white;
+}
+
+
+millionaire-question .answer{
+    --BACKGROUND-COLOR: black;
+
+    width: calc(var(--SCREEN-WIDTH) / 2);
+    height: var(--QUESITON-LINE-HEIGHT);
+    background-color: var(--BACKGROUND-COLOR);
+
+    display: flex;
+}
+
+millionaire-question .answer.hidden{
+    color: var(--BACKGROUND-COLOR);
+}
+
+millionaire-question .answer.selected{
+    --BACKGROUND-COLOR: orange;
+    color: white;
+}
+
+millionaire-question .answer.correct{
+    --BACKGROUND-COLOR: green;
+    color: white;
+}

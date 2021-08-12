@@ -1,32 +1,34 @@
 <div class="parkscenter-hud">
 	<div class="sidebar">
 		<div class="item-list">
-			<div class="thumbnail">
-				<img ng-src="{{$root.showData[$ctrl.curIndex].thumbnail}}" fallback="images/wdwntLogo.png"/>
+			<div class="thumbnail item-list-item">
+				<img src="images/ParksCenter_2021_Logo-trace.png">
 			</div>
-			<div class="clock">
+			<div class="clock item-list-item">
 				Duration: <input title="Duration" type="number" ng-model="$root.showData[$ctrl.curIndex].duration" style="width: 100px"> sec
 			</div>
-			<div class="header">
+			<div class="header item-list-item">
 				Show length: {{$ctrl.getShowDuration()}}
 			</div>
-			<div ng-repeat="item in $root.showData" class="short-name" ng-class="$ctrl.getItemState($index)" ng-click="$ctrl.curIndex = $index">
-				<input title="Short name" placeholder="Title {{$index+1}}" type="text" ng-model="item.shortName">
+			<div class="short-name-list editor">
+				<div ng-repeat="item in $root.showData" class="editor item-list-item short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)" ng-click="$ctrl.curIndex = $index">
+					<span contenteditable="true" ng-model="item.shortName" style="display: inline-block; width: 100%"></span>
+					<a class="delete" ng-click="$ctrl.deleteItem($index)">X</a>
+				</div>
 			</div>
-			<div class="logo">
-				<img src="images/parksCenter.png"/>
+			<div class="logo item-list-item">
+				<img src="images/wdwnt_logo_2017_v2.png"/>
 			</div>
 		</div>
 	</div>
 	<div class="main">
 		<div class="body"></div>
-		<div class="footer" id="footer">
-			<input title="Long name" type="text" ng-model="$root.showData[$ctrl.curIndex].longName" placeholder="Description {{$ctrl.curIndex+1}}">
-		</div>
+		<div class="footer" id="footer" ng-model="$root.showData[$ctrl.curIndex].longName" contenteditable="true"></div>
 	</div>
 </div>
 <hr>
 <div>
+	<md-button class="md-raised green-button" ng-click="$ctrl.addItem()">Add item</md-button>
 	<md-button class="md-raised md-primary" ng-click="$ctrl.gotoShow()">Start show</md-button>
 </div>
 <hr>

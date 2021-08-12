@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Gotham Black";
+  src: url("gotham-black-webfont.woff");
+}
+
+body{
+  --image-size: 150px;
+  --logo-height: 150px;
+
+  margin: 0;
+}
+
+#stage{
+  width: 1920px;
+  height: 1080px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: black;
+}
+
+.logo{
+  background-color: black;
+  width: 100%;
+  height: var(--logo-height);
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  height: 100%;
+}
+
+.row{
+  width: 100%;
+  height: var(--image-size);
+  background-color: black;
+  display: flex;
+}
+
+.container{
+  display: flex;
+  width: calc(100% - var(--image-size));
+}
+
+.item{
+  width: var(--image-size);
+  height: var(--image-size);
+  background-color: black;
+  position: relative;
+}
+
+.header.item{
+  background-color: #00b3ee;
+  text-align: center;
+  line-height: var(--image-size);
+  width: calc(1.5 * var(--image-size));
+
+  font-family: "Gotham Black", serif;
+  font-size: 38px;
+}
+
+.item img{
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#settings{
+  margin-top: 15px;
+}

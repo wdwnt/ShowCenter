@@ -1,0 +1,36 @@
+.parkscenter-hud .sidebar .item-list .short-name.live.present::before{
+	content: "▶";
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-1{
+	background-color: red;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-2{
+	background-color: #ff8f00;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-3{
+	background-color: #ffff00;
+	color: black;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-3.past{
+	color: darkgrey;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-4{
+	background-color: #008f00;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-5{
+	background-color: #00c2c2;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-6{
+	background-color: #3e0099;
+}
+
+.parkscenter-hud .sidebar .item-list .short-name.short-name-7{
+	background-color: #8f008f;
+}

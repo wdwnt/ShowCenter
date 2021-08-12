@@ -1,0 +1,262 @@
+html {
+    --BG-COLOR: #f9edd3;
+    --CORRECT-BG-COLOR: #76f647;
+    --INCORRECT-BG-COLOR: #f86c72;
+
+    --SCREEN-WIDTH: 1280px;
+    --SCREEN-HEIGHT: 720px;
+}
+
+/* Font and animation definitions */
+
+@font-face {
+    font-family: "TheBoldFont";
+    src: url("fonts/theboldfont.ttf");
+}
+
+@keyframes correctAnswer {
+    from{ background-color: var(--BG-COLOR); }
+    to{ background-color: var(--CORRECT-BG-COLOR); }
+}
+
+@keyframes incorrectAnswer {
+    from{ background-color: var(--BG-COLOR); }
+    to{ background-color: var(--INCORRECT-BG-COLOR); }
+}
+
+/* Global stylings */
+
+body{
+    background-color: var(--BG-COLOR);
+    font-family: "TheBoldFont", serif;
+}
+
+.bordered{
+    border: 2px solid red;
+    padding: 1px;
+}
+
+/* sogs-main styles */
+
+sogs-main sogs-bar{
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui{
+    width: var(--SCREEN-WIDTH);
+    height: var(--SCREEN-HEIGHT);
+    margin-right: 5px;
+}
+
+sogs-main .main-ui>div{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+sogs-main .main-ui .default{
+    background-image: url("images/sogsLogo.jpg");
+}
+
+/* Image view layout */
+
+sogs-main .main-ui .images{
+    position: absolute;
+    width: var(--SCREEN-WIDTH);
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui .images .title{
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    width: 600px;
+    height: 78px;
+    z-index: 100;
+    text-align: center;
+    font-size: 24pt;
+}
+
+sogs-main .main-ui .images>img{
+    position: absolute;
+    top: 0;
+    width: var(--SCREEN-WIDTH);
+    height: var(--SCREEN-HEIGHT);
+}
+
+sogs-main .main-ui .image-items{
+    position: absolute;
+    left: calc(var(--SCREEN-WIDTH) * 0.1875);
+    top: calc(var(--SCREEN-HEIGHT) * 2 / 9);
+    width: calc(var(--SCREEN-WIDTH) * 0.625);
+    height: calc(var(--SCREEN-HEIGHT) * 2 / 3 - 3px);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+sogs-main .main-ui .image-item{
+    position: relative;
+    width: 250px;
+    height: 220px;
+    text-align: center;
+}
+
+sogs-main .main-ui .image-item>img{
+    max-height: 180px;
+}
+
+sogs-main .main-ui .image-clue{
+    position: absolute;
+    top: 183px;
+    width: 168px;
+    margin-left: 27px;
+    background-color: var(--BG-COLOR);
+
+    z-index: 100;
+
+    font-size: 10pt;
+}
+
+sogs-main .main-ui .image-clue.image-answer{
+    z-index: 150;
+}
+
+sogs-main .main-ui .image-points{
+    position: absolute;
+    z-index: 200;
+    top: 188px;
+    left: 205px;
+    font-size: 12pt;
+    width: 35px;
+    text-align: center;
+}
+
+/* Text view layout */
+
+sogs-main .main-ui .text{
+    position: relative;
+    background-image: url("images/textTemplate.jpg");
+}
+
+sogs-main .main-ui .text-items{
+    position: absolute;
+    left: 270px;
+    top: 66px;
+    height: calc(var(--SCREEN-HEIGHT) * 15 / 18);
+
+    font-size: 16pt;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+sogs-main .main-ui .text-item{
+    position: relative;
+    width: 740px;
+    height: 60px;
+    outline: none !important;
+}
+
+sogs-main .main-ui .text-clue{
+    width: 510px;
+    white-space: pre-line;
+}
+
+sogs-main .main-ui .text-points{
+    position: absolute;
+    left: 525px;
+    top: 13px;
+    width: 55px;
+
+    font-size: 28px;
+    text-align: center;
+}
+
+sogs-main .main-ui .text-answer{
+    position: absolute;
+    top: 0;
+    left: 600px;
+    width: 140px;
+    height: 60px;
+}
+
+/* Game controls */
+
+sogs-main .controls{
+    display: flex;
+    font-size: 26px;
+}
+
+sogs-main .json-loader{
+    margin-left: 25px;
+}
+
+/* sogs-bar styles */
+
+sogs-bar{
+    display: block;
+    width: fit-content;
+}
+
+sogs-bar>div{
+    width: 100px;
+    height: 100%;
+    background-color: var(--BG-COLOR);
+    padding: 0 5px;
+}
+
+sogs-bar>div.correct{
+    animation: 250ms linear 0s 5 alternate correctAnswer;
+    background-color: var(--CORRECT-BG-COLOR);
+}
+
+sogs-bar>div.incorrect{
+    animation: 250ms linear 0s 5 alternate incorrectAnswer;
+    background-color: var(--INCORRECT-BG-COLOR);
+}
+
+sogs-bar .point-holder{
+    height: 30px;
+    width: 100%;
+    font-size: 18pt;
+    text-align: center;
+}
+
+sogs-bar .chip-holder{
+    height: calc(100% - 30px);
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+sogs-bar .chip{
+    height: calc(1% - 2px);
+    width: 100%;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 1px 0;
+}
+
+sogs-bar .chip-4{
+    background-color: #D74276;
+    border-color: #CF0F69;
+}
+
+sogs-bar .chip-3{
+    background-color: #00ABBE;
+    border-color: #00ABBE;
+}
+
+sogs-bar .chip-2{
+    background-color: #D89E00 ;
+    border-color: #C29A00 ;
+}
+
+sogs-bar .chip-1{
+    background-color: #D54110;
+    border-color: #A30004;
+}

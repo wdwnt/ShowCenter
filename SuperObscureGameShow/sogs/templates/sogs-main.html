@@ -1,0 +1,68 @@
+<div style="display: flex">
+    <div class="main-ui" ng-switch="$ctrl.data[$ctrl.curItem].type">
+        <div ng-switch-when="text" class="text">
+            <div class="text-items">
+                <div class="text-item"
+                     ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
+                >
+                    <div class="text-clue" ng-bind="item.clue"></div>
+                    <div class="text-points" ng-show="item.revealed" ng-bind="item.value"></div>
+                    <div class="text-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="images" class="images">
+            <div class="title">{{ $ctrl.data[$ctrl.curItem].title }}</div>
+            <div class="image-items">
+                <div class="image-item"
+                     ng-repeat="item in $ctrl.data[$ctrl.curItem].items"
+                >
+                    <img ng-src="{{ item.image }}">
+                    <div class="image-clue" ng-show="item.clue" ng-bind="item.clue"></div>
+                    <div class="image-clue image-answer" ng-show="item.revealed" ng-bind="item.answer"></div>
+                    <div class="image-points" ng-show="item.revealed" ng-bind="item.value"></div>
+                </div>
+            </div>
+            <img src="images/imageTemplate.png">
+        </div>
+        <div ng-switch-default class="default"></div>
+    </div>
+    <sogs-bar></sogs-bar>
+</div>
+<div class="controls">
+    <div>
+        <div class="question-control">
+            <button ng-click="$ctrl.curItem=$ctrl.curItem-1">&lt;</button>
+            Board {{ $ctrl.curItem+1 }}
+            <button ng-click="$ctrl.curItem=$ctrl.curItem+1">&gt;</button>
+        </div>
+        <div class="correct-answer-list" ng-show="$ctrl.data[$ctrl.curItem].items">
+            <table>
+                <tr>
+                    <td>Clue #</td>
+                    <td>Clue text</td>
+                    <td>Answer</td>
+                </tr>
+                <tr ng-repeat="item in $ctrl.data[$ctrl.curItem].items">
+                    <td>{{ $index+1 }}</td>
+                    <td>{{ item.clue | limitTo:60 }}{{ item.clue.length>60?'...':'' }}</td>
+                    <td ng-show="item.startedRevealing">{{ item.answer | limitTo:40 }}{{ item.answer.length>40?'...':'' }}</td>
+                    <td ng-show="!item.startedRevealing">
+                        <button ng-click="$ctrl.reveal(item)">{{ item.answer | limitTo:40 }}</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="json-loader">
+        <input ng-model="points" style="width: 3em" ng-show="!$ctrl.data[$ctrl.curItem].items">
+        <button ng-click="$ctrl.go(points, null); points = ''" ng-show="!$ctrl.data[$ctrl.curItem].items">Reveal</button>
+        <button ng-click="$ctrl.go(null, null)">Incorrect</button>
+        <button ng-click="$ctrl.reset()">Reset</button>
+        <br>
+        <br>
+        <textarea ng-model="gameJson"></textarea>
+        <br>
+        <button ng-click="$ctrl.load(gameJson)">Load JSON</button>
+    </div>
+</div>

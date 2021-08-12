@@ -1,0 +1,66 @@
+[{
+  "type": "text",
+  "items": [{
+    "clue": "clue 1\nsecond line",
+    "answer": "answer 1",
+    "value": 24
+  },{
+    "clue": "clue 2",
+    "answer": "answer 2",
+    "value": 12
+  },{
+    "clue": "clue 3",
+    "answer": "answer 3",
+    "value": 6
+  },{
+    "clue": "clue 4",
+    "answer": "answer 4",
+    "value": 3
+  },{
+    "clue": "clue 5",
+    "answer": "answer 5",
+    "value": 2
+  },{
+    "clue": "clue 6",
+    "answer": "answer 6",
+    "value": 1
+  },{
+    "clue": "clue 7",
+    "answer": "answer 7",
+    "value": 0
+  }]
+},{
+  "type": "images",
+  "items": [{
+    "image": "https://i.imgur.com/XTE5JNB.gif",
+    "clue": "D_____",
+    "answer": "Dragon",
+    "value": 100
+  },{
+    "image": "https://i.imgur.com/XTE5JNB.gif",
+    "clue": "D_____",
+    "answer": "Dragon",
+    "value": 100
+  },{
+    "image": "https://i.imgur.com/XTE5JNB.gif",
+    "clue": "D_____",
+    "answer": "Dragon",
+    "value": 100
+  },{
+    "image": "https://i.imgur.com/XTE5JNB.gif",
+    "clue": "D_____",
+    "answer": "Dragon",
+    "value": 100
+  },{
+    "image": "https://i.imgur.com/XTE5JNB.gif",
+    "clue": "D_____",
+    "answer": "Dragon",
+    "value": 100
+  },{
+    "image": "https://i.imgur.com/XTE5JNB.gif",
+    "clue": "D_____ D_____ D_____ D_____ D_____",
+    "answer": "Dragon",
+    "value": 100
+  }
+  ]
+}]

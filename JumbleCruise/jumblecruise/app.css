@@ -27,6 +27,11 @@
 
 .anagram{
   font-size: 92pt;
+  /*
+  Space font:
+  font-family: 'Odibee Sans', cursive;
+  */
   font-family: 'Stylish', sans-serif;
-
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
 }

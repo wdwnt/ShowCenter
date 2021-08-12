@@ -95,7 +95,10 @@ angular.module('fanlyfeud')
 			let answer = ctrl.show.main.surveyData[ctrl.show.main.currentRound].answers[index];
 			if(answer.revealed){
 				answer.revealed = false;
-				ctrl.show.main.pointsOnBoard -= answer.points * ctrl.currentPointMultiplier();
+				if(ctrl.show.main.strikes < 3){
+					//Because if there's 3 strikes and you're hiding answers, don't remove the points.
+					ctrl.show.main.pointsOnBoard -= answer.points * ctrl.currentPointMultiplier();
+				}
 			}else{
 				ctrl.show.queue.push(QUEUE.SHOW_ANSWER, index);
 			}

@@ -2,22 +2,25 @@
     <div arrow-control="$ctrl.arrowControl[$dir]()" class="parkscenter-hud">
         <div class="sidebar">
             <div class="item-list">
-                <div class="thumbnail">
-                    <img ng-src="{{$ctrl.getCurItem().thumbnail}}" fallback="images/wdwntLogo.png"/>
+                <div class="thumbnail item-list-item">
+				    <img src="images/ParksCenter_2021_Logo-trace.png">
                 </div>
-                <div class="clock">
+                <div class="clock item-list-item">
                     <span ng-show="$ctrl.clockDate">{{$ctrl.clockDate | date:'m:ss'}}&nbsp;</span>
                 </div>
-                <div class="header" ng-click="$ctrl.curIndex = -1">
+                <div class="header item-list-item" ng-click="$ctrl.curIndex = -1; $ctrl.indexChanged()">
                     Times Guide
                 </div>
-                <div ng-repeat="item in $root.showData"
-                    class="short-name" ng-class="$ctrl.getItemState($index)"
-                    ng-click="$ctrl.curIndex = $index">
-                    {{item.shortName}}
+                <div class="short-name-list" id="short-name-list">
+                    <div ng-repeat="item in $root.showData"
+                         id="short-name-{{$index+1}}"
+                        class="live item-list-item short-name short-name-{{$index+1}}" ng-class="$ctrl.getItemState($index)"
+                        ng-click="$ctrl.curIndex = $index; $ctrl.indexChanged()">
+                        {{item.shortName}}
+                    </div>
                 </div>
-                <div class="logo" ng-click="$ctrl.curIndex = $root.showData.length">
-                    <img src="images/parksCenter.png"/>
+                <div class="logo item-list-item" ng-click="$ctrl.curIndex = $root.showData.length; $ctrl.indexChanged()">
+				    <img src="images/wdwnt_logo_2017_v2.png"/>
                 </div>
             </div>
         </div>
@@ -31,19 +34,18 @@
         </div>
     </div>
     <div class="right-sidebar">
-        This runs best with vMix. Download the preset <a href="ParksCenter.vmix">here.</a>
         vMix Automations:
         <md-button class="md-raised md-primary" ng-click="$ctrl.white()">Cut to white</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.intro()">Start show</md-button>
         <br>
-        <md-button class="md-raised md-primary" ng-click="$ctrl.travel()">Travel plug</md-button>
-        <md-button class="md-raised md-primary" ng-click="$ctrl.endWithMusic()">End with ~15s music</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.end()">Show endtag</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.cleanTheTubes()">Cleaning the tubes</md-button>
         <md-button class="md-raised md-primary" ng-click="$ctrl.postshow()">Post-show</md-button>
         <br>
-        <md-button class="md-raised md-primary" ng-click="$ctrl.outtro()">Outtro (for XL episodes)</md-button>
-        <md-button class="md-raised md-primary" ng-click="$ctrl.shortIntro()">Short intro (for XL episodes)</md-button>
+        <md-button class="md-raised md-primary" ng-click="$ctrl.enablePride()">Pride mode</md-button>
+        <br>
+        Chat adjustment code: (right click chat input, properties, paste this, click Update)<br>
+        <input disabled value="javascript:document.body.innerHTML + '<style>.chat-container{width: 547px !important;height: 734px !important;}.chat-container .messages {height: 682px !important;}</style>';">
     </div>
 </div>
 <div class="bottom-panel">

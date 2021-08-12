@@ -1,3 +1,10 @@
+var item = {
+	shortName: "",
+	longName: "",
+	thumbnail: "images/wdwntLogo.png",
+	duration: 210
+};
+
 angular.module('parkscenter')
 .component('hudEditor', {
 	templateUrl: 'templates/pc/hud-editor.template.html',
@@ -9,14 +16,10 @@ angular.module('parkscenter')
             	if(sessionStorage.getItem("lastPCGame")){
 					$rootScope.showData = JSON.parse(sessionStorage.getItem("lastPCGame"));
 				}else{
-					var item = {
-						shortName: "",
-						longName: "",
-						thumbnail: "images/wdwntLogo.png",
-						duration: 210
-					};
 					$rootScope.showData = [angular.copy(item), angular.copy(item), angular.copy(item),
-						angular.copy(item), angular.copy(item), angular.copy(item), angular.copy(item)];
+						angular.copy(item), angular.copy(item), angular.copy(item), angular.copy(item),
+						angular.copy(item), angular.copy(item), angular.copy(item), angular.copy(item),
+						angular.copy(item)];
 				}
             }
 			
@@ -60,6 +63,14 @@ angular.module('parkscenter')
 				total += e.duration;
 			});
 			return Math.floor(total/60)+":"+(total%60<10?'0':'')+(total%60);
+		}
+
+		ctrl.deleteItem = function(index) {
+			$rootScope.showData.splice(index, 1);
+		}
+
+		ctrl.addItem = function() {
+			$rootScope.showData.push(angular.copy(item));
 		}
 	}
 });
