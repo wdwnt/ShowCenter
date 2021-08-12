@@ -10,6 +10,12 @@
     display: flex;
 }
 
+.map-cell {
+    display: flex;
+    justify-content: center;
+    background: #4E1115;
+}
+
 #img {
     margin-left: 20px;
     margin-top: 20px;
