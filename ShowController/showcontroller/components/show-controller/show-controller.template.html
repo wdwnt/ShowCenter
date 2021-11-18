@@ -55,7 +55,7 @@
         </select>
     </div>
     <hr>
-    <div class="still-store-selector" style="display: flex">
+    <div class="still-store-selector" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); grid-gap: 5px;">
         <button ng-repeat="inputName in ctrl.stillStoreNames track by $index"
                 ng-click="ctrl.setStillStore(inputName)"
         >
