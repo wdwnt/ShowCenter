@@ -6,22 +6,43 @@ angular.module('showController')
 		let ctrl = this;
 
 		let REFRESH_FREQUENCY = 15 * 1000;
-		let CHAOS_OVERLAY = 3;
-		let ALL_SHOT = 'AllShot';
-		let TWO_SHOT = 'TwoShot';
+		let SIX_SHOT = '[L] GM w/ 6 players';
+		let FOUR_SHOT = '[L] GM w/ 4 players';
+
+		let TWO_SHOT = '[L] 1v1 w/spectators';
 		let TWO_SHOT_SLOT_1 = 1;
 		let TWO_SHOT_SLOT_2 = 2;
-		let ONE_SHOT = 'OneShot';
-		let ONE_SHOT_SLOT = 1;
+		let TWO_SHOT_SLOT_1_TEXT = 9;
+		let TWO_SHOT_SLOT_2_TEXT = 10;
+		let TWO_SHOT_SLOT_GM = 4;
+		let TWO_SHOT_SLOT_3 = 5;
+		let TWO_SHOT_SLOT_4 = 6;
+		let TWO_SHOT_SLOT_5 = 7;
+		let TWO_SHOT_SLOT_6 = 8;
+
+		let ONE_SHOT = '[L] GM solo';
+
+		let STILL_STORE = '[L] Still store';
+		let STILL_STORE_SLOT = 2;
 
 		let timeout = null;
 
 		ctrl.vMixInputNumberMap = null;
 		ctrl.vMixInputNames = null;
-		ctrl.playerInputName = [null, null, null, null, null, null];
+		ctrl.playerInputNames = [
+			"[C] Player 1",
+			"[C] Player 2",
+			"[C] Player 3",
+			"[C] Player 4",
+			"[C] Player 5",
+			"[C] Player 6"
+		];
+		ctrl.gmInputName = "[C] GM";
+		ctrl.stillStoreNames = [];
 
 		ctrl.slotOne = null;
 		ctrl.slotTwo = null;
+		ctrl.stillStore = null;
 
 		ctrl.vMix = null;
 
@@ -40,21 +61,15 @@ angular.module('showController')
 				let inputs = [...doc.children[0].getElementsByTagName("inputs")[0].children];
 
 				ctrl.vMixInputNumberMap = {};
+				ctrl.stillStoreNames = [];
 
 				angular.forEach(inputs, (input) => {
 					let title = input.getAttribute("title");
 					ctrl.vMixInputNumberMap[title] = parseInt(input.getAttribute("number"));
 
-					if(title === ALL_SHOT) {
+					if(title === TWO_SHOT) {
 						let overlays = input.getElementsByTagName('overlay');
-						for(let i of [0, 1, 2, 3, 4, 5]) {
-							let key = overlays[i].getAttribute('key');
-							let matchingInput = inputs.find((i) => i.getAttribute('key') === key);
-							ctrl.playerInputName[i] = matchingInput.getAttribute('title');
-						}
-					} else if(title === TWO_SHOT) {
-						let overlays = input.getElementsByTagName('overlay');
-						for(let i of [0, 1]) {
+						for(let i of [TWO_SHOT_SLOT_1 - 1, TWO_SHOT_SLOT_2 - 1]) {
 							let key = overlays[i].getAttribute('key');
 							let matchingInput = inputs.find((i) => i.getAttribute('key') === key);
 							if (i === 0) {
@@ -63,6 +78,13 @@ angular.module('showController')
 								ctrl.slotTwo = matchingInput.getAttribute('title');
 							}
 						}
+					} else if(title === STILL_STORE) {
+						let overlays = input.getElementsByTagName('overlay');
+						let key = overlays[STILL_STORE_SLOT - 1].getAttribute('key');
+						let matchingInput = inputs.find((i) => i.getAttribute('key') === key);
+						ctrl.stillStore = matchingInput.getAttribute('title');
+					} else if(title.startsWith('[S]')) {
+						ctrl.stillStoreNames.push(title);
 					}
 				});
 
@@ -71,7 +93,10 @@ angular.module('showController')
 		}
 
 		ctrl.showAllShot = () => {
-			ctrl.vMix.fade(ALL_SHOT);
+			ctrl.vMix.fade(SIX_SHOT);
+		}
+		ctrl.showFourShot = () => {
+			ctrl.vMix.fade(FOUR_SHOT);
 		}
 		ctrl.showTwoShot = () => {
 			ctrl.vMix.fade(TWO_SHOT);
@@ -80,19 +105,64 @@ angular.module('showController')
 			ctrl.vMix.fade(ONE_SHOT);
 		}
 
-		ctrl.setChaos = (num) => {
-			ctrl.vMix.overlay(num + '-chaosdice.png', CHAOS_OVERLAY);
-		}
-
 		ctrl.setSlotOne = (inputName) => {
-			ctrl.slotOne = inputName;
-			ctrl.vMix.setMultiViewInput(ONE_SHOT, ONE_SHOT_SLOT, inputName);
-			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1, inputName);
+			if(ctrl.slotTwo === inputName) {
+				ctrl.swapSlots();
+			} else {
+				ctrl.slotOne = inputName;
+				ctrl.updateTwoShot();
+			}
 		}
 
 		ctrl.setSlotTwo = (inputName) => {
-			ctrl.slotTwo = inputName;
-			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2, inputName);
+			if(ctrl.slotOne === inputName) {
+				ctrl.swapSlots();
+			} else {
+				ctrl.slotTwo = inputName;
+				ctrl.updateTwoShot();
+			}
+		}
+
+		ctrl.swapSlots = () => {
+			const tmp = ctrl.slotOne;
+			ctrl.slotOne = ctrl.slotTwo;
+			ctrl.slotTwo = tmp;
+			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1, ctrl.slotOne)
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1_TEXT, ctrl.slotOne.replace('[C]', '[T]'))
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2, ctrl.slotTwo)
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2_TEXT, ctrl.slotTwo.replace('[C]', '[T]'));
+		}
+
+		ctrl.updateTwoShot = () => {
+			// Set the main views
+			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1, ctrl.slotOne)
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1_TEXT, ctrl.slotOne.replace('[C]', '[T]'))
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2, ctrl.slotTwo)
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2_TEXT, ctrl.slotTwo.replace('[C]', '[T]'));
+
+			// Set the GM input, if the GM isn't in a main slot
+			const slotsToFill = [TWO_SHOT_SLOT_3, TWO_SHOT_SLOT_4, TWO_SHOT_SLOT_5, TWO_SHOT_SLOT_6];
+			if(ctrl.slotOne === ctrl.gmInputName || ctrl.slotTwo === ctrl.gmInputName) {
+				// They're in the main view, so add this to the list of slots to fill
+				slotsToFill.unshift(TWO_SHOT_SLOT_GM);
+			} else {
+				// They not in the main view, put them in their home
+				ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_GM, ctrl.gmInputName);
+			}
+
+			// Set all the spectator views
+			let curSlotIndex = 0;
+			for(const inputName of ctrl.playerInputNames) {
+				if (!(ctrl.slotOne === inputName || ctrl.slotTwo === inputName)) {
+					ctrl.vMix.setMultiViewInput(TWO_SHOT, slotsToFill[curSlotIndex], inputName);
+					curSlotIndex++;
+				}
+			}
+		}
+
+		ctrl.setStillStore = (inputName) => {
+			ctrl.stillStore = inputName;
+			ctrl.vMix.setMultiViewInput(STILL_STORE, STILL_STORE_SLOT, ctrl.stillStore);
 		}
 	}
 });
