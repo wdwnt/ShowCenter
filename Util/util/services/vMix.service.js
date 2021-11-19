@@ -59,6 +59,11 @@ angular.module('vMix', [])
                             return call("?Function=Restart&Input="+(input||0));
                         }));
                     },
+                    playPause: function(input){
+                        return wrap(promise.then(function(){
+                            return call("?Function=PlayPause&Input="+(input||0));
+                        }));
+                    },
                     playFromBeginning: function(input){
                         return this.restart(input).play(input);
                     },

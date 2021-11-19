@@ -7,6 +7,7 @@ angular.module('showController')
 
 		let REFRESH_FREQUENCY = 15 * 1000;
 		let SIX_SHOT = '[L] GM w/ 6 players';
+		let FIVE_SHOT = '[L] GM w/ 5 players';
 		let FOUR_SHOT = '[L] GM w/ 4 players';
 
 		let TWO_SHOT = '[L] 1v1 w/spectators';
@@ -39,6 +40,7 @@ angular.module('showController')
 		];
 		ctrl.gmInputName = "[C] GM";
 		ctrl.stillStoreNames = [];
+		ctrl.audioNames = [];
 
 		ctrl.slotOne = null;
 		ctrl.slotTwo = null;
@@ -62,6 +64,7 @@ angular.module('showController')
 
 				ctrl.vMixInputNumberMap = {};
 				ctrl.stillStoreNames = [];
+				ctrl.audioNames = [];
 
 				angular.forEach(inputs, (input) => {
 					let title = input.getAttribute("title");
@@ -85,6 +88,8 @@ angular.module('showController')
 						ctrl.stillStore = matchingInput.getAttribute('title');
 					} else if(title.startsWith('[S]')) {
 						ctrl.stillStoreNames.push(title);
+					} else if(title.startsWith('[A]')) {
+						ctrl.audioNames.push(title);
 					}
 				});
 
@@ -95,6 +100,9 @@ angular.module('showController')
 		ctrl.showAllShot = () => {
 			ctrl.vMix.fade(SIX_SHOT);
 		}
+		ctrl.showFiveShot = () => {
+			ctrl.vMix.fade(FIVE_SHOT);
+		}
 		ctrl.showFourShot = () => {
 			ctrl.vMix.fade(FOUR_SHOT);
 		}
@@ -103,6 +111,9 @@ angular.module('showController')
 		}
 		ctrl.showOneShot = () => {
 			ctrl.vMix.fade(ONE_SHOT);
+		}
+		ctrl.showStillStore = () => {
+			ctrl.vMix.fade(STILL_STORE);
 		}
 
 		ctrl.setSlotOne = (inputName) => {
@@ -163,6 +174,10 @@ angular.module('showController')
 		ctrl.setStillStore = (inputName) => {
 			ctrl.stillStore = inputName;
 			ctrl.vMix.setMultiViewInput(STILL_STORE, STILL_STORE_SLOT, ctrl.stillStore);
+		}
+
+		ctrl.playAudio = (input) => {
+			ctrl.vMix.restart(input).playPause(input);
 		}
 	}
 });

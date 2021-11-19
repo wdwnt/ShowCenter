@@ -8,11 +8,17 @@
         <button ng-click="ctrl.showAllShot()">
             6-shot
         </button>
+        <button ng-click="ctrl.showFiveShot()">
+            5-shot
+        </button>
         <button ng-click="ctrl.showFourShot()">
             4-shot
         </button>
         <button ng-click="ctrl.showTwoShot()">
             2-shot
+        </button>
+        <button ng-click="ctrl.showStillStore()">
+            Still store
         </button>
         <button ng-click="ctrl.showOneShot()">
             GM view
@@ -71,5 +77,13 @@
                 {{ name }}
             </option>
         </select>
+    </div>
+    <hr>
+    <div class="audio-buttons" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); grid-gap: 5px;">
+        <button ng-repeat="inputName in ctrl.audioNames track by $index"
+                ng-click="ctrl.playAudio(inputName)"
+        >
+            Play/pause {{ inputName }}
+        </button>
     </div>
 </div>
