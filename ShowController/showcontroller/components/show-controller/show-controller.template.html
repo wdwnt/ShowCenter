@@ -82,8 +82,9 @@
     <div class="audio-buttons" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); grid-gap: 5px;">
         <button ng-repeat="inputName in ctrl.audioNames track by $index"
                 ng-click="ctrl.playAudio(inputName)"
+                ng-class="ctrl.audioPlaying[inputName] ? 'lightgreen' : ''"
         >
-            Play/pause<br>{{ inputName }}
+            {{ ctrl.audioPlaying[inputName] ? 'Pause' : 'Play' }}<br>{{ inputName }}
         </button>
     </div>
 </div>

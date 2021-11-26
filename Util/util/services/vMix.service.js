@@ -117,7 +117,7 @@ angular.module('vMix', [])
                         }));
                     },
                     setMultiViewInput: function(input, multiViewSlot, setInput){
-                        if(!input || !multiViewSlot || !setInput){
+                        if(!input || !multiViewSlot || (!setInput && setInput !== 0)){
                             console.log("bad input");
                             return this.wait(0);
                         }

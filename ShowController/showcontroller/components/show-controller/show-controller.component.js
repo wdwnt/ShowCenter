@@ -41,6 +41,7 @@ angular.module('showController')
 		ctrl.gmInputName = "[C] GM";
 		ctrl.stillStoreNames = [];
 		ctrl.audioNames = [];
+		ctrl.audioPlaying = {};
 
 		ctrl.slotOne = null;
 		ctrl.slotTwo = null;
@@ -65,6 +66,7 @@ angular.module('showController')
 				ctrl.vMixInputNumberMap = {};
 				ctrl.stillStoreNames = [];
 				ctrl.audioNames = [];
+				ctrl.audioPlaying = {};
 
 				angular.forEach(inputs, (input) => {
 					let title = input.getAttribute("title");
@@ -83,13 +85,18 @@ angular.module('showController')
 						}
 					} else if(title === STILL_STORE) {
 						let overlays = input.getElementsByTagName('overlay');
-						let key = overlays[STILL_STORE_SLOT - 1].getAttribute('key');
-						let matchingInput = inputs.find((i) => i.getAttribute('key') === key);
-						ctrl.stillStore = matchingInput.getAttribute('title');
+						try {
+							let key = overlays[STILL_STORE_SLOT - 1].getAttribute('key');
+							let matchingInput = inputs.find((i) => i.getAttribute('key') === key);
+							ctrl.stillStore = matchingInput.getAttribute('title');
+						} catch {
+							ctrl.stillStore = null;
+						}
 					} else if(title.startsWith('[S]')) {
 						ctrl.stillStoreNames.push(title);
 					} else if(title.startsWith('[A]')) {
 						ctrl.audioNames.push(title);
+						ctrl.audioPlaying[title] = input.getAttribute('state') === 'Running';
 					}
 				});
 
@@ -138,18 +145,12 @@ angular.module('showController')
 			const tmp = ctrl.slotOne;
 			ctrl.slotOne = ctrl.slotTwo;
 			ctrl.slotTwo = tmp;
-			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1, ctrl.slotOne)
-				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1_TEXT, ctrl.slotOne.replace('[C]', '[T]'))
-				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2, ctrl.slotTwo)
-				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2_TEXT, ctrl.slotTwo.replace('[C]', '[T]'));
+			ctrl.setTwoShotValuesInVMix();
 		}
 
 		ctrl.updateTwoShot = () => {
 			// Set the main views
-			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1, ctrl.slotOne)
-				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1_TEXT, ctrl.slotOne.replace('[C]', '[T]'))
-				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2, ctrl.slotTwo)
-				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2_TEXT, ctrl.slotTwo.replace('[C]', '[T]'));
+			ctrl.setTwoShotValuesInVMix();
 
 			// Set the GM input, if the GM isn't in a main slot
 			const slotsToFill = [TWO_SHOT_SLOT_3, TWO_SHOT_SLOT_4, TWO_SHOT_SLOT_5, TWO_SHOT_SLOT_6];
@@ -171,13 +172,27 @@ angular.module('showController')
 			}
 		}
 
+		ctrl.setTwoShotValuesInVMix = () => {
+			ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1, ctrl.slotOne)
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1_TEXT, 'None')
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_1_TEXT, ctrl.slotOne.replace('[C]', '[T]'))
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2, ctrl.slotTwo)
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2_TEXT, 'None')
+				.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_2_TEXT, ctrl.slotTwo.replace('[C]', '[T]'));
+		}
+
 		ctrl.setStillStore = (inputName) => {
 			ctrl.stillStore = inputName;
 			ctrl.vMix.setMultiViewInput(STILL_STORE, STILL_STORE_SLOT, ctrl.stillStore);
 		}
 
 		ctrl.playAudio = (input) => {
-			ctrl.vMix.restart(input).playPause(input);
+			if(ctrl.audioPlaying[input]) {
+				ctrl.vMix.volumeFade(input, 0, 500).wait(500).playPause(input).volumeFade(input, 50, 500);
+			} else {
+				ctrl.vMix.restart(input).playPause(input);
+			}
+			ctrl.audioPlaying[input] = !ctrl.audioPlaying[input];
 		}
 	}
 });
