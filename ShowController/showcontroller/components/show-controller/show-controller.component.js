@@ -31,6 +31,7 @@ angular.module('showController')
 		ctrl.vMixInputNumberMap = null;
 		ctrl.vMixInputNames = null;
 		ctrl.playerInputNames = [
+			"[C] GM",
 			"[C] Player 1",
 			"[C] Player 2",
 			"[C] Player 3",
@@ -188,7 +189,7 @@ angular.module('showController')
 
 		ctrl.playAudio = (input) => {
 			if(ctrl.audioPlaying[input]) {
-				ctrl.vMix.volumeFade(input, 0, 500).wait(500).playPause(input).volumeFade(input, 50, 500);
+				ctrl.vMix.volumeFade(input, 0, 2000).wait(2000).playPause(input).volumeFade(input, 50, 500);
 			} else {
 				ctrl.vMix.restart(input).playPause(input);
 			}
