@@ -29,7 +29,7 @@
         <button ng-repeat="inputName in ctrl.playerInputNames track by $index"
                 ng-click="ctrl.setSlotOne(inputName)"
         >
-            Set slot 1 to<br>{{ inputName }}
+            Set slot 1 to<br>{{ ctrl.realPlayerNameMap[inputName] || inputName }}
         </button>
     </div>
     <div>
@@ -47,7 +47,7 @@
         <button ng-repeat="inputName in ctrl.playerInputNames track by $index"
                 ng-click="ctrl.setSlotTwo(inputName)"
         >
-            Set slot 2 to<br>{{ inputName }}
+            Set slot 2 to<br>{{ ctrl.realPlayerNameMap[inputName] || inputName }}
         </button>
     </div>
     <div>

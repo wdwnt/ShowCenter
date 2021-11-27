@@ -40,7 +40,9 @@ angular.module('showController')
 			"[C] Player 6"
 		];
 		ctrl.gmInputName = "[C] GM";
+		ctrl.realPlayerNameMap = {};
 		ctrl.stillStoreNames = [];
+
 		ctrl.audioNames = [];
 		ctrl.audioPlaying = {};
 
@@ -65,6 +67,7 @@ angular.module('showController')
 				let inputs = [...doc.children[0].getElementsByTagName("inputs")[0].children];
 
 				ctrl.vMixInputNumberMap = {};
+				ctrl.realPlayerNameMap = {};
 				ctrl.stillStoreNames = [];
 				ctrl.audioNames = [];
 				ctrl.audioPlaying = {};
@@ -98,6 +101,13 @@ angular.module('showController')
 					} else if(title.startsWith('[A]')) {
 						ctrl.audioNames.push(title);
 						ctrl.audioPlaying[title] = input.getAttribute('state') === 'Running';
+					} else if(title.startsWith('[T]')) {
+						try {
+							const titleText = [...input.getElementsByTagName('text')].find((t) => t.getAttribute('name') === 'Message').getInnerHTML();
+							ctrl.realPlayerNameMap[title.replace('[T]', '[C]')] = titleText.split('\n')[0];
+						} catch {
+							ctrl.realPlayerNameMap[title.replace('[T]', '[C]')] = null;
+						}
 					}
 				});
 
