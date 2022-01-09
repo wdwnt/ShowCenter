@@ -136,6 +136,11 @@ angular.module('vMix', [])
                             return call("?Function=SetMultiViewOverlay&Input="+input+"&Value="+multiViewSlot+","+setInput);
                         }));
                     },
+                    setTitle: function(input, text){
+                        return wrap(promise.then(function(){
+                            return call("?Function=SetText&Input="+input+"&Value="+text);
+                        }));
+                    },
                     wait: function(duration){
                         return wrap(promise.then(function(){
                             return wait(duration);

@@ -87,4 +87,10 @@
             {{ ctrl.audioPlaying[inputName] ? 'Stop' : 'Play' }}<br>{{ inputName }}
         </button>
     </div>
+    <hr>
+    <div class="will-remember-that">
+        "X will remember that" meme:
+        <input ng-model="ctrl.willRememberThatText">
+        <button ng-click="ctrl.doWillRememberThat()">Do it</button>
+    </div>
 </div>

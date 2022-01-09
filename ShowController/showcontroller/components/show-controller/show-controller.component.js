@@ -3,28 +3,30 @@ angular.module('showController')
 	templateUrl: 'components/show-controller/show-controller.template.html',
 	controllerAs: 'ctrl',
 	controller: function ($scope, $rootScope, $location, $timeout, $filter, $q, vMix) {
-		let ctrl = this;
+		const ctrl = this;
 
-		let REFRESH_FREQUENCY = 15 * 1000;
-		let SIX_SHOT = '[L] GM w/ 6 players';
-		let FIVE_SHOT = '[L] GM w/ 5 players';
-		let FOUR_SHOT = '[L] GM w/ 4 players';
+		const REFRESH_FREQUENCY = 15 * 1000;
+		const SIX_SHOT = '[L] GM w/ 6 players';
+		const FIVE_SHOT = '[L] GM w/ 5 players';
+		const FOUR_SHOT = '[L] GM w/ 4 players';
 
-		let TWO_SHOT = '[L] 1v1 w/spectators';
-		let TWO_SHOT_SLOT_1 = 1;
-		let TWO_SHOT_SLOT_2 = 2;
-		let TWO_SHOT_SLOT_1_TEXT = 9;
-		let TWO_SHOT_SLOT_2_TEXT = 10;
-		let TWO_SHOT_SLOT_GM = 4;
-		let TWO_SHOT_SLOT_3 = 5;
-		let TWO_SHOT_SLOT_4 = 6;
-		let TWO_SHOT_SLOT_5 = 7;
-		let TWO_SHOT_SLOT_6 = 8;
+		const TWO_SHOT = '[L] 1v1 w/spectators';
+		const TWO_SHOT_SLOT_1 = 1;
+		const TWO_SHOT_SLOT_2 = 2;
+		const TWO_SHOT_SLOT_1_TEXT = 9;
+		const TWO_SHOT_SLOT_2_TEXT = 10;
+		const TWO_SHOT_SLOT_GM = 4;
+		const TWO_SHOT_SLOT_3 = 5;
+		const TWO_SHOT_SLOT_4 = 6;
+		const TWO_SHOT_SLOT_5 = 7;
+		const TWO_SHOT_SLOT_6 = 8;
 
-		let ONE_SHOT = '[L] GM solo';
+		const ONE_SHOT = '[L] GM solo';
 
-		let STILL_STORE = '[L] Still store';
-		let STILL_STORE_SLOT = 2;
+		const STILL_STORE = '[L] Still store';
+		const STILL_STORE_SLOT = 2;
+
+		const WILL_REMEMBER_THAT = 'WillRememberThat';
 
 		let timeout = null;
 
@@ -49,6 +51,8 @@ angular.module('showController')
 		ctrl.slotOne = null;
 		ctrl.slotTwo = null;
 		ctrl.stillStore = null;
+
+		ctrl.willRememberThatText = '';
 
 		ctrl.vMix = null;
 
@@ -96,6 +100,8 @@ angular.module('showController')
 						} catch {
 							ctrl.stillStore = null;
 						}
+					} else if(title === WILL_REMEMBER_THAT) {
+						ctrl.willRememberThatText = [...input.getElementsByTagName('text')].find((t) => t.getAttribute('name') === 'Message').getInnerHTML();
 					} else if(title.startsWith('[S]')) {
 						ctrl.stillStoreNames.push(title);
 					} else if(title.startsWith('[A]')) {
@@ -206,6 +212,11 @@ angular.module('showController')
 				ctrl.vMix.restart(input).playPause(input);
 			}
 			ctrl.audioPlaying[input] = !ctrl.audioPlaying[input];
+		}
+
+		ctrl.doWillRememberThat = () => {
+			ctrl.vMix.setTitle(WILL_REMEMBER_THAT, ctrl.willRememberThatText)
+				.overlay(WILL_REMEMBER_THAT, 3);
 		}
 	}
 });
