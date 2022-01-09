@@ -118,15 +118,18 @@ angular.module('vMix', [])
                     },
                     setMultiViewInput: function(input, multiViewSlot, setInput){
                         if(!input || !multiViewSlot || (!setInput && setInput !== 0)){
+                            console.log(input + " | " + multiViewSlot + " | " + setInput);
                             console.log("bad input");
+                            console.trace();
                             return this.wait(0);
                         }
                         return wrap(promise.then(function(){
                             if((typeof setInput)==='string'){
+                                const origInput = setInput;
                                 setInput = NAME_INPUT_MAP[setInput];
                                 if(!setInput){
-                                    console.log("couldn't map input");
-                                    console.log(angular.toJson(NAME_INPUT_MAP));
+                                    console.log("couldn't map input - "+origInput);
+                                    console.log(NAME_INPUT_MAP);
                                     return wait(0);
                                 }
                             }

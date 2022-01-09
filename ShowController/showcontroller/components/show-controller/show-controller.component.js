@@ -163,11 +163,13 @@ angular.module('showController')
 			// Set the main views
 			ctrl.setTwoShotValuesInVMix();
 
+			let fillGMSlot = false;
 			// Set the GM input, if the GM isn't in a main slot
 			const slotsToFill = [TWO_SHOT_SLOT_3, TWO_SHOT_SLOT_4, TWO_SHOT_SLOT_5, TWO_SHOT_SLOT_6];
 			if(ctrl.slotOne === ctrl.gmInputName || ctrl.slotTwo === ctrl.gmInputName) {
 				// They're in the main view, so add this to the list of slots to fill
 				slotsToFill.unshift(TWO_SHOT_SLOT_GM);
+				fillGMSlot = true;
 			} else {
 				// They not in the main view, put them in their home
 				ctrl.vMix.setMultiViewInput(TWO_SHOT, TWO_SHOT_SLOT_GM, ctrl.gmInputName);
@@ -176,7 +178,7 @@ angular.module('showController')
 			// Set all the spectator views
 			let curSlotIndex = 0;
 			for(const inputName of ctrl.playerInputNames) {
-				if (!(ctrl.slotOne === inputName || ctrl.slotTwo === inputName)) {
+				if (!(ctrl.slotOne === inputName || ctrl.slotTwo === inputName || (!fillGMSlot && ctrl.gmInputName === inputName))) {
 					ctrl.vMix.setMultiViewInput(TWO_SHOT, slotsToFill[curSlotIndex], inputName);
 					curSlotIndex++;
 				}
