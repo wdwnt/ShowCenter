@@ -116,7 +116,9 @@ angular.module('showController')
 							ctrl.stillStore = null;
 						}
 					} else if(title === WILL_REMEMBER_THAT) {
-						ctrl.willRememberThatText = [...input.getElementsByTagName('text')].find((t) => t.getAttribute('name') === 'Message').getInnerHTML();
+						if(!ctrl.willRememberThatText) {
+							ctrl.willRememberThatText = [...input.getElementsByTagName('text')].find((t) => t.getAttribute('name') === 'Message').getInnerHTML();
+						}
 					} else if(title.startsWith('[S]')) {
 						ctrl.stillStoreNames.push(title);
 					} else if(title.startsWith('[A]')) {
