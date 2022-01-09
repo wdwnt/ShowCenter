@@ -56,7 +56,22 @@ angular.module('showController')
 
 		ctrl.vMix = null;
 
-		ctrl.connectToVMix = (url) => {
+		ctrl.$onInit = () => {
+			const urlParams = new URLSearchParams(window.location.search);
+			const host = urlParams.get('host');
+			if(host) {
+				$scope.ip = host;
+				ctrl.connectToVMix(host, false);
+			}
+		}
+
+		ctrl.connectToVMix = (url, updateQueryParams = true) => {
+			if(updateQueryParams){
+				const searchParams = new URLSearchParams(window.location.search);
+				searchParams.set("host", url);
+				window.location.search = searchParams.toString();
+			}
+
 			ctrl.vMix = vMix(url);
 			if(timeout) {
 				clearInterval(timeout);
