@@ -138,6 +138,7 @@ angular.module('vMix', [])
                     },
                     setTitle: function(input, text){
                         return wrap(promise.then(function(){
+                            console.log(text);
                             return call("?Function=SetText&Input="+input+"&Value="+text);
                         }));
                     },

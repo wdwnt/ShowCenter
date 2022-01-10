@@ -117,7 +117,10 @@ angular.module('showController')
 						}
 					} else if(title === WILL_REMEMBER_THAT) {
 						if(!ctrl.willRememberThatText) {
-							ctrl.willRememberThatText = [...input.getElementsByTagName('text')].find((t) => t.getAttribute('name') === 'Message').getInnerHTML();
+							ctrl.willRememberThatText = [...input.getElementsByTagName('text')]
+								.find((t) => t.getAttribute('name') === 'Message')
+								.getInnerHTML()
+								.replace('\n', ' ');
 						}
 					} else if(title.startsWith('[S]')) {
 						ctrl.stillStoreNames.push(title);
@@ -232,7 +235,29 @@ angular.module('showController')
 		}
 
 		ctrl.doWillRememberThat = () => {
-			ctrl.vMix.setTitle(WILL_REMEMBER_THAT, ctrl.willRememberThatText)
+			let text = ctrl.willRememberThatText;
+
+			const MAX_LINE_LENGTH = 40;
+			const splits = text.split(/\s/);
+			const lines = [];
+			let curLine = '';
+			for(const chunk of splits) {
+				const newLine = (curLine + ' ' + chunk).trim();
+				console.log(newLine);
+				if(newLine.length > MAX_LINE_LENGTH) {
+					lines.push(curLine);
+					curLine = chunk;
+				} else {
+					curLine = newLine;
+				}
+			}
+			if(curLine) {
+				lines.push(curLine);
+			}
+			text = lines.join('%0A');
+			console.log(text);
+
+			ctrl.vMix.setTitle(WILL_REMEMBER_THAT, text)
 				.overlay(WILL_REMEMBER_THAT, 3);
 		}
 	}
