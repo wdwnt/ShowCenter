@@ -4,6 +4,7 @@ staticfiles
 .env
 db.sqlite3
 .idea
+*.DS_Store
 /SuperObscureGameShow/sogs/node_modules/bezier-easing/src/
 /SuperObscureGameShow/sogs/node_modules/bezier-easing/LICENSE
 /SuperObscureGameShow/sogs/node_modules/bezier-easing/package.json
