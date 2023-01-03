@@ -7,14 +7,14 @@
     <!--
     <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(240px - {{ $ctrl.showStrikes*125 }}px)">
         <div>
-            <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
+            <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="images/strike.png" class="strike">
         </div>
     </div>
     -->
     <div style="display: flex; align-items: center; position: relative">
         <div ng-show="$ctrl.showStrikes" class="strikes-holder" style="left: calc(785px - {{ $ctrl.showStrikes*125 }}px)">
             <div>
-                <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="{{ $root.STATIC_BASE }}images/strike.png" class="strike">
+                <img ng-repeat="x in [].constructor($ctrl.showStrikes) track by $index" ng-src="images/strike.png" class="strike">
             </div>
         </div>
         <team conf="$ctrl.show.teams.left"></team>
@@ -47,7 +47,7 @@
                 <div class="board-bumper board-text" ng-bind="$ctrl.currentPointMultiplier() | multiplier"></div>
             </div>
             <div class="board-with-bumpers" ng-show="$ctrl.show.state === $root.SHOW_STATES.PRESHOW || $ctrl.show.state === $root.SHOW_STATES.END_SCREEN">
-                <img ng-src="{{ $root.STATIC_BASE+'images/feud.png'}}">
+                <img ng-src="images/feud.png">
             </div>
         </div>
         <team conf="$ctrl.show.teams.right"></team>

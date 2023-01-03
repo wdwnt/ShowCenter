@@ -1,6 +1,6 @@
 angular.module('fanlyfeud')
 .component('show', {
-	templateUrl: STATIC_BASE+'templates/show.template.html',
+	templateUrl: './templates/show.template.html',
 	controller: function($scope, broadcastBinding, $timeout, SHOW_STATES, QUEUE){
 		let ctrl = this;
 
@@ -18,13 +18,13 @@ angular.module('fanlyfeud')
 
 		//courtesy http://www.qwizx.com/gssfx/usa/ff.htm
 		const SOUND_URLS = {
-			OPENING_THEME: STATIC_BASE+'audio/feudIntro.mp3',
-			DING: STATIC_BASE+'audio/ff-clang.wav',
-			STRIKE: STATIC_BASE+'audio/ff-strike.wav',
-			ROUND_WIN: STATIC_BASE+'audio/ff-dings.wav',
-			SHORT_THEME: STATIC_BASE+'audio/feudShortIntro.mp3',
-			BUZZER_SOUND: STATIC_BASE+'audio/ff-ringin.wav',
-			OUT_THEME: STATIC_BASE+'audio/openingThemeRaw.mp3'
+			OPENING_THEME: 'audio/feudIntro.mp3',
+			DING: 'audio/ff-clang.wav',
+			STRIKE: 'audio/ff-strike.wav',
+			ROUND_WIN: 'audio/ff-dings.wav',
+			SHORT_THEME: 'audio/feudShortIntro.mp3',
+			BUZZER_SOUND: 'audio/ff-ringin.wav',
+			OUT_THEME: 'audio/openingThemeRaw.mp3'
 		};
 
 		ctrl.SOUNDS = SOUNDS;

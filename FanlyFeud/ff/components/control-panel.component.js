@@ -1,6 +1,6 @@
 angular.module('fanlyfeud')
 .component('controlPanel', {
-	templateUrl: STATIC_BASE+'templates/control-panel.template.html',
+	templateUrl: 'templates/control-panel.template.html',
 	controller: function($scope, broadcastBinding, times, SHOW_STATES, QUEUE){
 		let ctrl = this;
 

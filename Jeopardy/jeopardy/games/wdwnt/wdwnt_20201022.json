@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "REMEMBER HOPPER?",
+      "questions": [
+        {
+          "question": "AFTER CLOSING, FLIK'S FLYERS WAS REPURPOSED AND RELOCATED ACROSS THE PARK TO BECOME THIS PIXAR-THEMED ATTRACTION.",
+          "answer": "What is Inside Out Emotional Whirlwind?",
+          "value": 100
+        },
+        {
+          "question": "THIS ATTRACTION WAS THE ONLY ONE THAT WAS VISIBLE WHILE IN A BUG'S LAND THAT WASN'T PART OF THE LAND ITSELF - ALTHOUGH WHEN IT FIRST OPENED, IT REALLY DIDN'T BREAK THE THEMING TOO BADLY.",
+          "answer": "What is The Twilight Zone Tower of Terror?",
+          "value": 200
+        },
+        {
+          "question": "IN 2015, THE \"IT'S TOUGH TO BE A BUG\" THEATER WAS FITTINGLY HOME TO A SNEAK PREVIEW OF THIS MARVEL STUDIOS FILM. SOON, THE TITLE CHARACTER WILL RETURN TO HELP SELL OVERSIZED CHICKEN SANDWICHES.",
+          "answer": "What is Ant-Man?",
+          "value": 300
+        },
+        {
+          "question": "HEIMLICH'S CHEW CHEW TRAIN FEATURED MULTIPLE SMELLITZERS, INCLUDING ONE AS YOU PASSED UNDER AN ARCH MADE OUT OF THIS FRUIT.",
+          "answer": "What is watermelon?",
+          "value": 400
+        },
+        {
+          "question": "IN IT'S TOUGH TO BE A BUG!, THIS SEINFELD ACTOR PLAYED WEEVIL KENEVIL - HE WANTED HIS ROLE TO BE LARGER, BUT UHH… SHRINKAGE!",
+          "answer": "Who is Jason Alexander?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "FIVE. WORD. ATTRACTION. DESCRIPTION. CATEGORY. [TOM READS THESE IN THE STYLE OF \"SECRET SWISS BOBSLED TRAINING FACILITY\"]",
+      "questions": [
+        {
+          "question": "DONALD. DUCK. TRAVELLING. THROUGH. MUSICALS.",
+          "answer": "What is Mickey's PhilharMagic?",
+          "value": 100
+        },
+        {
+          "question": "SECRET. GHOST. FACILITY. OPEN. HOUSE.",
+          "answer": "What is The Haunted Mansion?",
+          "value": 200
+        },
+        {
+          "question": "OBVIOUS. SWISS. MOUNTAIN. WITH. SNOWMAN.",
+          "answer": "What are the Matterhorn Bobsleds?",
+          "value": 300
+        },
+        {
+          "question": "NEPALESE. MOUNTAIN. WITH. BROKEN. YETI.",
+          "answer": "What is Expedition Everest?",
+          "value": 400
+        },
+        {
+          "question": "SKIING. TRAINS. WEDDING. CHÂTEAUS. CATHEDRALS.",
+          "answer": "What is Impressions de France?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "7?!",
+      "questions": [
+        {
+          "question": "THE TARGET AUDIENCE AGE FOR THIS COASTER IS PROBABLY THE SAME AS THE NUMBER OF ROWS AVAILABLE PER TRAIN.",
+          "answer": "What is Slinky Dog Dash?",
+          "value": 100
+        },
+        {
+          "question": "YOU VISIT ALL SEVEN CONTINENTS ON THIS BOAT RIDE.",
+          "answer": "What is \"it's a small world?\"",
+          "value": 200
+        },
+        {
+          "question": "ADD 2 ZANY HOSTS TO THE 5 SENSES TO GET ROW 7 ON THIS ATTRACTION.",
+          "answer": "What is Journey Into Imagination with Figment?",
+          "value": 300
+        },
+        {
+          "question": "THERE'S WAY MORE THAN 7 DIFFERENT SPECIES OF PLANTS AND ANIMALS ON THIS EPCOT ATTRACTION!",
+          "answer": "What is Living With The Land?",
+          "value": 400
+        },
+        {
+          "question": "THE TOP SPEED FOR THIS ATTRACTION IS APPROXIMATELY 7 MILES PER HOUR, APPROPRIATELY ENOUGH.",
+          "answer": "What is the Tomorrowland Speedway?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "WORLD OF COLOR [EACH CORRECT RESPONSE HAS A COLOR IN THE NAME]",
+      "questions": [
+        {
+          "question": "IN LIVING WITH THE LAND, GUESTS TRAVEL THROUGH A SERIES OF THESE INDOOR STRUCTURES WHERE PLANTS ARE OFTEN GROWN.",
+          "answer": "What are greenhouses?",
+          "value": 100
+        },
+        {
+          "question": "BECAUSE OF ITS POPULARITY WITH PICTURE TAKERS, THIS COLORFUL SPOT IN THE MAGIC KINGDOM'S TOMORROWLAND WAS ENHANCED IN 2018, ADDING A CRYSTAL-LIKE PATTERN.",
+          "answer": "What is the Purple Wall?",
+          "value": 200
+        },
+        {
+          "question": "AT THIS DISNEYLAND AND TOKYO DISNEYLAND RESTAURANT, DINERS CAN ENJOY A VIEW OF THE NIGHT SKY ANY TIME OF DAY… AS WELL AS BOATLOADS OF BUDDING BUCCANEERS RIDING PIRATES OF THE CARIBBEAN.",
+          "answer": "What is Blue Bayou?",
+          "value": 300
+        },
+        {
+          "question": "DESPITE BEING ON OPPOSITE COASTS, BOTH THE DISNEYLAND RESORT AND MOST OF WALT DISNEY WORLD ARE SITUATED IN COUNTIES THAT SHARE THIS NAME.",
+          "answer": "What is Orange County?",
+          "value": 400
+        },
+        {
+          "question": "IN 2012, KILIMANJARO SAFARIS SAID FAREWELL TO THIS AUDIO-ANIMATRONIC BABY ELEPHANT AND \"JAMBO\" TO A NEW WATERING HOLE FOR REAL-LIFE ANIMALS.",
+          "answer": "Who is Little Red?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "DELAY OF DE-LAND [PROJECTS THAT HAVE BEEN CANCELLED OR DELAYED]",
+      "questions": [
+        {
+          "question": "EARLIER THIS YEAR, DISNEY CONFIRMED THAT THE CHERRY TREE LANE SECTION OF THIS EPCOT PAVILION HAD BEEN DELAYED INDEFINITELY. SADLY, BUDGET CUTS WERE PRACTICALLY IMPERFECT IN EVERY WAY.",
+          "answer": "What is the United Kingdom?",
+          "value": 100
+        },
+        {
+          "question": "THIS RESTAURANT AT EPCOT IS STILL AWAITING ITS GO FOR LAUNCH, HAVING BEEN DELAYED SEVERAL TIMES SINCE LAST YEAR.",
+          "answer": "What is Space 220?",
+          "value": 200
+        },
+        {
+          "question": "DISNEY CRUISE LINE HAS ANNOUNCED THAT THIS NEW SHIP, WHOSE NAME WAS ANNOUNCED AT THE 2019 D23 EXPO, WILL HAVE ITS MAIDEN VOYAGE IN SUMMER 2022, MONTHS AFTER ITS PLANNED LAUNCH IN JANUARY OF THAT YEAR.",
+          "answer": "What is the Disney Wish?",
+          "value": 300,
+          "daily-double": true
+        },
+        {
+          "question": "THE LAST PETAL HASN'T FALLEN ON THE WAIT FOR THE ENCHANTED TALE OF BEAUTY AND THE BEAST AT THIS PARK, AS ITS PLANNED OPENING DATE HAS PASSED.",
+          "answer": "What is Tokyo Disneyland?",
+          "value": 400
+        },
+        {
+          "question": "DISNEY'S HOTEL NEW YORK WILL NOW BE SWINGING BACK INTO ACTION NEXT YEAR WITH SPIDER-MAN, IRON MAN AND MORE WITH ITS NEW THEME CELEBRATING \"THE ART OF\" THIS.",
+          "answer": "What is Marvel?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "THIS ISN'T ABOUT FLORIDA",
+      "questions": [
+        {
+          "question": "IN 1995, IT WAS BUZZ ALDRIN, NOT LIGHTYEAR, WHO HAD \"THE RIGHT STUFF\" TO ATTEND THE DEDICATION OF THIS DISNEYLAND PARIS ATTRACTION, WHICH OPENED TWENTY YEARS AFTER THE ORIGINAL.",
+          "answer": "What is Space Mountain: De la Terre à la Lune?",
+          "value": 100
+        },
+        {
+          "question": "WHILE YOU CAN'T RIDE ALIEN SWIRLING SAUCERS AT TOKYO DISNEYLAND, YOU CAN TAKE A SPIN ON THIS SIMILARLY-DESIGNED ATTRACTION, WHICH OPENED IN SEPTEMBER.",
+          "answer": "What is The Happy Ride with Baymax?",
+          "value": 200
+        },
+        {
+          "question": "BACK IN MAY, SHANGHAI DISNEYLAND'S LAUGHING MONKEY TRADERS WAS RE-THEMED TO THIS PAIR OF CHARACTERS NAMED AFTER A 19TH CENTURY FURNITURE DESIGNER (AND NOT AN ALL-MALE REVUE IN LAS VEGAS).",
+          "answer": "Who are Chip and Dale?",
+          "value": 300
+        },
+        {
+          "question": "PREVIOUSLY KNOWN AS THE TASTE PILOT'S GRILL, THIS DINING LOCATION IS LOCATED RIGHT NEXT TO SOARIN' AROUND THE WORLD IN DISNEY'S CALIFORNIA ADVENTURE.",
+          "answer": "What is the Smokejumpers Grill?",
+          "value": 400
+        },
+        {
+          "question": "WHILE IT MAY CONJURE UP THOUGHTS OF THE HAUNTED MANSION, THIS DISNEYLAND SHOP'S MONIKER IS ACTUALLY A PLAY ON THE NAME OF LOUISIANA'S CAPITAL CITY.",
+          "answer": "What is Le Bat en Rouge?",
+          "value": 500
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "THE VOTES ARE IN",
+      "questions": [
+        {
+          "question": "TAKING THESE MIGHT NOT BE VOTING, BUT IT'S DISNEY'S WAY OF ASKING YOUR INPUT ON CHANGES TO THE PARKS",
+          "answer": "What are (park exit) surveys?",
+          "value": 200
+        },
+        {
+          "question": "GUESTS COULD VOTE AS PART OF THE \"ASK THE AUDIENCE\" LIFELINE IN THIS DISNEY-MGM STUDIOS ATTRACTION.",
+          "answer": "What is Who Wants to be a Millionaire - Play It!?",
+          "value": 400
+        },
+        {
+          "question": "SO LONG AS THE TOUCHSCREEN IN YOUR TIME MACHINE WORKS, YOU CAN VOTE ON YOUR VIEW OF THE FUTURE AT THIS ATTRACTION.",
+          "answer": "What is Spaceship Earth?",
+          "value": 600
+        },
+        {
+          "question": "YOU COULD VOTE TO END YOUR JOURNEY IN BRAVA CENTAURI, MESA VERDE, OR SEA CASTLE IN THIS FORMER ATTRACTION/ EVERYONE COULD CHOOSE, MAJORITY RULED.",
+          "answer": "What is Horizons?",
+          "value": 800
+        },
+        {
+          "question": "IN 1990, DISNEY BEGAN THIS DECADE-LONG POLL IN EPCOT CENTER  TO DETERMINE THE MOST INFLUENTIAL FIGURE OF THE 20TH CENTURY… AND ABANDONED THE PROJECT 14 MONTHS LATER.",
+          "answer": "What is Person of the Century?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "BIRTHDAY PARTY",
+      "questions": [
+        {
+          "question": "FOR WALT DISNEY WORLD'S 25TH ANNIVERSARY, THIS PARK ICON WAS TRANSFORMED INTO A BIRTHDAY CAKE.",
+          "answer": "What is Cinderella Castle?",
+          "value": 200
+        },
+        {
+          "question": "EPCOT CAPPED OFF ITS 25TH, 30TH, AND 35TH ANNIVERSARIES WITH A SPECIAL FIREWORKS TAG AT THE END OF THIS LONG-RUNNING NIGHTTIME SPECTACULAR.",
+          "answer": "What is IllumiNations: Reflections of Earth?",
+          "value": 400
+        },
+        {
+          "question": "IN RECENT YEARS, DISNEY'S ANIMAL KINGDOM CELEBRATES ITS BIRTHDAY WITH TIFFINS TALKS, A LUNCH AND LECTURE LED BY THIS IMAGINEER AND THE PARK'S LEAD DESIGNER. THEY SAY IT'S A TALK WORTH \"EARRING.\"",
+          "answer": "Who is Joe Rohde?",
+          "value": 600
+        },
+        {
+          "question": "A LIMITED EDITION MAGICBAND FOR THE 30TH ANNIVERSARY OF DISNEY'S HOLLYWOOD STUDIOS INCLUDED CHARACTERS FROM PARK ATTRACTIONS, INCLUDING THE FIRST-EVER APPEARANCE ON A MAGICBAND BY THIS FAMED AMPHIBIAN, WHO WAS ACQUIRED BY DISNEY IN 2004.",
+          "answer": "Who is Kermit the Frog?",
+          "value": 800
+        },
+        {
+          "question": "ON APRIL 8TH, 1999, THIS WALT DISNEY WORLD ZOOLOGICAL ATTRACTION MARKED ITS 25TH ANNIVERSARY IN A SOMBER FASHION BY PERMANENTLY CLOSING TO THE PUBLIC.",
+          "answer": "What is Discovery Island?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "AS EASY AS ABC (ABC-RELATED PLACES IN THE PARKS)",
+      "questions": [
+        {
+          "question": "BEGINNING IN 2019, GUESTS NEEDED THIS TO ENJOY THE \"FAST-CASUAL\" DINNER EXPERIENCE AT THE ABC COMMISSARY.",
+          "answer": "What is a reservation?",
+          "value": 200
+        },
+        {
+          "question": "ON AUGUST 19TH, 2006, A CONTESTANT GAVE THE \"FINAL ANSWER\" AT THIS DISNEY-MGM STUDIOS ATTRACTION BASED ON A POPULAR ABC GAME SHOW.",
+          "answer": "What is Who Wants to Be a Millionaire - Play It?",
+          "value": 400
+        },
+        {
+          "question": "THE SHORT-LIVED ABC SOAP OPERA BISTRO WAS AN OPENING-DAY RESTAURANT AT THIS DISNEY PARK, AND CLOSED LESS THAN TWO YEARS LATER IN NOVEMBER 2002.",
+          "answer": "What is Disney's California Adventure?",
+          "value": 600
+        },
+        {
+          "question": "BEFORE IT WAS HOME TO SOUNDS DANGEROUS, THE ABC SOUND STUDIO AT THE DISNEY-MGM STUDIOS HOSTED A SOUND SHOW THEMED TO THIS KIDS' WEEKEND PROGRAMMING BLOCK THAT RAN FROM 1997 TO 2002.",
+          "answer": "What is One Saturday Morning?",
+          "value": 800,
+          "daily-double": true
+        },
+        {
+          "question": "FROM 1996 TO 2008, GUESTS COULD MEET STARS FROM \"ALL MY CHILDREN,\" \"ONE LIFE TO LIVE\" AND \"GENERAL HOSPITAL\" AT THIS DISNEY-MGM STUDIOS ANNUAL EVENT.",
+          "answer": "What is ABC Super Soap Weekend?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "TAKE ME OUT TO THE DISNEY PARKS [BASEBALL IN THE DISNEY PARKS]",
+      "questions": [
+        {
+          "question": "BATTER UP! YOU CAN DINE ON CORN DOG NUGGETS AND OTHER HOT DOG OPTIONS AT THIS BASEBALL-THEMED EATERY IN THE MAGIC KINGDOM.",
+          "answer": "What is Casey's Corner?",
+          "value": 200
+        },
+        {
+          "question": "THE BASEBALL POOL AT DISNEY'S ALL-STAR SPORTS RESORT FEATURES A WATER CANNON FEATURE OPERATED BY THIS CHARACTER, WHO STARRED IN THE 1942 SHORT \"HOW TO PLAY BASEBALL.\"",
+          "answer": "Who is Goofy?",
+          "value": 400
+        },
+        {
+          "question": "GUESTS COULD SWING A BAT AND GET PRE-RECORDED ADVICE FROM BASEBALL STAR GARY CARTER AT COACH'S CORNER IN THIS EPCOT PAVILION.",
+          "answer": "What is Wonders of Life?",
+          "value": 600
+        },
+        {
+          "question": "FROM 1997 TO 2019, THIS MAJOR LEAGUE BASEBALL TEAM HELD THEIR SPRING TRAINING AT THE ESPN WIDE WORLD OF SPORTS COMPLEX.",
+          "answer": "Who are the Atlanta Braves?",
+          "value": 800
+        },
+        {
+          "question": "A BASEBALL FIELD WAS A PLANNED FEATURE FOR THE \"STATE FAIR\" SECTION OF THIS UNBUILT DISNEY PARK WHICH WAS SUPPOSED TO BE LOCATED IN PRINCE WILLIAM COUNTY, VIRGINIA.",
+          "answer": "What is Disney's America?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "STAY TUNED FOR THE POST-SHOW",
+      "questions": [
+        {
+          "question": "ONCE YOU'VE TRAVELLED 65 MILES PER HOUR, YOU CAN MAKE A VIDEO AD FOR YOUR CAR OR SEE SOME REAL STATE-OF-THE-ART AUTOMOBILES IN THE POST-SHOW TO THIS EPCOT ATTRACTION.",
+          "answer": "What is Test Track?",
+          "value": 200
+        },
+        {
+          "question": "THIS 1983 POST SHOW FEATURED A RAINBOW TUNNEL AND JOE RHODE MAKING A CAMEO AS THE DREAMFINDER.",
+          "answer": "What is Imageworks?",
+          "value": 400
+        },
+        {
+          "question": "AFTER RIDING MISSION: SPACE, BUDDING ASTRONAUTS CAN COMPETE IN \"MISSION: SPACE RACE\" OR CREATE \"POSTCARDS FROM SPACE\" IN THIS POST-SHOW AREA.",
+          "answer": "What is the Advanced Training Lab?",
+          "value": 600,
+          "daily-double": true
+        },
+        {
+          "question": "THIS POST-RIDE FILM FOLLOWING MAELSTROM TOOK ITS NAME FROM A PHRASE USED IN THE ATTRACTION.",
+          "answer": "What is The Spirit of Norway?",
+          "value": 800
+        },
+        {
+          "question": "THE EXXON ENERGY EXCHANGE, WHICH SERVED AS A POST-SHOW FOR THE UNIVERSE OF ENERGY, WAS LOCATED WITHIN THIS FORMER EPCOT CENTER PAVILION.",
+          "answer": "What is CommuniCore?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "BROUGHT TO YOU BY OUR SPONSORS [WE GIVE THE SPONSORS, YOU GIVE THE ATTRACTION]",
+      "questions": [
+        {
+          "question": "RCA (1975-1993), FEDEX (1994-2004)",
+          "answer": "What is Space Mountain?",
+          "value": 200
+        },
+        {
+          "question": "HANES (2008-2018)",
+          "answer": "What is Rock 'n' Roller Coaster Starring Aerosmith?",
+          "value": 400
+        },
+        {
+          "question": "KODAK (1982-2010)",
+          "answer": "What is Imagination! (Journey into Imagination)?",
+          "value": 600
+        },
+        {
+          "question": "MCDONALD'S (1998-2008)",
+          "answer": "What is DINOSAUR?",
+          "value": 800
+        },
+        {
+          "question": "COCA-COLA (1982-1998), AMERICAN EXPRESS (1982-2002)",
+          "answer": "What is The American Adventure?",
+          "value": 1000
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "category": "AND WE'RE BACK",
+    "question": "THESE WERE THE FIRST TWO PARKS TO REOPEN AT WALT DISNEY WORLD AFTER THE EXTENDED CLOSURE.",
+    "answer": "What are Magic Kingdom and Disney's Animal Kingdom?"
+  }
+}

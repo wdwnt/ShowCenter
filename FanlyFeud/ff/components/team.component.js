@@ -1,6 +1,6 @@
 angular.module('fanlyfeud')
 .component('team', {
-	templateUrl: STATIC_BASE + 'templates/team.template.html',
+	templateUrl: 'templates/team.template.html',
 	bindings: {
 		conf: '<'
 	}

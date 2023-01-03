@@ -36,7 +36,7 @@ angular.module('fanlyfeud', ['ngRoute', 'ngMaterial', 'broadcastChannel', 'util'
 		.accentPalette('light-blue');
 }).run(function($rootScope, $location, SHOW_STATES, QUEUE){
 	$rootScope.$location = $location;
-	$rootScope.STATIC_BASE = STATIC_BASE;
+	// $rootScope.STATIC_BASE = STATIC_BASE;
 	$rootScope.SHOW_STATES = SHOW_STATES;
 	$rootScope.QUEUE = QUEUE;
 }).filter('points', function(){

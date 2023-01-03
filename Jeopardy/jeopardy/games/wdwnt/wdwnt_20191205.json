@@ -1,0 +1,374 @@
+{
+  "jeopardy": [
+    {
+      "name": "WALT ACROSS THE USA",
+      "questions": [
+        {
+          "question": "WALT DISNEY WAS BORN DECEMBER 5TH, 1901, IN THIS CITY'S FORMOSA NEIGHBORHOOD. HE AND HIS FAMILY WOULD MOVE BACK THERE IN 1917.",
+          "answer": "What is Chicago?",
+          "value": 100
+        },
+        {
+          "question": "AT THE AGE OF FOUR, WALT AND HIS FAMILY MOVED TO THIS MISSOURI TOWN, WHICH WOULD LATER SERVED AS THE INSPIRATION FOR DISNEYLAND'S MAIN STREET, U.S.A.",
+          "answer": "What is Marceline?",
+          "value": 200
+        },
+        {
+          "question": "IT WAS IN THIS CITY THAT UNIVERSAL DISTRIBUTOR CHARLES MINTZ INFORMED WALT THAT THEY WERE LETTING HIM GO BUT KEEPING OSWALD THE LUCKY RABBIT. LATER THAT YEAR, HE WOULD RETURN TO THE CITY'S COLONY THEATRE TO PREMIERE STEAMBOAT WILLIE, STARRING HIS NEW CREATION, MICKEY MOUSE.",
+          "answer": "What is New York City?",
+          "value": 300
+        },
+        {
+          "question": "OVER THREE YEARS BEFORE HE MOVED TO CALIFORNIA, DISNEY STARTED HIS FIRST ANIMATION STUDIO IN THIS MIDWESTERN CITY WHEN HE FORMED THE LAUGH-O-GRAM STUDIO.",
+          "answer": "What is Kansas City?",
+          "value": 400
+        },
+        {
+          "question": "DESPITE HIS HEAVY CONNECTIONS TO LOS ANGELES, IT WAS IN THE PRESIDIO DISTRICT OF THIS CALIFORNIA CITY WHERE THE WALT DISNEY FAMILY MUSEUM OPENED ITS DOORS.",
+          "answer": "What is San Francisco?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "DISNEY PLUS...",
+      "questions": [
+        {
+          "question": "DISNEY PLUS LEOPOLD STOKOWSKI EQUALS THIS 1940 ANIMATED FILM, THE FIRST TO BE RELEASED IN STEREOPHONIC SOUND.",
+          "answer": "What is Fantasia?",
+          "value": 100
+        },
+        {
+          "question": "DISNEY PLUS COMPOSER AND ORGANIST CARL W. STALLING CREATED THE IDEA FOR THIS SERIES OF ANIMATED SHORTS, WHICH BEGAN WITH \"THE SKELETON DANCE\" IN 1929.",
+          "answer": "What are Silly Symphonies?",
+          "value": 200
+        },
+        {
+          "question": "DISNEY PLUS AEROSPACE ENGINEER WERNHER VON BRAUN GAVE US THREE EPISODES OF THE DISNEYLAND TV SERIES IN THE 1950'S: \"MAN IN SPACE,\" \"MAN AND THE MOON,\" AND THIS PLANET \"AND BEYOND.\"",
+          "answer": "What is Mars?",
+          "value": 300,
+          "daily-double": true
+        },
+        {
+          "question": "DISNEY PLUS THE UNITED STATES GOVERNMENT PRODUCED SEVERAL SHORT PROPAGANDA FILMS DURING WORLD WAR II, INCLUDING THIS 1943 FEATURE-LENGTH FILM, INSPIRED BY A BOOK BY ALEXANDER P. DE SEVERSKY.",
+          "answer": "What is Victory Through Air Power?",
+          "value": 400
+        },
+        {
+          "question": "DISNEY PLUS THIS \"MELTING CLOCKS\" ARTIST EQUALS DESTINO, AN ABANDONED SHORT FROM THE MID-1940'S, LATER RESURRECTED AND COMPLETED IN 2003.",
+          "answer": "Who is Salvador Dalí?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "THE 1964 NEW YORK WORLD'S FAIR",
+      "questions": [
+        {
+          "question": "THIS ATTRACTION CREATED FOR THE FAIR HAS HAD MORE PERFORMANCES THAN ANY OTHER STAGE SHOW IN THE HISTORY OF AMERICAN THEATER. OF COURSE, IT HELPS THAT THE CAST IS ALL AUDIO-ANIMATRONICS.",
+          "answer": "What is Walt Disney's Carousel of Progress?",
+          "value": 100
+        },
+        {
+          "question": "THIS ATTRACTION WAS THE LAST OF THE FOUR DISNEY ATTRACTIONS FOR THE FAIR TO BE DEVELOPED WITH 11 MONTHS TO GO, AFTER PEPSI BOARD MEMBER JOAN CRAWFORD INSISTED THAT WALT'S CONCEPT BE APPROVED ON THE SPOT. IT WAS A HUGE SUCCESS, AND CURRENTLY RUNS IN FIVE DISNEY PARKS WORLDWIDE.",
+          "answer": "What is It's a Small World?",
+          "value": 200
+        },
+        {
+          "question": "REPORTEDLY, ON A VISIT TO THE DISNEY STUDIOS IN APRIL 1962, FAIR ORGANIZER ROBERT MOSES SAW THE FIRST AUDIO-ANIMATRONIC MODELED AFTER A HUMAN AND SAID, \"I WON'T OPEN THE FAIR WITHOUT THAT EXHIBIT!\" THE STATE OF ILLINOIS STEPPED IN, THIS ATTRACTION WAS BORN, AND THE REST IS, LITERALLY, HISTORY.",
+          "answer": "What is Great Moments with Mr. Lincoln?",
+          "value": 300
+        },
+        {
+          "question": "DISNEY PLANNED A 9-SCREEN CIRCLE-VISION 360 FILM FOR THIS COMPANY'S PAVILION THAT WAS ULTIMATELY SCRAPPED. THERE WERE NO HARD FEELINGS, HOWEVER, AS THE COMPANY WOULD LATER SPONSOR THE JOURNEY INTO IMAGINATION PAVILION AT EPCOT CENTER.",
+          "answer": "What is Kodak?",
+          "value": 400
+        },
+        {
+          "question": "WALT HIMSELF SERVED AS THE NARRATOR FOR THE FORD MOTOR COMPANY'S ATTRACTION, THE ONLY ONE OF THE FOUR NOT TO COME TO DISNEYLAND AS IT APPEARED AT THE FAIR.",
+          "answer": "What is Magic Skyway?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "WALT'S DISNEYLAND",
+      "questions": [
+        {
+          "question": "WHEN THIS ADVENTURELAND RIDE OPENED IN 1955, IT WAS HEAVILY INSPIRED BY THE TRUE-LIFE ADVENTURES SERIES, WITH A VERY DRY SCRIPT. ONCE MARC DAVIS DEVELOPED A SCENE OF A RHINOCEROS CHASING A SAFARI PARTY UP A TREE, IT WOULD NEVER BE THE SAME AGAIN.",
+          "answer": "What is Jungle Cruise?",
+          "value": 100
+        },
+        {
+          "question": "THIS FANTASYLAND ATTRACTION OPENED ON DISNEYLAND'S OPENING DAY IN 1955, AND AFTER THE MAGIC KINGDOM'S VERSION CLOSED IN 1998, REMAINS THE ONLY ONE IN OPERATION.",
+          "answer": "What is Mr. Toad's Wild Ride?",
+          "value": 200
+        },
+        {
+          "question": "LEGEND HAS IT THAT WHILE FILMING THIRD MAN ON THE MOUNTAIN IN SWITZERLAND, WALT SENT A POSTCARD OF A FAMOUS MOUNTAIN IN THE SWISS ALPS TO IMAGINEER VIC GREENE WITH THE MESSAGE \"VIC, BUILD THIS! WALT.\" THEY DID, AND IN 1959, THIS ATTRACTION OPENED TO THE PUBLIC.",
+          "answer": "What is Matterhorn Bobsleds?",
+          "value": 300
+        },
+        {
+          "question": "THIS OPENING DAY DISNEYLAND ATTRACTION SPAWNED SEVERAL CLONES IN THE PARK, INCLUDING A MIDGET, JUNIOR, AND FANTASYLAND VERSION.",
+          "answer": "What is Autopia?",
+          "value": 400
+        },
+        {
+          "question": "MINE TRAIN THRU NATURE'S WONDERLAND OPENED IN 1960, BUT HONORED ITS PREDECESSOR'S NAME BY STILL TRAVELING THROUGH THIS COLORFUL SET PIECE.",
+          "answer": "What is Rainbow Caverns?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "ALL ABOUT MICKEY",
+      "questions": [
+        {
+          "question": "USING ARCHIVAL RECORDINGS, WALT DISNEY ONCE AGAIN PROVIDED THE VOICE OF MICKEY MOUSE IN THIS 2013 SHORT, WHICH IS CURRENTLY PART OF EPCOT'S DISNEY-PIXAR SHORT FILM FESTIVAL.",
+          "answer": "What is Get a Horse?",
+          "value": 100
+        },
+        {
+          "question": "WALT ORIGINALLY WANTED TO NAME MICKEY THIS, BEFORE HIS WIFE LILLIAN CONVINCED HIM TO CHANGE IT.",
+          "answer": "What is Mortimer?",
+          "value": 200
+        },
+        {
+          "question": "WALT'S FINAL FULL-TIME PERFORMANCE AS THE VOICE OF MICKEY WAS IN \"MICKEY AND THE BEANSTALK,\" PART OF THIS 1947 LIVE-ACTION/ANIMATED PACKAGE FILM, THOUGH HE WOULD OCCASIONALLY VOICE THE CHARACTER UNTIL HIS PASSING.",
+          "answer": "What is Fun and Fancy Free?",
+          "value": 300
+        },
+        {
+          "question": "WHILE STEAMBOAT WILLIE WAS THE FIRST MICKEY MOUSE CARTOON TO BE RELEASED, IT WAS ACTUALLY THIS SHORT THAT WAS THE FIRST MICKEY CARTOON TO BE PRODUCED.",
+          "answer": "What is Plane Crazy?",
+          "value": 400
+        },
+        {
+          "question": "WHILE WALT DISNEY HAD THE ORIGINAL IDEA FOR MICKEY MOUSE, IT WAS THIS ANIMATOR WHO REFINED DISNEY'S CONCEPT FOR THE CHARACTER INTO A MORE RECOGNISABLE DESIGN.",
+          "answer": "Who is Ub Iwerks?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "WALT-POURRI",
+      "questions": [
+        {
+          "question": "WALT DESIGNED THE ORIGINAL LOGO FOR THIS CHARITABLE ORGANIZATION IN 1948 WITH DONALD DUCK ON A TRAIN. DONALD IS GONE, BUT THE TRAIN STILL REMAINS.",
+          "answer": "What is Toys for Tots?",
+          "value": 100
+        },
+        {
+          "question": "IN THE 1930'S, WALT BECAME AN ACTIVE COMPETITOR IN THIS SPORT PLAYED ON HORSEBACK, UNTIL AN INJURY FORCED HIM TO STOP.",
+          "answer": "What is polo?",
+          "value": 200
+        },
+        {
+          "question": "WALT WAS AN AMATEUR TRAIN ENTHUSIAST, GOING SO FAR TO OPERATE THIS MINIATURE RAILROAD WHICH TOOK GUESTS ON A \"FAIR-WEATHER ROUTE\" THROUGH HIS BACKYARD IN THE EARLY 1950'S.",
+          "answer": "What is the Carolwood Pacific?",
+          "value": 300
+        },
+        {
+          "question": "IN SEPTEMBER OF 1918, WALT JOINED THIS ORGANIZATION AS AN AMBULANCE DRIVER TO HELP OUT IN WORLD WAR I, AND WAS SHIPPED TO FRANCE IN NOVEMBER, AFTER THE ARMISTICE HAD TAKEN EFFECT.",
+          "answer": "What is the Red Cross?",
+          "value": 400
+        },
+        {
+          "question": "IN 1960, WALT SERVED AS THE HEAD OF THE PAGEANTRY COMMITTEE FOR THIS GLOBAL SPORTING EVENT IN SQUAW VALLEY, CALIFORNIA, PRODUCING ITS OPENING AND CLOSING CEREMONIES.",
+          "answer": "What are the Winter Olympics?",
+          "value": 500
+        }
+      ]
+    }
+  ],
+  "double-jeopardy": [
+    {
+      "name": "WHAT WOULD WALT EAT?",
+      "questions": [
+        {
+          "question": "WALT WAS A FAN OF THIS POULTRY DISH. OF COURSE, IF HE WANTED IT AT DOCKING BAY 7, HE'D SAY, \"I'LL HAVE THE TIP-YIP!\"",
+          "answer": "What is fried chicken?",
+          "value": 200
+        },
+        {
+          "question": "LILLIAN DISNEY ONCE RECALLED THAT WALT LIKED TO HAVE A CAN OF THIS PASTA FOR LUNCH. WE CAN'T CONFIRM THAT IT ALSO COMES OUT OF A CAN AT TONY'S TOWN SQUARE RESTAURANT, BUT WE CAN'T DENY IT, EITHER.",
+          "answer": "What is spaghetti?",
+          "value": 400
+        },
+        {
+          "question": "WALT DISNEY'S PERSONAL RECIPE FOR THIS INCLUDED TWO POUNDS OF DRY PINK BEANS, TWO POUNDS OF COARSE GROUND BEEF, AND A TEASPOON OF DRY MUSTARD.",
+          "answer": "What is chili?",
+          "value": 600
+        },
+        {
+          "question": "FOR BREAKFAST, WALT LIKED EGGS, OCCASIONALLY WITH THIS CANNED MEAT, FEATURED IN A HASH AT THE HAWAI'I MARKETPLACE AT THIS YEAR'S EPCOT INTERNATIONAL FOOD & WINE FESTIVAL.",
+          "answer": "What is Spam?",
+          "value": 800
+        },
+        {
+          "question": "WALT ENJOYED SUCH PIES AS LEMON MERINGUE, APPLE, AND THIS BERRY, BETTER KNOWN FOR ITS PRESENCE AT DISNEYLAND'S ORANGE COUNTY COMPETITION, KNOTT'S BERRY FARM.",
+          "answer": "What is boysenberry?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "LEGENDS IN WALT'S TIME",
+      "questions": [
+        {
+          "question": "WALT AFFECTIONATELY CALLED THIS PAIR OF COMPOSERS \"THE BOYS,\" AND OFTEN ASKED THEM ON FRIDAYS AFTER WORK TO COME INTO HIS OFFICE AND PLAY ONE OF THEIR SONGS, \"FEED THE BIRDS.\"",
+          "answer": "Who are the Sherman Brothers? (Richard and Robert Sherman)",
+          "value": 200
+        },
+        {
+          "question": "IN SEPTEMBER 1953, WALT ASKED THIS ARTIST TO CREATE A SKETCH FOR A MASSIVE PROJECT. AFTER WORKING NON-STOP FOR A WEEKEND, HE AND DISNEY HAD THE FIRST SKETCH OF DISNEYLAND.",
+          "answer": "Who is Herb Ryman?",
+          "value": 400
+        },
+        {
+          "question": "THIS ARTIST AND ANIMATOR, KNOWN FOR HER COLOR STYLING ON CINDERELLA, ALICE IN WONDERLAND, AND PETER PAN, WAS THE ONLY FEMALE ANIMATOR TO TAKE PART IN DISNEY'S 1941 GOODWILL TOUR OF SOUTH AMERICA.",
+          "answer": "Who is Mary Blair?",
+          "value": 600
+        },
+        {
+          "question": "THIS ANIMATOR, ONE OF THE FAMED NINE OLD MEN, NOT ONLY ANIMATED SUCH CHARACTERS AS JIMINY CRICKET, TWEEDLEDEE AND TWEEDLEDUM, AND LUCIFER THE CAT, BUT ALSO SERVED AS THE BANDLEADER OF THE FIREHOUSE FIVE PLUS TWO.",
+          "answer": "Who is Ward Kimball?",
+          "value": 800
+        },
+        {
+          "question": "NEVER LET IT BE SAID WALT DIDN'T RUN A FAMILY ORGANIZATION: THIS FIRST PRESIDENT OF WED ENTERPRISES AND DIALOGUE WRITER FOR DISNEYLAND'S SNOW WHITE'S SCARY ADVENTURES WAS ALSO THE HUSBAND OF WALT'S SISTER-IN-LAW, HAZEL.",
+          "answer": "Who is Bill Cottrell?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "WALT SAID THAT",
+      "questions": [
+        {
+          "question": "\"I ONLY HOPE THAT WE NEVER LOSE SIGHT OF ONE THING — THAT IT WAS ALL STARTED BY _ _____.\" (2 WORDS)",
+          "answer": "What is a mouse?",
+          "value": 200
+        },
+        {
+          "question": "\"DISNEYLAND WILL NEVER BE COMPLETED. IT WILL CONTINUE TO GROW AS LONG AS THERE IS ___________ LEFT IN THE WORLD.\" (1 WORD)",
+          "answer": "What is imagination?",
+          "value": 400
+        },
+        {
+          "question": "\"WE____ ______ _______, OPENING NEW DOORS, AND DOING NEW THINGS, BECAUSE WE'RE CURIOUS AND CURIOSITY KEEPS LEADING US DOWN NEW PATHS.\" (3 WORDS)",
+          "answer": "What is keep moving forward?",
+          "value": 600
+        },
+        {
+          "question": "\"ALL OUR DREAMS CAN COME TRUE, IF WE HAVE THE _______ TO PURSUE THEM.\"  (1 WORD)",
+          "answer": "What is courage?",
+          "value": 800
+        },
+        {
+          "question": "\"THERE IS MORE TREASURE IN _____ THAN IN ALL THE PIRATE'S LOOT ON TREASURE ISLAND.\" (1 WORD)",
+          "answer": "What are books?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "THE ART OF DISNEY'S ANIMATION... AND LIVE-ACTION",
+      "questions": [
+        {
+          "question": "WALT'S FIRST ANIMATED ANIMATED FILM WAS DUBBED \"DISNEY'S FOLLY\" BY THE HOLLYWOOD ESTABLISHMENT WHILE IN PRODUCTION, BUT AFTER EARNING MILLIONS OF DOLLARS AND AN HONORARY ACADEMY AWARD, IT'S SAFE TO SAY THIS FILM WAS A ROUSING SUCCESS.",
+          "answer": "What is Snow White and the Seven Dwarfs?",
+          "value": 200
+        },
+        {
+          "question": "THIS SILLY SYMPHONY SHORT SERVED AS THE FIRST USE OF THE MULTIPLANE CAMERA.",
+          "answer": "What is The Old Mill?",
+          "value": 400,
+          "daily-double": true
+        },
+        {
+          "question": "WALT DISNEY'S ONLY ACADEMY AWARD NOMINATION FOR BEST PICTURE CAME FOR THIS 1964 FILM, A LONG-SOUGHT OUT ADAPTATION OF A P. L. TRAVERS CHARACTER.",
+          "answer": "What is Mary Poppins?",
+          "value": 600
+        },
+        {
+          "question": "THIS 1944 FILM WAS DISNEY'S FIRST FEATURE-LENGTH FILM TO INCORPORATE ANIMATION WITH LIVE-ACTION CHARACTERS, FEATURING DONALD DUCK AND JOSE CARIOCA DOING THE SAMBA WITH AURORA MIRANDA.",
+          "answer": "What is The Three Caballeros?",
+          "value": 800
+        },
+        {
+          "question": "WALT'S LAST FEATURE FILM CREDIT AS PRODUCER CAME WAS THIS 1967 ANIMATED FILM. IT ALSO SPAWNED A SEQUEL IN 2003, AS WELL AS ADDITIONAL FILM ADAPTATIONS IN 1994 AND 2016.",
+          "answer": "What is The Jungle Book?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "WALT'S LAST DREAM",
+      "questions": [
+        {
+          "question": "WALT'S NAME FOR THE FLORIDA PROJECT WAS EPCOT, STANDING FOR THIS.",
+          "answer": "What is Experimental Prototype Community of Tomorrow?",
+          "value": 200
+        },
+        {
+          "question": "ACCORDING TO THE EPCOT PROJECT PLANS, TRANSPORTATION WITHIN THE CITY ITSELF WOULD BE HANDLED PRIMARILY BY THIS TRANSPORTATION SYSTEM, WHICH OPENED AT DISNEYLAND ON JULY 2ND, 1967.",
+          "answer": "What is the PeopleMover?",
+          "value": 400
+        },
+        {
+          "question": "IN 1966, THE DISNEY-OPERATED SHELL COMPANIES USED TO ACQUIRE LAND FOR THE FLORIDA PROJECT PETITIONED THE STATE OF FLORIDA TO START THIS GOVERNING BODY, WHICH STILL SERVES AS THE GOVERNING BODY OF THE LAND OF WALT DISNEY WORLD TODAY.",
+          "answer": "What is the Reedy Creek Improvement District?",
+          "value": 600
+        },
+        {
+          "question": "FROM 1967 TO 1973, THE POST-SHOW FOR DISNEYLAND'S CAROUSEL OF PROGRESS FEATURED AN EARLY MODEL OF WALT'S PLANS FOR EPCOT, CALLED THIS.",
+          "answer": "What is Progress City?",
+          "value": 800
+        },
+        {
+          "question": "IN THE EPCOT PLANS, THE CITY CENTER WOULD BE SEPARATED FROM THE OUTER RESIDENTIAL AREAS BY THIS AREA WHICH WOULD INCLUDE PARKS, PLAYGROUNDS, AND STADIUMS, FITTINGLY CALLED THIS COLORFUL NAME BY PLANNERS.",
+          "answer": "What is the green belt?",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "name": "A WALT IN THE PARK",
+      "questions": [
+        {
+          "question": "THE FIRST OF THESE STATUES FEATURING WALT AND MICKEY MOUSE WAS UNVEILED AT DISNEYLAND ON NOVEMBER 18TH, 1993.",
+          "answer": "What is Partners?",
+          "value": 200
+        },
+        {
+          "question": "IN SEPTEMBER 2017, THE WALT DISNEY: ONE MAN'S DREAM EXHIBIT AT DISNEY'S HOLLYWOOD STUDIOS WAS RENAMED TO THIS, THE SECOND NAME OF THE DISNEYLAND ANTHOLOGY TELEVISION SERIES.",
+          "answer": "What is Walt Disney Presents?",
+          "value": 400
+        },
+        {
+          "question": "ON OCTOBER 1ST, 2001, THIS 17-MONTH CELEBRATION OF THE CENTENNIAL OF WALT DISNEY'S BIRTH KICKED OFF AT WALT DISNEY WORLD.",
+          "answer": "What is 100 Years of Magic?",
+          "value": 600,
+          "daily-double": true
+        },
+        {
+          "question": "ON APRIL 8TH, 1973, THIS ATTRACTION ABOUT WALT'S LIFE AND TIMES TEMPORARILY REPLACED GREAT MOMENTS WITH MR. LINCOLN AT DISNEYLAND. A SIMILAR ATTRACTION OF THE SAME NAME LASTED MUCH LONGER AT THE MAGIC KINGDOM, CLOSING ON OCTOBER 5TH, 1992.",
+          "answer": "What is The Walt Disney Story?",
+          "value": 800
+        },
+        {
+          "question": "WALT'S - AN AMERICAN RESTAURANT CAN BE FOUND AT MAIN STREET, U.S.A. IN THIS DISNEY RESORT.",
+          "answer": "What is Disneyland Paris?",
+          "value": 1000
+        }
+      ]
+    }
+  ],
+  "final-jeopardy": {
+    "category": "WALT AT THE ACADEMY AWARDS",
+    "question": "WALT DISNEY WON HIS LAST ACADEMY AWARD IN 1969 FOR PRODUCING THIS WINNER FOR BEST SHORT SUBJECT - CARTOONS, WHICH WAS LATER INCORPORATED INTO A 1977 FEATURE FILM.",
+    "answer": "What is Winnie the Pooh and the Blustery Day?"
+  }
+}
